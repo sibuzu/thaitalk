@@ -4,6 +4,7 @@ import 'models/learning_item.dart';
 import 'services/learning_store.dart';
 import 'services/cloud_sync.dart';
 import 'services/speech_settings.dart';
+import 'services/app_settings.dart';
 import 'screens/home_screen.dart';
 import 'theme.dart';
 
@@ -11,6 +12,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   try {
     await SpeechSettings.instance.load();
+    await AppSettings.instance.load();
     final items = await loadCurriculum();
     final store = await LearningStore.load();
     final cloud = await CloudSync.initialize(store);

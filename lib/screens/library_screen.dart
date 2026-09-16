@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/learning_item.dart';
 import '../services/learning_store.dart';
+import '../services/app_settings.dart';
 import '../services/speech_service.dart';
 import '../theme.dart';
 
@@ -23,7 +24,8 @@ class LibraryScreen extends StatefulWidget {
   State<LibraryScreen> createState() => _LibraryScreenState();
 }
 
-class _LibraryScreenState extends State<LibraryScreen> {
+class _LibraryScreenState extends State<LibraryScreen>
+    with WidgetsBindingObserver {
   final _search = TextEditingController();
   SpeechService? _speech;
   int _audioOperation = 0;
@@ -34,6 +36,7 @@ class _LibraryScreenState extends State<LibraryScreen> {
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
     _category = _base.any((item) => item.category == widget.initialCategory)
         ? widget.initialCategory
         : null;
@@ -41,9 +44,27 @@ class _LibraryScreenState extends State<LibraryScreen> {
 
   @override
   void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
     _search.dispose();
-    _speech?.dispose();
+    _stopSpeech();
     super.dispose();
+  }
+
+  void _stopSpeech() {
+    _audioOperation++;
+    _speech?.dispose();
+    _speech = null;
+    _playing = null;
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.paused ||
+        state == AppLifecycleState.hidden ||
+        state == AppLifecycleState.detached) {
+      _stopSpeech();
+      if (mounted) setState(() {});
+    }
   }
 
   List<LearningItem> get _base => widget.items
@@ -74,7 +95,10 @@ class _LibraryScreenState extends State<LibraryScreen> {
     final operation = ++_audioOperation;
     setState(() => _playing = item.id);
     try {
-      await (_speech ??= SpeechService()).speak(item.speechText);
+      await (_speech ??= SpeechService()).speak(
+        item.speechText,
+        provider: TtsProvider.local,
+      );
     } catch (e) {
       if (mounted && operation == _audioOperation) {
         showNotice(context, e.toString());
@@ -87,10 +111,8 @@ class _LibraryScreenState extends State<LibraryScreen> {
   }
 
   void _openPractice(List<LearningItem> items, {bool quiz = false}) {
-    _audioOperation++;
-    _speech?.dispose();
-    _speech = null;
-    setState(() => _playing = null);
+    _stopSpeech();
+    setState(() {});
     widget.onPractice(items, quiz: quiz);
   }
 
@@ -388,7 +410,7 @@ class _LibraryScreenState extends State<LibraryScreen> {
             const Spacer(),
             CopyThaiButton(item.thai),
             IconButton(
-              tooltip: '男聲朗讀',
+              tooltip: '朗讀',
               onPressed: _playing != null ? null : () => _play(item),
               icon: _playing == item.id
                   ? const SizedBox(

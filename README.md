@@ -1,54 +1,96 @@
 # ThaiTalk
 
-Android 泰語學習 App，以 Flutter 製作。繁體中文介面、300 個常用單字、100 個男性情境句，預設 Azure 泰語男聲 Niwat。
+Android 泰語學習 App，以 Flutter 製作。繁體中文介面、300 個常用單字、100 個情境句，可切換男女說話者用語，並用獨立按鈕播放 Local／Azure TTS；錄音發音評分使用 Azure。
 
 ## 安裝與使用
 
 安裝 `build/app/outputs/flutter-apk/app-debug.apk` 後即可使用；**不需要自建後端，也不需要使用者輸入 API Key**。
 
-目前 APK 是先前的 1.1.0 測試版本，尚未包含本次卡片介面與隨機練習修改。依使用者要求，僅在明確要求 **build** 時重新建置。
+目前 APK 是先前的 1.1.0 測試版本，尚未包含本機 TTS 與設定頁修改。依使用者要求，本次 **NO BUILD**，僅在再次明確要求 **build** 時重新建置。
 
 - 單字、拼音、中文及例句，泰文以詞語空白方便跟讀。
 - 主題／程度篩選、搜尋、收藏、間隔複習、單字卡及四選一測驗。
 - 單字／句子頁顯示篩選與練習入口。每次開始抽選最多 10 個不重複內容，出現順序也隨機。
 - 手機單一卡面直接顯示單字中文；左右箭頭切卡，朗讀／發音練習使用同框圖示。測驗以中文選項作答。
-- 單字例句可從圖示開啟查看、朗讀及複製，不需要錄音練習。
+- 單字卡下方依序為例句、Local TTS、Azure TTS、錄音練習圖示；句子卡與測驗不顯示例句按鈕。例句顯示泰文、拼音與中文，底部提供 Local TTS、Azure TTS、關閉按鈕，也可複製泰文。
 - 一鍵複製單字或句子到剪貼簿。
-- Azure 正常／慢速男聲朗讀、錄音與發音準確度／流暢度／完整度評分。
-- 64 MB 本機 TTS 持久快取：同文字／聲音／語速直接重用，重開 App 或離線也能播放已下載內容。
+- 首頁右上角齒輪開啟設定頁：說話者「男／女」，選擇後自動保存，預設男。TTS 直接由卡片上的 Local／Azure 播放按鈕選擇。
+- 例句及情境句依說話者切換自稱、禮貌用語與對應拼音；顯示、複製、朗讀及評分使用相同版本。字典單字保留原本詞義。
+- Local／Azure 播放按鈕使用正常速度，已移除慢速按鈕，涵蓋單字、句子及例句；錄音準確度／流暢度／完整度由 Azure 評分。
+- Local 只選擇已安裝的離線泰語語音，不需 Azure Key 或網路，也不讀寫音檔快取。
+- Azure 男聲使用 Niwat、女聲使用 Premwadee；依原始泰文、聲音與速度保存音檔快取（上限 64 MB）。相同內容優先播放快取，重新開啟 App 後仍可使用；男女聲及不同速度各自保存。
 - 學習進度、每日目標、連續學習天數和 XP 自動保存在手機。
 
-首次朗讀與每次發音評分需要網路；App 透過 HTTPS 直接呼叫 Azure。錄音最長 30 秒，只在送出評分時傳送，不會保存在學習紀錄或資料庫中。沒有設定 Azure Key 的一般開發建置仍可使用本機學習與已有音檔快取。
+使用 Local TTS 前請在 Android 系統「文字轉語音」設定安裝離線泰語語音資料；未安裝時 App 會顯示提示。本機聲音由手機語音引擎提供；有性別資料時優先選擇對應聲音，否則使用可用的離線泰語聲音。
 
-## 建置 Android APK
+每次發音評分需要網路，App 透過 HTTPS 直接呼叫 Azure。錄音最長 30 秒，只在送出評分時傳送，不會保存在學習紀錄或資料庫中。沒有 Azure Key 的一般開發建置仍可使用本機朗讀及學習。
 
-需要 Flutter 3.44+ / Dart 3.12+、Python 3、JDK 17 與 Android SDK。目前建置的 APK 最低為 Android 7.0（API 24）。
+## 建置 Android APK（預設瘦身版）
 
-1. 在專案根目錄 `.env` 填入 Azure Speech 設定（現有檔案可直接使用）：
+需要 Flutter 3.44+ / Dart 3.12+、Python 3、JDK 17 與 Android SDK。Android 最低 API 24。只有使用者明確要求 build 時才執行建置。
 
-   ```dotenv
-   AZURE_APIKEY=your-azure-speech-key
-   AZURE_REGION=southeastasia
-   ```
+專案根目錄 `.env` 保留現有的 `AZURE_APIKEY`、`AZURE_REGION`（或 `AZURE_URL`）。執行：
 
-   也相容原本的 `AZURE_URL=https://southeastasia.api.cognitive.microsoft.com/`，未填 region 時會由網址判斷。
+```bash
+cd /home/jack/git/thaitalk
+python3 scripts/build_android.py \
+  --flutter /home/jack/snap/flutter/common/flutter/bin/flutter
+```
 
-2. 執行：
+預設使用 **Release 編譯＋依 CPU 分開打包**。未建立 `android/key.properties` 時，自動用現有 debug key 簽署，可直接安裝；若有該檔則使用指定的正式金鑰。編譯模式與簽章金鑰各自獨立，使用 debug key 不會把 release 變成 debug 編譯。
 
-   ```bash
-   flutter pub get
-   python3 scripts/build_android.py
-   ```
+產物位於 `build/app/outputs/flutter-apk/`，每個檔案均可獨立安裝：
 
-   若 Flutter 不在 PATH：
+| APK | CPU |
+|---|---|
+| `app-arm64-v8a-release.apk` | ARM64 |
+| `app-armeabi-v7a-release.apk` | ARM32 |
+| `app-x86_64-release.apk` | x86-64 |
 
-   ```bash
-   python3 scripts/build_android.py --flutter /path/to/flutter/bin/flutter
-   ```
+只建置 ARM64 可加 `--target-platform android-arm64`；`--universal` 產生包含所有選定架構的較大單一 `app-release.apk`。需要 debug 時加 `--mode debug`，搭配 `--universal` 可取得原本的 `app-debug.apk`。
 
-3. 取得 `build/app/outputs/flutter-apk/app-debug.apk`。換 Key 或 region 後，重新執行建置腳本並安裝新版 APK。
+`--verify-speech` 會先用 Azure 評估錄音，需設定 `AZURE_TEST_WAV`（16 kHz 單聲道 PCM WAV）與 `AZURE_TEST_REFERENCE`；不呼叫 Azure TTS。
 
-其他選項：`--verify-speech` 先以實際 Azure Key 驗證一次合成與評分；`--split-per-abi` 建置個別 CPU 架構 APK；`--mode release` 建置 release 模式。目前 release 使用開發簽章，上架前需在 `android/app/build.gradle.kts` 設定正式簽章。
+### 體積調整
+
+- 預設 Release，使用 Flutter 既有的 R8 程式與資源縮減。
+- 依 CPU 分開 APK，避免一支手機下載其他架構的引擎。
+- Noto Sans TC 從 11,941,968 bytes 裁切成 500,176 bytes，保留目前介面、教材、拉丁字母與標點需要的字形及字重。Noto Serif Thai 完整保留。
+- 原始中文字型保留於 `assets/fonts/NotoSansTC.ttf`，APK 只打包 `NotoSansTC.subset.ttf`；完整字型不會隨 App 打包。其他動態中文字由 Android 系統字型補足。
+- 品牌素材只打包使用中的 PNG，不包含產圖說明與工具腳本。
+
+新增介面或教材文字後可重新產生並檢查字型：
+
+```bash
+python3 -m venv /tmp/thaitalk-font-tools
+/tmp/thaitalk-font-tools/bin/pip install fonttools==4.65.0
+/tmp/thaitalk-font-tools/bin/python scripts/subset_fonts.py
+/tmp/thaitalk-font-tools/bin/python scripts/subset_fonts.py --check
+```
+
+本次未 build，因此最終 APK 大小與安裝結果需在下次建置後驗證。
+
+### 正式簽章（選用，自行安裝不需要）
+
+已有正式 keystore 請沿用。首次建立：
+
+```bash
+mkdir -p "$HOME/.keystores"
+keytool -genkeypair -v -storetype JKS -keyalg RSA -keysize 2048 \
+  -validity 10000 -alias thaitalk \
+  -keystore "$HOME/.keystores/thaitalk-release.jks"
+```
+
+建立 `android/key.properties`，填入實際路徑與密碼：
+
+```properties
+storeFile=/home/jack/.keystores/thaitalk-release.jks
+storePassword=YOUR_STORE_PASSWORD
+keyAlias=thaitalk
+keyPassword=YOUR_KEY_PASSWORD
+```
+
+此檔案是 Java properties 格式；密碼若含反斜線，需寫成 `\\`。金鑰建立時若沿用 keystore 密碼，兩個密碼欄填相同值。執行 `chmod 600 android/key.properties`，再用上方建置命令即可。請備份 keystore 與密碼，後續更新沿用同一把金鑰；keystore 與設定檔均已排除 Git。
 
 ### Key 如何放入 App
 
@@ -60,21 +102,22 @@ Android 泰語學習 App，以 Flutter 製作。繁體中文介面、300 個常�
 
 ## Supabase（可選）
 
-Supabase 僅用於帳號及跨裝置學習進度同步。未設定時完全使用手機本機進度，Azure 朗讀與評分不需要登入。
+Supabase 僅用於帳號及跨裝置學習進度同步。未設定時完全使用手機本機進度，朗讀與 Azure 評分不需要登入。
 
 設定方式見 [supabase/README.md](supabase/README.md)。目前沒有 Supabase 專案設定，因此未啟用雲端同步，也未驗證線上登入／同步。
 
 ## 驗證
 
-本次介面修改已通過靜態分析與 56 項 Flutter 自動測試（Azure 線上實測 1 項略過）；未重新建置 APK。
+設定頁及獨立 TTS 按鈕修改已通過靜態分析、89 項 Flutter 測試與 5 項建置腳本單元測試；Azure 線上實測 1 項略過。建置腳本測試使用模擬建置，不產生 APK。未重新建置 APK，尚未在 Android 實機驗證本機語音引擎。
 
 ```bash
 flutter analyze
 flutter test
 python3 -m unittest discover -s scripts -p 'test_*.py'
+python3 scripts/apply_gender_variants.py --check
 ```
 
-測試涵蓋教材一致性、男性用語、泰文間隔、隨機抽題與排序、切卡不重複計分、例句朗讀入口、學習紀錄、測驗、320px 手機版面、剪貼簿、直接 Azure 請求格式、錯誤處理、TTS 跨重啟／離線快取、建置編碼與暫存檔清理。
+測試涵蓋設定保存與寫入失敗復原、男女用語、教材一致性、泰文間隔、隨機抽題與排序、切卡不重複計分、例句朗讀入口、學習紀錄、測驗、320px 手機版面、剪貼簿、直接 Azure 請求格式、錯誤處理、本機 TTS 離線語音篩選、不使用快取、Azure 音檔快取與男女聲隔離、缺少語音提示、切換來源及取消朗讀、建置編碼與暫存檔清理。
 
 本環境沒有連接 Android 實機；麥克風、音訊路由仍需在手機驗收。
 
@@ -83,14 +126,15 @@ python3 -m unittest discover -s scripts -p 'test_*.py'
 - `thai_practice_dataset_400.json` 與 `assets/data/` 的副本保持相同。
 - `thai`／`example_thai` 供分詞閱讀；`thai_native`／`example_thai_native` 保留原始泰文供語音使用。
 - `node scripts/space-thai.mjs` 可重建閱讀空白，使用 ICU 泰語斷詞與複合詞補充清單。
-- 字典保留女性語尾的詞義，讓學習者能辨識；100 個情境練習句採男性用語。
+- 男性版為教材基準，`female` 欄位保存經檢查的女性版；100 個情境句及 68 個需調整的單字例句可切換。中性例句與字典中的性別詞義保留不變。
+- `scripts/gender_variants.json` 保存男女對照，`python3 scripts/apply_gender_variants.py` 可同步兩份教材，`--check` 可檢查一致性；例句拼音依教材與 `scripts/example_romanization.py` 的明確詞彙對照產生，未知詞會停止產生以待補充。
 - [App icon](assets/brand/app-icon.png) 由 built-in Imagegen 產生；[完整 prompt](assets/brand/README.md) 已保留，圖示僅輸出 Android 尺寸。
 - Noto Sans TC／[Noto Serif Thai](https://github.com/google/fonts/tree/main/ofl/notoserifthai) 字型隨 App 打包，授權在 `assets/fonts/`。
 
 ### 實作參考
 
 - [Azure 短音訊 REST 與發音評估](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/rest-speech-to-text-short)
-- [Azure TTS REST](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/rest-text-to-speech)
+- [flutter_tts：Android 系統文字轉語音](https://pub.dev/packages/flutter_tts)
 - [Peace Corps 泰語課程](https://files.peacecorps.gov/multimedia/audio/languagelessons/thailand/TH_Thai_Language_Lessons.pdf)
 
 ### 先前建置結果（本次未重新建置）

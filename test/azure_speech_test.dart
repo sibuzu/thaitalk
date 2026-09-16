@@ -5,6 +5,8 @@ import 'dart:typed_data';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:thaitalk/services/app_settings.dart';
 import 'package:thaitalk/services/speech_cache.dart';
 import 'package:thaitalk/services/speech_service.dart';
 import 'package:thaitalk/services/speech_settings.dart';
@@ -28,10 +30,12 @@ Map<String, dynamic> azureAssessment() => {
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
+  setUp(() => SharedPreferences.setMockInitialValues({}));
   SpeechService service(MockClient client, {SpeechSettings? settings}) {
     final value = SpeechService(
       client: client,
       diskCache: SpeechCache(maxBytes: 0),
+      preferences: AppSettings(),
       settings:
           settings ??
           SpeechSettings(apiKey: 'test-key', region: 'southeastasia'),

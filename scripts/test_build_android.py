@@ -41,11 +41,31 @@ class BuildConfigurationTests(unittest.TestCase):
             self.assertNotIn('test-build-key', config_path.read_text())
             self.assertNotIn('test-build-key', ' '.join(command))
             self.assertNotIn('AZURE_APIKEY', kwargs['env'])
+            self.assertIn('--release', command)
+            self.assertIn('--split-per-abi', command)
             return type('Result', (), {'returncode': 1})()
         with patch.dict('os.environ', {'AZURE_APIKEY':'test-build-key', 'AZURE_REGION':'southeastasia'}), patch('sys.argv', ['build_android.py']), patch('build_android.subprocess.run', side_effect=fake_run), contextlib.redirect_stdout(io.StringIO()):
             self.assertEqual(build_android.main(), 1)
         self.assertIsNotNone(config_path)
         self.assertFalse(config_path.exists())
+
+    def test_explicit_architecture_and_universal_overrides(self):
+        for options, expected, unexpected in [
+            (['--target-platform', 'android-arm64'], ['--release', '--split-per-abi', '--target-platform=android-arm64'], ['--debug']),
+            (['--mode', 'debug', '--universal'], ['--debug'], ['--release', '--split-per-abi']),
+        ]:
+            with self.subTest(options=options):
+                commands = []
+                def fake_run(command, **kwargs):
+                    commands.append(command)
+                    return type('Result', (), {'returncode': 0})()
+                with patch.dict('os.environ', {'AZURE_APIKEY': 'test-build-key', 'AZURE_REGION': 'southeastasia'}), patch('sys.argv', ['build_android.py', *options]), patch('build_android.subprocess.run', side_effect=fake_run), contextlib.redirect_stdout(io.StringIO()):
+                    self.assertEqual(build_android.main(), 0)
+                self.assertEqual(len(commands), 1)
+                for option in expected:
+                    self.assertIn(option, commands[0])
+                for option in unexpected:
+                    self.assertNotIn(option, commands[0])
 
 
 if __name__ == '__main__':

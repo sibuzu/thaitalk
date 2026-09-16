@@ -7,6 +7,9 @@ import 'package:crypto/crypto.dart';
 import 'package:http/http.dart' as http;
 import 'package:record/record.dart';
 
+import '../models/speaker_gender.dart';
+import 'app_settings.dart';
+import 'local_tts.dart';
 import 'speech_cache.dart';
 import 'speech_settings.dart';
 
@@ -93,32 +96,126 @@ class Assessment {
   final List<Map<String, dynamic>> words;
 }
 
+/// Lazily creates the Android audio player only when Azure audio is played.
+/// Kept separate from requests so playback and cancellation can be tested.
+class SpeechAudioOutput {
+  AudioPlayer? _player;
+  StreamSubscription<void>? _completed;
+  Completer<void>? _playback;
+  bool _playbackFailed = false;
+  bool _disposed = false;
+  int _generation = 0;
+
+  void _finish() {
+    final playback = _playback;
+    if (playback != null && !playback.isCompleted) playback.complete();
+  }
+
+  Future<void> play(Uint8List bytes) async {
+    if (_disposed) return;
+    final generation = ++_generation;
+    await _stopCurrent();
+    if (_disposed || generation != _generation) return;
+    final playback = _playback = Completer<void>();
+    _playbackFailed = false;
+    try {
+      final player = _player ??= AudioPlayer();
+      _completed ??= player.onPlayerComplete.listen(
+        (_) => _finish(),
+        onError: (Object _) {
+          _playbackFailed = true;
+          _finish();
+        },
+      );
+      await player.play(BytesSource(bytes, mimeType: 'audio/wav'));
+      if (_disposed || generation != _generation) {
+        await _stopCurrent();
+        return;
+      }
+      await playback.future.timeout(const Duration(minutes: 3));
+      if (_playbackFailed) throw SpeechException('Azure 語音播放失敗，請再試一次。');
+    } catch (_) {
+      if (_disposed || generation != _generation) return;
+      await _stopCurrent();
+      throw SpeechException('Azure 語音播放失敗，請再試一次。');
+    } finally {
+      if (identical(_playback, playback)) _playback = null;
+    }
+  }
+
+  Future<void> _stopCurrent() async {
+    _finish();
+    try {
+      await _player?.stop().timeout(const Duration(seconds: 5));
+    } catch (_) {
+      // A stopped player must not prevent recording or switching providers.
+    }
+  }
+
+  Future<void> stop() {
+    _generation++;
+    return _stopCurrent();
+  }
+
+  Future<void> dispose() async {
+    if (_disposed) return;
+    _disposed = true;
+    await stop();
+    await _completed?.cancel();
+    try {
+      await _player?.dispose();
+    } catch (_) {
+      // Native teardown is best effort when a route or app is closing.
+    }
+  }
+}
+
 class SpeechService {
   SpeechService({
     http.Client? client,
-    SpeechCache? diskCache,
     SpeechSettings? settings,
+    AppSettings? preferences,
+    SpeechCache? diskCache,
+    SpeechAudioOutput? audioOutput,
   }) : _client = client ?? http.Client(),
+       _settings = settings ?? SpeechSettings.instance,
+       _preferences = preferences ?? AppSettings.instance,
        _diskCache = diskCache ?? SpeechCache(),
-       _settings = settings ?? SpeechSettings.instance;
+       _audioOutput = audioOutput ?? SpeechAudioOutput() {
+    _lastProvider = _preferences.provider;
+    _lastGender = _preferences.gender;
+    _preferences.addListener(_onPreferencesChanged);
+  }
 
-  AudioPlayer? _audioPlayer;
+  LocalTts? _localTts;
+  LocalTts get _tts => _localTts ??= LocalTts();
   AudioRecorder? _audioRecorder;
-  AudioPlayer get _player => _audioPlayer ??= AudioPlayer();
   AudioRecorder get _recorder => _audioRecorder ??= AudioRecorder();
   final http.Client _client;
-  final Map<String, Uint8List> _cache = {};
-  final SpeechCache _diskCache;
   final SpeechSettings _settings;
+  final AppSettings _preferences;
+  final SpeechCache _diskCache;
+  final SpeechAudioOutput _audioOutput;
+  final Map<String, Uint8List> _cache = {};
+  late TtsProvider _lastProvider;
+  late SpeakerGender _lastGender;
+  int _speechGeneration = 0;
+  Future<void> _stopping = Future<void>.value();
   final List<int> _pcm = [];
   final Set<Completer<void>> _requests = {};
+  final Set<Completer<void>> _ttsRequests = {};
   StreamSubscription<Uint8List>? _subscription;
   bool _disposed = false;
   static const _maxPcmBytes = 16000 * 2 * 30;
-  static const _setupMessage = '此安裝版本尚未設定語音服務，請使用已設定的 APK。';
+  static const _setupMessage = '此安裝版本尚未設定 Azure 語音服務，請使用已設定的 APK。';
 
   void _ensureActive() {
     if (_disposed) throw SpeechException('練習已結束，請重新開啟後再試一次。');
+  }
+
+  void _ensureTtsActive(int generation) {
+    _ensureActive();
+    if (generation != _speechGeneration) throw SpeechException('朗讀已取消。');
   }
 
   Future<({String apiKey, String region})> _credentials() async {
@@ -148,6 +245,7 @@ class SpeechService {
     _ensureActive();
     final abort = Completer<void>();
     _requests.add(abort);
+    if (audio) _ttsRequests.add(abort);
     try {
       return await (() async {
         final request =
@@ -191,6 +289,7 @@ class SpeechService {
       throw SpeechException('無法連線到 Azure 語音服務，請確認網路後再試一次。');
     } finally {
       _requests.remove(abort);
+      _ttsRequests.remove(abort);
     }
   }
 
@@ -201,23 +300,86 @@ class SpeechService {
     _ => SpeechException('Azure 語音服務暫時無法使用，請稍後重試。'),
   };
 
-  Future<void> speak(String text, {bool slow = false, bool male = true}) async {
+  void _onPreferencesChanged() {
+    if (_disposed ||
+        (_lastProvider == _preferences.provider &&
+            _lastGender == _preferences.gender)) {
+      return;
+    }
+    _lastProvider = _preferences.provider;
+    _lastGender = _preferences.gender;
+    unawaited(stop());
+  }
+
+  Future<void> _stopEngines() {
+    // Finish pending stop operations before allowing another engine to start.
+    _stopping = _stopping.then((_) async {
+      await Future.wait([
+        if (_localTts != null) _localTts!.stop(),
+        _audioOutput.stop(),
+      ]);
+    });
+    return _stopping;
+  }
+
+  /// Stops playback and pending TTS, without cancelling an assessment upload.
+  Future<void> stop() {
+    _speechGeneration++;
+    for (final request in _ttsRequests) {
+      if (!request.isCompleted) request.complete();
+    }
+    return _stopEngines();
+  }
+
+  Future<void> speak(
+    String text, {
+    bool slow = false,
+    TtsProvider? provider,
+  }) async {
     _ensureActive();
-    await _player.stop();
-    final bytes = await loadSpeechAudio(text, slow: slow, male: male);
-    if (!_disposed) {
-      await _player.play(BytesSource(bytes, mimeType: 'audio/wav'));
+    final nativeText = _validateText(text);
+    await _preferences.load();
+    if (_disposed) return;
+    await stop();
+    if (_disposed) return;
+    final generation = ++_speechGeneration;
+    final selectedProvider = provider ?? _preferences.provider;
+    final gender = _preferences.gender;
+    try {
+      if (selectedProvider == TtsProvider.local) {
+        await _tts.speak(nativeText, slow: slow, gender: gender);
+      } else {
+        final bytes = await loadSpeechAudio(
+          nativeText,
+          slow: slow,
+          male: gender == SpeakerGender.male,
+        );
+        if (_disposed || generation != _speechGeneration) return;
+        await _audioOutput.play(bytes);
+      }
+    } on LocalTtsException catch (error) {
+      if (_disposed || generation != _speechGeneration) return;
+      throw SpeechException(error.message);
+    } catch (_) {
+      if (_disposed || generation != _speechGeneration) return;
+      rethrow;
     }
   }
 
-  /// Cached speech remains available without a key, a network, or an account.
+  /// Loads Azure audio only, regardless of the selected playback provider.
+  /// Existing WAV files remain usable without credentials or a network.
+  /// Omitting [male] uses the current speaker setting.
   Future<Uint8List> loadSpeechAudio(
     String text, {
     bool slow = false,
-    bool male = true,
+    bool? male,
   }) async {
     _ensureActive();
-    final voice = male ? 'th-TH-NiwatNeural' : 'th-TH-PremwadeeNeural';
+    if (male == null) await _preferences.load();
+    _ensureActive();
+    final generation = _speechGeneration;
+    final isMale = male ?? _preferences.gender == SpeakerGender.male;
+    final voice = isMale ? 'th-TH-NiwatNeural' : 'th-TH-PremwadeeNeural';
     final ssml = buildSpeechSsml(text, voice: voice, slow: slow);
     // Version 1 preserves the WAV cache created by earlier app versions.
     final key = sha256
@@ -234,9 +396,10 @@ class SpeechService {
         )
         .toString();
     var bytes = _cache[key] ?? await _diskCache.read(key);
-    _ensureActive();
+    _ensureTtsActive(generation);
     if (bytes == null) {
       final credentials = await _credentials();
+      _ensureTtsActive(generation);
       final pcm = await _request(
         Uri.https(
           '${credentials.region}.tts.speech.microsoft.com',
@@ -252,12 +415,14 @@ class SpeechService {
         maxBytes: 4_000_000,
         audio: true,
       );
+      _ensureTtsActive(generation);
       if (pcm.isEmpty || pcm.length.isOdd) {
         throw SpeechException('Azure 沒有回傳可播放的語音，請再試一次。');
       }
       bytes = pcmToWav(pcm);
       await _diskCache.write(key, bytes);
     }
+    _ensureTtsActive(generation);
     if (_cache.length >= 40) _cache.remove(_cache.keys.first);
     _cache[key] = bytes;
     return bytes;
@@ -265,7 +430,7 @@ class SpeechService {
 
   Future<void> startRecording() async {
     await _credentials();
-    await _player.stop();
+    await stop();
     if (!await _recorder.hasPermission()) {
       throw SpeechException('請允許麥克風權限，才能開始朗讀練習。');
     }
@@ -352,12 +517,15 @@ class SpeechService {
   void dispose() {
     if (_disposed) return;
     _disposed = true;
+    _speechGeneration++;
+    _preferences.removeListener(_onPreferencesChanged);
     for (final request in _requests) {
       if (!request.isCompleted) request.complete();
     }
     _subscription?.cancel();
     _audioRecorder?.dispose();
-    _audioPlayer?.dispose();
+    _localTts?.dispose();
+    unawaited(_audioOutput.dispose());
     _client.close();
     _pcm.clear();
     _cache.clear();

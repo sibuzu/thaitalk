@@ -1,6 +1,8 @@
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import '../models/learning_item.dart';
+import '../models/speaker_gender.dart';
+import '../services/app_settings.dart';
 import '../services/learning_store.dart';
 import '../services/cloud_sync.dart';
 import '../services/practice_session.dart';
@@ -8,6 +10,7 @@ import '../theme.dart';
 import 'library_screen.dart';
 import 'practice_screen.dart';
 import 'profile_screen.dart';
+import 'settings_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({
@@ -24,6 +27,16 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  List<LearningItem> get _items => widget.items
+      .map((item) => item.forGender(AppSettings.instance.gender))
+      .toList(growable: false);
+
+  void _openSettings() {
+    Navigator.of(
+      context,
+    ).push(MaterialPageRoute<void>(builder: (_) => const SettingsScreen()));
+  }
+
   int _page = 0;
   String? _category;
   final _scroll = ScrollController();
@@ -65,7 +78,11 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) => ListenableBuilder(
-    listenable: Listenable.merge([widget.store, widget.cloud]),
+    listenable: Listenable.merge([
+      widget.store,
+      widget.cloud,
+      AppSettings.instance,
+    ]),
     builder: (context, _) {
       final wide = MediaQuery.sizeOf(context).width >= 1000;
       return Scaffold(
@@ -106,7 +123,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               0 => _dashboard(),
                               1 || 2 || 3 => LibraryScreen(
                                 key: ValueKey('$_page/$_category'),
-                                items: widget.items,
+                                items: _items,
                                 store: widget.store,
                                 sentences: _page == 2,
                                 savedOnly: _page == 3,
@@ -114,7 +131,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 onPractice: _practice,
                               ),
                               _ => ProfileScreen(
-                                items: widget.items,
+                                items: _items,
                                 store: widget.store,
                                 cloud: widget.cloud,
                               ),
@@ -344,7 +361,7 @@ class _HomeScreenState extends State<HomeScreen> {
           const Text('每天進步一點點', style: TextStyle(color: muted, fontSize: 12)),
         ],
         const Spacer(),
-        if (MediaQuery.sizeOf(context).width >= 380)
+        if (MediaQuery.sizeOf(context).width >= 440)
           const Tag(
             '繁體中文',
             background: canvas,
@@ -357,6 +374,12 @@ class _HomeScreenState extends State<HomeScreen> {
         Text(
           '${widget.store.streak}',
           style: const TextStyle(color: orange, fontWeight: FontWeight.w700),
+        ),
+        IconButton(
+          key: const ValueKey('open-settings'),
+          tooltip: '設定',
+          onPressed: _openSettings,
+          icon: const Icon(Icons.settings_outlined, size: 22),
         ),
         if (wide) ...[
           const SizedBox(width: 24),
@@ -387,7 +410,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'สวัสดี ครับ  你好！',
+                    AppSettings.instance.gender == SpeakerGender.male
+                        ? 'สวัสดี ครับ  你好！'
+                        : 'สวัสดี ค่ะ  你好！',
                     style: TextStyle(
                       fontFamily: 'NotoSerifThai',
                       fontFamilyFallback: const ['NotoSansTC'],
@@ -512,7 +537,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   const SizedBox(height: 24),
                   FilledButton(
-                    onPressed: () => _practice(widget.items),
+                    onPressed: () => _practice(_items),
                     child: const Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
@@ -844,9 +869,11 @@ class _HomeScreenState extends State<HomeScreen> {
                     style: TextStyle(fontSize: 12, fontWeight: FontWeight.w700),
                   ),
                   const SizedBox(height: 7),
-                  const Text(
-                    '男性說話時，在句尾加上「ครับ khrap」，就能讓語氣更有禮貌。',
-                    style: TextStyle(
+                  Text(
+                    AppSettings.instance.gender == SpeakerGender.male
+                        ? '男性說話時，在句尾加上「ครับ khrap」，就能讓語氣更有禮貌。'
+                        : '女性陳述用「ค่ะ kha」，疑問通常用「คะ kha」。',
+                    style: const TextStyle(
                       fontSize: 11,
                       color: Color(0xFF6D8067),
                       height: 1.9,
@@ -896,7 +923,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _dailyWord() {
-    final item = widget.items
+    final item = _items
         .where((i) => !i.isSentence)
         .toList()[DateTime.now().difference(DateTime(2026)).inDays.abs() % 300];
     return Panel(

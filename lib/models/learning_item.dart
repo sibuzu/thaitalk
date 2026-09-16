@@ -2,6 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 
+import 'speaker_gender.dart';
+
 /// One item from the bundled, offline Thai curriculum.
 class LearningItem {
   const LearningItem({
@@ -15,8 +17,41 @@ class LearningItem {
     this.nativeThai,
     this.exampleThai,
     this.exampleChinese,
+    this.exampleRomanization,
     this.exampleNativeThai,
-  });
+    Map<String, String> femaleVariant = const {},
+    // Keep the constructor parameter public and the stored variant private.
+    // ignore: prefer_initializing_formals
+  }) : _femaleVariant = femaleVariant,
+       _canonical = null;
+
+  LearningItem._withGender(LearningItem source)
+    : id = source.id,
+      thai = source._femaleVariant['thai'] ?? source.thai,
+      romanization =
+          source._femaleVariant['romanization'] ?? source.romanization,
+      chinese = source._femaleVariant['chinese'] ?? source.chinese,
+      category = source.category,
+      level = source.level,
+      isSentence = source.isSentence,
+      nativeThai =
+          source._femaleVariant['thai_native'] ??
+          (source._femaleVariant.containsKey('thai')
+              ? null
+              : source.nativeThai),
+      exampleThai = source._femaleVariant['example_thai'] ?? source.exampleThai,
+      exampleRomanization =
+          source._femaleVariant['example_romanization'] ??
+          source.exampleRomanization,
+      exampleChinese =
+          source._femaleVariant['example_chinese'] ?? source.exampleChinese,
+      exampleNativeThai =
+          source._femaleVariant['example_thai_native'] ??
+          (source._femaleVariant.containsKey('example_thai')
+              ? null
+              : source.exampleNativeThai),
+      _femaleVariant = source._femaleVariant,
+      _canonical = source;
 
   final int id;
   final String thai;
@@ -28,9 +63,24 @@ class LearningItem {
   final String? nativeThai;
   final String? exampleThai;
   final String? exampleChinese;
+  final String? exampleRomanization;
   final String? exampleNativeThai;
 
+  final Map<String, String> _femaleVariant;
+  final LearningItem? _canonical;
+
   String get speechText => nativeThai ?? thai;
+
+  /// Uses reviewed curriculum variants, never guesses grammar from substrings.
+  /// Dictionary headwords and their meanings remain the same in either mode.
+  /// Switching an adapted item back to male restores its canonical source.
+  LearningItem forGender(SpeakerGender gender) {
+    final source = _canonical ?? this;
+    if (gender == SpeakerGender.male || source._femaleVariant.isEmpty) {
+      return source;
+    }
+    return LearningItem._withGender(source);
+  }
 
   factory LearningItem.fromJson(
     Map<String, dynamic> json, {
@@ -47,7 +97,11 @@ class LearningItem {
       nativeThai: json['thai_native'] as String?,
       exampleThai: json['example_thai'] as String?,
       exampleChinese: json['example_chinese'] as String?,
+      exampleRomanization: json['example_romanization'] as String?,
       exampleNativeThai: json['example_thai_native'] as String?,
+      femaleVariant: Map<String, String>.unmodifiable(
+        Map<String, String>.from(json['female'] as Map? ?? const {}),
+      ),
     );
   }
 

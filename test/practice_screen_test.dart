@@ -18,6 +18,7 @@ const practiceItems = [
     isSentence: false,
     exampleThai: 'สวัสดี ครับ คุณ สบายดี ไหม',
     exampleChinese: '你好，你好嗎？',
+    exampleRomanization: 'sawatdi khrap khun sabai di mai',
   ),
   LearningItem(
     id: 9002,
@@ -250,7 +251,7 @@ void main() {
         findsOneWidget,
       );
       expect(
-        find.descendant(of: sheet, matching: find.byTooltip('朗讀例句')),
+        find.descendant(of: sheet, matching: find.byTooltip('Local TTS 播放')),
         findsOneWidget,
       );
       expect(
@@ -264,6 +265,25 @@ void main() {
         find.descendant(of: sheet, matching: find.byTooltip('朗讀練習')),
         findsNothing,
       );
+      expect(
+        find.text(practiceItems.first.exampleRomanization!),
+        findsOneWidget,
+      );
+      expect(
+        find.descendant(of: sheet, matching: find.byTooltip('Azure TTS 播放')),
+        findsOneWidget,
+      );
+      await tester.tap(find.byTooltip('關閉例句'));
+      await tester.pumpAndSettle();
+      expect(sheet, findsNothing);
+      final controls = ['查看例句', 'Local TTS 播放', 'Azure TTS 播放', '朗讀練習'];
+      for (var i = 1; i < controls.length; i++) {
+        final previous = tester.getCenter(find.byTooltip(controls[i - 1]));
+        final current = tester.getCenter(find.byTooltip(controls[i]));
+        expect(current.dx, greaterThan(previous.dx));
+        expect(current.dy, previous.dy);
+      }
+      expect(find.byTooltip('慢速朗讀'), findsNothing);
       expect(store.todayCount, 0);
       await store.flush();
     },
@@ -299,9 +319,15 @@ void main() {
           items: [longSentence],
         );
         expect(tester.takeException(), isNull);
+        expect(find.byTooltip('查看例句'), findsNothing);
         final card = find.byKey(const ValueKey('practice-card'));
         final cardRect = tester.getRect(card);
-        for (final tooltip in ['朗讀', '慢速朗讀', '朗讀練習', '複製泰文']) {
+        for (final tooltip in [
+          'Local TTS 播放',
+          'Azure TTS 播放',
+          '朗讀練習',
+          '複製泰文',
+        ]) {
           final control = find.byTooltip(tooltip);
           expect(find.descendant(of: card, matching: control), findsOneWidget);
           final rect = tester.getRect(control);
@@ -321,9 +347,14 @@ void main() {
         await tester.pumpAndSettle();
         expect(copied, longSentence.thai);
         if (quiz) {
+          ScaffoldMessenger.of(
+            tester.element(find.byType(PracticeScreen)),
+          ).hideCurrentSnackBar();
+          await tester.pumpAndSettle();
           await tester.tap(find.text(longSentence.chinese));
           await tester.pumpAndSettle();
           expect(tester.takeException(), isNull);
+          expect(find.byKey(const ValueKey('quiz-feedback')), findsOneWidget);
           expect(scroll.position.maxScrollExtent, 0);
         }
         await store.flush();

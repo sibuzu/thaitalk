@@ -11,7 +11,14 @@
       "example_chinese": "你好",
       "audio_url": "",
       "thai_native": "สวัสดี",
-      "example_thai_native": "สวัสดีครับ"
+      "example_thai_native": "สวัสดีครับ",
+      "female": {
+        "example_thai": "สวัสดี ค่ะ",
+        "example_thai_native": "สวัสดีค่ะ",
+        "example_chinese": "你好",
+        "example_romanization": "sawatdi khâ"
+      },
+      "example_romanization": "sawatdi khrap"
     },
     {
       "id": 2,
@@ -24,7 +31,8 @@
       "example_chinese": "非常謝謝",
       "audio_url": "",
       "thai_native": "ขอบคุณ",
-      "example_thai_native": "ขอบคุณมาก"
+      "example_thai_native": "ขอบคุณมาก",
+      "example_romanization": "khop khun mak"
     },
     {
       "id": 3,
@@ -37,7 +45,8 @@
       "example_chinese": "不好意思",
       "audio_url": "",
       "thai_native": "ขอโทษ",
-      "example_thai_native": "ขอโทษนะ"
+      "example_thai_native": "ขอโทษนะ",
+      "example_romanization": "kho thot na"
     },
     {
       "id": 4,
@@ -50,7 +59,14 @@
       "example_chinese": "沒關係",
       "audio_url": "",
       "thai_native": "ไม่เป็นไร",
-      "example_thai_native": "ไม่เป็นไรครับ"
+      "example_thai_native": "ไม่เป็นไรครับ",
+      "female": {
+        "example_thai": "ไม่เป็นไร ค่ะ",
+        "example_thai_native": "ไม่เป็นไรค่ะ",
+        "example_chinese": "沒關係",
+        "example_romanization": "mai pen rai khâ"
+      },
+      "example_romanization": "mai pen rai khrap"
     },
     {
       "id": 5,
@@ -63,7 +79,8 @@
       "example_chinese": "再見，下次見",
       "audio_url": "",
       "thai_native": "ลาก่อน",
-      "example_thai_native": "แล้วเจอกัน ลาก่อน"
+      "example_thai_native": "แล้วเจอกัน ลาก่อน",
+      "example_romanization": "laeo choe kan la kon"
     },
     {
       "id": 6,
@@ -76,7 +93,8 @@
       "example_chinese": "下次見",
       "audio_url": "",
       "thai_native": "แล้วเจอกัน",
-      "example_thai_native": "ไว้แล้วเจอกัน"
+      "example_thai_native": "ไว้แล้วเจอกัน",
+      "example_romanization": "wai laeo choe kan"
     },
     {
       "id": 7,
@@ -89,7 +107,8 @@
       "example_chinese": "很高興認識你",
       "audio_url": "",
       "thai_native": "ยินดี",
-      "example_thai_native": "ยินดีที่ได้รู้จัก"
+      "example_thai_native": "ยินดีที่ได้รู้จัก",
+      "example_romanization": "yin di thi dai ru chak"
     },
     {
       "id": 8,
@@ -102,7 +121,14 @@
       "example_chinese": "很高興認識你",
       "audio_url": "",
       "thai_native": "ยินดีที่ได้รู้จัก",
-      "example_thai_native": "ยินดีที่ได้รู้จักครับ"
+      "example_thai_native": "ยินดีที่ได้รู้จักครับ",
+      "female": {
+        "example_thai": "ยินดี ที่ ได้ รู้จัก ค่ะ",
+        "example_thai_native": "ยินดีที่ได้รู้จักค่ะ",
+        "example_chinese": "很高興認識你",
+        "example_romanization": "yin di thi dai ru chak khâ"
+      },
+      "example_romanization": "yin di thi dai ru chak khrap"
     },
     {
       "id": 9,
@@ -115,7 +141,14 @@
       "example_chinese": "我很好",
       "audio_url": "",
       "thai_native": "สบายดี",
-      "example_thai_native": "ผมสบายดี"
+      "example_thai_native": "ผมสบายดี",
+      "female": {
+        "example_thai": "ฉัน สบายดี",
+        "example_thai_native": "ฉันสบายดี",
+        "example_chinese": "我很好",
+        "example_romanization": "chan sabai di"
+      },
+      "example_romanization": "phom sabai di"
     },
     {
       "id": 10,
@@ -128,7 +161,8 @@
       "example_chinese": "今天過得怎麼樣",
       "audio_url": "",
       "thai_native": "เป็นอย่างไรบ้าง",
-      "example_thai_native": "วันนี้เป็นอย่างไรบ้าง"
+      "example_thai_native": "วันนี้เป็นอย่างไรบ้าง",
+      "example_romanization": "wan ni pen yang rai bang"
     },
     {
       "id": 11,
@@ -141,7 +175,14 @@
       "example_chinese": "我叫 Min",
       "audio_url": "",
       "thai_native": "ชื่อ",
-      "example_thai_native": "ผมชื่อมิน"
+      "example_thai_native": "ผมชื่อมิน",
+      "female": {
+        "example_thai": "ฉัน ชื่อ มิน",
+        "example_thai_native": "ฉันชื่อมิน",
+        "example_chinese": "我叫 Min",
+        "example_romanization": "chan chue min"
+      },
+      "example_romanization": "phom chue min"
     },
     {
       "id": 12,
@@ -154,7 +195,8 @@
       "example_chinese": "你叫什麼名字",
       "audio_url": "",
       "thai_native": "คุณ",
-      "example_thai_native": "คุณชื่ออะไร"
+      "example_thai_native": "คุณชื่ออะไร",
+      "example_romanization": "khun chue arai"
     },
     {
       "id": 13,
@@ -167,7 +209,14 @@
       "example_chinese": "我來自台灣",
       "audio_url": "",
       "thai_native": "ฉัน",
-      "example_thai_native": "ผมมาจากไต้หวัน"
+      "example_thai_native": "ผมมาจากไต้หวัน",
+      "female": {
+        "example_thai": "ฉัน มา จาก ไต้หวัน",
+        "example_thai_native": "ฉันมาจากไต้หวัน",
+        "example_chinese": "我來自台灣",
+        "example_romanization": "chan ma chak taiwan"
+      },
+      "example_romanization": "phom ma chak taiwan"
     },
     {
       "id": 14,
@@ -180,7 +229,8 @@
       "example_chinese": "我叫 Jay",
       "audio_url": "",
       "thai_native": "ผม",
-      "example_thai_native": "ผมชื่อเจ"
+      "example_thai_native": "ผมชื่อเจ",
+      "example_romanization": "phom chue che"
     },
     {
       "id": 15,
@@ -193,7 +243,8 @@
       "example_chinese": "我們一起去",
       "audio_url": "",
       "thai_native": "เรา",
-      "example_thai_native": "เราไปด้วยกัน"
+      "example_thai_native": "เราไปด้วยกัน",
+      "example_romanization": "rao pai duai kan"
     },
     {
       "id": 16,
@@ -206,7 +257,14 @@
       "example_chinese": "他是我的朋友",
       "audio_url": "",
       "thai_native": "เขา",
-      "example_thai_native": "เขาเป็นเพื่อนผม"
+      "example_thai_native": "เขาเป็นเพื่อนผม",
+      "female": {
+        "example_thai": "เขา เป็น เพื่อน ฉัน",
+        "example_thai_native": "เขาเป็นเพื่อนฉัน",
+        "example_chinese": "他是我的朋友",
+        "example_romanization": "khao pen phuean chan"
+      },
+      "example_romanization": "khao pen phuean phom"
     },
     {
       "id": 17,
@@ -219,7 +277,14 @@
       "example_chinese": "這是我的朋友",
       "audio_url": "",
       "thai_native": "เพื่อน",
-      "example_thai_native": "นี่คือเพื่อนของผม"
+      "example_thai_native": "นี่คือเพื่อนของผม",
+      "female": {
+        "example_thai": "นี่ คือ เพื่อน ของ ฉัน",
+        "example_thai_native": "นี่คือเพื่อนของฉัน",
+        "example_chinese": "這是我的朋友",
+        "example_romanization": "ni khue phuean khong chan"
+      },
+      "example_romanization": "ni khue phuean khong phom"
     },
     {
       "id": 18,
@@ -232,7 +297,8 @@
       "example_chinese": "人很多",
       "audio_url": "",
       "thai_native": "คน",
-      "example_thai_native": "มีคนเยอะมาก"
+      "example_thai_native": "มีคนเยอะมาก",
+      "example_romanization": "mi khon yoe mak"
     },
     {
       "id": 19,
@@ -245,7 +311,8 @@
       "example_chinese": "謝謝",
       "audio_url": "",
       "thai_native": "ครับ",
-      "example_thai_native": "ขอบคุณครับ"
+      "example_thai_native": "ขอบคุณครับ",
+      "example_romanization": "khop khun khrap"
     },
     {
       "id": 20,
@@ -258,7 +325,8 @@
       "example_chinese": "謝謝",
       "audio_url": "",
       "thai_native": "ค่ะ",
-      "example_thai_native": "ขอบคุณค่ะ"
+      "example_thai_native": "ขอบคุณค่ะ",
+      "example_romanization": "khop khun khâ"
     },
     {
       "id": 21,
@@ -271,7 +339,8 @@
       "example_chinese": "要去哪裡呢",
       "audio_url": "",
       "thai_native": "คะ",
-      "example_thai_native": "ไปไหนคะ"
+      "example_thai_native": "ไปไหนคะ",
+      "example_romanization": "pai nai khá"
     },
     {
       "id": 22,
@@ -284,7 +353,8 @@
       "example_chinese": "謝謝你喔",
       "audio_url": "",
       "thai_native": "นะ",
-      "example_thai_native": "ขอบคุณนะ"
+      "example_thai_native": "ขอบคุณนะ",
+      "example_romanization": "khop khun na"
     },
     {
       "id": 23,
@@ -297,7 +367,14 @@
       "example_chinese": "可以",
       "audio_url": "",
       "thai_native": "ได้",
-      "example_thai_native": "ได้ครับ"
+      "example_thai_native": "ได้ครับ",
+      "female": {
+        "example_thai": "ได้ ค่ะ",
+        "example_thai_native": "ได้ค่ะ",
+        "example_chinese": "可以",
+        "example_romanization": "dai khâ"
+      },
+      "example_romanization": "dai khrap"
     },
     {
       "id": 24,
@@ -310,7 +387,8 @@
       "example_chinese": "今天不行",
       "audio_url": "",
       "thai_native": "ไม่ได้",
-      "example_thai_native": "วันนี้ไม่ได้"
+      "example_thai_native": "วันนี้ไม่ได้",
+      "example_romanization": "wan ni mai dai"
     },
     {
       "id": 25,
@@ -323,7 +401,14 @@
       "example_chinese": "對，我懂",
       "audio_url": "",
       "thai_native": "ใช่",
-      "example_thai_native": "ใช่ ผมเข้าใจ"
+      "example_thai_native": "ใช่ ผมเข้าใจ",
+      "female": {
+        "example_thai": "ใช่ ฉัน เข้าใจ",
+        "example_thai_native": "ใช่ ฉันเข้าใจ",
+        "example_chinese": "對，我懂",
+        "example_romanization": "chai chan khao chai"
+      },
+      "example_romanization": "chai phom khao chai"
     },
     {
       "id": 26,
@@ -336,7 +421,8 @@
       "example_chinese": "不是這個",
       "audio_url": "",
       "thai_native": "ไม่ใช่",
-      "example_thai_native": "ไม่ใช่อันนี้"
+      "example_thai_native": "ไม่ใช่อันนี้",
+      "example_romanization": "mai chai an ni"
     },
     {
       "id": 27,
@@ -349,7 +435,14 @@
       "example_chinese": "我知道了",
       "audio_url": "",
       "thai_native": "รู้",
-      "example_thai_native": "ผมรู้แล้ว"
+      "example_thai_native": "ผมรู้แล้ว",
+      "female": {
+        "example_thai": "ฉัน รู้ แล้ว",
+        "example_thai_native": "ฉันรู้แล้ว",
+        "example_chinese": "我知道了",
+        "example_romanization": "chan ru laeo"
+      },
+      "example_romanization": "phom ru laeo"
     },
     {
       "id": 28,
@@ -362,7 +455,14 @@
       "example_chinese": "我不知道",
       "audio_url": "",
       "thai_native": "ไม่รู้",
-      "example_thai_native": "ผมไม่รู้"
+      "example_thai_native": "ผมไม่รู้",
+      "female": {
+        "example_thai": "ฉัน ไม่รู้",
+        "example_thai_native": "ฉันไม่รู้",
+        "example_chinese": "我不知道",
+        "example_romanization": "chan mai ru"
+      },
+      "example_romanization": "phom mai ru"
     },
     {
       "id": 29,
@@ -375,7 +475,14 @@
       "example_chinese": "我明白了",
       "audio_url": "",
       "thai_native": "เข้าใจ",
-      "example_thai_native": "ผมเข้าใจแล้ว"
+      "example_thai_native": "ผมเข้าใจแล้ว",
+      "female": {
+        "example_thai": "ฉัน เข้าใจ แล้ว",
+        "example_thai_native": "ฉันเข้าใจแล้ว",
+        "example_chinese": "我明白了",
+        "example_romanization": "chan khao chai laeo"
+      },
+      "example_romanization": "phom khao chai laeo"
     },
     {
       "id": 30,
@@ -388,7 +495,14 @@
       "example_chinese": "抱歉，我不明白",
       "audio_url": "",
       "thai_native": "ไม่เข้าใจ",
-      "example_thai_native": "ขอโทษ ผมไม่เข้าใจ"
+      "example_thai_native": "ขอโทษ ผมไม่เข้าใจ",
+      "female": {
+        "example_thai": "ขอโทษ ฉัน ไม่ เข้าใจ",
+        "example_thai_native": "ขอโทษ ฉันไม่เข้าใจ",
+        "example_chinese": "抱歉，我不明白",
+        "example_romanization": "kho thot chan mai khao chai"
+      },
+      "example_romanization": "kho thot phom mai khao chai"
     },
     {
       "id": 31,
@@ -401,7 +515,8 @@
       "example_chinese": "這個號碼有兩個零",
       "audio_url": "",
       "thai_native": "ศูนย์",
-      "example_thai_native": "เลขนี้มีศูนย์สองตัว"
+      "example_thai_native": "เลขนี้มีศูนย์สองตัว",
+      "example_romanization": "lek ni mi sun song tua"
     },
     {
       "id": 32,
@@ -414,7 +529,8 @@
       "example_chinese": "我要一個",
       "audio_url": "",
       "thai_native": "หนึ่ง",
-      "example_thai_native": "ขอหนึ่งอัน"
+      "example_thai_native": "ขอหนึ่งอัน",
+      "example_romanization": "kho nueng an"
     },
     {
       "id": 33,
@@ -427,7 +543,8 @@
       "example_chinese": "有兩個人",
       "audio_url": "",
       "thai_native": "สอง",
-      "example_thai_native": "มีสองคน"
+      "example_thai_native": "มีสองคน",
+      "example_romanization": "mi song khon"
     },
     {
       "id": 34,
@@ -440,7 +557,8 @@
       "example_chinese": "三杯",
       "audio_url": "",
       "thai_native": "สาม",
-      "example_thai_native": "สามแก้ว"
+      "example_thai_native": "สามแก้ว",
+      "example_romanization": "sam kaeo"
     },
     {
       "id": 35,
@@ -453,7 +571,8 @@
       "example_chinese": "下午四點",
       "audio_url": "",
       "thai_native": "สี่",
-      "example_thai_native": "สี่โมงเย็น"
+      "example_thai_native": "สี่โมงเย็น",
+      "example_romanization": "si mong yen"
     },
     {
       "id": 36,
@@ -466,7 +585,8 @@
       "example_chinese": "五泰銖",
       "audio_url": "",
       "thai_native": "ห้า",
-      "example_thai_native": "ห้าบาท"
+      "example_thai_native": "ห้าบาท",
+      "example_romanization": "ha bat"
     },
     {
       "id": 37,
@@ -479,7 +599,8 @@
       "example_chinese": "早上六點",
       "audio_url": "",
       "thai_native": "หก",
-      "example_thai_native": "หกโมงเช้า"
+      "example_thai_native": "หกโมงเช้า",
+      "example_romanization": "hok mong chao"
     },
     {
       "id": 38,
@@ -492,7 +613,8 @@
       "example_chinese": "七天",
       "audio_url": "",
       "thai_native": "เจ็ด",
-      "example_thai_native": "เจ็ดวัน"
+      "example_thai_native": "เจ็ดวัน",
+      "example_romanization": "chet wan"
     },
     {
       "id": 39,
@@ -505,7 +627,8 @@
       "example_chinese": "八個人",
       "audio_url": "",
       "thai_native": "แปด",
-      "example_thai_native": "แปดคน"
+      "example_thai_native": "แปดคน",
+      "example_romanization": "paet khon"
     },
     {
       "id": 40,
@@ -518,7 +641,8 @@
       "example_chinese": "九點",
       "audio_url": "",
       "thai_native": "เก้า",
-      "example_thai_native": "เก้าโมง"
+      "example_thai_native": "เก้าโมง",
+      "example_romanization": "kao mong"
     },
     {
       "id": 41,
@@ -531,7 +655,8 @@
       "example_chinese": "十泰銖",
       "audio_url": "",
       "thai_native": "สิบ",
-      "example_thai_native": "สิบบาท"
+      "example_thai_native": "สิบบาท",
+      "example_romanization": "sip bat"
     },
     {
       "id": 42,
@@ -544,7 +669,8 @@
       "example_chinese": "十一點",
       "audio_url": "",
       "thai_native": "สิบเอ็ด",
-      "example_thai_native": "สิบเอ็ดโมง"
+      "example_thai_native": "สิบเอ็ดโมง",
+      "example_romanization": "sip et mong"
     },
     {
       "id": 43,
@@ -557,7 +683,8 @@
       "example_chinese": "十二個月",
       "audio_url": "",
       "thai_native": "สิบสอง",
-      "example_thai_native": "สิบสองเดือน"
+      "example_thai_native": "สิบสองเดือน",
+      "example_romanization": "sip song duean"
     },
     {
       "id": 44,
@@ -570,7 +697,8 @@
       "example_chinese": "十三號房",
       "audio_url": "",
       "thai_native": "สิบสาม",
-      "example_thai_native": "ห้องสิบสาม"
+      "example_thai_native": "ห้องสิบสาม",
+      "example_romanization": "hong sip sam"
     },
     {
       "id": 45,
@@ -583,7 +711,8 @@
       "example_chinese": "十四天",
       "audio_url": "",
       "thai_native": "สิบสี่",
-      "example_thai_native": "สิบสี่วัน"
+      "example_thai_native": "สิบสี่วัน",
+      "example_romanization": "sip si wan"
     },
     {
       "id": 46,
@@ -596,7 +725,8 @@
       "example_chinese": "十五分鐘",
       "audio_url": "",
       "thai_native": "สิบห้า",
-      "example_thai_native": "สิบห้านาที"
+      "example_thai_native": "สิบห้านาที",
+      "example_romanization": "sip ha nathi"
     },
     {
       "id": 47,
@@ -609,7 +739,8 @@
       "example_chinese": "十六歲",
       "audio_url": "",
       "thai_native": "สิบหก",
-      "example_thai_native": "อายุสิบหกปี"
+      "example_thai_native": "อายุสิบหกปี",
+      "example_romanization": "ayu sip hok pi"
     },
     {
       "id": 48,
@@ -622,7 +753,8 @@
       "example_chinese": "十七泰銖",
       "audio_url": "",
       "thai_native": "สิบเจ็ด",
-      "example_thai_native": "สิบเจ็ดบาท"
+      "example_thai_native": "สิบเจ็ดบาท",
+      "example_romanization": "sip chet bat"
     },
     {
       "id": 49,
@@ -635,7 +767,8 @@
       "example_chinese": "十八個人",
       "audio_url": "",
       "thai_native": "สิบแปด",
-      "example_thai_native": "สิบแปดคน"
+      "example_thai_native": "สิบแปดคน",
+      "example_romanization": "sip paet khon"
     },
     {
       "id": 50,
@@ -648,7 +781,8 @@
       "example_chinese": "十九分鐘",
       "audio_url": "",
       "thai_native": "สิบเก้า",
-      "example_thai_native": "สิบเก้านาที"
+      "example_thai_native": "สิบเก้านาที",
+      "example_romanization": "sip kao nathi"
     },
     {
       "id": 51,
@@ -661,7 +795,8 @@
       "example_chinese": "二十泰銖",
       "audio_url": "",
       "thai_native": "ยี่สิบ",
-      "example_thai_native": "ยี่สิบบาท"
+      "example_thai_native": "ยี่สิบบาท",
+      "example_romanization": "yi sip bat"
     },
     {
       "id": 52,
@@ -674,7 +809,8 @@
       "example_chinese": "三十分鐘",
       "audio_url": "",
       "thai_native": "สามสิบ",
-      "example_thai_native": "สามสิบนาที"
+      "example_thai_native": "สามสิบนาที",
+      "example_romanization": "sam sip nathi"
     },
     {
       "id": 53,
@@ -687,7 +823,8 @@
       "example_chinese": "四十泰銖",
       "audio_url": "",
       "thai_native": "สี่สิบ",
-      "example_thai_native": "สี่สิบบาท"
+      "example_thai_native": "สี่สิบบาท",
+      "example_romanization": "si sip bat"
     },
     {
       "id": 54,
@@ -700,7 +837,8 @@
       "example_chinese": "百分之五十",
       "audio_url": "",
       "thai_native": "ห้าสิบ",
-      "example_thai_native": "ห้าสิบเปอร์เซ็นต์"
+      "example_thai_native": "ห้าสิบเปอร์เซ็นต์",
+      "example_romanization": "ha sip poesen"
     },
     {
       "id": 55,
@@ -713,7 +851,8 @@
       "example_chinese": "六十分鐘",
       "audio_url": "",
       "thai_native": "หกสิบ",
-      "example_thai_native": "หกสิบนาที"
+      "example_thai_native": "หกสิบนาที",
+      "example_romanization": "hok sip nathi"
     },
     {
       "id": 56,
@@ -726,7 +865,8 @@
       "example_chinese": "七十泰銖",
       "audio_url": "",
       "thai_native": "เจ็ดสิบ",
-      "example_thai_native": "เจ็ดสิบบาท"
+      "example_thai_native": "เจ็ดสิบบาท",
+      "example_romanization": "chet sip bat"
     },
     {
       "id": 57,
@@ -739,7 +879,8 @@
       "example_chinese": "八十公里",
       "audio_url": "",
       "thai_native": "แปดสิบ",
-      "example_thai_native": "แปดสิบกิโลเมตร"
+      "example_thai_native": "แปดสิบกิโลเมตร",
+      "example_romanization": "paet sip kilomet"
     },
     {
       "id": 58,
@@ -752,7 +893,8 @@
       "example_chinese": "九十泰銖",
       "audio_url": "",
       "thai_native": "เก้าสิบ",
-      "example_thai_native": "เก้าสิบบาท"
+      "example_thai_native": "เก้าสิบบาท",
+      "example_romanization": "kao sip bat"
     },
     {
       "id": 59,
@@ -765,7 +907,8 @@
       "example_chinese": "一百泰銖",
       "audio_url": "",
       "thai_native": "ร้อย",
-      "example_thai_native": "หนึ่งร้อยบาท"
+      "example_thai_native": "หนึ่งร้อยบาท",
+      "example_romanization": "nueng roi bat"
     },
     {
       "id": 60,
@@ -778,7 +921,8 @@
       "example_chinese": "兩千泰銖",
       "audio_url": "",
       "thai_native": "พัน",
-      "example_thai_native": "สองพันบาท"
+      "example_thai_native": "สองพันบาท",
+      "example_romanization": "song phan bat"
     },
     {
       "id": 61,
@@ -791,7 +935,8 @@
       "example_chinese": "一萬泰銖",
       "audio_url": "",
       "thai_native": "หมื่น",
-      "example_thai_native": "หนึ่งหมื่นบาท"
+      "example_thai_native": "หนึ่งหมื่นบาท",
+      "example_romanization": "nueng muen bat"
     },
     {
       "id": 62,
@@ -804,7 +949,8 @@
       "example_chinese": "十萬人",
       "audio_url": "",
       "thai_native": "แสน",
-      "example_thai_native": "หนึ่งแสนคน"
+      "example_thai_native": "หนึ่งแสนคน",
+      "example_romanization": "nueng saen khon"
     },
     {
       "id": 63,
@@ -817,7 +963,8 @@
       "example_chinese": "一百萬泰銖",
       "audio_url": "",
       "thai_native": "ล้าน",
-      "example_thai_native": "หนึ่งล้านบาท"
+      "example_thai_native": "หนึ่งล้านบาท",
+      "example_romanization": "nueng lan bat"
     },
     {
       "id": 64,
@@ -830,7 +977,8 @@
       "example_chinese": "我要一半",
       "audio_url": "",
       "thai_native": "ครึ่ง",
-      "example_thai_native": "ขอครึ่งหนึ่ง"
+      "example_thai_native": "ขอครึ่งหนึ่ง",
+      "example_romanization": "kho khrueng nueng"
     },
     {
       "id": 65,
@@ -843,7 +991,8 @@
       "example_chinese": "全部多少錢",
       "audio_url": "",
       "thai_native": "ทั้งหมด",
-      "example_thai_native": "ทั้งหมดเท่าไร"
+      "example_thai_native": "ทั้งหมดเท่าไร",
+      "example_romanization": "thang mot thao rai"
     },
     {
       "id": 66,
@@ -856,7 +1005,8 @@
       "example_chinese": "再要一個",
       "audio_url": "",
       "thai_native": "อีก",
-      "example_thai_native": "ขออีกหนึ่งอัน"
+      "example_thai_native": "ขออีกหนึ่งอัน",
+      "example_romanization": "kho ik nueng an"
     },
     {
       "id": 67,
@@ -869,7 +1019,8 @@
       "example_chinese": "少一點",
       "audio_url": "",
       "thai_native": "น้อย",
-      "example_thai_native": "ขอน้อยหน่อย"
+      "example_thai_native": "ขอน้อยหน่อย",
+      "example_romanization": "kho noi noi"
     },
     {
       "id": 68,
@@ -882,7 +1033,8 @@
       "example_chinese": "人非常多",
       "audio_url": "",
       "thai_native": "มาก",
-      "example_thai_native": "คนเยอะมาก"
+      "example_thai_native": "คนเยอะมาก",
+      "example_romanization": "khon yoe mak"
     },
     {
       "id": 69,
@@ -895,7 +1047,8 @@
       "example_chinese": "有幾個人",
       "audio_url": "",
       "thai_native": "กี่",
-      "example_thai_native": "มีกี่คน"
+      "example_thai_native": "มีกี่คน",
+      "example_romanization": "mi ki khon"
     },
     {
       "id": 70,
@@ -908,7 +1061,8 @@
       "example_chinese": "大約十個人",
       "audio_url": "",
       "thai_native": "ประมาณ",
-      "example_thai_native": "ประมาณสิบคน"
+      "example_thai_native": "ประมาณสิบคน",
+      "example_romanization": "praman sip khon"
     },
     {
       "id": 71,
@@ -921,7 +1075,8 @@
       "example_chinese": "現在幾點",
       "audio_url": "",
       "thai_native": "เวลา",
-      "example_thai_native": "ตอนนี้กี่โมง"
+      "example_thai_native": "ตอนนี้กี่โมง",
+      "example_romanization": "ton ni ki mong"
     },
     {
       "id": 72,
@@ -934,7 +1089,8 @@
       "example_chinese": "早上九點",
       "audio_url": "",
       "thai_native": "โมง",
-      "example_thai_native": "เก้าโมงเช้า"
+      "example_thai_native": "เก้าโมงเช้า",
+      "example_romanization": "kao mong chao"
     },
     {
       "id": 73,
@@ -947,7 +1103,8 @@
       "example_chinese": "等五分鐘",
       "audio_url": "",
       "thai_native": "นาที",
-      "example_thai_native": "รอห้านาที"
+      "example_thai_native": "รอห้านาที",
+      "example_romanization": "ro ha nathi"
     },
     {
       "id": 74,
@@ -960,7 +1117,8 @@
       "example_chinese": "需要兩小時",
       "audio_url": "",
       "thai_native": "ชั่วโมง",
-      "example_thai_native": "ใช้เวลาสองชั่วโมง"
+      "example_thai_native": "ใช้เวลาสองชั่วโมง",
+      "example_romanization": "chai wela song chua mong"
     },
     {
       "id": 75,
@@ -973,7 +1131,8 @@
       "example_chinese": "等十秒",
       "audio_url": "",
       "thai_native": "วินาที",
-      "example_thai_native": "รอสิบวินาที"
+      "example_thai_native": "รอสิบวินาที",
+      "example_romanization": "ro sip winathi"
     },
     {
       "id": 76,
@@ -986,7 +1145,8 @@
       "example_chinese": "今天天氣很好",
       "audio_url": "",
       "thai_native": "วันนี้",
-      "example_thai_native": "วันนี้อากาศดี"
+      "example_thai_native": "วันนี้อากาศดี",
+      "example_romanization": "wan ni akat di"
     },
     {
       "id": 77,
@@ -999,7 +1159,8 @@
       "example_chinese": "明天見",
       "audio_url": "",
       "thai_native": "พรุ่งนี้",
-      "example_thai_native": "พรุ่งนี้เจอกัน"
+      "example_thai_native": "พรุ่งนี้เจอกัน",
+      "example_romanization": "phrung ni choe kan"
     },
     {
       "id": 78,
@@ -1012,7 +1173,14 @@
       "example_chinese": "昨天我去了市場",
       "audio_url": "",
       "thai_native": "เมื่อวาน",
-      "example_thai_native": "เมื่อวานผมไปตลาด"
+      "example_thai_native": "เมื่อวานผมไปตลาด",
+      "female": {
+        "example_thai": "เมื่อวาน ฉัน ไป ตลาด",
+        "example_thai_native": "เมื่อวานฉันไปตลาด",
+        "example_chinese": "昨天我去了市場",
+        "example_romanization": "muea wan chan pai talat"
+      },
+      "example_romanization": "muea wan phom pai talat"
     },
     {
       "id": 79,
@@ -1025,7 +1193,8 @@
       "example_chinese": "現在有空嗎",
       "audio_url": "",
       "thai_native": "ตอนนี้",
-      "example_thai_native": "ตอนนี้ว่างไหม"
+      "example_thai_native": "ตอนนี้ว่างไหม",
+      "example_romanization": "ton ni wang mai"
     },
     {
       "id": 80,
@@ -1038,7 +1207,14 @@
       "example_chinese": "我早上起床",
       "audio_url": "",
       "thai_native": "เช้า",
-      "example_thai_native": "ผมตื่นตอนเช้า"
+      "example_thai_native": "ผมตื่นตอนเช้า",
+      "female": {
+        "example_thai": "ฉัน ตื่น ตอน เช้า",
+        "example_thai_native": "ฉันตื่นตอนเช้า",
+        "example_chinese": "我早上起床",
+        "example_romanization": "chan tuen ton chao"
+      },
+      "example_romanization": "phom tuen ton chao"
     },
     {
       "id": 81,
@@ -1051,7 +1227,8 @@
       "example_chinese": "今天起晚了",
       "audio_url": "",
       "thai_native": "สาย",
-      "example_thai_native": "วันนี้ตื่นสาย"
+      "example_thai_native": "วันนี้ตื่นสาย",
+      "example_romanization": "wan ni tuen sai"
     },
     {
       "id": 82,
@@ -1064,7 +1241,8 @@
       "example_chinese": "中午吃飯",
       "audio_url": "",
       "thai_native": "เที่ยง",
-      "example_thai_native": "กินข้าวตอนเที่ยง"
+      "example_thai_native": "กินข้าวตอนเที่ยง",
+      "example_romanization": "kin khao ton thiang"
     },
     {
       "id": 83,
@@ -1077,7 +1255,8 @@
       "example_chinese": "下午見",
       "audio_url": "",
       "thai_native": "บ่าย",
-      "example_thai_native": "เจอกันตอนบ่าย"
+      "example_thai_native": "เจอกันตอนบ่าย",
+      "example_romanization": "choe kan ton bai"
     },
     {
       "id": 84,
@@ -1090,7 +1269,8 @@
       "example_chinese": "傍晚去散步",
       "audio_url": "",
       "thai_native": "เย็น",
-      "example_thai_native": "ตอนเย็นไปเดินเล่น"
+      "example_thai_native": "ตอนเย็นไปเดินเล่น",
+      "example_romanization": "ton yen pai doen len"
     },
     {
       "id": 85,
@@ -1103,7 +1283,8 @@
       "example_chinese": "晚上天氣涼",
       "audio_url": "",
       "thai_native": "กลางคืน",
-      "example_thai_native": "กลางคืนอากาศเย็น"
+      "example_thai_native": "กลางคืนอากาศเย็น",
+      "example_romanization": "klang khuen akat yen"
     },
     {
       "id": 86,
@@ -1116,7 +1297,8 @@
       "example_chinese": "三天",
       "audio_url": "",
       "thai_native": "วัน",
-      "example_thai_native": "สามวัน"
+      "example_thai_native": "สามวัน",
+      "example_romanization": "sam wan"
     },
     {
       "id": 87,
@@ -1129,7 +1311,8 @@
       "example_chinese": "一週",
       "audio_url": "",
       "thai_native": "สัปดาห์",
-      "example_thai_native": "หนึ่งสัปดาห์"
+      "example_thai_native": "หนึ่งสัปดาห์",
+      "example_romanization": "nueng sapda"
     },
     {
       "id": 88,
@@ -1142,7 +1325,8 @@
       "example_chinese": "兩個月",
       "audio_url": "",
       "thai_native": "เดือน",
-      "example_thai_native": "สองเดือน"
+      "example_thai_native": "สองเดือน",
+      "example_romanization": "song duean"
     },
     {
       "id": 89,
@@ -1155,7 +1339,8 @@
       "example_chinese": "今年",
       "audio_url": "",
       "thai_native": "ปี",
-      "example_thai_native": "ปีนี้"
+      "example_thai_native": "ปีนี้",
+      "example_romanization": "pi ni"
     },
     {
       "id": 90,
@@ -1168,7 +1353,8 @@
       "example_chinese": "星期一見",
       "audio_url": "",
       "thai_native": "วันจันทร์",
-      "example_thai_native": "เจอกันวันจันทร์"
+      "example_thai_native": "เจอกันวันจันทร์",
+      "example_romanization": "choe kan wan chan"
     },
     {
       "id": 91,
@@ -1181,7 +1367,8 @@
       "example_chinese": "店星期二休息",
       "audio_url": "",
       "thai_native": "วันอังคาร",
-      "example_thai_native": "ร้านปิดวันอังคาร"
+      "example_thai_native": "ร้านปิดวันอังคาร",
+      "example_romanization": "ran pit wan angkhan"
     },
     {
       "id": 92,
@@ -1194,7 +1381,8 @@
       "example_chinese": "今天星期三",
       "audio_url": "",
       "thai_native": "วันพุธ",
-      "example_thai_native": "วันนี้วันพุธ"
+      "example_thai_native": "วันนี้วันพุธ",
+      "example_romanization": "wan ni wan phut"
     },
     {
       "id": 93,
@@ -1207,7 +1395,8 @@
       "example_chinese": "約星期四",
       "audio_url": "",
       "thai_native": "วันพฤหัสบดี",
-      "example_thai_native": "นัดวันพฤหัสบดี"
+      "example_thai_native": "นัดวันพฤหัสบดี",
+      "example_romanization": "nat wan pharuehatsabodi"
     },
     {
       "id": 94,
@@ -1220,7 +1409,8 @@
       "example_chinese": "星期五見",
       "audio_url": "",
       "thai_native": "วันศุกร์",
-      "example_thai_native": "เจอกันวันศุกร์"
+      "example_thai_native": "เจอกันวันศุกร์",
+      "example_romanization": "choe kan wan suk"
     },
     {
       "id": 95,
@@ -1233,7 +1423,8 @@
       "example_chinese": "星期六去玩",
       "audio_url": "",
       "thai_native": "วันเสาร์",
-      "example_thai_native": "วันเสาร์ไปเที่ยว"
+      "example_thai_native": "วันเสาร์ไปเที่ยว",
+      "example_romanization": "wan sao pai thiao"
     },
     {
       "id": 96,
@@ -1246,7 +1437,8 @@
       "example_chinese": "星期日休息",
       "audio_url": "",
       "thai_native": "วันอาทิตย์",
-      "example_thai_native": "พักวันอาทิตย์"
+      "example_thai_native": "พักวันอาทิตย์",
+      "example_romanization": "phak wan athit"
     },
     {
       "id": 97,
@@ -1259,7 +1451,8 @@
       "example_chinese": "你什麼時候來",
       "audio_url": "",
       "thai_native": "เมื่อไร",
-      "example_thai_native": "คุณจะมาเมื่อไร"
+      "example_thai_native": "คุณจะมาเมื่อไร",
+      "example_romanization": "khun cha ma muea rai"
     },
     {
       "id": 98,
@@ -1272,7 +1465,8 @@
       "example_chinese": "提早到",
       "audio_url": "",
       "thai_native": "ก่อน",
-      "example_thai_native": "มาก่อนเวลา"
+      "example_thai_native": "มาก่อนเวลา",
+      "example_romanization": "ma kon wela"
     },
     {
       "id": 99,
@@ -1285,7 +1479,8 @@
       "example_chinese": "下班後吃飯",
       "audio_url": "",
       "thai_native": "หลัง",
-      "example_thai_native": "กินข้าวหลังเลิกงาน"
+      "example_thai_native": "กินข้าวหลังเลิกงาน",
+      "example_romanization": "kin khao lang loek ngan"
     },
     {
       "id": 100,
@@ -1298,7 +1493,8 @@
       "example_chinese": "早點來",
       "audio_url": "",
       "thai_native": "เร็ว",
-      "example_thai_native": "มาเร็วหน่อย"
+      "example_thai_native": "มาเร็วหน่อย",
+      "example_romanization": "ma reo noi"
     },
     {
       "id": 101,
@@ -1311,7 +1507,8 @@
       "example_chinese": "車來晚了",
       "audio_url": "",
       "thai_native": "ช้า",
-      "example_thai_native": "รถมาช้า"
+      "example_thai_native": "รถมาช้า",
+      "example_romanization": "rot ma cha"
     },
     {
       "id": 102,
@@ -1324,7 +1521,14 @@
       "example_chinese": "我每天學泰文",
       "audio_url": "",
       "thai_native": "ทุกวัน",
-      "example_thai_native": "ผมเรียนภาษาไทยทุกวัน"
+      "example_thai_native": "ผมเรียนภาษาไทยทุกวัน",
+      "female": {
+        "example_thai": "ฉัน เรียน ภาษา ไทย ทุก วัน",
+        "example_thai_native": "ฉันเรียนภาษาไทยทุกวัน",
+        "example_chinese": "我每天學泰文",
+        "example_romanization": "chan rian phasa thai thuk wan"
+      },
+      "example_romanization": "phom rian phasa thai thuk wan"
     },
     {
       "id": 103,
@@ -1337,7 +1541,8 @@
       "example_chinese": "明天是假日",
       "audio_url": "",
       "thai_native": "วันหยุด",
-      "example_thai_native": "พรุ่งนี้เป็นวันหยุด"
+      "example_thai_native": "พรุ่งนี้เป็นวันหยุด",
+      "example_romanization": "phrung ni pen wan yut"
     },
     {
       "id": 104,
@@ -1350,7 +1555,8 @@
       "example_chinese": "我們下午有約",
       "audio_url": "",
       "thai_native": "นัด",
-      "example_thai_native": "เรามีนัดตอนบ่าย"
+      "example_thai_native": "เรามีนัดตอนบ่าย",
+      "example_romanization": "rao mi nat ton bai"
     },
     {
       "id": 105,
@@ -1363,7 +1569,14 @@
       "example_chinese": "我準時到了",
       "audio_url": "",
       "thai_native": "ทันเวลา",
-      "example_thai_native": "ผมมาทันเวลา"
+      "example_thai_native": "ผมมาทันเวลา",
+      "female": {
+        "example_thai": "ฉัน มา ทัน เวลา",
+        "example_thai_native": "ฉันมาทันเวลา",
+        "example_chinese": "我準時到了",
+        "example_romanization": "chan ma than wela"
+      },
+      "example_romanization": "phom ma than wela"
     },
     {
       "id": 106,
@@ -1376,7 +1589,8 @@
       "example_chinese": "泰國菜很好吃",
       "audio_url": "",
       "thai_native": "อาหาร",
-      "example_thai_native": "อาหารไทยอร่อย"
+      "example_thai_native": "อาหารไทยอร่อย",
+      "example_romanization": "ahan thai aroi"
     },
     {
       "id": 107,
@@ -1389,7 +1603,14 @@
       "example_chinese": "我吃飯了",
       "audio_url": "",
       "thai_native": "ข้าว",
-      "example_thai_native": "ผมกินข้าวแล้ว"
+      "example_thai_native": "ผมกินข้าวแล้ว",
+      "female": {
+        "example_thai": "ฉัน กิน ข้าว แล้ว",
+        "example_thai_native": "ฉันกินข้าวแล้ว",
+        "example_chinese": "我吃飯了",
+        "example_romanization": "chan kin khao laeo"
+      },
+      "example_romanization": "phom kin khao laeo"
     },
     {
       "id": 108,
@@ -1402,7 +1623,8 @@
       "example_chinese": "我要一盤炒飯",
       "audio_url": "",
       "thai_native": "ข้าวผัด",
-      "example_thai_native": "ขอข้าวผัดหนึ่งจาน"
+      "example_thai_native": "ขอข้าวผัดหนึ่งจาน",
+      "example_romanization": "kho khao phat nueng chan"
     },
     {
       "id": 109,
@@ -1415,7 +1637,14 @@
       "example_chinese": "我喜歡雞油飯",
       "audio_url": "",
       "thai_native": "ข้าวมันไก่",
-      "example_thai_native": "ผมชอบข้าวมันไก่"
+      "example_thai_native": "ผมชอบข้าวมันไก่",
+      "female": {
+        "example_thai": "ฉัน ชอบ ข้าวมันไก่",
+        "example_thai_native": "ฉันชอบข้าวมันไก่",
+        "example_chinese": "我喜歡雞油飯",
+        "example_romanization": "chan chop khao man kai"
+      },
+      "example_romanization": "phom chop khao man kai"
     },
     {
       "id": 110,
@@ -1428,7 +1657,8 @@
       "example_chinese": "泰式炒河粉不要辣",
       "audio_url": "",
       "thai_native": "ผัดไทย",
-      "example_thai_native": "ผัดไทยไม่เผ็ด"
+      "example_thai_native": "ผัดไทยไม่เผ็ด",
+      "example_romanization": "phat thai mai phet"
     },
     {
       "id": 111,
@@ -1441,7 +1671,8 @@
       "example_chinese": "我要一碗麵",
       "audio_url": "",
       "thai_native": "ก๋วยเตี๋ยว",
-      "example_thai_native": "ขอก๋วยเตี๋ยวหนึ่งชาม"
+      "example_thai_native": "ขอก๋วยเตี๋ยวหนึ่งชาม",
+      "example_romanization": "kho kuai tiao nueng cham"
     },
     {
       "id": 112,
@@ -1454,7 +1685,8 @@
       "example_chinese": "冬蔭功很辣",
       "audio_url": "",
       "thai_native": "ต้มยำ",
-      "example_thai_native": "ต้มยำเผ็ดมาก"
+      "example_thai_native": "ต้มยำเผ็ดมาก",
+      "example_romanization": "tom yam phet mak"
     },
     {
       "id": 113,
@@ -1467,7 +1699,8 @@
       "example_chinese": "我要不辣的青木瓜沙拉",
       "audio_url": "",
       "thai_native": "ส้มตำ",
-      "example_thai_native": "ขอส้มตำไม่เผ็ด"
+      "example_thai_native": "ขอส้มตำไม่เผ็ด",
+      "example_romanization": "kho som tam mai phet"
     },
     {
       "id": 114,
@@ -1480,7 +1713,8 @@
       "example_chinese": "這個咖哩很好吃",
       "audio_url": "",
       "thai_native": "แกง",
-      "example_thai_native": "แกงนี้อร่อย"
+      "example_thai_native": "แกงนี้อร่อย",
+      "example_romanization": "kaeng ni aroi"
     },
     {
       "id": 115,
@@ -1493,7 +1727,14 @@
       "example_chinese": "我吃雞肉",
       "audio_url": "",
       "thai_native": "ไก่",
-      "example_thai_native": "ผมกินไก่"
+      "example_thai_native": "ผมกินไก่",
+      "female": {
+        "example_thai": "ฉัน กิน ไก่",
+        "example_thai_native": "ฉันกินไก่",
+        "example_chinese": "我吃雞肉",
+        "example_romanization": "chan kin kai"
+      },
+      "example_romanization": "phom kin kai"
     },
     {
       "id": 116,
@@ -1506,7 +1747,8 @@
       "example_chinese": "不吃豬肉",
       "audio_url": "",
       "thai_native": "หมู",
-      "example_thai_native": "ไม่กินหมู"
+      "example_thai_native": "ไม่กินหมู",
+      "example_romanization": "mai kin mu"
     },
     {
       "id": 117,
@@ -1519,7 +1761,8 @@
       "example_chinese": "牛肉請煮熟",
       "audio_url": "",
       "thai_native": "เนื้อ",
-      "example_thai_native": "ขอเนื้อสุก"
+      "example_thai_native": "ขอเนื้อสุก",
+      "example_romanization": "kho nuea suk"
     },
     {
       "id": 118,
@@ -1532,7 +1775,8 @@
       "example_chinese": "這條魚很新鮮",
       "audio_url": "",
       "thai_native": "ปลา",
-      "example_thai_native": "ปลานี้สดมาก"
+      "example_thai_native": "ปลานี้สดมาก",
+      "example_romanization": "pla ni sot mak"
     },
     {
       "id": 119,
@@ -1545,7 +1789,14 @@
       "example_chinese": "我對蝦過敏",
       "audio_url": "",
       "thai_native": "กุ้ง",
-      "example_thai_native": "ผมแพ้กุ้ง"
+      "example_thai_native": "ผมแพ้กุ้ง",
+      "female": {
+        "example_thai": "ฉัน แพ้ กุ้ง",
+        "example_thai_native": "ฉันแพ้กุ้ง",
+        "example_chinese": "我對蝦過敏",
+        "example_romanization": "chan phae kung"
+      },
+      "example_romanization": "phom phae kung"
     },
     {
       "id": 120,
@@ -1558,7 +1809,8 @@
       "example_chinese": "蟹肉炒飯",
       "audio_url": "",
       "thai_native": "ปู",
-      "example_thai_native": "ข้าวผัดปู"
+      "example_thai_native": "ข้าวผัดปู",
+      "example_romanization": "khao phat pu"
     },
     {
       "id": 121,
@@ -1571,7 +1823,8 @@
       "example_chinese": "我要一顆蛋",
       "audio_url": "",
       "thai_native": "ไข่",
-      "example_thai_native": "ขอไข่หนึ่งฟอง"
+      "example_thai_native": "ขอไข่หนึ่งฟอง",
+      "example_romanization": "kho khai nueng fong"
     },
     {
       "id": 122,
@@ -1584,7 +1837,8 @@
       "example_chinese": "請多放蔬菜",
       "audio_url": "",
       "thai_native": "ผัก",
-      "example_thai_native": "ขอผักเยอะๆ"
+      "example_thai_native": "ขอผักเยอะๆ",
+      "example_romanization": "kho phak yoe yoe"
     },
     {
       "id": 123,
@@ -1597,7 +1851,14 @@
       "example_chinese": "我喜歡泰國水果",
       "audio_url": "",
       "thai_native": "ผลไม้",
-      "example_thai_native": "ผมชอบผลไม้ไทย"
+      "example_thai_native": "ผมชอบผลไม้ไทย",
+      "female": {
+        "example_thai": "ฉัน ชอบ ผลไม้ ไทย",
+        "example_thai_native": "ฉันชอบผลไม้ไทย",
+        "example_chinese": "我喜歡泰國水果",
+        "example_romanization": "chan chop phonlamai thai"
+      },
+      "example_romanization": "phom chop phonlamai thai"
     },
     {
       "id": 124,
@@ -1610,7 +1871,8 @@
       "example_chinese": "芒果很甜",
       "audio_url": "",
       "thai_native": "มะม่วง",
-      "example_thai_native": "มะม่วงหวานมาก"
+      "example_thai_native": "มะม่วงหวานมาก",
+      "example_romanization": "mamuang wan mak"
     },
     {
       "id": 125,
@@ -1623,7 +1885,8 @@
       "example_chinese": "我要一盤西瓜",
       "audio_url": "",
       "thai_native": "แตงโม",
-      "example_thai_native": "ขอแตงโมหนึ่งจาน"
+      "example_thai_native": "ขอแตงโมหนึ่งจาน",
+      "example_romanization": "kho taengmo nueng chan"
     },
     {
       "id": 126,
@@ -1636,7 +1899,14 @@
       "example_chinese": "我早上吃香蕉",
       "audio_url": "",
       "thai_native": "กล้วย",
-      "example_thai_native": "ผมกินกล้วยตอนเช้า"
+      "example_thai_native": "ผมกินกล้วยตอนเช้า",
+      "female": {
+        "example_thai": "ฉัน กิน กล้วย ตอน เช้า",
+        "example_thai_native": "ฉันกินกล้วยตอนเช้า",
+        "example_chinese": "我早上吃香蕉",
+        "example_romanization": "chan kin kluai ton chao"
+      },
+      "example_romanization": "phom kin kluai ton chao"
     },
     {
       "id": 127,
@@ -1649,7 +1919,8 @@
       "example_chinese": "我要椰子水",
       "audio_url": "",
       "thai_native": "มะพร้าว",
-      "example_thai_native": "ขอน้ำมะพร้าว"
+      "example_thai_native": "ขอน้ำมะพร้าว",
+      "example_romanization": "kho nam maphrao"
     },
     {
       "id": 128,
@@ -1662,7 +1933,8 @@
       "example_chinese": "榴槤味道很重",
       "audio_url": "",
       "thai_native": "ทุเรียน",
-      "example_thai_native": "ทุเรียนมีกลิ่นแรง"
+      "example_thai_native": "ทุเรียนมีกลิ่นแรง",
+      "example_romanization": "thurian mi klin raeng"
     },
     {
       "id": 129,
@@ -1675,7 +1947,8 @@
       "example_chinese": "我要一瓶水",
       "audio_url": "",
       "thai_native": "น้ำ",
-      "example_thai_native": "ขอน้ำหนึ่งขวด"
+      "example_thai_native": "ขอน้ำหนึ่งขวด",
+      "example_romanization": "kho nam nueng khuat"
     },
     {
       "id": 130,
@@ -1688,7 +1961,8 @@
       "example_chinese": "我要冰水",
       "audio_url": "",
       "thai_native": "น้ำเปล่า",
-      "example_thai_native": "ขอน้ำเปล่าเย็นๆ"
+      "example_thai_native": "ขอน้ำเปล่าเย็นๆ",
+      "example_romanization": "kho nam plao yen yen"
     },
     {
       "id": 131,
@@ -1701,7 +1975,14 @@
       "example_chinese": "我每天早上喝咖啡",
       "audio_url": "",
       "thai_native": "กาแฟ",
-      "example_thai_native": "ผมดื่มกาแฟทุกเช้า"
+      "example_thai_native": "ผมดื่มกาแฟทุกเช้า",
+      "female": {
+        "example_thai": "ฉัน ดื่ม กาแฟ ทุก เช้า",
+        "example_thai_native": "ฉันดื่มกาแฟทุกเช้า",
+        "example_chinese": "我每天早上喝咖啡",
+        "example_romanization": "chan duem kafae thuk chao"
+      },
+      "example_romanization": "phom duem kafae thuk chao"
     },
     {
       "id": 132,
@@ -1714,7 +1995,8 @@
       "example_chinese": "我要一杯泰式冰奶茶",
       "audio_url": "",
       "thai_native": "ชา",
-      "example_thai_native": "ขอชาเย็นหนึ่งแก้ว"
+      "example_thai_native": "ขอชาเย็นหนึ่งแก้ว",
+      "example_romanization": "kho cha yen nueng kaeo"
     },
     {
       "id": 133,
@@ -1727,7 +2009,8 @@
       "example_chinese": "不要加牛奶",
       "audio_url": "",
       "thai_native": "นม",
-      "example_thai_native": "ไม่ใส่นม"
+      "example_thai_native": "ไม่ใส่นม",
+      "example_romanization": "mai sai nom"
     },
     {
       "id": 134,
@@ -1740,7 +2023,8 @@
       "example_chinese": "我要一瓶啤酒",
       "audio_url": "",
       "thai_native": "เบียร์",
-      "example_thai_native": "ขอเบียร์หนึ่งขวด"
+      "example_thai_native": "ขอเบียร์หนึ่งขวด",
+      "example_romanization": "kho bia nueng khuat"
     },
     {
       "id": 135,
@@ -1753,7 +2037,8 @@
       "example_chinese": "我要不加糖的果汁",
       "audio_url": "",
       "thai_native": "น้ำผลไม้",
-      "example_thai_native": "ขอน้ำผลไม้ไม่ใส่น้ำตาล"
+      "example_thai_native": "ขอน้ำผลไม้ไม่ใส่น้ำตาล",
+      "example_romanization": "kho nam phonlamai mai sai namtan"
     },
     {
       "id": 136,
@@ -1766,7 +2051,8 @@
       "example_chinese": "請再加冰",
       "audio_url": "",
       "thai_native": "น้ำแข็ง",
-      "example_thai_native": "ขอน้ำแข็งเพิ่ม"
+      "example_thai_native": "ขอน้ำแข็งเพิ่ม",
+      "example_romanization": "kho nam khaeng phoem"
     },
     {
       "id": 137,
@@ -1779,7 +2065,8 @@
       "example_chinese": "不要加糖",
       "audio_url": "",
       "thai_native": "น้ำตาล",
-      "example_thai_native": "ไม่ใส่น้ำตาล"
+      "example_thai_native": "ไม่ใส่น้ำตาล",
+      "example_romanization": "mai sai namtan"
     },
     {
       "id": 138,
@@ -1792,7 +2079,8 @@
       "example_chinese": "少放一點鹽",
       "audio_url": "",
       "thai_native": "เกลือ",
-      "example_thai_native": "ใส่เกลือน้อยๆ"
+      "example_thai_native": "ใส่เกลือน้อยๆ",
+      "example_romanization": "sai kluea noi noi"
     },
     {
       "id": 139,
@@ -1805,7 +2093,8 @@
       "example_chinese": "不要放辣椒",
       "audio_url": "",
       "thai_native": "พริก",
-      "example_thai_native": "ไม่ใส่พริก"
+      "example_thai_native": "ไม่ใส่พริก",
+      "example_romanization": "mai sai phrik"
     },
     {
       "id": 140,
@@ -1818,7 +2107,8 @@
       "example_chinese": "這道菜很辣",
       "audio_url": "",
       "thai_native": "เผ็ด",
-      "example_thai_native": "อาหารนี้เผ็ดมาก"
+      "example_thai_native": "อาหารนี้เผ็ดมาก",
+      "example_romanization": "ahan ni phet mak"
     },
     {
       "id": 141,
@@ -1831,7 +2121,8 @@
       "example_chinese": "少甜一點",
       "audio_url": "",
       "thai_native": "หวาน",
-      "example_thai_native": "หวานน้อยหน่อย"
+      "example_thai_native": "หวานน้อยหน่อย",
+      "example_romanization": "wan noi noi"
     },
     {
       "id": 142,
@@ -1844,7 +2135,8 @@
       "example_chinese": "這湯太鹹",
       "audio_url": "",
       "thai_native": "เค็ม",
-      "example_thai_native": "ซุปนี้เค็มไป"
+      "example_thai_native": "ซุปนี้เค็มไป",
+      "example_romanization": "sup ni khem pai"
     },
     {
       "id": 143,
@@ -1857,7 +2149,8 @@
       "example_chinese": "檸檬很酸",
       "audio_url": "",
       "thai_native": "เปรี้ยว",
-      "example_thai_native": "มะนาวเปรี้ยว"
+      "example_thai_native": "มะนาวเปรี้ยว",
+      "example_romanization": "manao priao"
     },
     {
       "id": 144,
@@ -1870,7 +2163,8 @@
       "example_chinese": "這杯咖啡很苦",
       "audio_url": "",
       "thai_native": "ขม",
-      "example_thai_native": "กาแฟนี้ขม"
+      "example_thai_native": "กาแฟนี้ขม",
+      "example_romanization": "kafae ni khom"
     },
     {
       "id": 145,
@@ -1883,7 +2177,8 @@
       "example_chinese": "非常好吃",
       "audio_url": "",
       "thai_native": "อร่อย",
-      "example_thai_native": "อร่อยมาก"
+      "example_thai_native": "อร่อยมาก",
+      "example_romanization": "aroi mak"
     },
     {
       "id": 146,
@@ -1896,7 +2191,14 @@
       "example_chinese": "我餓了",
       "audio_url": "",
       "thai_native": "หิว",
-      "example_thai_native": "ผมหิวแล้ว"
+      "example_thai_native": "ผมหิวแล้ว",
+      "female": {
+        "example_thai": "ฉัน หิว แล้ว",
+        "example_thai_native": "ฉันหิวแล้ว",
+        "example_chinese": "我餓了",
+        "example_romanization": "chan hiu laeo"
+      },
+      "example_romanization": "phom hiu laeo"
     },
     {
       "id": 147,
@@ -1909,7 +2211,14 @@
       "example_chinese": "我吃飽了",
       "audio_url": "",
       "thai_native": "อิ่ม",
-      "example_thai_native": "ผมอิ่มแล้ว"
+      "example_thai_native": "ผมอิ่มแล้ว",
+      "female": {
+        "example_thai": "ฉัน อิ่ม แล้ว",
+        "example_thai_native": "ฉันอิ่มแล้ว",
+        "example_chinese": "我吃飽了",
+        "example_romanization": "chan im laeo"
+      },
+      "example_romanization": "phom im laeo"
     },
     {
       "id": 148,
@@ -1922,7 +2231,8 @@
       "example_chinese": "請給我一個盤子",
       "audio_url": "",
       "thai_native": "จาน",
-      "example_thai_native": "ขอจานหนึ่งใบ"
+      "example_thai_native": "ขอจานหนึ่งใบ",
+      "example_romanization": "kho chan nueng bai"
     },
     {
       "id": 149,
@@ -1935,7 +2245,8 @@
       "example_chinese": "一碗麵",
       "audio_url": "",
       "thai_native": "ชาม",
-      "example_thai_native": "ก๋วยเตี๋ยวหนึ่งชาม"
+      "example_thai_native": "ก๋วยเตี๋ยวหนึ่งชาม",
+      "example_romanization": "kuai tiao nueng cham"
     },
     {
       "id": 150,
@@ -1948,7 +2259,8 @@
       "example_chinese": "一杯水",
       "audio_url": "",
       "thai_native": "แก้ว",
-      "example_thai_native": "น้ำหนึ่งแก้ว"
+      "example_thai_native": "น้ำหนึ่งแก้ว",
+      "example_romanization": "nam nueng kaeo"
     },
     {
       "id": 151,
@@ -1961,7 +2273,8 @@
       "example_chinese": "兩瓶水",
       "audio_url": "",
       "thai_native": "ขวด",
-      "example_thai_native": "น้ำสองขวด"
+      "example_thai_native": "น้ำสองขวด",
+      "example_romanization": "nam song khuat"
     },
     {
       "id": 152,
@@ -1974,7 +2287,8 @@
       "example_chinese": "請給我一支湯匙",
       "audio_url": "",
       "thai_native": "ช้อน",
-      "example_thai_native": "ขอช้อนหนึ่งคัน"
+      "example_thai_native": "ขอช้อนหนึ่งคัน",
+      "example_romanization": "kho chon nueng khan"
     },
     {
       "id": 153,
@@ -1987,7 +2301,8 @@
       "example_chinese": "也請給我叉子",
       "audio_url": "",
       "thai_native": "ส้อม",
-      "example_thai_native": "ขอส้อมด้วย"
+      "example_thai_native": "ขอส้อมด้วย",
+      "example_romanization": "kho som duai"
     },
     {
       "id": 154,
@@ -2000,7 +2315,8 @@
       "example_chinese": "請給我一雙筷子",
       "audio_url": "",
       "thai_native": "ตะเกียบ",
-      "example_thai_native": "ขอตะเกียบหนึ่งคู่"
+      "example_thai_native": "ขอตะเกียบหนึ่งคู่",
+      "example_romanization": "kho takiap nueng khu"
     },
     {
       "id": 155,
@@ -2013,7 +2329,8 @@
       "example_chinese": "請給我看菜單",
       "audio_url": "",
       "thai_native": "เมนู",
-      "example_thai_native": "ขอดูเมนูหน่อย"
+      "example_thai_native": "ขอดูเมนูหน่อย",
+      "example_romanization": "kho du menu noi"
     },
     {
       "id": 156,
@@ -2026,7 +2343,8 @@
       "example_chinese": "餐廳在哪裡",
       "audio_url": "",
       "thai_native": "ร้านอาหาร",
-      "example_thai_native": "ร้านอาหารอยู่ไหน"
+      "example_thai_native": "ร้านอาหารอยู่ไหน",
+      "example_romanization": "ran ahan yu nai"
     },
     {
       "id": 157,
@@ -2039,7 +2357,8 @@
       "example_chinese": "請買單",
       "audio_url": "",
       "thai_native": "เช็กบิล",
-      "example_thai_native": "เช็กบิลด้วย"
+      "example_thai_native": "เช็กบิลด้วย",
+      "example_romanization": "chek bin duai"
     },
     {
       "id": 158,
@@ -2052,7 +2371,14 @@
       "example_chinese": "我吃素",
       "audio_url": "",
       "thai_native": "มังสวิรัติ",
-      "example_thai_native": "ผมกินมังสวิรัติ"
+      "example_thai_native": "ผมกินมังสวิรัติ",
+      "female": {
+        "example_thai": "ฉัน กิน มังสวิรัติ",
+        "example_thai_native": "ฉันกินมังสวิรัติ",
+        "example_chinese": "我吃素",
+        "example_romanization": "chan kin mangsawirat"
+      },
+      "example_romanization": "phom kin mangsawirat"
     },
     {
       "id": 159,
@@ -2065,7 +2391,14 @@
       "example_chinese": "我對海鮮過敏",
       "audio_url": "",
       "thai_native": "แพ้",
-      "example_thai_native": "ผมแพ้อาหารทะเล"
+      "example_thai_native": "ผมแพ้อาหารทะเล",
+      "female": {
+        "example_thai": "ฉัน แพ้ อาหาร ทะเล",
+        "example_thai_native": "ฉันแพ้อาหารทะเล",
+        "example_chinese": "我對海鮮過敏",
+        "example_romanization": "chan phae ahan thale"
+      },
+      "example_romanization": "phom phae ahan thale"
     },
     {
       "id": 160,
@@ -2078,7 +2411,8 @@
       "example_chinese": "這家店有海鮮",
       "audio_url": "",
       "thai_native": "อาหารทะเล",
-      "example_thai_native": "ร้านนี้มีอาหารทะเล"
+      "example_thai_native": "ร้านนี้มีอาหารทะเล",
+      "example_romanization": "ran ni mi ahan thale"
     },
     {
       "id": 161,
@@ -2091,7 +2425,8 @@
       "example_chinese": "這台車去機場",
       "audio_url": "",
       "thai_native": "รถ",
-      "example_thai_native": "รถคันนี้ไปสนามบิน"
+      "example_thai_native": "รถคันนี้ไปสนามบิน",
+      "example_romanization": "rot khan ni pai sanam bin"
     },
     {
       "id": 162,
@@ -2104,7 +2439,14 @@
       "example_chinese": "我租汽車",
       "audio_url": "",
       "thai_native": "รถยนต์",
-      "example_thai_native": "ผมเช่ารถยนต์"
+      "example_thai_native": "ผมเช่ารถยนต์",
+      "female": {
+        "example_thai": "ฉัน เช่า รถยนต์",
+        "example_thai_native": "ฉันเช่ารถยนต์",
+        "example_chinese": "我租汽車",
+        "example_romanization": "chan chao rotyon"
+      },
+      "example_romanization": "phom chao rotyon"
     },
     {
       "id": 163,
@@ -2117,7 +2459,8 @@
       "example_chinese": "請幫我叫計程車",
       "audio_url": "",
       "thai_native": "แท็กซี่",
-      "example_thai_native": "เรียกแท็กซี่ให้หน่อย"
+      "example_thai_native": "เรียกแท็กซี่ให้หน่อย",
+      "example_romanization": "riak thaeksi hai noi"
     },
     {
       "id": 164,
@@ -2130,7 +2473,14 @@
       "example_chinese": "我搭公車",
       "audio_url": "",
       "thai_native": "รถเมล์",
-      "example_thai_native": "ผมขึ้นรถเมล์"
+      "example_thai_native": "ผมขึ้นรถเมล์",
+      "female": {
+        "example_thai": "ฉัน ขึ้น รถเมล์",
+        "example_thai_native": "ฉันขึ้นรถเมล์",
+        "example_chinese": "我搭公車",
+        "example_romanization": "chan khuen rot me"
+      },
+      "example_romanization": "phom khuen rot me"
     },
     {
       "id": 165,
@@ -2143,7 +2493,8 @@
       "example_chinese": "火車幾點出發",
       "audio_url": "",
       "thai_native": "รถไฟ",
-      "example_thai_native": "รถไฟออกกี่โมง"
+      "example_thai_native": "รถไฟออกกี่โมง",
+      "example_romanization": "rot fai ok ki mong"
     },
     {
       "id": 166,
@@ -2156,7 +2507,8 @@
       "example_chinese": "搭捷運去",
       "audio_url": "",
       "thai_native": "รถไฟฟ้า",
-      "example_thai_native": "ไปด้วยรถไฟฟ้า"
+      "example_thai_native": "ไปด้วยรถไฟฟ้า",
+      "example_romanization": "pai duai rot fai fa"
     },
     {
       "id": 167,
@@ -2169,7 +2521,8 @@
       "example_chinese": "地鐵站在哪裡",
       "audio_url": "",
       "thai_native": "รถไฟใต้ดิน",
-      "example_thai_native": "สถานีรถไฟใต้ดินอยู่ไหน"
+      "example_thai_native": "สถานีรถไฟใต้ดินอยู่ไหน",
+      "example_romanization": "sathani rot fai tai din yu nai"
     },
     {
       "id": 168,
@@ -2182,7 +2535,8 @@
       "example_chinese": "坐摩托車比較快",
       "audio_url": "",
       "thai_native": "มอเตอร์ไซค์",
-      "example_thai_native": "นั่งมอเตอร์ไซค์เร็วกว่า"
+      "example_thai_native": "นั่งมอเตอร์ไซค์เร็วกว่า",
+      "example_romanization": "nang motosai reo kwa"
     },
     {
       "id": 169,
@@ -2195,7 +2549,14 @@
       "example_chinese": "我租腳踏車",
       "audio_url": "",
       "thai_native": "จักรยาน",
-      "example_thai_native": "ผมเช่าจักรยาน"
+      "example_thai_native": "ผมเช่าจักรยาน",
+      "female": {
+        "example_thai": "ฉัน เช่า จักรยาน",
+        "example_thai_native": "ฉันเช่าจักรยาน",
+        "example_chinese": "我租腳踏車",
+        "example_romanization": "chan chao chakkrayan"
+      },
+      "example_romanization": "phom chao chakkrayan"
     },
     {
       "id": 170,
@@ -2208,7 +2569,8 @@
       "example_chinese": "坐船去島上",
       "audio_url": "",
       "thai_native": "เรือ",
-      "example_thai_native": "ไปเกาะด้วยเรือ"
+      "example_thai_native": "ไปเกาะด้วยเรือ",
+      "example_romanization": "pai ko duai ruea"
     },
     {
       "id": 171,
@@ -2221,7 +2583,8 @@
       "example_chinese": "飛機快起飛了",
       "audio_url": "",
       "thai_native": "เครื่องบิน",
-      "example_thai_native": "เครื่องบินกำลังจะออก"
+      "example_thai_native": "เครื่องบินกำลังจะออก",
+      "example_romanization": "khrueang bin kamlang cha ok"
     },
     {
       "id": 172,
@@ -2234,7 +2597,8 @@
       "example_chinese": "車站在前面",
       "audio_url": "",
       "thai_native": "สถานี",
-      "example_thai_native": "สถานีอยู่ข้างหน้า"
+      "example_thai_native": "สถานีอยู่ข้างหน้า",
+      "example_romanization": "sathani yu khang na"
     },
     {
       "id": 173,
@@ -2247,7 +2611,8 @@
       "example_chinese": "公車站在哪",
       "audio_url": "",
       "thai_native": "ป้ายรถเมล์",
-      "example_thai_native": "ป้ายรถเมล์อยู่ตรงไหน"
+      "example_thai_native": "ป้ายรถเมล์อยู่ตรงไหน",
+      "example_romanization": "pai rot me yu trong nai"
     },
     {
       "id": 174,
@@ -2260,7 +2625,8 @@
       "example_chinese": "去機場",
       "audio_url": "",
       "thai_native": "สนามบิน",
-      "example_thai_native": "ไปสนามบิน"
+      "example_thai_native": "ไปสนามบิน",
+      "example_romanization": "pai sanam bin"
     },
     {
       "id": 175,
@@ -2273,7 +2639,8 @@
       "example_chinese": "這條路塞車",
       "audio_url": "",
       "thai_native": "ถนน",
-      "example_thai_native": "ถนนนี้รถติด"
+      "example_thai_native": "ถนนนี้รถติด",
+      "example_romanization": "thanon ni rot tit"
     },
     {
       "id": 176,
@@ -2286,7 +2653,8 @@
       "example_chinese": "這條路去市場",
       "audio_url": "",
       "thai_native": "ทาง",
-      "example_thai_native": "ทางนี้ไปตลาด"
+      "example_thai_native": "ทางนี้ไปตลาด",
+      "example_romanization": "thang ni pai talat"
     },
     {
       "id": 177,
@@ -2299,7 +2667,8 @@
       "example_chinese": "左轉",
       "audio_url": "",
       "thai_native": "ซ้าย",
-      "example_thai_native": "เลี้ยวซ้าย"
+      "example_thai_native": "เลี้ยวซ้าย",
+      "example_romanization": "liao sai"
     },
     {
       "id": 178,
@@ -2312,7 +2681,8 @@
       "example_chinese": "右轉",
       "audio_url": "",
       "thai_native": "ขวา",
-      "example_thai_native": "เลี้ยวขวา"
+      "example_thai_native": "เลี้ยวขวา",
+      "example_romanization": "liao khwa"
     },
     {
       "id": 179,
@@ -2325,7 +2695,8 @@
       "example_chinese": "直走兩百公尺",
       "audio_url": "",
       "thai_native": "ตรงไป",
-      "example_thai_native": "ตรงไปสองร้อยเมตร"
+      "example_thai_native": "ตรงไปสองร้อยเมตร",
+      "example_romanization": "trong pai song roi met"
     },
     {
       "id": 180,
@@ -2338,7 +2709,8 @@
       "example_chinese": "前面路口轉彎",
       "audio_url": "",
       "thai_native": "เลี้ยว",
-      "example_thai_native": "เลี้ยวตรงแยกหน้า"
+      "example_thai_native": "เลี้ยวตรงแยกหน้า",
+      "example_romanization": "liao trong yaek na"
     },
     {
       "id": 181,
@@ -2351,7 +2723,8 @@
       "example_chinese": "在這裡上車",
       "audio_url": "",
       "thai_native": "ขึ้น",
-      "example_thai_native": "ขึ้นรถตรงนี้"
+      "example_thai_native": "ขึ้นรถตรงนี้",
+      "example_romanization": "khuen rot trong ni"
     },
     {
       "id": 182,
@@ -2364,7 +2737,8 @@
       "example_chinese": "下一站下車",
       "audio_url": "",
       "thai_native": "ลง",
-      "example_thai_native": "ลงสถานีหน้า"
+      "example_thai_native": "ลงสถานีหน้า",
+      "example_romanization": "long sathani na"
     },
     {
       "id": 183,
@@ -2377,7 +2751,14 @@
       "example_chinese": "到了請告訴我",
       "audio_url": "",
       "thai_native": "ถึง",
-      "example_thai_native": "ถึงแล้วบอกผมด้วย"
+      "example_thai_native": "ถึงแล้วบอกผมด้วย",
+      "female": {
+        "example_thai": "ถึง แล้ว บอก ฉัน ด้วย",
+        "example_thai_native": "ถึงแล้วบอกฉันด้วย",
+        "example_chinese": "到了請告訴我",
+        "example_romanization": "thueng laeo bok chan duai"
+      },
+      "example_romanization": "thueng laeo bok phom duai"
     },
     {
       "id": 184,
@@ -2390,7 +2771,8 @@
       "example_chinese": "車九點出發",
       "audio_url": "",
       "thai_native": "ออก",
-      "example_thai_native": "รถออกตอนเก้าโมง"
+      "example_thai_native": "รถออกตอนเก้าโมง",
+      "example_romanization": "rot ok ton kao mong"
     },
     {
       "id": 185,
@@ -2403,7 +2785,8 @@
       "example_chinese": "從這裡進去",
       "audio_url": "",
       "thai_native": "เข้า",
-      "example_thai_native": "เข้าทางนี้"
+      "example_thai_native": "เข้าทางนี้",
+      "example_romanization": "khao thang ni"
     },
     {
       "id": 186,
@@ -2416,7 +2799,8 @@
       "example_chinese": "在哪裡買票",
       "audio_url": "",
       "thai_native": "ตั๋ว",
-      "example_thai_native": "ซื้อตั๋วที่ไหน"
+      "example_thai_native": "ซื้อตั๋วที่ไหน",
+      "example_romanization": "sue tua thi nai"
     },
     {
       "id": 187,
@@ -2429,7 +2813,8 @@
       "example_chinese": "車資多少",
       "audio_url": "",
       "thai_native": "ค่าโดยสาร",
-      "example_thai_native": "ค่าโดยสารเท่าไร"
+      "example_thai_native": "ค่าโดยสารเท่าไร",
+      "example_romanization": "kha doisan thao rai"
     },
     {
       "id": 188,
@@ -2442,7 +2827,8 @@
       "example_chinese": "司機人很好",
       "audio_url": "",
       "thai_native": "คนขับ",
-      "example_thai_native": "คนขับใจดีมาก"
+      "example_thai_native": "คนขับใจดีมาก",
+      "example_romanization": "khon khap chai di mak"
     },
     {
       "id": 189,
@@ -2455,7 +2841,8 @@
       "example_chinese": "可以停這裡嗎",
       "audio_url": "",
       "thai_native": "จอด",
-      "example_thai_native": "จอดตรงนี้ได้ไหม"
+      "example_thai_native": "จอดตรงนี้ได้ไหม",
+      "example_romanization": "chot trong ni dai mai"
     },
     {
       "id": 190,
@@ -2468,7 +2855,8 @@
       "example_chinese": "傍晚很塞車",
       "audio_url": "",
       "thai_native": "รถติด",
-      "example_thai_native": "ตอนเย็นรถติดมาก"
+      "example_thai_native": "ตอนเย็นรถติดมาก",
+      "example_romanization": "ton yen rot tit mak"
     },
     {
       "id": 191,
@@ -2481,7 +2869,8 @@
       "example_chinese": "距離遠嗎",
       "audio_url": "",
       "thai_native": "ระยะทาง",
-      "example_thai_native": "ระยะทางไกลไหม"
+      "example_thai_native": "ระยะทางไกลไหม",
+      "example_romanization": "raya thang klai mai"
     },
     {
       "id": 192,
@@ -2494,7 +2883,8 @@
       "example_chinese": "交通壅塞",
       "audio_url": "",
       "thai_native": "การจราจร",
-      "example_thai_native": "การจราจรติดขัด"
+      "example_thai_native": "การจราจรติดขัด",
+      "example_romanization": "kan charachon tit khat"
     },
     {
       "id": 193,
@@ -2507,7 +2897,8 @@
       "example_chinese": "車站很近",
       "audio_url": "",
       "thai_native": "ใกล้",
-      "example_thai_native": "สถานีอยู่ใกล้มาก"
+      "example_thai_native": "สถานีอยู่ใกล้มาก",
+      "example_romanization": "sathani yu klai mak"
     },
     {
       "id": 194,
@@ -2520,7 +2911,8 @@
       "example_chinese": "機場遠嗎",
       "audio_url": "",
       "thai_native": "ไกล",
-      "example_thai_native": "สนามบินไกลไหม"
+      "example_thai_native": "สนามบินไกลไหม",
+      "example_romanization": "sanam bin klai mai"
     },
     {
       "id": 195,
@@ -2533,7 +2925,8 @@
       "example_chinese": "請讓我看地圖",
       "audio_url": "",
       "thai_native": "แผนที่",
-      "example_thai_native": "ขอดูแผนที่หน่อย"
+      "example_thai_native": "ขอดูแผนที่หน่อย",
+      "example_romanization": "kho du phaen thi noi"
     },
     {
       "id": 196,
@@ -2546,7 +2939,14 @@
       "example_chinese": "我來泰國旅行",
       "audio_url": "",
       "thai_native": "เที่ยว",
-      "example_thai_native": "ผมมาเที่ยวไทย"
+      "example_thai_native": "ผมมาเที่ยวไทย",
+      "female": {
+        "example_thai": "ฉัน มา เที่ยว ไทย",
+        "example_thai_native": "ฉันมาเที่ยวไทย",
+        "example_chinese": "我來泰國旅行",
+        "example_romanization": "chan ma thiao thai"
+      },
+      "example_romanization": "phom ma thiao thai"
     },
     {
       "id": 197,
@@ -2559,7 +2959,8 @@
       "example_chinese": "這裡有很多遊客",
       "audio_url": "",
       "thai_native": "นักท่องเที่ยว",
-      "example_thai_native": "ที่นี่มีนักท่องเที่ยวเยอะ"
+      "example_thai_native": "ที่นี่มีนักท่องเที่ยวเยอะ",
+      "example_romanization": "thi ni mi nak thong thiao yoe"
     },
     {
       "id": 198,
@@ -2572,7 +2973,8 @@
       "example_chinese": "飯店靠近海邊",
       "audio_url": "",
       "thai_native": "โรงแรม",
-      "example_thai_native": "โรงแรมอยู่ใกล้ทะเล"
+      "example_thai_native": "โรงแรมอยู่ใกล้ทะเล",
+      "example_romanization": "rongraem yu klai thale"
     },
     {
       "id": 199,
@@ -2585,7 +2987,14 @@
       "example_chinese": "我的房間在三樓",
       "audio_url": "",
       "thai_native": "ห้อง",
-      "example_thai_native": "ห้องของผมอยู่ชั้นสาม"
+      "example_thai_native": "ห้องของผมอยู่ชั้นสาม",
+      "female": {
+        "example_thai": "ห้อง ของ ฉัน อยู่ ชั้น สาม",
+        "example_thai_native": "ห้องของฉันอยู่ชั้นสาม",
+        "example_chinese": "我的房間在三樓",
+        "example_romanization": "hong khong chan yu chan sam"
+      },
+      "example_romanization": "hong khong phom yu chan sam"
     },
     {
       "id": 200,
@@ -2598,7 +3007,8 @@
       "example_chinese": "請給我房間鑰匙",
       "audio_url": "",
       "thai_native": "กุญแจ",
-      "example_thai_native": "ขอกุญแจห้อง"
+      "example_thai_native": "ขอกุญแจห้อง",
+      "example_romanization": "kho kunchae hong"
     },
     {
       "id": 201,
@@ -2611,7 +3021,14 @@
       "example_chinese": "這是我的護照",
       "audio_url": "",
       "thai_native": "หนังสือเดินทาง",
-      "example_thai_native": "นี่คือหนังสือเดินทางของผม"
+      "example_thai_native": "นี่คือหนังสือเดินทางของผม",
+      "female": {
+        "example_thai": "นี่ คือ หนังสือเดินทาง ของ ฉัน",
+        "example_thai_native": "นี่คือหนังสือเดินทางของฉัน",
+        "example_chinese": "這是我的護照",
+        "example_romanization": "ni khue nangsue doen thang khong chan"
+      },
+      "example_romanization": "ni khue nangsue doen thang khong phom"
     },
     {
       "id": 202,
@@ -2624,7 +3041,8 @@
       "example_chinese": "行李箱在哪",
       "audio_url": "",
       "thai_native": "กระเป๋าเดินทาง",
-      "example_thai_native": "กระเป๋าเดินทางอยู่ไหน"
+      "example_thai_native": "กระเป๋าเดินทางอยู่ไหน",
+      "example_romanization": "krapao doen thang yu nai"
     },
     {
       "id": 203,
@@ -2637,7 +3055,14 @@
       "example_chinese": "我的包包不見了",
       "audio_url": "",
       "thai_native": "กระเป๋า",
-      "example_thai_native": "กระเป๋าของผมหาย"
+      "example_thai_native": "กระเป๋าของผมหาย",
+      "female": {
+        "example_thai": "กระเป๋า ของ ฉัน หาย",
+        "example_thai_native": "กระเป๋าของฉันหาย",
+        "example_chinese": "我的包包不見了",
+        "example_romanization": "krapao khong chan hai"
+      },
+      "example_romanization": "krapao khong phom hai"
     },
     {
       "id": 204,
@@ -2650,7 +3075,14 @@
       "example_chinese": "我已經訂房了",
       "audio_url": "",
       "thai_native": "จอง",
-      "example_thai_native": "ผมจองห้องไว้แล้ว"
+      "example_thai_native": "ผมจองห้องไว้แล้ว",
+      "female": {
+        "example_thai": "ฉัน จอง ห้อง ไว้ แล้ว",
+        "example_thai_native": "ฉันจองห้องไว้แล้ว",
+        "example_chinese": "我已經訂房了",
+        "example_romanization": "chan chong hong wai laeo"
+      },
+      "example_romanization": "phom chong hong wai laeo"
     },
     {
       "id": 205,
@@ -2663,7 +3095,8 @@
       "example_chinese": "請確認我的預訂",
       "audio_url": "",
       "thai_native": "การจอง",
-      "example_thai_native": "ขอตรวจสอบการจอง"
+      "example_thai_native": "ขอตรวจสอบการจอง",
+      "example_romanization": "kho truat sop kan chong"
     },
     {
       "id": 206,
@@ -2676,7 +3109,14 @@
       "example_chinese": "我要辦理入住",
       "audio_url": "",
       "thai_native": "เช็กอิน",
-      "example_thai_native": "ผมต้องการเช็กอิน"
+      "example_thai_native": "ผมต้องการเช็กอิน",
+      "female": {
+        "example_thai": "ฉัน ต้องการ เช็กอิน",
+        "example_thai_native": "ฉันต้องการเช็กอิน",
+        "example_chinese": "我要辦理入住",
+        "example_romanization": "chan tongkan chek in"
+      },
+      "example_romanization": "phom tongkan chek in"
     },
     {
       "id": 207,
@@ -2689,7 +3129,8 @@
       "example_chinese": "幾點退房",
       "audio_url": "",
       "thai_native": "เช็กเอาต์",
-      "example_thai_native": "เช็กเอาต์กี่โมง"
+      "example_thai_native": "เช็กเอาต์กี่โมง",
+      "example_romanization": "chek ao ki mong"
     },
     {
       "id": 208,
@@ -2702,7 +3143,14 @@
       "example_chinese": "我想去海邊",
       "audio_url": "",
       "thai_native": "ทะเล",
-      "example_thai_native": "ผมอยากไปทะเล"
+      "example_thai_native": "ผมอยากไปทะเล",
+      "female": {
+        "example_thai": "ฉัน อยาก ไป ทะเล",
+        "example_thai_native": "ฉันอยากไปทะเล",
+        "example_chinese": "我想去海邊",
+        "example_romanization": "chan yak pai thale"
+      },
+      "example_romanization": "phom yak pai thale"
     },
     {
       "id": 209,
@@ -2715,7 +3163,8 @@
       "example_chinese": "海灘很漂亮",
       "audio_url": "",
       "thai_native": "ชายหาด",
-      "example_thai_native": "ชายหาดสวยมาก"
+      "example_thai_native": "ชายหาดสวยมาก",
+      "example_romanization": "chai hat suai mak"
     },
     {
       "id": 210,
@@ -2728,7 +3177,8 @@
       "example_chinese": "我們去山上玩",
       "audio_url": "",
       "thai_native": "ภูเขา",
-      "example_thai_native": "เราไปเที่ยวภูเขา"
+      "example_thai_native": "เราไปเที่ยวภูเขา",
+      "example_romanization": "rao pai thiao phukhao"
     },
     {
       "id": 211,
@@ -2741,7 +3191,8 @@
       "example_chinese": "明天去島上",
       "audio_url": "",
       "thai_native": "เกาะ",
-      "example_thai_native": "พรุ่งนี้ไปเกาะ"
+      "example_thai_native": "พรุ่งนี้ไปเกาะ",
+      "example_romanization": "phrung ni pai ko"
     },
     {
       "id": 212,
@@ -2754,7 +3205,8 @@
       "example_chinese": "這間寺廟很漂亮",
       "audio_url": "",
       "thai_native": "วัด",
-      "example_thai_native": "วัดนี้สวยมาก"
+      "example_thai_native": "วัดนี้สวยมาก",
+      "example_romanization": "wat ni suai mak"
     },
     {
       "id": 213,
@@ -2767,7 +3219,14 @@
       "example_chinese": "我想去夜市",
       "audio_url": "",
       "thai_native": "ตลาด",
-      "example_thai_native": "ผมอยากไปตลาดกลางคืน"
+      "example_thai_native": "ผมอยากไปตลาดกลางคืน",
+      "female": {
+        "example_thai": "ฉัน อยาก ไป ตลาด กลางคืน",
+        "example_thai_native": "ฉันอยากไปตลาดกลางคืน",
+        "example_chinese": "我想去夜市",
+        "example_romanization": "chan yak pai talat klang khuen"
+      },
+      "example_romanization": "phom yak pai talat klang khuen"
     },
     {
       "id": 214,
@@ -2780,7 +3239,8 @@
       "example_chinese": "博物館幾點開",
       "audio_url": "",
       "thai_native": "พิพิธภัณฑ์",
-      "example_thai_native": "พิพิธภัณฑ์เปิดกี่โมง"
+      "example_thai_native": "พิพิธภัณฑ์เปิดกี่โมง",
+      "example_romanization": "phiphitthaphan poet ki mong"
     },
     {
       "id": 215,
@@ -2793,7 +3253,8 @@
       "example_chinese": "我們去公園散步",
       "audio_url": "",
       "thai_native": "สวน",
-      "example_thai_native": "เราไปเดินในสวน"
+      "example_thai_native": "เราไปเดินในสวน",
+      "example_romanization": "rao pai doen nai suan"
     },
     {
       "id": 216,
@@ -2806,7 +3267,8 @@
       "example_chinese": "這個地方很漂亮",
       "audio_url": "",
       "thai_native": "สถานที่",
-      "example_thai_native": "สถานที่นี้สวย"
+      "example_thai_native": "สถานที่นี้สวย",
+      "example_romanization": "sathan thi ni suai"
     },
     {
       "id": 217,
@@ -2819,7 +3281,8 @@
       "example_chinese": "清邁是個漂亮的城市",
       "audio_url": "",
       "thai_native": "เมือง",
-      "example_thai_native": "เชียงใหม่เป็นเมืองสวย"
+      "example_thai_native": "เชียงใหม่เป็นเมืองสวย",
+      "example_romanization": "chiang mai pen mueang suai"
     },
     {
       "id": 218,
@@ -2832,7 +3295,8 @@
       "example_chinese": "你來自哪個國家",
       "audio_url": "",
       "thai_native": "ประเทศ",
-      "example_thai_native": "คุณมาจากประเทศอะไร"
+      "example_thai_native": "คุณมาจากประเทศอะไร",
+      "example_romanization": "khun ma chak prathet arai"
     },
     {
       "id": 219,
@@ -2845,7 +3309,14 @@
       "example_chinese": "我學泰文",
       "audio_url": "",
       "thai_native": "ภาษา",
-      "example_thai_native": "ผมเรียนภาษาไทย"
+      "example_thai_native": "ผมเรียนภาษาไทย",
+      "female": {
+        "example_thai": "ฉัน เรียน ภาษา ไทย",
+        "example_thai_native": "ฉันเรียนภาษาไทย",
+        "example_chinese": "我學泰文",
+        "example_romanization": "chan rian phasa thai"
+      },
+      "example_romanization": "phom rian phasa thai"
     },
     {
       "id": 220,
@@ -2858,7 +3329,14 @@
       "example_chinese": "我喜歡泰國菜",
       "audio_url": "",
       "thai_native": "ไทย",
-      "example_thai_native": "ผมชอบอาหารไทย"
+      "example_thai_native": "ผมชอบอาหารไทย",
+      "female": {
+        "example_thai": "ฉัน ชอบ อาหาร ไทย",
+        "example_thai_native": "ฉันชอบอาหารไทย",
+        "example_chinese": "我喜歡泰國菜",
+        "example_romanization": "chan chop ahan thai"
+      },
+      "example_romanization": "phom chop ahan thai"
     },
     {
       "id": 221,
@@ -2871,7 +3349,8 @@
       "example_chinese": "可以拍照嗎",
       "audio_url": "",
       "thai_native": "รูป",
-      "example_thai_native": "ขอถ่ายรูปได้ไหม"
+      "example_thai_native": "ขอถ่ายรูปได้ไหม",
+      "example_romanization": "kho thai rup dai mai"
     },
     {
       "id": 222,
@@ -2884,7 +3363,8 @@
       "example_chinese": "相機在包包裡",
       "audio_url": "",
       "thai_native": "กล้อง",
-      "example_thai_native": "กล้องอยู่ในกระเป๋า"
+      "example_thai_native": "กล้องอยู่ในกระเป๋า",
+      "example_romanization": "klong yu nai krapao"
     },
     {
       "id": 223,
@@ -2897,7 +3377,8 @@
       "example_chinese": "這裡有網路嗎",
       "audio_url": "",
       "thai_native": "อินเทอร์เน็ต",
-      "example_thai_native": "ที่นี่มีอินเทอร์เน็ตไหม"
+      "example_thai_native": "ที่นี่มีอินเทอร์เน็ตไหม",
+      "example_romanization": "thi ni mi internet mai"
     },
     {
       "id": 224,
@@ -2910,7 +3391,8 @@
       "example_chinese": "Wi‑Fi 密碼是什麼",
       "audio_url": "",
       "thai_native": "ไวไฟ",
-      "example_thai_native": "รหัสไวไฟคืออะไร"
+      "example_thai_native": "รหัสไวไฟคืออะไร",
+      "example_romanization": "rahat wifi khue arai"
     },
     {
       "id": 225,
@@ -2923,7 +3405,8 @@
       "example_chinese": "廁所在哪裡",
       "audio_url": "",
       "thai_native": "ห้องน้ำ",
-      "example_thai_native": "ห้องน้ำอยู่ไหน"
+      "example_thai_native": "ห้องน้ำอยู่ไหน",
+      "example_romanization": "hong nam yu nai"
     },
     {
       "id": 226,
@@ -2936,7 +3419,8 @@
       "example_chinese": "入口在前面",
       "audio_url": "",
       "thai_native": "ทางเข้า",
-      "example_thai_native": "ทางเข้าอยู่ด้านหน้า"
+      "example_thai_native": "ทางเข้าอยู่ด้านหน้า",
+      "example_romanization": "thang khao yu dan na"
     },
     {
       "id": 227,
@@ -2949,7 +3433,8 @@
       "example_chinese": "出口在左邊",
       "audio_url": "",
       "thai_native": "ทางออก",
-      "example_thai_native": "ทางออกอยู่ทางซ้าย"
+      "example_thai_native": "ทางออกอยู่ทางซ้าย",
+      "example_romanization": "thang ok yu thang sai"
     },
     {
       "id": 228,
@@ -2962,7 +3447,8 @@
       "example_chinese": "店幾點開",
       "audio_url": "",
       "thai_native": "เปิด",
-      "example_thai_native": "ร้านเปิดกี่โมง"
+      "example_thai_native": "ร้านเปิดกี่โมง",
+      "example_romanization": "ran poet ki mong"
     },
     {
       "id": 229,
@@ -2975,7 +3461,8 @@
       "example_chinese": "店已經關了",
       "audio_url": "",
       "thai_native": "ปิด",
-      "example_thai_native": "ร้านปิดแล้ว"
+      "example_thai_native": "ร้านปิดแล้ว",
+      "example_romanization": "ran pit laeo"
     },
     {
       "id": 230,
@@ -2988,7 +3475,8 @@
       "example_chinese": "請幫我拍照",
       "audio_url": "",
       "thai_native": "ช่วย",
-      "example_thai_native": "ช่วยถ่ายรูปให้หน่อย"
+      "example_thai_native": "ช่วยถ่ายรูปให้หน่อย",
+      "example_romanization": "chuai thai rup hai noi"
     },
     {
       "id": 231,
@@ -3001,7 +3489,14 @@
       "example_chinese": "我想買這個",
       "audio_url": "",
       "thai_native": "ซื้อ",
-      "example_thai_native": "ผมอยากซื้ออันนี้"
+      "example_thai_native": "ผมอยากซื้ออันนี้",
+      "female": {
+        "example_thai": "ฉัน อยาก ซื้อ อัน นี้",
+        "example_thai_native": "ฉันอยากซื้ออันนี้",
+        "example_chinese": "我想買這個",
+        "example_romanization": "chan yak sue an ni"
+      },
+      "example_romanization": "phom yak sue an ni"
     },
     {
       "id": 232,
@@ -3014,7 +3509,8 @@
       "example_chinese": "這家店賣衣服",
       "audio_url": "",
       "thai_native": "ขาย",
-      "example_thai_native": "ร้านนี้ขายเสื้อผ้า"
+      "example_thai_native": "ร้านนี้ขายเสื้อผ้า",
+      "example_romanization": "ran ni khai suea pha"
     },
     {
       "id": 233,
@@ -3027,7 +3523,8 @@
       "example_chinese": "多少錢",
       "audio_url": "",
       "thai_native": "ราคา",
-      "example_thai_native": "ราคาเท่าไร"
+      "example_thai_native": "ราคาเท่าไร",
+      "example_romanization": "rakha thao rai"
     },
     {
       "id": 234,
@@ -3040,7 +3537,8 @@
       "example_chinese": "這個多少錢",
       "audio_url": "",
       "thai_native": "เท่าไร",
-      "example_thai_native": "อันนี้เท่าไร"
+      "example_thai_native": "อันนี้เท่าไร",
+      "example_romanization": "an ni thao rai"
     },
     {
       "id": 235,
@@ -3053,7 +3551,8 @@
       "example_chinese": "一百泰銖",
       "audio_url": "",
       "thai_native": "บาท",
-      "example_thai_native": "หนึ่งร้อยบาท"
+      "example_thai_native": "หนึ่งร้อยบาท",
+      "example_romanization": "nueng roi bat"
     },
     {
       "id": 236,
@@ -3066,7 +3565,8 @@
       "example_chinese": "這個太貴了",
       "audio_url": "",
       "thai_native": "แพง",
-      "example_thai_native": "อันนี้แพงไป"
+      "example_thai_native": "อันนี้แพงไป",
+      "example_romanization": "an ni phaeng pai"
     },
     {
       "id": 237,
@@ -3079,7 +3579,8 @@
       "example_chinese": "這家店很便宜",
       "audio_url": "",
       "thai_native": "ถูก",
-      "example_thai_native": "ร้านนี้ราคาถูก"
+      "example_thai_native": "ร้านนี้ราคาถูก",
+      "example_romanization": "ran ni rakha thuk"
     },
     {
       "id": 238,
@@ -3092,7 +3593,8 @@
       "example_chinese": "有打折嗎",
       "audio_url": "",
       "thai_native": "ลดราคา",
-      "example_thai_native": "มีลดราคาไหม"
+      "example_thai_native": "มีลดราคาไหม",
+      "example_romanization": "mi lot rakha mai"
     },
     {
       "id": 239,
@@ -3105,7 +3607,8 @@
       "example_chinese": "可以給折扣嗎",
       "audio_url": "",
       "thai_native": "ส่วนลด",
-      "example_thai_native": "ขอส่วนลดได้ไหม"
+      "example_thai_native": "ขอส่วนลดได้ไหม",
+      "example_romanization": "kho suan lot dai mai"
     },
     {
       "id": 240,
@@ -3118,7 +3621,14 @@
       "example_chinese": "我沒有現金",
       "audio_url": "",
       "thai_native": "เงิน",
-      "example_thai_native": "ผมไม่มีเงินสด"
+      "example_thai_native": "ผมไม่มีเงินสด",
+      "female": {
+        "example_thai": "ฉัน ไม่มี เงินสด",
+        "example_thai_native": "ฉันไม่มีเงินสด",
+        "example_chinese": "我沒有現金",
+        "example_romanization": "chan mai mi ngoen sot"
+      },
+      "example_romanization": "phom mai mi ngoen sot"
     },
     {
       "id": 241,
@@ -3131,7 +3641,8 @@
       "example_chinese": "可以付現嗎",
       "audio_url": "",
       "thai_native": "เงินสด",
-      "example_thai_native": "จ่ายเงินสดได้ไหม"
+      "example_thai_native": "จ่ายเงินสดได้ไหม",
+      "example_romanization": "chai ngoen sot dai mai"
     },
     {
       "id": 242,
@@ -3144,7 +3655,8 @@
       "example_chinese": "收卡嗎",
       "audio_url": "",
       "thai_native": "บัตร",
-      "example_thai_native": "รับบัตรไหม"
+      "example_thai_native": "รับบัตรไหม",
+      "example_romanization": "rap bat mai"
     },
     {
       "id": 243,
@@ -3157,7 +3669,8 @@
       "example_chinese": "用信用卡付款",
       "audio_url": "",
       "thai_native": "บัตรเครดิต",
-      "example_thai_native": "จ่ายด้วยบัตรเครดิต"
+      "example_thai_native": "จ่ายด้วยบัตรเครดิต",
+      "example_romanization": "chai duai bat khredit"
     },
     {
       "id": 244,
@@ -3170,7 +3683,14 @@
       "example_chinese": "我現在要付款",
       "audio_url": "",
       "thai_native": "จ่าย",
-      "example_thai_native": "ผมจะจ่ายตอนนี้"
+      "example_thai_native": "ผมจะจ่ายตอนนี้",
+      "female": {
+        "example_thai": "ฉัน จะ จ่าย ตอนนี้",
+        "example_thai_native": "ฉันจะจ่ายตอนนี้",
+        "example_chinese": "我現在要付款",
+        "example_romanization": "chan cha chai ton ni"
+      },
+      "example_romanization": "phom cha chai ton ni"
     },
     {
       "id": 245,
@@ -3183,7 +3703,8 @@
       "example_chinese": "有零錢找嗎",
       "audio_url": "",
       "thai_native": "ทอน",
-      "example_thai_native": "มีเงินทอนไหม"
+      "example_thai_native": "มีเงินทอนไหม",
+      "example_romanization": "mi ngoen thon mai"
     },
     {
       "id": 246,
@@ -3196,7 +3717,8 @@
       "example_chinese": "請給我收據",
       "audio_url": "",
       "thai_native": "ใบเสร็จ",
-      "example_thai_native": "ขอใบเสร็จด้วย"
+      "example_thai_native": "ขอใบเสร็จด้วย",
+      "example_romanization": "kho bai set duai"
     },
     {
       "id": 247,
@@ -3209,7 +3731,8 @@
       "example_chinese": "請給我一個袋子",
       "audio_url": "",
       "thai_native": "ถุง",
-      "example_thai_native": "ขอถุงหนึ่งใบ"
+      "example_thai_native": "ขอถุงหนึ่งใบ",
+      "example_romanization": "kho thung nueng bai"
     },
     {
       "id": 248,
@@ -3222,7 +3745,8 @@
       "example_chinese": "這家店每天營業",
       "audio_url": "",
       "thai_native": "ร้าน",
-      "example_thai_native": "ร้านนี้เปิดทุกวัน"
+      "example_thai_native": "ร้านนี้เปิดทุกวัน",
+      "example_romanization": "ran ni poet thuk wan"
     },
     {
       "id": 249,
@@ -3235,7 +3759,8 @@
       "example_chinese": "這個商品正在特價",
       "audio_url": "",
       "thai_native": "สินค้า",
-      "example_thai_native": "สินค้านี้ลดราคา"
+      "example_thai_native": "สินค้านี้ลดราคา",
+      "example_romanization": "sinkha ni lot rakha"
     },
     {
       "id": 250,
@@ -3248,7 +3773,8 @@
       "example_chinese": "這件上衣很好看",
       "audio_url": "",
       "thai_native": "เสื้อ",
-      "example_thai_native": "เสื้อตัวนี้สวย"
+      "example_thai_native": "เสื้อตัวนี้สวย",
+      "example_romanization": "suea tua ni suai"
     },
     {
       "id": 251,
@@ -3261,7 +3787,8 @@
       "example_chinese": "我想試穿這件褲子",
       "audio_url": "",
       "thai_native": "กางเกง",
-      "example_thai_native": "ขอลองกางเกงตัวนี้"
+      "example_thai_native": "ขอลองกางเกงตัวนี้",
+      "example_romanization": "kho long kangkeng tua ni"
     },
     {
       "id": 252,
@@ -3274,7 +3801,8 @@
       "example_chinese": "這雙鞋剛好",
       "audio_url": "",
       "thai_native": "รองเท้า",
-      "example_thai_native": "รองเท้าคู่นี้พอดี"
+      "example_thai_native": "รองเท้าคู่นี้พอดี",
+      "example_romanization": "rongthao khu ni phodi"
     },
     {
       "id": 253,
@@ -3287,7 +3815,14 @@
       "example_chinese": "我喜歡這頂帽子",
       "audio_url": "",
       "thai_native": "หมวก",
-      "example_thai_native": "ผมชอบหมวกใบนี้"
+      "example_thai_native": "ผมชอบหมวกใบนี้",
+      "female": {
+        "example_thai": "ฉัน ชอบ หมวก ใบ นี้",
+        "example_thai_native": "ฉันชอบหมวกใบนี้",
+        "example_chinese": "我喜歡這頂帽子",
+        "example_romanization": "chan chop muak bai ni"
+      },
+      "example_romanization": "phom chop muak bai ni"
     },
     {
       "id": 254,
@@ -3300,7 +3835,8 @@
       "example_chinese": "有其他顏色嗎",
       "audio_url": "",
       "thai_native": "สี",
-      "example_thai_native": "มีสีอื่นไหม"
+      "example_thai_native": "มีสีอื่นไหม",
+      "example_romanization": "mi si uen mai"
     },
     {
       "id": 255,
@@ -3313,7 +3849,14 @@
       "example_chinese": "我想要黑色",
       "audio_url": "",
       "thai_native": "ดำ",
-      "example_thai_native": "ผมอยากได้สีดำ"
+      "example_thai_native": "ผมอยากได้สีดำ",
+      "female": {
+        "example_thai": "ฉัน อยาก ได้ สี ดำ",
+        "example_thai_native": "ฉันอยากได้สีดำ",
+        "example_chinese": "我想要黑色",
+        "example_romanization": "chan yak dai si dam"
+      },
+      "example_romanization": "phom yak dai si dam"
     },
     {
       "id": 256,
@@ -3326,7 +3869,8 @@
       "example_chinese": "有白色嗎",
       "audio_url": "",
       "thai_native": "ขาว",
-      "example_thai_native": "มีสีขาวไหม"
+      "example_thai_native": "มีสีขาวไหม",
+      "example_romanization": "mi si khao mai"
     },
     {
       "id": 257,
@@ -3339,7 +3883,8 @@
       "example_chinese": "紅色上衣",
       "audio_url": "",
       "thai_native": "แดง",
-      "example_thai_native": "เสื้อสีแดง"
+      "example_thai_native": "เสื้อสีแดง",
+      "example_romanization": "suea si daeng"
     },
     {
       "id": 258,
@@ -3352,7 +3897,14 @@
       "example_chinese": "我喜歡藍色",
       "audio_url": "",
       "thai_native": "น้ำเงิน",
-      "example_thai_native": "ผมชอบสีน้ำเงิน"
+      "example_thai_native": "ผมชอบสีน้ำเงิน",
+      "female": {
+        "example_thai": "ฉัน ชอบ สีน้ำเงิน",
+        "example_thai_native": "ฉันชอบสีน้ำเงิน",
+        "example_chinese": "我喜歡藍色",
+        "example_romanization": "chan chop si nam ngoen"
+      },
+      "example_romanization": "phom chop si nam ngoen"
     },
     {
       "id": 259,
@@ -3365,7 +3917,8 @@
       "example_chinese": "我要綠色",
       "audio_url": "",
       "thai_native": "เขียว",
-      "example_thai_native": "ขอสีเขียว"
+      "example_thai_native": "ขอสีเขียว",
+      "example_romanization": "kho si khiao"
     },
     {
       "id": 260,
@@ -3378,7 +3931,8 @@
       "example_chinese": "有大尺寸嗎",
       "audio_url": "",
       "thai_native": "ใหญ่",
-      "example_thai_native": "มีไซซ์ใหญ่ไหม"
+      "example_thai_native": "มีไซซ์ใหญ่ไหม",
+      "example_romanization": "mi sai yai mai"
     },
     {
       "id": 261,
@@ -3391,7 +3945,8 @@
       "example_chinese": "這個太小了",
       "audio_url": "",
       "thai_native": "เล็ก",
-      "example_thai_native": "อันนี้เล็กไป"
+      "example_thai_native": "อันนี้เล็กไป",
+      "example_romanization": "an ni lek pai"
     },
     {
       "id": 262,
@@ -3404,7 +3959,8 @@
       "example_chinese": "這個尺寸剛好",
       "audio_url": "",
       "thai_native": "พอดี",
-      "example_thai_native": "ไซซ์นี้พอดี"
+      "example_thai_native": "ไซซ์นี้พอดี",
+      "example_romanization": "sai ni phodi"
     },
     {
       "id": 263,
@@ -3417,7 +3973,8 @@
       "example_chinese": "可以試嗎",
       "audio_url": "",
       "thai_native": "ลอง",
-      "example_thai_native": "ขอลองได้ไหม"
+      "example_thai_native": "ขอลองได้ไหม",
+      "example_romanization": "kho long dai mai"
     },
     {
       "id": 264,
@@ -3430,7 +3987,8 @@
       "example_chinese": "可以換尺寸嗎",
       "audio_url": "",
       "thai_native": "เปลี่ยน",
-      "example_thai_native": "เปลี่ยนไซซ์ได้ไหม"
+      "example_thai_native": "เปลี่ยนไซซ์ได้ไหม",
+      "example_romanization": "plian sai dai mai"
     },
     {
       "id": 265,
@@ -3443,7 +4001,8 @@
       "example_chinese": "可以退貨嗎",
       "audio_url": "",
       "thai_native": "คืน",
-      "example_thai_native": "คืนสินค้าได้ไหม"
+      "example_thai_native": "คืนสินค้าได้ไหม",
+      "example_romanization": "khuen sinkha dai mai"
     },
     {
       "id": 266,
@@ -3456,7 +4015,14 @@
       "example_chinese": "我去市場",
       "audio_url": "",
       "thai_native": "ไป",
-      "example_thai_native": "ผมไปตลาด"
+      "example_thai_native": "ผมไปตลาด",
+      "female": {
+        "example_thai": "ฉัน ไป ตลาด",
+        "example_thai_native": "ฉันไปตลาด",
+        "example_chinese": "我去市場",
+        "example_romanization": "chan pai talat"
+      },
+      "example_romanization": "phom pai talat"
     },
     {
       "id": 267,
@@ -3469,7 +4035,8 @@
       "example_chinese": "明天可以來嗎",
       "audio_url": "",
       "thai_native": "มา",
-      "example_thai_native": "พรุ่งนี้มาได้ไหม"
+      "example_thai_native": "พรุ่งนี้มาได้ไหม",
+      "example_romanization": "phrung ni ma dai mai"
     },
     {
       "id": 268,
@@ -3482,7 +4049,8 @@
       "example_chinese": "一起去吃飯",
       "audio_url": "",
       "thai_native": "กิน",
-      "example_thai_native": "ไปกินข้าวกัน"
+      "example_thai_native": "ไปกินข้าวกัน",
+      "example_romanization": "pai kin khao kan"
     },
     {
       "id": 269,
@@ -3495,7 +4063,14 @@
       "example_chinese": "我喝水",
       "audio_url": "",
       "thai_native": "ดื่ม",
-      "example_thai_native": "ผมดื่มน้ำ"
+      "example_thai_native": "ผมดื่มน้ำ",
+      "female": {
+        "example_thai": "ฉัน ดื่ม น้ำ",
+        "example_thai_native": "ฉันดื่มน้ำ",
+        "example_chinese": "我喝水",
+        "example_romanization": "chan duem nam"
+      },
+      "example_romanization": "phom duem nam"
     },
     {
       "id": 270,
@@ -3508,7 +4083,14 @@
       "example_chinese": "我晚上十一點睡",
       "audio_url": "",
       "thai_native": "นอน",
-      "example_thai_native": "ผมนอนตอนห้าทุ่ม"
+      "example_thai_native": "ผมนอนตอนห้าทุ่ม",
+      "female": {
+        "example_thai": "ฉัน นอน ตอน ห้า ทุ่ม",
+        "example_thai_native": "ฉันนอนตอนห้าทุ่ม",
+        "example_chinese": "我晚上十一點睡",
+        "example_romanization": "chan non ton ha thum"
+      },
+      "example_romanization": "phom non ton ha thum"
     },
     {
       "id": 271,
@@ -3521,7 +4103,14 @@
       "example_chinese": "我七點起床",
       "audio_url": "",
       "thai_native": "ตื่น",
-      "example_thai_native": "ผมตื่นเจ็ดโมง"
+      "example_thai_native": "ผมตื่นเจ็ดโมง",
+      "female": {
+        "example_thai": "ฉัน ตื่น เจ็ด โมง",
+        "example_thai_native": "ฉันตื่นเจ็ดโมง",
+        "example_chinese": "我七點起床",
+        "example_romanization": "chan tuen chet mong"
+      },
+      "example_romanization": "phom tuen chet mong"
     },
     {
       "id": 272,
@@ -3534,7 +4123,8 @@
       "example_chinese": "看一下這個",
       "audio_url": "",
       "thai_native": "ดู",
-      "example_thai_native": "ดูอันนี้หน่อย"
+      "example_thai_native": "ดูอันนี้หน่อย",
+      "example_romanization": "du an ni noi"
     },
     {
       "id": 273,
@@ -3547,7 +4137,14 @@
       "example_chinese": "我聽泰文歌",
       "audio_url": "",
       "thai_native": "ฟัง",
-      "example_thai_native": "ผมฟังเพลงไทย"
+      "example_thai_native": "ผมฟังเพลงไทย",
+      "female": {
+        "example_thai": "ฉัน ฟัง เพลง ไทย",
+        "example_thai_native": "ฉันฟังเพลงไทย",
+        "example_chinese": "我聽泰文歌",
+        "example_romanization": "chan fang phleng thai"
+      },
+      "example_romanization": "phom fang phleng thai"
     },
     {
       "id": 274,
@@ -3560,7 +4157,8 @@
       "example_chinese": "可以說慢一點嗎",
       "audio_url": "",
       "thai_native": "พูด",
-      "example_thai_native": "พูดช้าๆได้ไหม"
+      "example_thai_native": "พูดช้าๆได้ไหม",
+      "example_romanization": "phut cha cha dai mai"
     },
     {
       "id": 275,
@@ -3573,7 +4171,14 @@
       "example_chinese": "我讀泰文",
       "audio_url": "",
       "thai_native": "อ่าน",
-      "example_thai_native": "ผมอ่านภาษาไทย"
+      "example_thai_native": "ผมอ่านภาษาไทย",
+      "female": {
+        "example_thai": "ฉัน อ่าน ภาษา ไทย",
+        "example_thai_native": "ฉันอ่านภาษาไทย",
+        "example_chinese": "我讀泰文",
+        "example_romanization": "chan an phasa thai"
+      },
+      "example_romanization": "phom an phasa thai"
     },
     {
       "id": 276,
@@ -3586,7 +4191,8 @@
       "example_chinese": "在這裡寫名字",
       "audio_url": "",
       "thai_native": "เขียน",
-      "example_thai_native": "เขียนชื่อที่นี่"
+      "example_thai_native": "เขียนชื่อที่นี่",
+      "example_romanization": "khian chue thi ni"
     },
     {
       "id": 277,
@@ -3599,7 +4205,14 @@
       "example_chinese": "我學泰文",
       "audio_url": "",
       "thai_native": "เรียน",
-      "example_thai_native": "ผมเรียนภาษาไทย"
+      "example_thai_native": "ผมเรียนภาษาไทย",
+      "female": {
+        "example_thai": "ฉัน เรียน ภาษา ไทย",
+        "example_thai_native": "ฉันเรียนภาษาไทย",
+        "example_chinese": "我學泰文",
+        "example_romanization": "chan rian phasa thai"
+      },
+      "example_romanization": "phom rian phasa thai"
     },
     {
       "id": 278,
@@ -3612,7 +4225,8 @@
       "example_chinese": "你正在做什麼",
       "audio_url": "",
       "thai_native": "ทำ",
-      "example_thai_native": "คุณกำลังทำอะไร"
+      "example_thai_native": "คุณกำลังทำอะไร",
+      "example_romanization": "khun kamlang tham arai"
     },
     {
       "id": 279,
@@ -3625,7 +4239,14 @@
       "example_chinese": "我在家工作",
       "audio_url": "",
       "thai_native": "ทำงาน",
-      "example_thai_native": "ผมทำงานที่บ้าน"
+      "example_thai_native": "ผมทำงานที่บ้าน",
+      "female": {
+        "example_thai": "ฉัน ทำงาน ที่ บ้าน",
+        "example_thai_native": "ฉันทำงานที่บ้าน",
+        "example_chinese": "我在家工作",
+        "example_romanization": "chan tham ngan thi ban"
+      },
+      "example_romanization": "phom tham ngan thi ban"
     },
     {
       "id": 280,
@@ -3638,7 +4259,14 @@
       "example_chinese": "我住在曼谷",
       "audio_url": "",
       "thai_native": "อยู่",
-      "example_thai_native": "ผมอยู่กรุงเทพ"
+      "example_thai_native": "ผมอยู่กรุงเทพ",
+      "female": {
+        "example_thai": "ฉัน อยู่ กรุงเทพ",
+        "example_thai_native": "ฉันอยู่กรุงเทพ",
+        "example_chinese": "我住在曼谷",
+        "example_romanization": "chan yu krung thep"
+      },
+      "example_romanization": "phom yu krung thep"
     },
     {
       "id": 281,
@@ -3651,7 +4279,8 @@
       "example_chinese": "你有時間嗎",
       "audio_url": "",
       "thai_native": "มี",
-      "example_thai_native": "คุณมีเวลาไหม"
+      "example_thai_native": "คุณมีเวลาไหม",
+      "example_romanization": "khun mi wela mai"
     },
     {
       "id": 282,
@@ -3664,7 +4293,14 @@
       "example_chinese": "我想吃泰式炒河粉",
       "audio_url": "",
       "thai_native": "อยาก",
-      "example_thai_native": "ผมอยากกินผัดไทย"
+      "example_thai_native": "ผมอยากกินผัดไทย",
+      "female": {
+        "example_thai": "ฉัน อยาก กิน ผัดไทย",
+        "example_thai_native": "ฉันอยากกินผัดไทย",
+        "example_chinese": "我想吃泰式炒河粉",
+        "example_romanization": "chan yak kin phat thai"
+      },
+      "example_romanization": "phom yak kin phat thai"
     },
     {
       "id": 283,
@@ -3677,7 +4313,14 @@
       "example_chinese": "我喜歡泰國",
       "audio_url": "",
       "thai_native": "ชอบ",
-      "example_thai_native": "ผมชอบเมืองไทย"
+      "example_thai_native": "ผมชอบเมืองไทย",
+      "female": {
+        "example_thai": "ฉัน ชอบ เมือง ไทย",
+        "example_thai_native": "ฉันชอบเมืองไทย",
+        "example_chinese": "我喜歡泰國",
+        "example_romanization": "chan chop mueang thai"
+      },
+      "example_romanization": "phom chop mueang thai"
     },
     {
       "id": 284,
@@ -3690,7 +4333,14 @@
       "example_chinese": "我愛家人",
       "audio_url": "",
       "thai_native": "รัก",
-      "example_thai_native": "ผมรักครอบครัว"
+      "example_thai_native": "ผมรักครอบครัว",
+      "female": {
+        "example_thai": "ฉัน รัก ครอบครัว",
+        "example_thai_native": "ฉันรักครอบครัว",
+        "example_chinese": "我愛家人",
+        "example_romanization": "chan rak khrop khrua"
+      },
+      "example_romanization": "phom rak khrop khrua"
     },
     {
       "id": 285,
@@ -3703,7 +4353,8 @@
       "example_chinese": "你知道這家店嗎",
       "audio_url": "",
       "thai_native": "รู้จัก",
-      "example_thai_native": "คุณรู้จักร้านนี้ไหม"
+      "example_thai_native": "คุณรู้จักร้านนี้ไหม",
+      "example_romanization": "khun ru chak ran ni mai"
     },
     {
       "id": 286,
@@ -3716,7 +4367,14 @@
       "example_chinese": "我記得名字",
       "audio_url": "",
       "thai_native": "จำ",
-      "example_thai_native": "ผมจำชื่อได้"
+      "example_thai_native": "ผมจำชื่อได้",
+      "female": {
+        "example_thai": "ฉัน จำ ชื่อ ได้",
+        "example_thai_native": "ฉันจำชื่อได้",
+        "example_chinese": "我記得名字",
+        "example_romanization": "chan cham chue dai"
+      },
+      "example_romanization": "phom cham chue dai"
     },
     {
       "id": 287,
@@ -3729,7 +4387,14 @@
       "example_chinese": "我忘了鑰匙",
       "audio_url": "",
       "thai_native": "ลืม",
-      "example_thai_native": "ผมลืมกุญแจ"
+      "example_thai_native": "ผมลืมกุญแจ",
+      "female": {
+        "example_thai": "ฉัน ลืม กุญแจ",
+        "example_thai_native": "ฉันลืมกุญแจ",
+        "example_chinese": "我忘了鑰匙",
+        "example_romanization": "chan luem kunchae"
+      },
+      "example_romanization": "phom luem kunchae"
     },
     {
       "id": 288,
@@ -3742,7 +4407,14 @@
       "example_chinese": "我正在找餐廳",
       "audio_url": "",
       "thai_native": "หา",
-      "example_thai_native": "ผมกำลังหาร้านอาหาร"
+      "example_thai_native": "ผมกำลังหาร้านอาหาร",
+      "female": {
+        "example_thai": "ฉัน กำลัง หา ร้านอาหาร",
+        "example_thai_native": "ฉันกำลังหาร้านอาหาร",
+        "example_chinese": "我正在找餐廳",
+        "example_romanization": "chan kamlang ha ran ahan"
+      },
+      "example_romanization": "phom kamlang ha ran ahan"
     },
     {
       "id": 289,
@@ -3755,7 +4427,14 @@
       "example_chinese": "我找到包包了",
       "audio_url": "",
       "thai_native": "เจอ",
-      "example_thai_native": "ผมเจอกระเป๋าแล้ว"
+      "example_thai_native": "ผมเจอกระเป๋าแล้ว",
+      "female": {
+        "example_thai": "ฉัน เจอ กระเป๋า แล้ว",
+        "example_thai_native": "ฉันเจอกระเป๋าแล้ว",
+        "example_chinese": "我找到包包了",
+        "example_romanization": "chan choe krapao laeo"
+      },
+      "example_romanization": "phom choe krapao laeo"
     },
     {
       "id": 290,
@@ -3768,7 +4447,8 @@
       "example_chinese": "等一下",
       "audio_url": "",
       "thai_native": "รอ",
-      "example_thai_native": "รอแป๊บหนึ่ง"
+      "example_thai_native": "รอแป๊บหนึ่ง",
+      "example_romanization": "ro paep nueng"
     },
     {
       "id": 291,
@@ -3781,7 +4461,8 @@
       "example_chinese": "可以走路去嗎",
       "audio_url": "",
       "thai_native": "เดิน",
-      "example_thai_native": "เดินไปได้ไหม"
+      "example_thai_native": "เดินไปได้ไหม",
+      "example_romanization": "doen pai dai mai"
     },
     {
       "id": 292,
@@ -3794,7 +4475,14 @@
       "example_chinese": "我早上跑步",
       "audio_url": "",
       "thai_native": "วิ่ง",
-      "example_thai_native": "ผมวิ่งตอนเช้า"
+      "example_thai_native": "ผมวิ่งตอนเช้า",
+      "female": {
+        "example_thai": "ฉัน วิ่ง ตอน เช้า",
+        "example_thai_native": "ฉันวิ่งตอนเช้า",
+        "example_chinese": "我早上跑步",
+        "example_romanization": "chan wing ton chao"
+      },
+      "example_romanization": "phom wing ton chao"
     },
     {
       "id": 293,
@@ -3807,7 +4495,8 @@
       "example_chinese": "可以坐這裡",
       "audio_url": "",
       "thai_native": "นั่ง",
-      "example_thai_native": "นั่งตรงนี้ได้"
+      "example_thai_native": "นั่งตรงนี้ได้",
+      "example_romanization": "nang trong ni dai"
     },
     {
       "id": 294,
@@ -3820,7 +4509,8 @@
       "example_chinese": "站在這裡等",
       "audio_url": "",
       "thai_native": "ยืน",
-      "example_thai_native": "ยืนรอตรงนี้"
+      "example_thai_native": "ยืนรอตรงนี้",
+      "example_romanization": "yuen ro trong ni"
     },
     {
       "id": 295,
@@ -3833,7 +4523,8 @@
       "example_chinese": "九點開始上課",
       "audio_url": "",
       "thai_native": "เริ่ม",
-      "example_thai_native": "เริ่มเรียนตอนเก้าโมง"
+      "example_thai_native": "เริ่มเรียนตอนเก้าโมง",
+      "example_romanization": "roem rian ton kao mong"
     },
     {
       "id": 296,
@@ -3846,7 +4537,8 @@
       "example_chinese": "先停在這裡",
       "audio_url": "",
       "thai_native": "หยุด",
-      "example_thai_native": "หยุดตรงนี้ก่อน"
+      "example_thai_native": "หยุดตรงนี้ก่อน",
+      "example_romanization": "yut trong ni kon"
     },
     {
       "id": 297,
@@ -3859,7 +4551,14 @@
       "example_chinese": "讓我看一下",
       "audio_url": "",
       "thai_native": "ให้",
-      "example_thai_native": "ให้ผมดูหน่อย"
+      "example_thai_native": "ให้ผมดูหน่อย",
+      "female": {
+        "example_thai": "ให้ ฉัน ดู หน่อย",
+        "example_thai_native": "ให้ฉันดูหน่อย",
+        "example_chinese": "讓我看一下",
+        "example_romanization": "hai chan du noi"
+      },
+      "example_romanization": "hai phom du noi"
     },
     {
       "id": 298,
@@ -3872,7 +4571,8 @@
       "example_chinese": "我要這個",
       "audio_url": "",
       "thai_native": "เอา",
-      "example_thai_native": "เอาอันนี้"
+      "example_thai_native": "เอาอันนี้",
+      "example_romanization": "ao an ni"
     },
     {
       "id": 299,
@@ -3885,7 +4585,8 @@
       "example_chinese": "需要很久嗎",
       "audio_url": "",
       "thai_native": "ใช้",
-      "example_thai_native": "ใช้เวลานานไหม"
+      "example_thai_native": "ใช้เวลานานไหม",
+      "example_romanization": "chai wela nan mai"
     },
     {
       "id": 300,
@@ -3898,7 +4599,14 @@
       "example_chinese": "我會打給你",
       "audio_url": "",
       "thai_native": "โทร",
-      "example_thai_native": "ผมจะโทรหาคุณ"
+      "example_thai_native": "ผมจะโทรหาคุณ",
+      "female": {
+        "example_thai": "ฉัน จะ โทร หา คุณ",
+        "example_thai_native": "ฉันจะโทรหาคุณ",
+        "example_chinese": "我會打給你",
+        "example_romanization": "chan cha tho ha khun"
+      },
+      "example_romanization": "phom cha tho ha khun"
     }
   ],
   "sentences": [
@@ -3910,7 +4618,13 @@
       "category": "greeting",
       "level": 1,
       "audio_url": "",
-      "thai_native": "สวัสดีครับ"
+      "thai_native": "สวัสดีครับ",
+      "female": {
+        "thai": "สวัสดี ค่ะ",
+        "thai_native": "สวัสดีค่ะ",
+        "romanization": "sawatdi khâ",
+        "chinese": "你好。"
+      }
     },
     {
       "id": 1002,
@@ -3920,7 +4634,13 @@
       "category": "greeting",
       "level": 1,
       "audio_url": "",
-      "thai_native": "สวัสดีตอนเช้าครับ"
+      "thai_native": "สวัสดีตอนเช้าครับ",
+      "female": {
+        "thai": "สวัสดี ตอน เช้า ค่ะ",
+        "thai_native": "สวัสดีตอนเช้าค่ะ",
+        "romanization": "sawatdi ton chao khâ",
+        "chinese": "早安。"
+      }
     },
     {
       "id": 1003,
@@ -3930,7 +4650,13 @@
       "category": "greeting",
       "level": 1,
       "audio_url": "",
-      "thai_native": "คุณชื่ออะไรครับ"
+      "thai_native": "คุณชื่ออะไรครับ",
+      "female": {
+        "thai": "คุณ ชื่อ อะไร คะ",
+        "thai_native": "คุณชื่ออะไรคะ",
+        "romanization": "khun chue arai khá",
+        "chinese": "你叫什麼名字？"
+      }
     },
     {
       "id": 1004,
@@ -3940,7 +4666,13 @@
       "category": "greeting",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ผมชื่อแจ็คครับ"
+      "thai_native": "ผมชื่อแจ็คครับ",
+      "female": {
+        "thai": "ฉัน ชื่อ แจ็ค ค่ะ",
+        "thai_native": "ฉันชื่อแจ็คค่ะ",
+        "romanization": "chan chue chaek khâ",
+        "chinese": "我叫 Jack。"
+      }
     },
     {
       "id": 1005,
@@ -3950,7 +4682,13 @@
       "category": "greeting",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ยินดีที่ได้รู้จักครับ"
+      "thai_native": "ยินดีที่ได้รู้จักครับ",
+      "female": {
+        "thai": "ยินดี ที่ ได้ รู้จัก ค่ะ",
+        "thai_native": "ยินดีที่ได้รู้จักค่ะ",
+        "romanization": "yin di thi dai ru chak khâ",
+        "chinese": "很高興認識你。"
+      }
     },
     {
       "id": 1006,
@@ -3960,7 +4698,13 @@
       "category": "greeting",
       "level": 1,
       "audio_url": "",
-      "thai_native": "คุณสบายดีไหมครับ"
+      "thai_native": "คุณสบายดีไหมครับ",
+      "female": {
+        "thai": "คุณ สบายดี ไหม คะ",
+        "thai_native": "คุณสบายดีไหมคะ",
+        "romanization": "khun sabai di mai khá",
+        "chinese": "你好嗎？"
+      }
     },
     {
       "id": 1007,
@@ -3970,7 +4714,13 @@
       "category": "greeting",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ผมสบายดี ขอบคุณครับ"
+      "thai_native": "ผมสบายดี ขอบคุณครับ",
+      "female": {
+        "thai": "ฉัน สบายดี ขอบคุณ ค่ะ",
+        "thai_native": "ฉันสบายดี ขอบคุณค่ะ",
+        "romanization": "chan sabai di khop khun khâ",
+        "chinese": "我很好，謝謝。"
+      }
     },
     {
       "id": 1008,
@@ -3980,7 +4730,13 @@
       "category": "greeting",
       "level": 1,
       "audio_url": "",
-      "thai_native": "คุณมาจากไหนครับ"
+      "thai_native": "คุณมาจากไหนครับ",
+      "female": {
+        "thai": "คุณ มา จาก ไหน คะ",
+        "thai_native": "คุณมาจากไหนคะ",
+        "romanization": "khun ma chak nai khá",
+        "chinese": "你從哪裡來？"
+      }
     },
     {
       "id": 1009,
@@ -3990,7 +4746,13 @@
       "category": "greeting",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ผมมาจากไต้หวันครับ"
+      "thai_native": "ผมมาจากไต้หวันครับ",
+      "female": {
+        "thai": "ฉัน มา จาก ไต้หวัน ค่ะ",
+        "thai_native": "ฉันมาจากไต้หวันค่ะ",
+        "romanization": "chan ma chak taiwan khâ",
+        "chinese": "我來自台灣。"
+      }
     },
     {
       "id": 1010,
@@ -4000,7 +4762,13 @@
       "category": "greeting",
       "level": 1,
       "audio_url": "",
-      "thai_native": "คุณพูดภาษาอังกฤษได้ไหมครับ"
+      "thai_native": "คุณพูดภาษาอังกฤษได้ไหมครับ",
+      "female": {
+        "thai": "คุณ พูด ภาษา อังกฤษ ได้ ไหม คะ",
+        "thai_native": "คุณพูดภาษาอังกฤษได้ไหมคะ",
+        "romanization": "khun phut phasa angkrit dai mai khá",
+        "chinese": "你會說英文嗎？"
+      }
     },
     {
       "id": 1011,
@@ -4010,7 +4778,13 @@
       "category": "greeting",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ผมพูดภาษาไทยได้นิดหน่อยครับ"
+      "thai_native": "ผมพูดภาษาไทยได้นิดหน่อยครับ",
+      "female": {
+        "thai": "ฉัน พูด ภาษา ไทย ได้ นิดหน่อย ค่ะ",
+        "thai_native": "ฉันพูดภาษาไทยได้นิดหน่อยค่ะ",
+        "romanization": "chan phut phasa thai dai nit noi khâ",
+        "chinese": "我會說一點泰文。"
+      }
     },
     {
       "id": 1012,
@@ -4020,7 +4794,13 @@
       "category": "greeting",
       "level": 1,
       "audio_url": "",
-      "thai_native": "แล้วเจอกันใหม่ครับ"
+      "thai_native": "แล้วเจอกันใหม่ครับ",
+      "female": {
+        "thai": "แล้ว เจอ กัน ใหม่ ค่ะ",
+        "thai_native": "แล้วเจอกันใหม่ค่ะ",
+        "romanization": "laeo choe kan mai khâ",
+        "chinese": "下次見。"
+      }
     },
     {
       "id": 1013,
@@ -4030,7 +4810,13 @@
       "category": "restaurant",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ขอดูเมนูหน่อยครับ"
+      "thai_native": "ขอดูเมนูหน่อยครับ",
+      "female": {
+        "thai": "ขอ ดู เมนู หน่อย ค่ะ",
+        "thai_native": "ขอดูเมนูหน่อยค่ะ",
+        "romanization": "kho du menu noi khâ",
+        "chinese": "可以給我看菜單嗎？"
+      }
     },
     {
       "id": 1014,
@@ -4040,7 +4826,13 @@
       "category": "restaurant",
       "level": 1,
       "audio_url": "",
-      "thai_native": "มีเมนูภาษาอังกฤษไหมครับ"
+      "thai_native": "มีเมนูภาษาอังกฤษไหมครับ",
+      "female": {
+        "thai": "มี เมนู ภาษา อังกฤษ ไหม คะ",
+        "thai_native": "มีเมนูภาษาอังกฤษไหมคะ",
+        "romanization": "mi menu phasa angkrit mai khá",
+        "chinese": "有英文菜單嗎？"
+      }
     },
     {
       "id": 1015,
@@ -4050,7 +4842,13 @@
       "category": "restaurant",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ขอข้าวผัดหนึ่งจานครับ"
+      "thai_native": "ขอข้าวผัดหนึ่งจานครับ",
+      "female": {
+        "thai": "ขอ ข้าวผัด หนึ่ง จาน ค่ะ",
+        "thai_native": "ขอข้าวผัดหนึ่งจานค่ะ",
+        "romanization": "kho khao phat nueng chan khâ",
+        "chinese": "我要一盤炒飯。"
+      }
     },
     {
       "id": 1016,
@@ -4060,7 +4858,13 @@
       "category": "restaurant",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ขอผัดไทยไม่เผ็ดครับ"
+      "thai_native": "ขอผัดไทยไม่เผ็ดครับ",
+      "female": {
+        "thai": "ขอ ผัดไทย ไม่ เผ็ด ค่ะ",
+        "thai_native": "ขอผัดไทยไม่เผ็ดค่ะ",
+        "romanization": "kho phat thai mai phet khâ",
+        "chinese": "我要不辣的泰式炒河粉。"
+      }
     },
     {
       "id": 1017,
@@ -4070,7 +4874,13 @@
       "category": "restaurant",
       "level": 1,
       "audio_url": "",
-      "thai_native": "เอาอันนี้ครับ"
+      "thai_native": "เอาอันนี้ครับ",
+      "female": {
+        "thai": "เอา อัน นี้ ค่ะ",
+        "thai_native": "เอาอันนี้ค่ะ",
+        "romanization": "ao an ni khâ",
+        "chinese": "我要這個。"
+      }
     },
     {
       "id": 1018,
@@ -4080,7 +4890,13 @@
       "category": "restaurant",
       "level": 1,
       "audio_url": "",
-      "thai_native": "เอาอันนั้นครับ"
+      "thai_native": "เอาอันนั้นครับ",
+      "female": {
+        "thai": "เอา อัน นั้น ค่ะ",
+        "thai_native": "เอาอันนั้นค่ะ",
+        "romanization": "ao an nan khâ",
+        "chinese": "我要那個。"
+      }
     },
     {
       "id": 1019,
@@ -4090,7 +4906,13 @@
       "category": "restaurant",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ไม่ใส่พริกนะครับ"
+      "thai_native": "ไม่ใส่พริกนะครับ",
+      "female": {
+        "thai": "ไม่ ใส่ พริก นะ คะ",
+        "thai_native": "ไม่ใส่พริกนะคะ",
+        "romanization": "mai sai phrik na khá",
+        "chinese": "請不要放辣椒。"
+      }
     },
     {
       "id": 1020,
@@ -4100,7 +4922,13 @@
       "category": "restaurant",
       "level": 1,
       "audio_url": "",
-      "thai_native": "หวานน้อยหน่อยครับ"
+      "thai_native": "หวานน้อยหน่อยครับ",
+      "female": {
+        "thai": "หวาน น้อย หน่อย ค่ะ",
+        "thai_native": "หวานน้อยหน่อยค่ะ",
+        "romanization": "wan noi noi khâ",
+        "chinese": "請少甜一點。"
+      }
     },
     {
       "id": 1021,
@@ -4110,7 +4938,13 @@
       "category": "restaurant",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ขอน้ำเปล่าหนึ่งขวดครับ"
+      "thai_native": "ขอน้ำเปล่าหนึ่งขวดครับ",
+      "female": {
+        "thai": "ขอ น้ำเปล่า หนึ่ง ขวด ค่ะ",
+        "thai_native": "ขอน้ำเปล่าหนึ่งขวดค่ะ",
+        "romanization": "kho nam plao nueng khuat khâ",
+        "chinese": "我要一瓶水。"
+      }
     },
     {
       "id": 1022,
@@ -4120,7 +4954,13 @@
       "category": "restaurant",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ขอน้ำแข็งเพิ่มได้ไหมครับ"
+      "thai_native": "ขอน้ำแข็งเพิ่มได้ไหมครับ",
+      "female": {
+        "thai": "ขอ น้ำแข็ง เพิ่ม ได้ ไหม คะ",
+        "thai_native": "ขอน้ำแข็งเพิ่มได้ไหมคะ",
+        "romanization": "kho nam khaeng phoem dai mai khá",
+        "chinese": "可以再加一些冰嗎？"
+      }
     },
     {
       "id": 1023,
@@ -4130,7 +4970,13 @@
       "category": "restaurant",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ผมแพ้กุ้งครับ"
+      "thai_native": "ผมแพ้กุ้งครับ",
+      "female": {
+        "thai": "ฉัน แพ้ กุ้ง ค่ะ",
+        "thai_native": "ฉันแพ้กุ้งค่ะ",
+        "romanization": "chan phae kung khâ",
+        "chinese": "我對蝦過敏。"
+      }
     },
     {
       "id": 1024,
@@ -4140,7 +4986,13 @@
       "category": "restaurant",
       "level": 1,
       "audio_url": "",
-      "thai_native": "มีอาหารมังสวิรัติไหมครับ"
+      "thai_native": "มีอาหารมังสวิรัติไหมครับ",
+      "female": {
+        "thai": "มี อาหาร มังสวิรัติ ไหม คะ",
+        "thai_native": "มีอาหารมังสวิรัติไหมคะ",
+        "romanization": "mi ahan mangsawirat mai khá",
+        "chinese": "有素食嗎？"
+      }
     },
     {
       "id": 1025,
@@ -4150,7 +5002,13 @@
       "category": "restaurant",
       "level": 1,
       "audio_url": "",
-      "thai_native": "จานนี้เผ็ดไหมครับ"
+      "thai_native": "จานนี้เผ็ดไหมครับ",
+      "female": {
+        "thai": "จาน นี้ เผ็ด ไหม คะ",
+        "thai_native": "จานนี้เผ็ดไหมคะ",
+        "romanization": "chan ni phet mai khá",
+        "chinese": "這道菜辣嗎？"
+      }
     },
     {
       "id": 1026,
@@ -4160,7 +5018,13 @@
       "category": "restaurant",
       "level": 1,
       "audio_url": "",
-      "thai_native": "อร่อยมากครับ"
+      "thai_native": "อร่อยมากครับ",
+      "female": {
+        "thai": "อร่อย มาก ค่ะ",
+        "thai_native": "อร่อยมากค่ะ",
+        "romanization": "aroi mak khâ",
+        "chinese": "非常好吃。"
+      }
     },
     {
       "id": 1027,
@@ -4170,7 +5034,13 @@
       "category": "restaurant",
       "level": 1,
       "audio_url": "",
-      "thai_native": "เช็กบิลด้วยครับ"
+      "thai_native": "เช็กบิลด้วยครับ",
+      "female": {
+        "thai": "เช็ก บิล ด้วย ค่ะ",
+        "thai_native": "เช็กบิลด้วยค่ะ",
+        "romanization": "chek bin duai khâ",
+        "chinese": "麻煩買單。"
+      }
     },
     {
       "id": 1028,
@@ -4180,7 +5050,13 @@
       "category": "restaurant",
       "level": 2,
       "audio_url": "",
-      "thai_native": "แยกบิลได้ไหมครับ"
+      "thai_native": "แยกบิลได้ไหมครับ",
+      "female": {
+        "thai": "แยก บิล ได้ ไหม คะ",
+        "thai_native": "แยกบิลได้ไหมคะ",
+        "romanization": "yaek bin dai mai khá",
+        "chinese": "可以分開結帳嗎？"
+      }
     },
     {
       "id": 1029,
@@ -4190,7 +5066,13 @@
       "category": "hotel",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ผมจองห้องไว้แล้วครับ"
+      "thai_native": "ผมจองห้องไว้แล้วครับ",
+      "female": {
+        "thai": "ฉัน จอง ห้อง ไว้ แล้ว ค่ะ",
+        "thai_native": "ฉันจองห้องไว้แล้วค่ะ",
+        "romanization": "chan chong hong wai laeo khâ",
+        "chinese": "我已經訂房了。"
+      }
     },
     {
       "id": 1030,
@@ -4200,7 +5082,13 @@
       "category": "hotel",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ผมต้องการเช็กอินครับ"
+      "thai_native": "ผมต้องการเช็กอินครับ",
+      "female": {
+        "thai": "ฉัน ต้องการ เช็กอิน ค่ะ",
+        "thai_native": "ฉันต้องการเช็กอินค่ะ",
+        "romanization": "chan tongkan chek in khâ",
+        "chinese": "我要辦理入住。"
+      }
     },
     {
       "id": 1031,
@@ -4210,7 +5098,13 @@
       "category": "hotel",
       "level": 2,
       "audio_url": "",
-      "thai_native": "ขอดูหนังสือเดินทางได้ไหมครับ"
+      "thai_native": "ขอดูหนังสือเดินทางได้ไหมครับ",
+      "female": {
+        "thai": "ขอ ดู หนังสือเดินทาง ได้ ไหม คะ",
+        "thai_native": "ขอดูหนังสือเดินทางได้ไหมคะ",
+        "romanization": "kho du nangsue doen thang dai mai khá",
+        "chinese": "可以看一下護照嗎？"
+      }
     },
     {
       "id": 1032,
@@ -4220,7 +5114,13 @@
       "category": "hotel",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ห้องของผมอยู่ชั้นไหนครับ"
+      "thai_native": "ห้องของผมอยู่ชั้นไหนครับ",
+      "female": {
+        "thai": "ห้อง ของ ฉัน อยู่ ชั้น ไหน คะ",
+        "thai_native": "ห้องของฉันอยู่ชั้นไหนคะ",
+        "romanization": "hong khong chan yu chan nai khá",
+        "chinese": "我的房間在幾樓？"
+      }
     },
     {
       "id": 1033,
@@ -4230,7 +5130,13 @@
       "category": "hotel",
       "level": 1,
       "audio_url": "",
-      "thai_native": "อาหารเช้าเริ่มกี่โมงครับ"
+      "thai_native": "อาหารเช้าเริ่มกี่โมงครับ",
+      "female": {
+        "thai": "อาหารเช้า เริ่ม กี่ โมง คะ",
+        "thai_native": "อาหารเช้าเริ่มกี่โมงคะ",
+        "romanization": "ahan chao roem ki mong khá",
+        "chinese": "早餐幾點開始？"
+      }
     },
     {
       "id": 1034,
@@ -4240,7 +5146,13 @@
       "category": "hotel",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ไวไฟใช้รหัสอะไรครับ"
+      "thai_native": "ไวไฟใช้รหัสอะไรครับ",
+      "female": {
+        "thai": "ไวไฟ ใช้ รหัส อะไร คะ",
+        "thai_native": "ไวไฟใช้รหัสอะไรคะ",
+        "romanization": "wifi chai rahat arai khá",
+        "chinese": "Wi‑Fi 密碼是什麼？"
+      }
     },
     {
       "id": 1035,
@@ -4250,7 +5162,13 @@
       "category": "hotel",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ห้องน้ำอยู่ที่ไหนครับ"
+      "thai_native": "ห้องน้ำอยู่ที่ไหนครับ",
+      "female": {
+        "thai": "ห้องน้ำ อยู่ ที่ไหน คะ",
+        "thai_native": "ห้องน้ำอยู่ที่ไหนคะ",
+        "romanization": "hong nam yu thi nai khá",
+        "chinese": "洗手間在哪裡？"
+      }
     },
     {
       "id": 1036,
@@ -4260,7 +5178,13 @@
       "category": "hotel",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ขอผ้าเช็ดตัวเพิ่มได้ไหมครับ"
+      "thai_native": "ขอผ้าเช็ดตัวเพิ่มได้ไหมครับ",
+      "female": {
+        "thai": "ขอ ผ้าเช็ดตัว เพิ่ม ได้ ไหม คะ",
+        "thai_native": "ขอผ้าเช็ดตัวเพิ่มได้ไหมคะ",
+        "romanization": "kho pha chet tua phoem dai mai khá",
+        "chinese": "可以多給我毛巾嗎？"
+      }
     },
     {
       "id": 1037,
@@ -4270,7 +5194,13 @@
       "category": "hotel",
       "level": 2,
       "audio_url": "",
-      "thai_native": "แอร์ในห้องไม่เย็นครับ"
+      "thai_native": "แอร์ในห้องไม่เย็นครับ",
+      "female": {
+        "thai": "แอร์ ใน ห้อง ไม่ เย็น ค่ะ",
+        "thai_native": "แอร์ในห้องไม่เย็นค่ะ",
+        "romanization": "ae nai hong mai yen khâ",
+        "chinese": "房間冷氣不冷。"
+      }
     },
     {
       "id": 1038,
@@ -4280,7 +5210,13 @@
       "category": "hotel",
       "level": 2,
       "audio_url": "",
-      "thai_native": "น้ำอุ่นไม่ทำงานครับ"
+      "thai_native": "น้ำอุ่นไม่ทำงานครับ",
+      "female": {
+        "thai": "น้ำ อุ่น ไม่ ทำงาน ค่ะ",
+        "thai_native": "น้ำอุ่นไม่ทำงานค่ะ",
+        "romanization": "nam un mai tham ngan khâ",
+        "chinese": "熱水不能用。"
+      }
     },
     {
       "id": 1039,
@@ -4290,7 +5226,13 @@
       "category": "hotel",
       "level": 2,
       "audio_url": "",
-      "thai_native": "ช่วยทำความสะอาดห้องได้ไหมครับ"
+      "thai_native": "ช่วยทำความสะอาดห้องได้ไหมครับ",
+      "female": {
+        "thai": "ช่วย ทำความสะอาด ห้อง ได้ ไหม คะ",
+        "thai_native": "ช่วยทำความสะอาดห้องได้ไหมคะ",
+        "romanization": "chuai tham khwam sa-at hong dai mai khá",
+        "chinese": "可以幫我打掃房間嗎？"
+      }
     },
     {
       "id": 1040,
@@ -4300,7 +5242,13 @@
       "category": "hotel",
       "level": 2,
       "audio_url": "",
-      "thai_native": "ขอเช็กเอาต์สายได้ไหมครับ"
+      "thai_native": "ขอเช็กเอาต์สายได้ไหมครับ",
+      "female": {
+        "thai": "ขอ เช็กเอาต์ สาย ได้ ไหม คะ",
+        "thai_native": "ขอเช็กเอาต์สายได้ไหมคะ",
+        "romanization": "kho chek ao sai dai mai khá",
+        "chinese": "可以晚一點退房嗎？"
+      }
     },
     {
       "id": 1041,
@@ -4310,7 +5258,13 @@
       "category": "hotel",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ฝากกระเป๋าไว้ที่นี่ได้ไหมครับ"
+      "thai_native": "ฝากกระเป๋าไว้ที่นี่ได้ไหมครับ",
+      "female": {
+        "thai": "ฝาก กระเป๋า ไว้ ที่ นี่ ได้ ไหม คะ",
+        "thai_native": "ฝากกระเป๋าไว้ที่นี่ได้ไหมคะ",
+        "romanization": "fak krapao wai thi ni dai mai khá",
+        "chinese": "可以把行李寄放在這裡嗎？"
+      }
     },
     {
       "id": 1042,
@@ -4320,7 +5274,13 @@
       "category": "hotel",
       "level": 1,
       "audio_url": "",
-      "thai_native": "เช็กเอาต์กี่โมงครับ"
+      "thai_native": "เช็กเอาต์กี่โมงครับ",
+      "female": {
+        "thai": "เช็กเอาต์ กี่ โมง คะ",
+        "thai_native": "เช็กเอาต์กี่โมงคะ",
+        "romanization": "chek ao ki mong khá",
+        "chinese": "幾點退房？"
+      }
     },
     {
       "id": 1043,
@@ -4330,7 +5290,13 @@
       "category": "taxi",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ไปสนามบินครับ"
+      "thai_native": "ไปสนามบินครับ",
+      "female": {
+        "thai": "ไป สนามบิน ค่ะ",
+        "thai_native": "ไปสนามบินค่ะ",
+        "romanization": "pai sanam bin khâ",
+        "chinese": "去機場。"
+      }
     },
     {
       "id": 1044,
@@ -4340,7 +5306,13 @@
       "category": "taxi",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ไปสถานีรถไฟครับ"
+      "thai_native": "ไปสถานีรถไฟครับ",
+      "female": {
+        "thai": "ไป สถานี รถไฟ ค่ะ",
+        "thai_native": "ไปสถานีรถไฟค่ะ",
+        "romanization": "pai sathani rotfai khâ",
+        "chinese": "去火車站。"
+      }
     },
     {
       "id": 1045,
@@ -4350,7 +5322,13 @@
       "category": "taxi",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ไปที่นี่ได้ไหมครับ"
+      "thai_native": "ไปที่นี่ได้ไหมครับ",
+      "female": {
+        "thai": "ไป ที่ นี่ ได้ ไหม คะ",
+        "thai_native": "ไปที่นี่ได้ไหมคะ",
+        "romanization": "pai thi ni dai mai khá",
+        "chinese": "可以去這裡嗎？"
+      }
     },
     {
       "id": 1046,
@@ -4360,7 +5338,13 @@
       "category": "taxi",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ช่วยเปิดมิเตอร์ด้วยครับ"
+      "thai_native": "ช่วยเปิดมิเตอร์ด้วยครับ",
+      "female": {
+        "thai": "ช่วย เปิด มิเตอร์ ด้วย ค่ะ",
+        "thai_native": "ช่วยเปิดมิเตอร์ด้วยค่ะ",
+        "romanization": "chuai poet miter duai khâ",
+        "chinese": "請跳表。"
+      }
     },
     {
       "id": 1047,
@@ -4370,7 +5354,13 @@
       "category": "taxi",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ค่าโดยสารประมาณเท่าไรครับ"
+      "thai_native": "ค่าโดยสารประมาณเท่าไรครับ",
+      "female": {
+        "thai": "ค่าโดยสาร ประมาณ เท่าไร คะ",
+        "thai_native": "ค่าโดยสารประมาณเท่าไรคะ",
+        "romanization": "kha doisan praman thao rai khá",
+        "chinese": "車資大約多少？"
+      }
     },
     {
       "id": 1048,
@@ -4380,7 +5370,13 @@
       "category": "taxi",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ใช้เวลาประมาณกี่นาทีครับ"
+      "thai_native": "ใช้เวลาประมาณกี่นาทีครับ",
+      "female": {
+        "thai": "ใช้ เวลา ประมาณ กี่ นาที คะ",
+        "thai_native": "ใช้เวลาประมาณกี่นาทีคะ",
+        "romanization": "chai wela praman ki nathi khá",
+        "chinese": "大約要幾分鐘？"
+      }
     },
     {
       "id": 1049,
@@ -4390,7 +5386,13 @@
       "category": "taxi",
       "level": 2,
       "audio_url": "",
-      "thai_native": "กรุณาไปทางด่วนครับ"
+      "thai_native": "กรุณาไปทางด่วนครับ",
+      "female": {
+        "thai": "กรุณา ไป ทางด่วน ค่ะ",
+        "thai_native": "กรุณาไปทางด่วนค่ะ",
+        "romanization": "karuna pai thang duan khâ",
+        "chinese": "請走高速公路。"
+      }
     },
     {
       "id": 1050,
@@ -4400,7 +5402,13 @@
       "category": "taxi",
       "level": 2,
       "audio_url": "",
-      "thai_native": "ไม่ต้องไปทางด่วนครับ"
+      "thai_native": "ไม่ต้องไปทางด่วนครับ",
+      "female": {
+        "thai": "ไม่ ต้อง ไป ทางด่วน ค่ะ",
+        "thai_native": "ไม่ต้องไปทางด่วนค่ะ",
+        "romanization": "mai tong pai thang duan khâ",
+        "chinese": "不用走高速公路。"
+      }
     },
     {
       "id": 1051,
@@ -4410,7 +5418,13 @@
       "category": "taxi",
       "level": 1,
       "audio_url": "",
-      "thai_native": "จอดตรงนี้ได้ไหมครับ"
+      "thai_native": "จอดตรงนี้ได้ไหมครับ",
+      "female": {
+        "thai": "จอด ตรง นี้ ได้ ไหม คะ",
+        "thai_native": "จอดตรงนี้ได้ไหมคะ",
+        "romanization": "chot trong ni dai mai khá",
+        "chinese": "可以停在這裡嗎？"
+      }
     },
     {
       "id": 1052,
@@ -4420,7 +5434,13 @@
       "category": "taxi",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ตรงไปแล้วเลี้ยวซ้ายครับ"
+      "thai_native": "ตรงไปแล้วเลี้ยวซ้ายครับ",
+      "female": {
+        "thai": "ตรง ไป แล้ว เลี้ยว ซ้าย ค่ะ",
+        "thai_native": "ตรงไปแล้วเลี้ยวซ้ายค่ะ",
+        "romanization": "trong pai laeo liao sai khâ",
+        "chinese": "直走後左轉。"
+      }
     },
     {
       "id": 1053,
@@ -4430,7 +5450,13 @@
       "category": "taxi",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ตรงไปแล้วเลี้ยวขวาครับ"
+      "thai_native": "ตรงไปแล้วเลี้ยวขวาครับ",
+      "female": {
+        "thai": "ตรง ไป แล้ว เลี้ยว ขวา ค่ะ",
+        "thai_native": "ตรงไปแล้วเลี้ยวขวาค่ะ",
+        "romanization": "trong pai laeo liao khwa khâ",
+        "chinese": "直走後右轉。"
+      }
     },
     {
       "id": 1054,
@@ -4440,7 +5466,13 @@
       "category": "taxi",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ถึงแล้วช่วยบอกผมด้วยครับ"
+      "thai_native": "ถึงแล้วช่วยบอกผมด้วยครับ",
+      "female": {
+        "thai": "ถึง แล้ว ช่วย บอก ฉัน ด้วย ค่ะ",
+        "thai_native": "ถึงแล้วช่วยบอกฉันด้วยค่ะ",
+        "romanization": "thueng laeo chuai bok chan duai khâ",
+        "chinese": "到了請告訴我。"
+      }
     },
     {
       "id": 1055,
@@ -4450,7 +5482,13 @@
       "category": "shopping",
       "level": 1,
       "audio_url": "",
-      "thai_native": "อันนี้ราคาเท่าไรครับ"
+      "thai_native": "อันนี้ราคาเท่าไรครับ",
+      "female": {
+        "thai": "อัน นี้ ราคา เท่าไร คะ",
+        "thai_native": "อันนี้ราคาเท่าไรคะ",
+        "romanization": "an ni rakha thao rai khá",
+        "chinese": "這個多少錢？"
+      }
     },
     {
       "id": 1056,
@@ -4460,7 +5498,13 @@
       "category": "shopping",
       "level": 1,
       "audio_url": "",
-      "thai_native": "แพงไปหน่อยครับ"
+      "thai_native": "แพงไปหน่อยครับ",
+      "female": {
+        "thai": "แพง ไป หน่อย ค่ะ",
+        "thai_native": "แพงไปหน่อยค่ะ",
+        "romanization": "phaeng pai noi khâ",
+        "chinese": "有點太貴了。"
+      }
     },
     {
       "id": 1057,
@@ -4470,7 +5514,13 @@
       "category": "shopping",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ลดราคาได้ไหมครับ"
+      "thai_native": "ลดราคาได้ไหมครับ",
+      "female": {
+        "thai": "ลด ราคา ได้ ไหม คะ",
+        "thai_native": "ลดราคาได้ไหมคะ",
+        "romanization": "lot rakha dai mai khá",
+        "chinese": "可以便宜一點嗎？"
+      }
     },
     {
       "id": 1058,
@@ -4480,7 +5530,13 @@
       "category": "shopping",
       "level": 1,
       "audio_url": "",
-      "thai_native": "มีส่วนลดไหมครับ"
+      "thai_native": "มีส่วนลดไหมครับ",
+      "female": {
+        "thai": "มี ส่วนลด ไหม คะ",
+        "thai_native": "มีส่วนลดไหมคะ",
+        "romanization": "mi suan lot mai khá",
+        "chinese": "有折扣嗎？"
+      }
     },
     {
       "id": 1059,
@@ -4490,7 +5546,13 @@
       "category": "shopping",
       "level": 1,
       "audio_url": "",
-      "thai_native": "มีสีอื่นไหมครับ"
+      "thai_native": "มีสีอื่นไหมครับ",
+      "female": {
+        "thai": "มี สี อื่น ไหม คะ",
+        "thai_native": "มีสีอื่นไหมคะ",
+        "romanization": "mi si uen mai khá",
+        "chinese": "有其他顏色嗎？"
+      }
     },
     {
       "id": 1060,
@@ -4500,7 +5562,13 @@
       "category": "shopping",
       "level": 1,
       "audio_url": "",
-      "thai_native": "มีไซซ์ใหญ่กว่านี้ไหมครับ"
+      "thai_native": "มีไซซ์ใหญ่กว่านี้ไหมครับ",
+      "female": {
+        "thai": "มี ไซซ์ ใหญ่ กว่า นี้ ไหม คะ",
+        "thai_native": "มีไซซ์ใหญ่กว่านี้ไหมคะ",
+        "romanization": "mi sai yai kwa ni mai khá",
+        "chinese": "有更大的尺寸嗎？"
+      }
     },
     {
       "id": 1061,
@@ -4510,7 +5578,13 @@
       "category": "shopping",
       "level": 1,
       "audio_url": "",
-      "thai_native": "มีไซซ์เล็กกว่านี้ไหมครับ"
+      "thai_native": "มีไซซ์เล็กกว่านี้ไหมครับ",
+      "female": {
+        "thai": "มี ไซซ์ เล็ก กว่า นี้ ไหม คะ",
+        "thai_native": "มีไซซ์เล็กกว่านี้ไหมคะ",
+        "romanization": "mi sai lek kwa ni mai khá",
+        "chinese": "有更小的尺寸嗎？"
+      }
     },
     {
       "id": 1062,
@@ -4520,7 +5594,13 @@
       "category": "shopping",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ขอลองได้ไหมครับ"
+      "thai_native": "ขอลองได้ไหมครับ",
+      "female": {
+        "thai": "ขอ ลอง ได้ ไหม คะ",
+        "thai_native": "ขอลองได้ไหมคะ",
+        "romanization": "kho long dai mai khá",
+        "chinese": "可以試穿／試用嗎？"
+      }
     },
     {
       "id": 1063,
@@ -4530,7 +5610,13 @@
       "category": "shopping",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ห้องลองอยู่ที่ไหนครับ"
+      "thai_native": "ห้องลองอยู่ที่ไหนครับ",
+      "female": {
+        "thai": "ห้อง ลอง อยู่ ที่ไหน คะ",
+        "thai_native": "ห้องลองอยู่ที่ไหนคะ",
+        "romanization": "hong long yu thi nai khá",
+        "chinese": "試衣間在哪裡？"
+      }
     },
     {
       "id": 1064,
@@ -4540,7 +5626,13 @@
       "category": "shopping",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ผมเอาอันนี้ครับ"
+      "thai_native": "ผมเอาอันนี้ครับ",
+      "female": {
+        "thai": "ฉัน เอา อัน นี้ ค่ะ",
+        "thai_native": "ฉันเอาอันนี้ค่ะ",
+        "romanization": "chan ao an ni khâ",
+        "chinese": "我要這個。"
+      }
     },
     {
       "id": 1065,
@@ -4550,7 +5642,13 @@
       "category": "shopping",
       "level": 1,
       "audio_url": "",
-      "thai_native": "จ่ายเงินสดได้ไหมครับ"
+      "thai_native": "จ่ายเงินสดได้ไหมครับ",
+      "female": {
+        "thai": "จ่าย เงินสด ได้ ไหม คะ",
+        "thai_native": "จ่ายเงินสดได้ไหมคะ",
+        "romanization": "chai ngoen sot dai mai khá",
+        "chinese": "可以付現嗎？"
+      }
     },
     {
       "id": 1066,
@@ -4560,7 +5658,13 @@
       "category": "shopping",
       "level": 1,
       "audio_url": "",
-      "thai_native": "รับบัตรเครดิตไหมครับ"
+      "thai_native": "รับบัตรเครดิตไหมครับ",
+      "female": {
+        "thai": "รับ บัตรเครดิต ไหม คะ",
+        "thai_native": "รับบัตรเครดิตไหมคะ",
+        "romanization": "rap bat khredit mai khá",
+        "chinese": "可以刷信用卡嗎？"
+      }
     },
     {
       "id": 1067,
@@ -4570,7 +5674,13 @@
       "category": "shopping",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ขอใบเสร็จด้วยครับ"
+      "thai_native": "ขอใบเสร็จด้วยครับ",
+      "female": {
+        "thai": "ขอ ใบเสร็จ ด้วย ค่ะ",
+        "thai_native": "ขอใบเสร็จด้วยค่ะ",
+        "romanization": "kho bai set duai khâ",
+        "chinese": "請給我收據。"
+      }
     },
     {
       "id": 1068,
@@ -4580,7 +5690,13 @@
       "category": "shopping",
       "level": 2,
       "audio_url": "",
-      "thai_native": "เปลี่ยนหรือคืนสินค้าได้ไหมครับ"
+      "thai_native": "เปลี่ยนหรือคืนสินค้าได้ไหมครับ",
+      "female": {
+        "thai": "เปลี่ยน หรือ คืน สินค้า ได้ ไหม คะ",
+        "thai_native": "เปลี่ยนหรือคืนสินค้าได้ไหมคะ",
+        "romanization": "plian rue khuen sinkha dai mai khá",
+        "chinese": "可以換貨或退貨嗎？"
+      }
     },
     {
       "id": 1069,
@@ -4590,7 +5706,13 @@
       "category": "airport",
       "level": 1,
       "audio_url": "",
-      "thai_native": "เคาน์เตอร์เช็กอินอยู่ที่ไหนครับ"
+      "thai_native": "เคาน์เตอร์เช็กอินอยู่ที่ไหนครับ",
+      "female": {
+        "thai": "เคาน์เตอร์ เช็กอิน อยู่ ที่ไหน คะ",
+        "thai_native": "เคาน์เตอร์เช็กอินอยู่ที่ไหนคะ",
+        "romanization": "khaotoe chek in yu thi nai khá",
+        "chinese": "報到櫃檯在哪裡？"
+      }
     },
     {
       "id": 1070,
@@ -4600,7 +5722,13 @@
       "category": "airport",
       "level": 1,
       "audio_url": "",
-      "thai_native": "เที่ยวบินนี้ออกกี่โมงครับ"
+      "thai_native": "เที่ยวบินนี้ออกกี่โมงครับ",
+      "female": {
+        "thai": "เที่ยวบิน นี้ ออก กี่ โมง คะ",
+        "thai_native": "เที่ยวบินนี้ออกกี่โมงคะ",
+        "romanization": "thiao bin ni ok ki mong khá",
+        "chinese": "這班飛機幾點起飛？"
+      }
     },
     {
       "id": 1071,
@@ -4610,7 +5738,13 @@
       "category": "airport",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ประตูขึ้นเครื่องอยู่ที่ไหนครับ"
+      "thai_native": "ประตูขึ้นเครื่องอยู่ที่ไหนครับ",
+      "female": {
+        "thai": "ประตู ขึ้น เครื่อง อยู่ ที่ไหน คะ",
+        "thai_native": "ประตูขึ้นเครื่องอยู่ที่ไหนคะ",
+        "romanization": "pratu khuen khrueang yu thi nai khá",
+        "chinese": "登機門在哪裡？"
+      }
     },
     {
       "id": 1072,
@@ -4620,7 +5754,13 @@
       "category": "airport",
       "level": 2,
       "audio_url": "",
-      "thai_native": "เที่ยวบินล่าช้าไหมครับ"
+      "thai_native": "เที่ยวบินล่าช้าไหมครับ",
+      "female": {
+        "thai": "เที่ยวบิน ล่าช้า ไหม คะ",
+        "thai_native": "เที่ยวบินล่าช้าไหมคะ",
+        "romanization": "thiao bin lacha mai khá",
+        "chinese": "班機延誤了嗎？"
+      }
     },
     {
       "id": 1073,
@@ -4630,7 +5770,13 @@
       "category": "airport",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ผมมีกระเป๋าหนึ่งใบครับ"
+      "thai_native": "ผมมีกระเป๋าหนึ่งใบครับ",
+      "female": {
+        "thai": "ฉัน มี กระเป๋า หนึ่ง ใบ ค่ะ",
+        "thai_native": "ฉันมีกระเป๋าหนึ่งใบค่ะ",
+        "romanization": "chan mi krapao nueng bai khâ",
+        "chinese": "我有一件行李。"
+      }
     },
     {
       "id": 1074,
@@ -4640,7 +5786,13 @@
       "category": "airport",
       "level": 2,
       "audio_url": "",
-      "thai_native": "กระเป๋าใบนี้โหลดได้ไหมครับ"
+      "thai_native": "กระเป๋าใบนี้โหลดได้ไหมครับ",
+      "female": {
+        "thai": "กระเป๋า ใบ นี้ โหลด ได้ ไหม คะ",
+        "thai_native": "กระเป๋าใบนี้โหลดได้ไหมคะ",
+        "romanization": "krapao bai ni lot dai mai khá",
+        "chinese": "這件行李可以托運嗎？"
+      }
     },
     {
       "id": 1075,
@@ -4650,7 +5802,13 @@
       "category": "airport",
       "level": 1,
       "audio_url": "",
-      "thai_native": "กระเป๋าหนักเกินไหมครับ"
+      "thai_native": "กระเป๋าหนักเกินไหมครับ",
+      "female": {
+        "thai": "กระเป๋า หนัก เกิน ไหม คะ",
+        "thai_native": "กระเป๋าหนักเกินไหมคะ",
+        "romanization": "krapao nak koen mai khá",
+        "chinese": "行李有超重嗎？"
+      }
     },
     {
       "id": 1076,
@@ -4660,7 +5818,13 @@
       "category": "airport",
       "level": 2,
       "audio_url": "",
-      "thai_native": "จุดตรวจคนเข้าเมืองอยู่ที่ไหนครับ"
+      "thai_native": "จุดตรวจคนเข้าเมืองอยู่ที่ไหนครับ",
+      "female": {
+        "thai": "จุด ตรวจ คน เข้า เมือง อยู่ ที่ไหน คะ",
+        "thai_native": "จุดตรวจคนเข้าเมืองอยู่ที่ไหนคะ",
+        "romanization": "chut truat khon khao mueang yu thi nai khá",
+        "chinese": "入境審查在哪裡？"
+      }
     },
     {
       "id": 1077,
@@ -4670,7 +5834,13 @@
       "category": "airport",
       "level": 2,
       "audio_url": "",
-      "thai_native": "รับกระเป๋าที่สายพานไหนครับ"
+      "thai_native": "รับกระเป๋าที่สายพานไหนครับ",
+      "female": {
+        "thai": "รับ กระเป๋า ที่ สายพาน ไหน คะ",
+        "thai_native": "รับกระเป๋าที่สายพานไหนคะ",
+        "romanization": "rap krapao thi saiphan nai khá",
+        "chinese": "在哪個行李轉盤領行李？"
+      }
     },
     {
       "id": 1078,
@@ -4680,7 +5850,13 @@
       "category": "airport",
       "level": 2,
       "audio_url": "",
-      "thai_native": "กระเป๋าของผมไม่มาครับ"
+      "thai_native": "กระเป๋าของผมไม่มาครับ",
+      "female": {
+        "thai": "กระเป๋า ของ ฉัน ไม่ มา ค่ะ",
+        "thai_native": "กระเป๋าของฉันไม่มาค่ะ",
+        "romanization": "krapao khong chan mai ma khâ",
+        "chinese": "我的行李沒有出來。"
+      }
     },
     {
       "id": 1079,
@@ -4690,7 +5866,13 @@
       "category": "airport",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ทางออกอยู่ที่ไหนครับ"
+      "thai_native": "ทางออกอยู่ที่ไหนครับ",
+      "female": {
+        "thai": "ทางออก อยู่ ที่ไหน คะ",
+        "thai_native": "ทางออกอยู่ที่ไหนคะ",
+        "romanization": "thang ok yu thi nai khá",
+        "chinese": "出口在哪裡？"
+      }
     },
     {
       "id": 1080,
@@ -4700,7 +5882,13 @@
       "category": "airport",
       "level": 1,
       "audio_url": "",
-      "thai_native": "มีรถไปเข้าเมืองไหมครับ"
+      "thai_native": "มีรถไปเข้าเมืองไหมครับ",
+      "female": {
+        "thai": "มี รถ ไป เข้า เมือง ไหม คะ",
+        "thai_native": "มีรถไปเข้าเมืองไหมคะ",
+        "romanization": "mi rot pai khao mueang mai khá",
+        "chinese": "有車進市區嗎？"
+      }
     },
     {
       "id": 1081,
@@ -4710,7 +5898,13 @@
       "category": "dating",
       "level": 1,
       "audio_url": "",
-      "thai_native": "วันนี้ว่างไหมครับ"
+      "thai_native": "วันนี้ว่างไหมครับ",
+      "female": {
+        "thai": "วันนี้ ว่าง ไหม คะ",
+        "thai_native": "วันนี้ว่างไหมคะ",
+        "romanization": "wan ni wang mai khá",
+        "chinese": "今天有空嗎？"
+      }
     },
     {
       "id": 1082,
@@ -4720,7 +5914,13 @@
       "category": "dating",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ไปกินข้าวด้วยกันไหมครับ"
+      "thai_native": "ไปกินข้าวด้วยกันไหมครับ",
+      "female": {
+        "thai": "ไป กิน ข้าว ด้วยกัน ไหม คะ",
+        "thai_native": "ไปกินข้าวด้วยกันไหมคะ",
+        "romanization": "pai kin khao duai kan mai khá",
+        "chinese": "要一起吃飯嗎？"
+      }
     },
     {
       "id": 1083,
@@ -4730,7 +5930,13 @@
       "category": "dating",
       "level": 1,
       "audio_url": "",
-      "thai_native": "อยากไปดูหนังไหมครับ"
+      "thai_native": "อยากไปดูหนังไหมครับ",
+      "female": {
+        "thai": "อยาก ไป ดู หนัง ไหม คะ",
+        "thai_native": "อยากไปดูหนังไหมคะ",
+        "romanization": "yak pai du nang mai khá",
+        "chinese": "想去看電影嗎？"
+      }
     },
     {
       "id": 1084,
@@ -4740,7 +5946,13 @@
       "category": "dating",
       "level": 1,
       "audio_url": "",
-      "thai_native": "คุณชอบอาหารอะไรครับ"
+      "thai_native": "คุณชอบอาหารอะไรครับ",
+      "female": {
+        "thai": "คุณ ชอบ อาหาร อะไร คะ",
+        "thai_native": "คุณชอบอาหารอะไรคะ",
+        "romanization": "khun chop ahan arai khá",
+        "chinese": "你喜歡什麼食物？"
+      }
     },
     {
       "id": 1085,
@@ -4750,7 +5962,13 @@
       "category": "dating",
       "level": 1,
       "audio_url": "",
-      "thai_native": "คุณชอบทำอะไรเวลาว่างครับ"
+      "thai_native": "คุณชอบทำอะไรเวลาว่างครับ",
+      "female": {
+        "thai": "คุณ ชอบ ทำ อะไร เวลา ว่าง คะ",
+        "thai_native": "คุณชอบทำอะไรเวลาว่างคะ",
+        "romanization": "khun chop tham arai wela wang khá",
+        "chinese": "你空閒時喜歡做什麼？"
+      }
     },
     {
       "id": 1086,
@@ -4760,7 +5978,13 @@
       "category": "dating",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ผมชอบคุยกับคุณครับ"
+      "thai_native": "ผมชอบคุยกับคุณครับ",
+      "female": {
+        "thai": "ฉัน ชอบ คุย กับ คุณ ค่ะ",
+        "thai_native": "ฉันชอบคุยกับคุณค่ะ",
+        "romanization": "chan chop khui kap khun khâ",
+        "chinese": "我喜歡和你聊天。"
+      }
     },
     {
       "id": 1087,
@@ -4770,7 +5994,13 @@
       "category": "dating",
       "level": 1,
       "audio_url": "",
-      "thai_native": "วันนี้สนุกมากครับ"
+      "thai_native": "วันนี้สนุกมากครับ",
+      "female": {
+        "thai": "วันนี้ สนุก มาก ค่ะ",
+        "thai_native": "วันนี้สนุกมากค่ะ",
+        "romanization": "wan ni sanuk mak khâ",
+        "chinese": "今天很開心。"
+      }
     },
     {
       "id": 1088,
@@ -4780,7 +6010,13 @@
       "category": "dating",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ขอบคุณสำหรับวันนี้ครับ"
+      "thai_native": "ขอบคุณสำหรับวันนี้ครับ",
+      "female": {
+        "thai": "ขอบคุณ สำหรับ วันนี้ ค่ะ",
+        "thai_native": "ขอบคุณสำหรับวันนี้ค่ะ",
+        "romanization": "khop khun samrap wan ni khâ",
+        "chinese": "謝謝你今天陪我。"
+      }
     },
     {
       "id": 1089,
@@ -4790,7 +6026,13 @@
       "category": "dating",
       "level": 2,
       "audio_url": "",
-      "thai_native": "ถึงบ้านแล้วบอกผมด้วยนะครับ"
+      "thai_native": "ถึงบ้านแล้วบอกผมด้วยนะครับ",
+      "female": {
+        "thai": "ถึง บ้าน แล้ว บอก ฉัน ด้วย นะ คะ",
+        "thai_native": "ถึงบ้านแล้วบอกฉันด้วยนะคะ",
+        "romanization": "thueng ban laeo bok chan duai na khá",
+        "chinese": "到家後跟我說一聲喔。"
+      }
     },
     {
       "id": 1090,
@@ -4800,7 +6042,13 @@
       "category": "dating",
       "level": 1,
       "audio_url": "",
-      "thai_native": "แล้วเจอกันอีกนะครับ"
+      "thai_native": "แล้วเจอกันอีกนะครับ",
+      "female": {
+        "thai": "แล้ว เจอ กัน อีก นะ คะ",
+        "thai_native": "แล้วเจอกันอีกนะคะ",
+        "romanization": "laeo choe kan ik na khá",
+        "chinese": "下次再見喔。"
+      }
     },
     {
       "id": 1091,
@@ -4810,7 +6058,13 @@
       "category": "emergency",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ช่วยด้วยครับ"
+      "thai_native": "ช่วยด้วยครับ",
+      "female": {
+        "thai": "ช่วย ด้วย ค่ะ",
+        "thai_native": "ช่วยด้วยค่ะ",
+        "romanization": "chuai duai khâ",
+        "chinese": "救命；請幫忙！"
+      }
     },
     {
       "id": 1092,
@@ -4820,7 +6074,13 @@
       "category": "emergency",
       "level": 1,
       "audio_url": "",
-      "thai_native": "โทรหาตำรวจให้หน่อยครับ"
+      "thai_native": "โทรหาตำรวจให้หน่อยครับ",
+      "female": {
+        "thai": "โทร หา ตำรวจ ให้ หน่อย ค่ะ",
+        "thai_native": "โทรหาตำรวจให้หน่อยค่ะ",
+        "romanization": "tho ha tamruat hai noi khâ",
+        "chinese": "請幫我報警。"
+      }
     },
     {
       "id": 1093,
@@ -4830,7 +6090,13 @@
       "category": "emergency",
       "level": 1,
       "audio_url": "",
-      "thai_native": "โทรเรียกรถพยาบาลให้หน่อยครับ"
+      "thai_native": "โทรเรียกรถพยาบาลให้หน่อยครับ",
+      "female": {
+        "thai": "โทร เรียก รถพยาบาล ให้ หน่อย ค่ะ",
+        "thai_native": "โทรเรียกรถพยาบาลให้หน่อยค่ะ",
+        "romanization": "tho riak rot phayaban hai noi khâ",
+        "chinese": "請幫我叫救護車。"
+      }
     },
     {
       "id": 1094,
@@ -4840,7 +6106,13 @@
       "category": "emergency",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ผมไม่สบายครับ"
+      "thai_native": "ผมไม่สบายครับ",
+      "female": {
+        "thai": "ฉัน ไม่ สบาย ค่ะ",
+        "thai_native": "ฉันไม่สบายค่ะ",
+        "romanization": "chan mai sabai khâ",
+        "chinese": "我不舒服。"
+      }
     },
     {
       "id": 1095,
@@ -4850,7 +6122,13 @@
       "category": "emergency",
       "level": 1,
       "audio_url": "",
-      "thai_native": "ผมเจ็บตรงนี้ครับ"
+      "thai_native": "ผมเจ็บตรงนี้ครับ",
+      "female": {
+        "thai": "ฉัน เจ็บ ตรง นี้ ค่ะ",
+        "thai_native": "ฉันเจ็บตรงนี้ค่ะ",
+        "romanization": "chan chep trong ni khâ",
+        "chinese": "我這裡痛。"
+      }
     },
     {
       "id": 1096,
@@ -4860,7 +6138,13 @@
       "category": "emergency",
       "level": 2,
       "audio_url": "",
-      "thai_native": "ผมแพ้ยานี้ครับ"
+      "thai_native": "ผมแพ้ยานี้ครับ",
+      "female": {
+        "thai": "ฉัน แพ้ ยา นี้ ค่ะ",
+        "thai_native": "ฉันแพ้ยานี้ค่ะ",
+        "romanization": "chan phae ya ni khâ",
+        "chinese": "我對這個藥過敏。"
+      }
     },
     {
       "id": 1097,
@@ -4870,7 +6154,13 @@
       "category": "emergency",
       "level": 1,
       "audio_url": "",
-      "thai_native": "โรงพยาบาลอยู่ที่ไหนครับ"
+      "thai_native": "โรงพยาบาลอยู่ที่ไหนครับ",
+      "female": {
+        "thai": "โรงพยาบาล อยู่ ที่ไหน คะ",
+        "thai_native": "โรงพยาบาลอยู่ที่ไหนคะ",
+        "romanization": "rongphayaban yu thi nai khá",
+        "chinese": "醫院在哪裡？"
+      }
     },
     {
       "id": 1098,
@@ -4880,7 +6170,13 @@
       "category": "emergency",
       "level": 1,
       "audio_url": "",
-      "thai_native": "กระเป๋าของผมหายครับ"
+      "thai_native": "กระเป๋าของผมหายครับ",
+      "female": {
+        "thai": "กระเป๋า ของ ฉัน หาย ค่ะ",
+        "thai_native": "กระเป๋าของฉันหายค่ะ",
+        "romanization": "krapao khong chan hai khâ",
+        "chinese": "我的包包不見了。"
+      }
     },
     {
       "id": 1099,
@@ -4890,7 +6186,13 @@
       "category": "emergency",
       "level": 1,
       "audio_url": "",
-      "thai_native": "หนังสือเดินทางของผมหายครับ"
+      "thai_native": "หนังสือเดินทางของผมหายครับ",
+      "female": {
+        "thai": "หนังสือเดินทาง ของ ฉัน หาย ค่ะ",
+        "thai_native": "หนังสือเดินทางของฉันหายค่ะ",
+        "romanization": "nangsue doen thang khong chan hai khâ",
+        "chinese": "我的護照不見了。"
+      }
     },
     {
       "id": 1100,
@@ -4900,7 +6202,13 @@
       "category": "emergency",
       "level": 2,
       "audio_url": "",
-      "thai_native": "กรุณาติดต่อสถานทูตให้ผมครับ"
+      "thai_native": "กรุณาติดต่อสถานทูตให้ผมครับ",
+      "female": {
+        "thai": "กรุณา ติดต่อ สถานทูต ให้ ฉัน ค่ะ",
+        "thai_native": "กรุณาติดต่อสถานทูตให้ฉันค่ะ",
+        "romanization": "karuna titto sathanthut hai chan khâ",
+        "chinese": "請幫我聯絡大使館。"
+      }
     }
   ]
 }

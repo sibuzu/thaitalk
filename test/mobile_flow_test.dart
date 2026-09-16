@@ -23,7 +23,7 @@ void main() {
         // Actual glyph widths catch layout problems hidden by test fonts.
         await (FontLoader(
           'NotoSansTC',
-        )..addFont(rootBundle.load('assets/fonts/NotoSansTC.ttf'))).load();
+        )..addFont(rootBundle.load('assets/fonts/NotoSansTC.subset.ttf'))).load();
         await (FontLoader(
           'NotoSerifThai',
         )..addFont(rootBundle.load('assets/fonts/NotoSerifThai.ttf'))).load();

@@ -29,7 +29,7 @@ class SpeechSettingsPanel extends StatelessWidget {
           ),
           const SizedBox(height: 14),
           Tag(
-            configuration.isConfigured ? '語音功能已就緒' : '語音功能尚未設定',
+            configuration.isConfigured ? 'Azure 發音評分已設定' : 'Azure 發音評分尚未設定',
             icon: configuration.isConfigured
                 ? Icons.check_circle_outline_rounded
                 : Icons.info_outline_rounded,
@@ -37,8 +37,8 @@ class SpeechSettingsPanel extends StatelessWidget {
           ),
           const SizedBox(height: 14),
           const Text(
-            '泰語男聲朗讀，支援正常與慢速播放。第一次朗讀與每次發音評分需要網路；'
-            '已快取的同一句朗讀可離線播放。',
+            '卡片提供 Local TTS 與 Azure TTS 播放按鈕。本機朗讀不快取；Azure 朗讀會快取。'
+            'Azure 朗讀與錄音發音評分需要服務設定；本機朗讀需安裝離線泰語語音資料。',
             style: TextStyle(fontSize: 13, color: muted),
           ),
           if (configuration.error != null) ...[

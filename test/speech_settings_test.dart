@@ -106,7 +106,7 @@ void main() {
         home: Scaffold(body: SpeechSettingsPanel(settings: settings)),
       ),
     );
-    expect(find.text('語音功能已就緒'), findsOneWidget);
+    expect(find.text('Azure 發音評分已設定'), findsOneWidget);
     expect(find.byType(TextField), findsNothing);
     expect(find.textContaining('never-display-this-test-key'), findsNothing);
   });

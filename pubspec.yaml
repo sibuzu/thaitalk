@@ -12,9 +12,10 @@ dependencies:
   shared_preferences: ^2.5.5
   supabase_flutter: ^2.12.0
   http: ^1.6.0
+  flutter_tts: ^4.2.5
+  audioplayers: ^6.8.1
   crypto: ^3.0.7
   path_provider: ^2.1.6
-  audioplayers: ^6.8.1
   record: ^6.2.1
 dev_dependencies:
   flutter_test:
@@ -24,11 +25,13 @@ flutter:
   uses-material-design: true
   assets:
     - assets/data/thai_practice_dataset_400.json
-    - assets/brand/
+    - assets/brand/app-icon.png
+    - assets/fonts/OFL-NotoSansTC.txt
+    - assets/fonts/OFL-NotoSerifThai.txt
   fonts:
     - family: NotoSansTC
       fonts:
-        - asset: assets/fonts/NotoSansTC.ttf
+        - asset: assets/fonts/NotoSansTC.subset.ttf
     - family: NotoSerifThai
       fonts:
         - asset: assets/fonts/NotoSerifThai.ttf

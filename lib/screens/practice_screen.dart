@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 
 import '../models/learning_item.dart';
 import '../services/learning_store.dart';
+import '../services/app_settings.dart';
 import '../services/speech_service.dart';
 import '../theme.dart';
 
@@ -60,7 +61,9 @@ class _PracticeScreenState extends State<PracticeScreen>
     WidgetsBinding.instance.addObserver(this);
     // The launcher supplies a random selection and order. Navigation must keep
     // that order, and each card keeps its answer even when revisited.
-    _items = List.of(widget.items);
+    _items = widget.items
+        .map((item) => item.forGender(AppSettings.instance.gender))
+        .toList();
     _pool = List.of(_items);
     if (widget.quiz && _items.isNotEmpty) {
       _loadingChoices = true;
@@ -72,7 +75,12 @@ class _PracticeScreenState extends State<PracticeScreen>
     try {
       final curriculum = await LearningItem.loadCurriculum();
       if (!mounted) return;
-      _pool = [..._items, ...curriculum];
+      _pool = [
+        ..._items,
+        ...curriculum.map(
+          (item) => item.forGender(AppSettings.instance.gender),
+        ),
+      ];
     } catch (_) {
       // A selection containing four meanings can still supply distractors.
     }
@@ -137,7 +145,7 @@ class _PracticeScreenState extends State<PracticeScreen>
   String _message(Object error) =>
       error is SpeechException ? error.message : '語音功能暫時無法使用，請確認麥克風與網路後重試。';
 
-  Future<void> _speak({String? text, bool slow = false}) async {
+  Future<void> _speak({String? text, required TtsProvider provider}) async {
     if (_locked || _finished) return;
     final operation = ++_operation;
     setState(() {
@@ -145,7 +153,7 @@ class _PracticeScreenState extends State<PracticeScreen>
       _error = null;
     });
     try {
-      await _voice.speak(text ?? _item.speechText, slow: slow, male: true);
+      await _voice.speak(text ?? _item.speechText, provider: provider);
     } catch (error) {
       if (mounted && operation == _operation) {
         setState(() => _error = _message(error));
@@ -364,16 +372,6 @@ class _PracticeScreenState extends State<PracticeScreen>
                 style: const TextStyle(color: muted, fontSize: 11),
               ),
             ),
-            if (!widget.quiz && _item.exampleThai != null)
-              IconButton(
-                tooltip: '查看例句',
-                onPressed: _locked ? null : _showExample,
-                icon: const Icon(
-                  Icons.article_outlined,
-                  size: 18,
-                  color: muted,
-                ),
-              ),
             CopyThaiButton(_item.thai),
             ListenableBuilder(
               listenable: widget.store,
@@ -484,18 +482,26 @@ class _PracticeScreenState extends State<PracticeScreen>
     ),
   );
 
-  Widget _speechControls() => Row(
-    mainAxisAlignment: MainAxisAlignment.center,
+  Widget _speechControls() => Wrap(
+    alignment: WrapAlignment.center,
+    crossAxisAlignment: WrapCrossAlignment.center,
     children: [
+      if (!widget.quiz && !_item.isSentence && _item.exampleThai != null)
+        IconButton(
+          tooltip: '查看例句',
+          onPressed: _locked ? null : _showExample,
+          icon: const Icon(Icons.article_outlined),
+        ),
       IconButton(
-        tooltip: '朗讀',
-        onPressed: _locked ? null : () => _speak(),
+        tooltip: 'Local TTS 播放',
+        onPressed: _locked ? null : () => _speak(provider: TtsProvider.local),
         icon: const Icon(Icons.volume_up_outlined),
       ),
       IconButton(
-        tooltip: '慢速朗讀',
-        onPressed: _locked ? null : () => _speak(slow: true),
-        icon: const Icon(Icons.slow_motion_video_rounded),
+        tooltip: 'Azure TTS 播放',
+        onPressed: _locked ? null : () => _speak(provider: TtsProvider.azure),
+        color: orange,
+        icon: const Icon(Icons.volume_up_outlined),
       ),
       const SizedBox(width: 8),
       IconButton.filled(
@@ -705,33 +711,50 @@ class _PracticeScreenState extends State<PracticeScreen>
               ],
             ),
             thai(item.exampleThai!, size: 25),
+            if (item.exampleRomanization != null) ...[
+              const SizedBox(height: 8),
+              Text(
+                item.exampleRomanization!,
+                key: const ValueKey('example-romanization'),
+                style: const TextStyle(color: muted, fontSize: 14, height: 1.5),
+              ),
+            ],
             if (item.exampleChinese != null) ...[
               const SizedBox(height: 12),
               Text(item.exampleChinese!),
             ],
             const SizedBox(height: 12),
-            Center(
-              child: IconButton.filled(
-                tooltip: '朗讀例句',
-                onPressed: playing
-                    ? null
-                    : () async {
-                        updateSheet(() => playing = true);
-                        await _speak(
-                          text: item.exampleNativeThai ?? item.exampleThai!,
-                        );
-                        if (!sheetContext.mounted) return;
-                        updateSheet(() => playing = false);
-                        if (_error != null) showNotice(sheetContext, _error!);
-                      },
-                icon: playing
-                    ? const SizedBox(
-                        width: 20,
-                        height: 20,
-                        child: CircularProgressIndicator(strokeWidth: 2),
-                      )
-                    : const Icon(Icons.volume_up_outlined),
-              ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                for (final provider in TtsProvider.values)
+                  IconButton(
+                    color: provider == TtsProvider.azure ? orange : null,
+                    tooltip: provider == TtsProvider.local
+                        ? 'Local TTS 播放'
+                        : 'Azure TTS 播放',
+                    onPressed: playing
+                        ? null
+                        : () async {
+                            updateSheet(() => playing = true);
+                            await _speak(
+                              text: item.exampleNativeThai ?? item.exampleThai!,
+                              provider: provider,
+                            );
+                            if (!sheetContext.mounted) return;
+                            updateSheet(() => playing = false);
+                            if (_error != null) {
+                              showNotice(sheetContext, _error!);
+                            }
+                          },
+                    icon: const Icon(Icons.volume_up_outlined),
+                  ),
+                IconButton(
+                  tooltip: '關閉例句',
+                  onPressed: () => Navigator.of(sheetContext).pop(),
+                  icon: const Icon(Icons.close_rounded),
+                ),
+              ],
             ),
           ],
         ),

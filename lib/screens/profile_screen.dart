@@ -324,12 +324,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      '男聲朗讀 · 自信開口',
+                      '朗讀練習 · 自信開口',
                       style: TextStyle(fontWeight: FontWeight.w600),
                     ),
                     SizedBox(height: 8),
                     Text(
-                      '所有情境句子採用男性說話者用語，搭配泰語男聲 Niwat。錄音只在你送出評分時傳送至語音服務，不會儲存在學習紀錄中。',
+                      '例句依說話者設定切換男女用語。卡片提供本機與 Azure 朗讀按鈕；本機不快取，Azure 音檔會快取。錄音只在送出發音評分時傳送至 Azure。',
                       style: TextStyle(
                         fontSize: 12,
                         color: Color(0xFF6D8067),

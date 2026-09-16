@@ -86,21 +86,6 @@ void main() {
     },
   );
   test(
-    'SSML escapes markup, rejects control characters, and defaults to male Thai',
-    () {
-      final ssml = buildSpeechSsml('สวัสดี <voice> & "ไทย"');
-      expect(ssml, contains('th-TH-NiwatNeural'));
-      expect(ssml, contains('&lt;voice&gt; &amp; &quot;ไทย&quot;'));
-      for (final text in ['', ' ', 'ก' * 501, 'ไทย\u0000']) {
-        expect(() => buildSpeechSsml(text), throwsA(isA<SpeechException>()));
-      }
-      expect(
-        () => buildSpeechSsml('ไทย', voice: 'en-US-AriaNeural'),
-        throwsA(isA<SpeechException>()),
-      );
-    },
-  );
-  test(
     'recordings validate exact format, chunk lengths and 30 second boundary',
     () {
       validateRecordingWav(pcmToWav(Uint8List(960000)));

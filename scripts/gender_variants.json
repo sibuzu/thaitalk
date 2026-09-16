@@ -1,0 +1,2977 @@
+{
+  "schema_version": 1,
+  "notes": [
+    "Each source and female pair was reviewed as a complete utterance; the application never guesses gender using string substitution.",
+    "All300 vocabulary headwords retain their Thai, native Thai, romanization and dictionary Chinese meanings.",
+    "Vocabulary14/19/20/21 teach gender-specific words; their example utterances deliberately retain the taught pronoun or particle in either setting.",
+    "Neutral examples remain unchanged. Source male scenario sentences remain unchanged.",
+    "Sentence1013 is a Thai request (ขอดูเมนูหน่อย), although its Chinese translation uses question punctuation; its female ending isค่ะ.",
+    "Sentences1019/1089/1090 containนะ, requiringคะ rather thanค่ะ. Female question particles useคะ.",
+    "Female scenario transliteration uses chan forฉัน, khâ forค่ะ and khá forคะ; unchanged syllables retain the dataset transliteration."
+  ],
+  "grammar_sources": [
+    "https://www.arts.chula.ac.th/thai/thaiarchives/index.php/2022/07/27/1832/"
+  ],
+  "lexical_example_exceptions": [
+    14,
+    19,
+    20,
+    21
+  ],
+  "unchanged_vocabulary_examples": [
+    2,
+    3,
+    5,
+    6,
+    7,
+    10,
+    12,
+    14,
+    15,
+    18,
+    19,
+    20,
+    21,
+    22,
+    24,
+    26,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    79,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    103,
+    104,
+    106,
+    108,
+    110,
+    111,
+    112,
+    113,
+    114,
+    116,
+    117,
+    118,
+    120,
+    121,
+    122,
+    124,
+    125,
+    127,
+    128,
+    129,
+    130,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    160,
+    161,
+    163,
+    165,
+    166,
+    167,
+    168,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    197,
+    198,
+    200,
+    202,
+    205,
+    207,
+    209,
+    210,
+    211,
+    212,
+    214,
+    215,
+    216,
+    217,
+    218,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    241,
+    242,
+    243,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    254,
+    256,
+    257,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    267,
+    268,
+    272,
+    274,
+    276,
+    278,
+    281,
+    285,
+    290,
+    291,
+    293,
+    294,
+    295,
+    296,
+    298,
+    299
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "kind": "vocabulary",
+      "review": "statement_particle",
+      "source": {
+        "example_thai": "สวัสดี ครับ",
+        "example_thai_native": "สวัสดีครับ",
+        "example_chinese": "你好"
+      },
+      "female": {
+        "example_thai": "สวัสดี ค่ะ",
+        "example_thai_native": "สวัสดีค่ะ",
+        "example_chinese": "你好"
+      }
+    },
+    {
+      "id": 4,
+      "kind": "vocabulary",
+      "review": "statement_particle",
+      "source": {
+        "example_thai": "ไม่เป็นไร ครับ",
+        "example_thai_native": "ไม่เป็นไรครับ",
+        "example_chinese": "沒關係"
+      },
+      "female": {
+        "example_thai": "ไม่เป็นไร ค่ะ",
+        "example_thai_native": "ไม่เป็นไรค่ะ",
+        "example_chinese": "沒關係"
+      }
+    },
+    {
+      "id": 8,
+      "kind": "vocabulary",
+      "review": "statement_particle",
+      "source": {
+        "example_thai": "ยินดี ที่ ได้ รู้จัก ครับ",
+        "example_thai_native": "ยินดีที่ได้รู้จักครับ",
+        "example_chinese": "很高興認識你"
+      },
+      "female": {
+        "example_thai": "ยินดี ที่ ได้ รู้จัก ค่ะ",
+        "example_thai_native": "ยินดีที่ได้รู้จักค่ะ",
+        "example_chinese": "很高興認識你"
+      }
+    },
+    {
+      "id": 9,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม สบายดี",
+        "example_thai_native": "ผมสบายดี",
+        "example_chinese": "我很好"
+      },
+      "female": {
+        "example_thai": "ฉัน สบายดี",
+        "example_thai_native": "ฉันสบายดี",
+        "example_chinese": "我很好"
+      }
+    },
+    {
+      "id": 11,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ชื่อ มิน",
+        "example_thai_native": "ผมชื่อมิน",
+        "example_chinese": "我叫 Min"
+      },
+      "female": {
+        "example_thai": "ฉัน ชื่อ มิน",
+        "example_thai_native": "ฉันชื่อมิน",
+        "example_chinese": "我叫 Min"
+      }
+    },
+    {
+      "id": 13,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม มา จาก ไต้หวัน",
+        "example_thai_native": "ผมมาจากไต้หวัน",
+        "example_chinese": "我來自台灣"
+      },
+      "female": {
+        "example_thai": "ฉัน มา จาก ไต้หวัน",
+        "example_thai_native": "ฉันมาจากไต้หวัน",
+        "example_chinese": "我來自台灣"
+      }
+    },
+    {
+      "id": 16,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "เขา เป็น เพื่อน ผม",
+        "example_thai_native": "เขาเป็นเพื่อนผม",
+        "example_chinese": "他是我的朋友"
+      },
+      "female": {
+        "example_thai": "เขา เป็น เพื่อน ฉัน",
+        "example_thai_native": "เขาเป็นเพื่อนฉัน",
+        "example_chinese": "他是我的朋友"
+      }
+    },
+    {
+      "id": 17,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "นี่ คือ เพื่อน ของ ผม",
+        "example_thai_native": "นี่คือเพื่อนของผม",
+        "example_chinese": "這是我的朋友"
+      },
+      "female": {
+        "example_thai": "นี่ คือ เพื่อน ของ ฉัน",
+        "example_thai_native": "นี่คือเพื่อนของฉัน",
+        "example_chinese": "這是我的朋友"
+      }
+    },
+    {
+      "id": 23,
+      "kind": "vocabulary",
+      "review": "statement_particle",
+      "source": {
+        "example_thai": "ได้ ครับ",
+        "example_thai_native": "ได้ครับ",
+        "example_chinese": "可以"
+      },
+      "female": {
+        "example_thai": "ได้ ค่ะ",
+        "example_thai_native": "ได้ค่ะ",
+        "example_chinese": "可以"
+      }
+    },
+    {
+      "id": 25,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ใช่ ผม เข้าใจ",
+        "example_thai_native": "ใช่ ผมเข้าใจ",
+        "example_chinese": "對，我懂"
+      },
+      "female": {
+        "example_thai": "ใช่ ฉัน เข้าใจ",
+        "example_thai_native": "ใช่ ฉันเข้าใจ",
+        "example_chinese": "對，我懂"
+      }
+    },
+    {
+      "id": 27,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม รู้ แล้ว",
+        "example_thai_native": "ผมรู้แล้ว",
+        "example_chinese": "我知道了"
+      },
+      "female": {
+        "example_thai": "ฉัน รู้ แล้ว",
+        "example_thai_native": "ฉันรู้แล้ว",
+        "example_chinese": "我知道了"
+      }
+    },
+    {
+      "id": 28,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ไม่รู้",
+        "example_thai_native": "ผมไม่รู้",
+        "example_chinese": "我不知道"
+      },
+      "female": {
+        "example_thai": "ฉัน ไม่รู้",
+        "example_thai_native": "ฉันไม่รู้",
+        "example_chinese": "我不知道"
+      }
+    },
+    {
+      "id": 29,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม เข้าใจ แล้ว",
+        "example_thai_native": "ผมเข้าใจแล้ว",
+        "example_chinese": "我明白了"
+      },
+      "female": {
+        "example_thai": "ฉัน เข้าใจ แล้ว",
+        "example_thai_native": "ฉันเข้าใจแล้ว",
+        "example_chinese": "我明白了"
+      }
+    },
+    {
+      "id": 30,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ขอโทษ ผม ไม่ เข้าใจ",
+        "example_thai_native": "ขอโทษ ผมไม่เข้าใจ",
+        "example_chinese": "抱歉，我不明白"
+      },
+      "female": {
+        "example_thai": "ขอโทษ ฉัน ไม่ เข้าใจ",
+        "example_thai_native": "ขอโทษ ฉันไม่เข้าใจ",
+        "example_chinese": "抱歉，我不明白"
+      }
+    },
+    {
+      "id": 78,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "เมื่อวาน ผม ไป ตลาด",
+        "example_thai_native": "เมื่อวานผมไปตลาด",
+        "example_chinese": "昨天我去了市場"
+      },
+      "female": {
+        "example_thai": "เมื่อวาน ฉัน ไป ตลาด",
+        "example_thai_native": "เมื่อวานฉันไปตลาด",
+        "example_chinese": "昨天我去了市場"
+      }
+    },
+    {
+      "id": 80,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ตื่น ตอน เช้า",
+        "example_thai_native": "ผมตื่นตอนเช้า",
+        "example_chinese": "我早上起床"
+      },
+      "female": {
+        "example_thai": "ฉัน ตื่น ตอน เช้า",
+        "example_thai_native": "ฉันตื่นตอนเช้า",
+        "example_chinese": "我早上起床"
+      }
+    },
+    {
+      "id": 102,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม เรียน ภาษา ไทย ทุก วัน",
+        "example_thai_native": "ผมเรียนภาษาไทยทุกวัน",
+        "example_chinese": "我每天學泰文"
+      },
+      "female": {
+        "example_thai": "ฉัน เรียน ภาษา ไทย ทุก วัน",
+        "example_thai_native": "ฉันเรียนภาษาไทยทุกวัน",
+        "example_chinese": "我每天學泰文"
+      }
+    },
+    {
+      "id": 105,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม มา ทัน เวลา",
+        "example_thai_native": "ผมมาทันเวลา",
+        "example_chinese": "我準時到了"
+      },
+      "female": {
+        "example_thai": "ฉัน มา ทัน เวลา",
+        "example_thai_native": "ฉันมาทันเวลา",
+        "example_chinese": "我準時到了"
+      }
+    },
+    {
+      "id": 107,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม กิน ข้าว แล้ว",
+        "example_thai_native": "ผมกินข้าวแล้ว",
+        "example_chinese": "我吃飯了"
+      },
+      "female": {
+        "example_thai": "ฉัน กิน ข้าว แล้ว",
+        "example_thai_native": "ฉันกินข้าวแล้ว",
+        "example_chinese": "我吃飯了"
+      }
+    },
+    {
+      "id": 109,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ชอบ ข้าวมันไก่",
+        "example_thai_native": "ผมชอบข้าวมันไก่",
+        "example_chinese": "我喜歡雞油飯"
+      },
+      "female": {
+        "example_thai": "ฉัน ชอบ ข้าวมันไก่",
+        "example_thai_native": "ฉันชอบข้าวมันไก่",
+        "example_chinese": "我喜歡雞油飯"
+      }
+    },
+    {
+      "id": 115,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม กิน ไก่",
+        "example_thai_native": "ผมกินไก่",
+        "example_chinese": "我吃雞肉"
+      },
+      "female": {
+        "example_thai": "ฉัน กิน ไก่",
+        "example_thai_native": "ฉันกินไก่",
+        "example_chinese": "我吃雞肉"
+      }
+    },
+    {
+      "id": 119,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม แพ้ กุ้ง",
+        "example_thai_native": "ผมแพ้กุ้ง",
+        "example_chinese": "我對蝦過敏"
+      },
+      "female": {
+        "example_thai": "ฉัน แพ้ กุ้ง",
+        "example_thai_native": "ฉันแพ้กุ้ง",
+        "example_chinese": "我對蝦過敏"
+      }
+    },
+    {
+      "id": 123,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ชอบ ผลไม้ ไทย",
+        "example_thai_native": "ผมชอบผลไม้ไทย",
+        "example_chinese": "我喜歡泰國水果"
+      },
+      "female": {
+        "example_thai": "ฉัน ชอบ ผลไม้ ไทย",
+        "example_thai_native": "ฉันชอบผลไม้ไทย",
+        "example_chinese": "我喜歡泰國水果"
+      }
+    },
+    {
+      "id": 126,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม กิน กล้วย ตอน เช้า",
+        "example_thai_native": "ผมกินกล้วยตอนเช้า",
+        "example_chinese": "我早上吃香蕉"
+      },
+      "female": {
+        "example_thai": "ฉัน กิน กล้วย ตอน เช้า",
+        "example_thai_native": "ฉันกินกล้วยตอนเช้า",
+        "example_chinese": "我早上吃香蕉"
+      }
+    },
+    {
+      "id": 131,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ดื่ม กาแฟ ทุก เช้า",
+        "example_thai_native": "ผมดื่มกาแฟทุกเช้า",
+        "example_chinese": "我每天早上喝咖啡"
+      },
+      "female": {
+        "example_thai": "ฉัน ดื่ม กาแฟ ทุก เช้า",
+        "example_thai_native": "ฉันดื่มกาแฟทุกเช้า",
+        "example_chinese": "我每天早上喝咖啡"
+      }
+    },
+    {
+      "id": 146,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม หิว แล้ว",
+        "example_thai_native": "ผมหิวแล้ว",
+        "example_chinese": "我餓了"
+      },
+      "female": {
+        "example_thai": "ฉัน หิว แล้ว",
+        "example_thai_native": "ฉันหิวแล้ว",
+        "example_chinese": "我餓了"
+      }
+    },
+    {
+      "id": 147,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม อิ่ม แล้ว",
+        "example_thai_native": "ผมอิ่มแล้ว",
+        "example_chinese": "我吃飽了"
+      },
+      "female": {
+        "example_thai": "ฉัน อิ่ม แล้ว",
+        "example_thai_native": "ฉันอิ่มแล้ว",
+        "example_chinese": "我吃飽了"
+      }
+    },
+    {
+      "id": 158,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม กิน มังสวิรัติ",
+        "example_thai_native": "ผมกินมังสวิรัติ",
+        "example_chinese": "我吃素"
+      },
+      "female": {
+        "example_thai": "ฉัน กิน มังสวิรัติ",
+        "example_thai_native": "ฉันกินมังสวิรัติ",
+        "example_chinese": "我吃素"
+      }
+    },
+    {
+      "id": 159,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม แพ้ อาหาร ทะเล",
+        "example_thai_native": "ผมแพ้อาหารทะเล",
+        "example_chinese": "我對海鮮過敏"
+      },
+      "female": {
+        "example_thai": "ฉัน แพ้ อาหาร ทะเล",
+        "example_thai_native": "ฉันแพ้อาหารทะเล",
+        "example_chinese": "我對海鮮過敏"
+      }
+    },
+    {
+      "id": 162,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม เช่า รถยนต์",
+        "example_thai_native": "ผมเช่ารถยนต์",
+        "example_chinese": "我租汽車"
+      },
+      "female": {
+        "example_thai": "ฉัน เช่า รถยนต์",
+        "example_thai_native": "ฉันเช่ารถยนต์",
+        "example_chinese": "我租汽車"
+      }
+    },
+    {
+      "id": 164,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ขึ้น รถเมล์",
+        "example_thai_native": "ผมขึ้นรถเมล์",
+        "example_chinese": "我搭公車"
+      },
+      "female": {
+        "example_thai": "ฉัน ขึ้น รถเมล์",
+        "example_thai_native": "ฉันขึ้นรถเมล์",
+        "example_chinese": "我搭公車"
+      }
+    },
+    {
+      "id": 169,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม เช่า จักรยาน",
+        "example_thai_native": "ผมเช่าจักรยาน",
+        "example_chinese": "我租腳踏車"
+      },
+      "female": {
+        "example_thai": "ฉัน เช่า จักรยาน",
+        "example_thai_native": "ฉันเช่าจักรยาน",
+        "example_chinese": "我租腳踏車"
+      }
+    },
+    {
+      "id": 183,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ถึง แล้ว บอก ผม ด้วย",
+        "example_thai_native": "ถึงแล้วบอกผมด้วย",
+        "example_chinese": "到了請告訴我"
+      },
+      "female": {
+        "example_thai": "ถึง แล้ว บอก ฉัน ด้วย",
+        "example_thai_native": "ถึงแล้วบอกฉันด้วย",
+        "example_chinese": "到了請告訴我"
+      }
+    },
+    {
+      "id": 196,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม มา เที่ยว ไทย",
+        "example_thai_native": "ผมมาเที่ยวไทย",
+        "example_chinese": "我來泰國旅行"
+      },
+      "female": {
+        "example_thai": "ฉัน มา เที่ยว ไทย",
+        "example_thai_native": "ฉันมาเที่ยวไทย",
+        "example_chinese": "我來泰國旅行"
+      }
+    },
+    {
+      "id": 199,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ห้อง ของ ผม อยู่ ชั้น สาม",
+        "example_thai_native": "ห้องของผมอยู่ชั้นสาม",
+        "example_chinese": "我的房間在三樓"
+      },
+      "female": {
+        "example_thai": "ห้อง ของ ฉัน อยู่ ชั้น สาม",
+        "example_thai_native": "ห้องของฉันอยู่ชั้นสาม",
+        "example_chinese": "我的房間在三樓"
+      }
+    },
+    {
+      "id": 201,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "นี่ คือ หนังสือเดินทาง ของ ผม",
+        "example_thai_native": "นี่คือหนังสือเดินทางของผม",
+        "example_chinese": "這是我的護照"
+      },
+      "female": {
+        "example_thai": "นี่ คือ หนังสือเดินทาง ของ ฉัน",
+        "example_thai_native": "นี่คือหนังสือเดินทางของฉัน",
+        "example_chinese": "這是我的護照"
+      }
+    },
+    {
+      "id": 203,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "กระเป๋า ของ ผม หาย",
+        "example_thai_native": "กระเป๋าของผมหาย",
+        "example_chinese": "我的包包不見了"
+      },
+      "female": {
+        "example_thai": "กระเป๋า ของ ฉัน หาย",
+        "example_thai_native": "กระเป๋าของฉันหาย",
+        "example_chinese": "我的包包不見了"
+      }
+    },
+    {
+      "id": 204,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม จอง ห้อง ไว้ แล้ว",
+        "example_thai_native": "ผมจองห้องไว้แล้ว",
+        "example_chinese": "我已經訂房了"
+      },
+      "female": {
+        "example_thai": "ฉัน จอง ห้อง ไว้ แล้ว",
+        "example_thai_native": "ฉันจองห้องไว้แล้ว",
+        "example_chinese": "我已經訂房了"
+      }
+    },
+    {
+      "id": 206,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ต้องการ เช็กอิน",
+        "example_thai_native": "ผมต้องการเช็กอิน",
+        "example_chinese": "我要辦理入住"
+      },
+      "female": {
+        "example_thai": "ฉัน ต้องการ เช็กอิน",
+        "example_thai_native": "ฉันต้องการเช็กอิน",
+        "example_chinese": "我要辦理入住"
+      }
+    },
+    {
+      "id": 208,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม อยาก ไป ทะเล",
+        "example_thai_native": "ผมอยากไปทะเล",
+        "example_chinese": "我想去海邊"
+      },
+      "female": {
+        "example_thai": "ฉัน อยาก ไป ทะเล",
+        "example_thai_native": "ฉันอยากไปทะเล",
+        "example_chinese": "我想去海邊"
+      }
+    },
+    {
+      "id": 213,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม อยาก ไป ตลาด กลางคืน",
+        "example_thai_native": "ผมอยากไปตลาดกลางคืน",
+        "example_chinese": "我想去夜市"
+      },
+      "female": {
+        "example_thai": "ฉัน อยาก ไป ตลาด กลางคืน",
+        "example_thai_native": "ฉันอยากไปตลาดกลางคืน",
+        "example_chinese": "我想去夜市"
+      }
+    },
+    {
+      "id": 219,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม เรียน ภาษา ไทย",
+        "example_thai_native": "ผมเรียนภาษาไทย",
+        "example_chinese": "我學泰文"
+      },
+      "female": {
+        "example_thai": "ฉัน เรียน ภาษา ไทย",
+        "example_thai_native": "ฉันเรียนภาษาไทย",
+        "example_chinese": "我學泰文"
+      }
+    },
+    {
+      "id": 220,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ชอบ อาหาร ไทย",
+        "example_thai_native": "ผมชอบอาหารไทย",
+        "example_chinese": "我喜歡泰國菜"
+      },
+      "female": {
+        "example_thai": "ฉัน ชอบ อาหาร ไทย",
+        "example_thai_native": "ฉันชอบอาหารไทย",
+        "example_chinese": "我喜歡泰國菜"
+      }
+    },
+    {
+      "id": 231,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม อยาก ซื้อ อัน นี้",
+        "example_thai_native": "ผมอยากซื้ออันนี้",
+        "example_chinese": "我想買這個"
+      },
+      "female": {
+        "example_thai": "ฉัน อยาก ซื้อ อัน นี้",
+        "example_thai_native": "ฉันอยากซื้ออันนี้",
+        "example_chinese": "我想買這個"
+      }
+    },
+    {
+      "id": 240,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ไม่มี เงินสด",
+        "example_thai_native": "ผมไม่มีเงินสด",
+        "example_chinese": "我沒有現金"
+      },
+      "female": {
+        "example_thai": "ฉัน ไม่มี เงินสด",
+        "example_thai_native": "ฉันไม่มีเงินสด",
+        "example_chinese": "我沒有現金"
+      }
+    },
+    {
+      "id": 244,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม จะ จ่าย ตอนนี้",
+        "example_thai_native": "ผมจะจ่ายตอนนี้",
+        "example_chinese": "我現在要付款"
+      },
+      "female": {
+        "example_thai": "ฉัน จะ จ่าย ตอนนี้",
+        "example_thai_native": "ฉันจะจ่ายตอนนี้",
+        "example_chinese": "我現在要付款"
+      }
+    },
+    {
+      "id": 253,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ชอบ หมวก ใบ นี้",
+        "example_thai_native": "ผมชอบหมวกใบนี้",
+        "example_chinese": "我喜歡這頂帽子"
+      },
+      "female": {
+        "example_thai": "ฉัน ชอบ หมวก ใบ นี้",
+        "example_thai_native": "ฉันชอบหมวกใบนี้",
+        "example_chinese": "我喜歡這頂帽子"
+      }
+    },
+    {
+      "id": 255,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม อยาก ได้ สี ดำ",
+        "example_thai_native": "ผมอยากได้สีดำ",
+        "example_chinese": "我想要黑色"
+      },
+      "female": {
+        "example_thai": "ฉัน อยาก ได้ สี ดำ",
+        "example_thai_native": "ฉันอยากได้สีดำ",
+        "example_chinese": "我想要黑色"
+      }
+    },
+    {
+      "id": 258,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ชอบ สีน้ำเงิน",
+        "example_thai_native": "ผมชอบสีน้ำเงิน",
+        "example_chinese": "我喜歡藍色"
+      },
+      "female": {
+        "example_thai": "ฉัน ชอบ สีน้ำเงิน",
+        "example_thai_native": "ฉันชอบสีน้ำเงิน",
+        "example_chinese": "我喜歡藍色"
+      }
+    },
+    {
+      "id": 266,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ไป ตลาด",
+        "example_thai_native": "ผมไปตลาด",
+        "example_chinese": "我去市場"
+      },
+      "female": {
+        "example_thai": "ฉัน ไป ตลาด",
+        "example_thai_native": "ฉันไปตลาด",
+        "example_chinese": "我去市場"
+      }
+    },
+    {
+      "id": 269,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ดื่ม น้ำ",
+        "example_thai_native": "ผมดื่มน้ำ",
+        "example_chinese": "我喝水"
+      },
+      "female": {
+        "example_thai": "ฉัน ดื่ม น้ำ",
+        "example_thai_native": "ฉันดื่มน้ำ",
+        "example_chinese": "我喝水"
+      }
+    },
+    {
+      "id": 270,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม นอน ตอน ห้า ทุ่ม",
+        "example_thai_native": "ผมนอนตอนห้าทุ่ม",
+        "example_chinese": "我晚上十一點睡"
+      },
+      "female": {
+        "example_thai": "ฉัน นอน ตอน ห้า ทุ่ม",
+        "example_thai_native": "ฉันนอนตอนห้าทุ่ม",
+        "example_chinese": "我晚上十一點睡"
+      }
+    },
+    {
+      "id": 271,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ตื่น เจ็ด โมง",
+        "example_thai_native": "ผมตื่นเจ็ดโมง",
+        "example_chinese": "我七點起床"
+      },
+      "female": {
+        "example_thai": "ฉัน ตื่น เจ็ด โมง",
+        "example_thai_native": "ฉันตื่นเจ็ดโมง",
+        "example_chinese": "我七點起床"
+      }
+    },
+    {
+      "id": 273,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ฟัง เพลง ไทย",
+        "example_thai_native": "ผมฟังเพลงไทย",
+        "example_chinese": "我聽泰文歌"
+      },
+      "female": {
+        "example_thai": "ฉัน ฟัง เพลง ไทย",
+        "example_thai_native": "ฉันฟังเพลงไทย",
+        "example_chinese": "我聽泰文歌"
+      }
+    },
+    {
+      "id": 275,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม อ่าน ภาษา ไทย",
+        "example_thai_native": "ผมอ่านภาษาไทย",
+        "example_chinese": "我讀泰文"
+      },
+      "female": {
+        "example_thai": "ฉัน อ่าน ภาษา ไทย",
+        "example_thai_native": "ฉันอ่านภาษาไทย",
+        "example_chinese": "我讀泰文"
+      }
+    },
+    {
+      "id": 277,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม เรียน ภาษา ไทย",
+        "example_thai_native": "ผมเรียนภาษาไทย",
+        "example_chinese": "我學泰文"
+      },
+      "female": {
+        "example_thai": "ฉัน เรียน ภาษา ไทย",
+        "example_thai_native": "ฉันเรียนภาษาไทย",
+        "example_chinese": "我學泰文"
+      }
+    },
+    {
+      "id": 279,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ทำงาน ที่ บ้าน",
+        "example_thai_native": "ผมทำงานที่บ้าน",
+        "example_chinese": "我在家工作"
+      },
+      "female": {
+        "example_thai": "ฉัน ทำงาน ที่ บ้าน",
+        "example_thai_native": "ฉันทำงานที่บ้าน",
+        "example_chinese": "我在家工作"
+      }
+    },
+    {
+      "id": 280,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม อยู่ กรุงเทพ",
+        "example_thai_native": "ผมอยู่กรุงเทพ",
+        "example_chinese": "我住在曼谷"
+      },
+      "female": {
+        "example_thai": "ฉัน อยู่ กรุงเทพ",
+        "example_thai_native": "ฉันอยู่กรุงเทพ",
+        "example_chinese": "我住在曼谷"
+      }
+    },
+    {
+      "id": 282,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม อยาก กิน ผัดไทย",
+        "example_thai_native": "ผมอยากกินผัดไทย",
+        "example_chinese": "我想吃泰式炒河粉"
+      },
+      "female": {
+        "example_thai": "ฉัน อยาก กิน ผัดไทย",
+        "example_thai_native": "ฉันอยากกินผัดไทย",
+        "example_chinese": "我想吃泰式炒河粉"
+      }
+    },
+    {
+      "id": 283,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ชอบ เมือง ไทย",
+        "example_thai_native": "ผมชอบเมืองไทย",
+        "example_chinese": "我喜歡泰國"
+      },
+      "female": {
+        "example_thai": "ฉัน ชอบ เมือง ไทย",
+        "example_thai_native": "ฉันชอบเมืองไทย",
+        "example_chinese": "我喜歡泰國"
+      }
+    },
+    {
+      "id": 284,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม รัก ครอบครัว",
+        "example_thai_native": "ผมรักครอบครัว",
+        "example_chinese": "我愛家人"
+      },
+      "female": {
+        "example_thai": "ฉัน รัก ครอบครัว",
+        "example_thai_native": "ฉันรักครอบครัว",
+        "example_chinese": "我愛家人"
+      }
+    },
+    {
+      "id": 286,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม จำ ชื่อ ได้",
+        "example_thai_native": "ผมจำชื่อได้",
+        "example_chinese": "我記得名字"
+      },
+      "female": {
+        "example_thai": "ฉัน จำ ชื่อ ได้",
+        "example_thai_native": "ฉันจำชื่อได้",
+        "example_chinese": "我記得名字"
+      }
+    },
+    {
+      "id": 287,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม ลืม กุญแจ",
+        "example_thai_native": "ผมลืมกุญแจ",
+        "example_chinese": "我忘了鑰匙"
+      },
+      "female": {
+        "example_thai": "ฉัน ลืม กุญแจ",
+        "example_thai_native": "ฉันลืมกุญแจ",
+        "example_chinese": "我忘了鑰匙"
+      }
+    },
+    {
+      "id": 288,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม กำลัง หา ร้านอาหาร",
+        "example_thai_native": "ผมกำลังหาร้านอาหาร",
+        "example_chinese": "我正在找餐廳"
+      },
+      "female": {
+        "example_thai": "ฉัน กำลัง หา ร้านอาหาร",
+        "example_thai_native": "ฉันกำลังหาร้านอาหาร",
+        "example_chinese": "我正在找餐廳"
+      }
+    },
+    {
+      "id": 289,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม เจอ กระเป๋า แล้ว",
+        "example_thai_native": "ผมเจอกระเป๋าแล้ว",
+        "example_chinese": "我找到包包了"
+      },
+      "female": {
+        "example_thai": "ฉัน เจอ กระเป๋า แล้ว",
+        "example_thai_native": "ฉันเจอกระเป๋าแล้ว",
+        "example_chinese": "我找到包包了"
+      }
+    },
+    {
+      "id": 292,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม วิ่ง ตอน เช้า",
+        "example_thai_native": "ผมวิ่งตอนเช้า",
+        "example_chinese": "我早上跑步"
+      },
+      "female": {
+        "example_thai": "ฉัน วิ่ง ตอน เช้า",
+        "example_thai_native": "ฉันวิ่งตอนเช้า",
+        "example_chinese": "我早上跑步"
+      }
+    },
+    {
+      "id": 297,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ให้ ผม ดู หน่อย",
+        "example_thai_native": "ให้ผมดูหน่อย",
+        "example_chinese": "讓我看一下"
+      },
+      "female": {
+        "example_thai": "ให้ ฉัน ดู หน่อย",
+        "example_thai_native": "ให้ฉันดูหน่อย",
+        "example_chinese": "讓我看一下"
+      }
+    },
+    {
+      "id": 300,
+      "kind": "vocabulary",
+      "review": "first_person_pronoun",
+      "source": {
+        "example_thai": "ผม จะ โทร หา คุณ",
+        "example_thai_native": "ผมจะโทรหาคุณ",
+        "example_chinese": "我會打給你"
+      },
+      "female": {
+        "example_thai": "ฉัน จะ โทร หา คุณ",
+        "example_thai_native": "ฉันจะโทรหาคุณ",
+        "example_chinese": "我會打給你"
+      }
+    },
+    {
+      "id": 1001,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "สวัสดี ครับ",
+        "thai_native": "สวัสดีครับ",
+        "romanization": "sawatdi khrap",
+        "chinese": "你好。"
+      },
+      "female": {
+        "thai": "สวัสดี ค่ะ",
+        "thai_native": "สวัสดีค่ะ",
+        "romanization": "sawatdi khâ",
+        "chinese": "你好。"
+      }
+    },
+    {
+      "id": 1002,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "สวัสดี ตอน เช้า ครับ",
+        "thai_native": "สวัสดีตอนเช้าครับ",
+        "romanization": "sawatdi ton chao khrap",
+        "chinese": "早安。"
+      },
+      "female": {
+        "thai": "สวัสดี ตอน เช้า ค่ะ",
+        "thai_native": "สวัสดีตอนเช้าค่ะ",
+        "romanization": "sawatdi ton chao khâ",
+        "chinese": "早安。"
+      }
+    },
+    {
+      "id": 1003,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "คุณ ชื่อ อะไร ครับ",
+        "thai_native": "คุณชื่ออะไรครับ",
+        "romanization": "khun chue arai khrap",
+        "chinese": "你叫什麼名字？"
+      },
+      "female": {
+        "thai": "คุณ ชื่อ อะไร คะ",
+        "thai_native": "คุณชื่ออะไรคะ",
+        "romanization": "khun chue arai khá",
+        "chinese": "你叫什麼名字？"
+      }
+    },
+    {
+      "id": 1004,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ผม ชื่อ แจ็ค ครับ",
+        "thai_native": "ผมชื่อแจ็คครับ",
+        "romanization": "phom chue chaek khrap",
+        "chinese": "我叫 Jack。"
+      },
+      "female": {
+        "thai": "ฉัน ชื่อ แจ็ค ค่ะ",
+        "thai_native": "ฉันชื่อแจ็คค่ะ",
+        "romanization": "chan chue chaek khâ",
+        "chinese": "我叫 Jack。"
+      }
+    },
+    {
+      "id": 1005,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ยินดี ที่ ได้ รู้จัก ครับ",
+        "thai_native": "ยินดีที่ได้รู้จักครับ",
+        "romanization": "yin di thi dai ru chak khrap",
+        "chinese": "很高興認識你。"
+      },
+      "female": {
+        "thai": "ยินดี ที่ ได้ รู้จัก ค่ะ",
+        "thai_native": "ยินดีที่ได้รู้จักค่ะ",
+        "romanization": "yin di thi dai ru chak khâ",
+        "chinese": "很高興認識你。"
+      }
+    },
+    {
+      "id": 1006,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "คุณ สบายดี ไหม ครับ",
+        "thai_native": "คุณสบายดีไหมครับ",
+        "romanization": "khun sabai di mai khrap",
+        "chinese": "你好嗎？"
+      },
+      "female": {
+        "thai": "คุณ สบายดี ไหม คะ",
+        "thai_native": "คุณสบายดีไหมคะ",
+        "romanization": "khun sabai di mai khá",
+        "chinese": "你好嗎？"
+      }
+    },
+    {
+      "id": 1007,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ผม สบายดี ขอบคุณ ครับ",
+        "thai_native": "ผมสบายดี ขอบคุณครับ",
+        "romanization": "phom sabai di khop khun khrap",
+        "chinese": "我很好，謝謝。"
+      },
+      "female": {
+        "thai": "ฉัน สบายดี ขอบคุณ ค่ะ",
+        "thai_native": "ฉันสบายดี ขอบคุณค่ะ",
+        "romanization": "chan sabai di khop khun khâ",
+        "chinese": "我很好，謝謝。"
+      }
+    },
+    {
+      "id": 1008,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "คุณ มา จาก ไหน ครับ",
+        "thai_native": "คุณมาจากไหนครับ",
+        "romanization": "khun ma chak nai khrap",
+        "chinese": "你從哪裡來？"
+      },
+      "female": {
+        "thai": "คุณ มา จาก ไหน คะ",
+        "thai_native": "คุณมาจากไหนคะ",
+        "romanization": "khun ma chak nai khá",
+        "chinese": "你從哪裡來？"
+      }
+    },
+    {
+      "id": 1009,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ผม มา จาก ไต้หวัน ครับ",
+        "thai_native": "ผมมาจากไต้หวันครับ",
+        "romanization": "phom ma chak taiwan khrap",
+        "chinese": "我來自台灣。"
+      },
+      "female": {
+        "thai": "ฉัน มา จาก ไต้หวัน ค่ะ",
+        "thai_native": "ฉันมาจากไต้หวันค่ะ",
+        "romanization": "chan ma chak taiwan khâ",
+        "chinese": "我來自台灣。"
+      }
+    },
+    {
+      "id": 1010,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "คุณ พูด ภาษา อังกฤษ ได้ ไหม ครับ",
+        "thai_native": "คุณพูดภาษาอังกฤษได้ไหมครับ",
+        "romanization": "khun phut phasa angkrit dai mai khrap",
+        "chinese": "你會說英文嗎？"
+      },
+      "female": {
+        "thai": "คุณ พูด ภาษา อังกฤษ ได้ ไหม คะ",
+        "thai_native": "คุณพูดภาษาอังกฤษได้ไหมคะ",
+        "romanization": "khun phut phasa angkrit dai mai khá",
+        "chinese": "你會說英文嗎？"
+      }
+    },
+    {
+      "id": 1011,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ผม พูด ภาษา ไทย ได้ นิดหน่อย ครับ",
+        "thai_native": "ผมพูดภาษาไทยได้นิดหน่อยครับ",
+        "romanization": "phom phut phasa thai dai nit noi khrap",
+        "chinese": "我會說一點泰文。"
+      },
+      "female": {
+        "thai": "ฉัน พูด ภาษา ไทย ได้ นิดหน่อย ค่ะ",
+        "thai_native": "ฉันพูดภาษาไทยได้นิดหน่อยค่ะ",
+        "romanization": "chan phut phasa thai dai nit noi khâ",
+        "chinese": "我會說一點泰文。"
+      }
+    },
+    {
+      "id": 1012,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "แล้ว เจอ กัน ใหม่ ครับ",
+        "thai_native": "แล้วเจอกันใหม่ครับ",
+        "romanization": "laeo choe kan mai khrap",
+        "chinese": "下次見。"
+      },
+      "female": {
+        "thai": "แล้ว เจอ กัน ใหม่ ค่ะ",
+        "thai_native": "แล้วเจอกันใหม่ค่ะ",
+        "romanization": "laeo choe kan mai khâ",
+        "chinese": "下次見。"
+      }
+    },
+    {
+      "id": 1013,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ขอ ดู เมนู หน่อย ครับ",
+        "thai_native": "ขอดูเมนูหน่อยครับ",
+        "romanization": "kho du menu noi khrap",
+        "chinese": "可以給我看菜單嗎？"
+      },
+      "female": {
+        "thai": "ขอ ดู เมนู หน่อย ค่ะ",
+        "thai_native": "ขอดูเมนูหน่อยค่ะ",
+        "romanization": "kho du menu noi khâ",
+        "chinese": "可以給我看菜單嗎？"
+      }
+    },
+    {
+      "id": 1014,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "มี เมนู ภาษา อังกฤษ ไหม ครับ",
+        "thai_native": "มีเมนูภาษาอังกฤษไหมครับ",
+        "romanization": "mi menu phasa angkrit mai khrap",
+        "chinese": "有英文菜單嗎？"
+      },
+      "female": {
+        "thai": "มี เมนู ภาษา อังกฤษ ไหม คะ",
+        "thai_native": "มีเมนูภาษาอังกฤษไหมคะ",
+        "romanization": "mi menu phasa angkrit mai khá",
+        "chinese": "有英文菜單嗎？"
+      }
+    },
+    {
+      "id": 1015,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ขอ ข้าวผัด หนึ่ง จาน ครับ",
+        "thai_native": "ขอข้าวผัดหนึ่งจานครับ",
+        "romanization": "kho khao phat nueng chan khrap",
+        "chinese": "我要一盤炒飯。"
+      },
+      "female": {
+        "thai": "ขอ ข้าวผัด หนึ่ง จาน ค่ะ",
+        "thai_native": "ขอข้าวผัดหนึ่งจานค่ะ",
+        "romanization": "kho khao phat nueng chan khâ",
+        "chinese": "我要一盤炒飯。"
+      }
+    },
+    {
+      "id": 1016,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ขอ ผัดไทย ไม่ เผ็ด ครับ",
+        "thai_native": "ขอผัดไทยไม่เผ็ดครับ",
+        "romanization": "kho phat thai mai phet khrap",
+        "chinese": "我要不辣的泰式炒河粉。"
+      },
+      "female": {
+        "thai": "ขอ ผัดไทย ไม่ เผ็ด ค่ะ",
+        "thai_native": "ขอผัดไทยไม่เผ็ดค่ะ",
+        "romanization": "kho phat thai mai phet khâ",
+        "chinese": "我要不辣的泰式炒河粉。"
+      }
+    },
+    {
+      "id": 1017,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "เอา อัน นี้ ครับ",
+        "thai_native": "เอาอันนี้ครับ",
+        "romanization": "ao an ni khrap",
+        "chinese": "我要這個。"
+      },
+      "female": {
+        "thai": "เอา อัน นี้ ค่ะ",
+        "thai_native": "เอาอันนี้ค่ะ",
+        "romanization": "ao an ni khâ",
+        "chinese": "我要這個。"
+      }
+    },
+    {
+      "id": 1018,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "เอา อัน นั้น ครับ",
+        "thai_native": "เอาอันนั้นครับ",
+        "romanization": "ao an nan khrap",
+        "chinese": "我要那個。"
+      },
+      "female": {
+        "thai": "เอา อัน นั้น ค่ะ",
+        "thai_native": "เอาอันนั้นค่ะ",
+        "romanization": "ao an nan khâ",
+        "chinese": "我要那個。"
+      }
+    },
+    {
+      "id": 1019,
+      "kind": "sentence",
+      "review": "softened_na",
+      "source": {
+        "thai": "ไม่ ใส่ พริก นะ ครับ",
+        "thai_native": "ไม่ใส่พริกนะครับ",
+        "romanization": "mai sai phrik na khrap",
+        "chinese": "請不要放辣椒。"
+      },
+      "female": {
+        "thai": "ไม่ ใส่ พริก นะ คะ",
+        "thai_native": "ไม่ใส่พริกนะคะ",
+        "romanization": "mai sai phrik na khá",
+        "chinese": "請不要放辣椒。"
+      }
+    },
+    {
+      "id": 1020,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "หวาน น้อย หน่อย ครับ",
+        "thai_native": "หวานน้อยหน่อยครับ",
+        "romanization": "wan noi noi khrap",
+        "chinese": "請少甜一點。"
+      },
+      "female": {
+        "thai": "หวาน น้อย หน่อย ค่ะ",
+        "thai_native": "หวานน้อยหน่อยค่ะ",
+        "romanization": "wan noi noi khâ",
+        "chinese": "請少甜一點。"
+      }
+    },
+    {
+      "id": 1021,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ขอ น้ำเปล่า หนึ่ง ขวด ครับ",
+        "thai_native": "ขอน้ำเปล่าหนึ่งขวดครับ",
+        "romanization": "kho nam plao nueng khuat khrap",
+        "chinese": "我要一瓶水。"
+      },
+      "female": {
+        "thai": "ขอ น้ำเปล่า หนึ่ง ขวด ค่ะ",
+        "thai_native": "ขอน้ำเปล่าหนึ่งขวดค่ะ",
+        "romanization": "kho nam plao nueng khuat khâ",
+        "chinese": "我要一瓶水。"
+      }
+    },
+    {
+      "id": 1022,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "ขอ น้ำแข็ง เพิ่ม ได้ ไหม ครับ",
+        "thai_native": "ขอน้ำแข็งเพิ่มได้ไหมครับ",
+        "romanization": "kho nam khaeng phoem dai mai khrap",
+        "chinese": "可以再加一些冰嗎？"
+      },
+      "female": {
+        "thai": "ขอ น้ำแข็ง เพิ่ม ได้ ไหม คะ",
+        "thai_native": "ขอน้ำแข็งเพิ่มได้ไหมคะ",
+        "romanization": "kho nam khaeng phoem dai mai khá",
+        "chinese": "可以再加一些冰嗎？"
+      }
+    },
+    {
+      "id": 1023,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ผม แพ้ กุ้ง ครับ",
+        "thai_native": "ผมแพ้กุ้งครับ",
+        "romanization": "phom phae kung khrap",
+        "chinese": "我對蝦過敏。"
+      },
+      "female": {
+        "thai": "ฉัน แพ้ กุ้ง ค่ะ",
+        "thai_native": "ฉันแพ้กุ้งค่ะ",
+        "romanization": "chan phae kung khâ",
+        "chinese": "我對蝦過敏。"
+      }
+    },
+    {
+      "id": 1024,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "มี อาหาร มังสวิรัติ ไหม ครับ",
+        "thai_native": "มีอาหารมังสวิรัติไหมครับ",
+        "romanization": "mi ahan mangsawirat mai khrap",
+        "chinese": "有素食嗎？"
+      },
+      "female": {
+        "thai": "มี อาหาร มังสวิรัติ ไหม คะ",
+        "thai_native": "มีอาหารมังสวิรัติไหมคะ",
+        "romanization": "mi ahan mangsawirat mai khá",
+        "chinese": "有素食嗎？"
+      }
+    },
+    {
+      "id": 1025,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "จาน นี้ เผ็ด ไหม ครับ",
+        "thai_native": "จานนี้เผ็ดไหมครับ",
+        "romanization": "chan ni phet mai khrap",
+        "chinese": "這道菜辣嗎？"
+      },
+      "female": {
+        "thai": "จาน นี้ เผ็ด ไหม คะ",
+        "thai_native": "จานนี้เผ็ดไหมคะ",
+        "romanization": "chan ni phet mai khá",
+        "chinese": "這道菜辣嗎？"
+      }
+    },
+    {
+      "id": 1026,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "อร่อย มาก ครับ",
+        "thai_native": "อร่อยมากครับ",
+        "romanization": "aroi mak khrap",
+        "chinese": "非常好吃。"
+      },
+      "female": {
+        "thai": "อร่อย มาก ค่ะ",
+        "thai_native": "อร่อยมากค่ะ",
+        "romanization": "aroi mak khâ",
+        "chinese": "非常好吃。"
+      }
+    },
+    {
+      "id": 1027,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "เช็ก บิล ด้วย ครับ",
+        "thai_native": "เช็กบิลด้วยครับ",
+        "romanization": "chek bin duai khrap",
+        "chinese": "麻煩買單。"
+      },
+      "female": {
+        "thai": "เช็ก บิล ด้วย ค่ะ",
+        "thai_native": "เช็กบิลด้วยค่ะ",
+        "romanization": "chek bin duai khâ",
+        "chinese": "麻煩買單。"
+      }
+    },
+    {
+      "id": 1028,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "แยก บิล ได้ ไหม ครับ",
+        "thai_native": "แยกบิลได้ไหมครับ",
+        "romanization": "yaek bin dai mai khrap",
+        "chinese": "可以分開結帳嗎？"
+      },
+      "female": {
+        "thai": "แยก บิล ได้ ไหม คะ",
+        "thai_native": "แยกบิลได้ไหมคะ",
+        "romanization": "yaek bin dai mai khá",
+        "chinese": "可以分開結帳嗎？"
+      }
+    },
+    {
+      "id": 1029,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ผม จอง ห้อง ไว้ แล้ว ครับ",
+        "thai_native": "ผมจองห้องไว้แล้วครับ",
+        "romanization": "phom chong hong wai laeo khrap",
+        "chinese": "我已經訂房了。"
+      },
+      "female": {
+        "thai": "ฉัน จอง ห้อง ไว้ แล้ว ค่ะ",
+        "thai_native": "ฉันจองห้องไว้แล้วค่ะ",
+        "romanization": "chan chong hong wai laeo khâ",
+        "chinese": "我已經訂房了。"
+      }
+    },
+    {
+      "id": 1030,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ผม ต้องการ เช็กอิน ครับ",
+        "thai_native": "ผมต้องการเช็กอินครับ",
+        "romanization": "phom tongkan chek in khrap",
+        "chinese": "我要辦理入住。"
+      },
+      "female": {
+        "thai": "ฉัน ต้องการ เช็กอิน ค่ะ",
+        "thai_native": "ฉันต้องการเช็กอินค่ะ",
+        "romanization": "chan tongkan chek in khâ",
+        "chinese": "我要辦理入住。"
+      }
+    },
+    {
+      "id": 1031,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "ขอ ดู หนังสือเดินทาง ได้ ไหม ครับ",
+        "thai_native": "ขอดูหนังสือเดินทางได้ไหมครับ",
+        "romanization": "kho du nangsue doen thang dai mai khrap",
+        "chinese": "可以看一下護照嗎？"
+      },
+      "female": {
+        "thai": "ขอ ดู หนังสือเดินทาง ได้ ไหม คะ",
+        "thai_native": "ขอดูหนังสือเดินทางได้ไหมคะ",
+        "romanization": "kho du nangsue doen thang dai mai khá",
+        "chinese": "可以看一下護照嗎？"
+      }
+    },
+    {
+      "id": 1032,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "ห้อง ของ ผม อยู่ ชั้น ไหน ครับ",
+        "thai_native": "ห้องของผมอยู่ชั้นไหนครับ",
+        "romanization": "hong khong phom yu chan nai khrap",
+        "chinese": "我的房間在幾樓？"
+      },
+      "female": {
+        "thai": "ห้อง ของ ฉัน อยู่ ชั้น ไหน คะ",
+        "thai_native": "ห้องของฉันอยู่ชั้นไหนคะ",
+        "romanization": "hong khong chan yu chan nai khá",
+        "chinese": "我的房間在幾樓？"
+      }
+    },
+    {
+      "id": 1033,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "อาหารเช้า เริ่ม กี่ โมง ครับ",
+        "thai_native": "อาหารเช้าเริ่มกี่โมงครับ",
+        "romanization": "ahan chao roem ki mong khrap",
+        "chinese": "早餐幾點開始？"
+      },
+      "female": {
+        "thai": "อาหารเช้า เริ่ม กี่ โมง คะ",
+        "thai_native": "อาหารเช้าเริ่มกี่โมงคะ",
+        "romanization": "ahan chao roem ki mong khá",
+        "chinese": "早餐幾點開始？"
+      }
+    },
+    {
+      "id": 1034,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "ไวไฟ ใช้ รหัส อะไร ครับ",
+        "thai_native": "ไวไฟใช้รหัสอะไรครับ",
+        "romanization": "wifi chai rahat arai khrap",
+        "chinese": "Wi‑Fi 密碼是什麼？"
+      },
+      "female": {
+        "thai": "ไวไฟ ใช้ รหัส อะไร คะ",
+        "thai_native": "ไวไฟใช้รหัสอะไรคะ",
+        "romanization": "wifi chai rahat arai khá",
+        "chinese": "Wi‑Fi 密碼是什麼？"
+      }
+    },
+    {
+      "id": 1035,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "ห้องน้ำ อยู่ ที่ไหน ครับ",
+        "thai_native": "ห้องน้ำอยู่ที่ไหนครับ",
+        "romanization": "hong nam yu thi nai khrap",
+        "chinese": "洗手間在哪裡？"
+      },
+      "female": {
+        "thai": "ห้องน้ำ อยู่ ที่ไหน คะ",
+        "thai_native": "ห้องน้ำอยู่ที่ไหนคะ",
+        "romanization": "hong nam yu thi nai khá",
+        "chinese": "洗手間在哪裡？"
+      }
+    },
+    {
+      "id": 1036,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "ขอ ผ้าเช็ดตัว เพิ่ม ได้ ไหม ครับ",
+        "thai_native": "ขอผ้าเช็ดตัวเพิ่มได้ไหมครับ",
+        "romanization": "kho pha chet tua phoem dai mai khrap",
+        "chinese": "可以多給我毛巾嗎？"
+      },
+      "female": {
+        "thai": "ขอ ผ้าเช็ดตัว เพิ่ม ได้ ไหม คะ",
+        "thai_native": "ขอผ้าเช็ดตัวเพิ่มได้ไหมคะ",
+        "romanization": "kho pha chet tua phoem dai mai khá",
+        "chinese": "可以多給我毛巾嗎？"
+      }
+    },
+    {
+      "id": 1037,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "แอร์ ใน ห้อง ไม่ เย็น ครับ",
+        "thai_native": "แอร์ในห้องไม่เย็นครับ",
+        "romanization": "ae nai hong mai yen khrap",
+        "chinese": "房間冷氣不冷。"
+      },
+      "female": {
+        "thai": "แอร์ ใน ห้อง ไม่ เย็น ค่ะ",
+        "thai_native": "แอร์ในห้องไม่เย็นค่ะ",
+        "romanization": "ae nai hong mai yen khâ",
+        "chinese": "房間冷氣不冷。"
+      }
+    },
+    {
+      "id": 1038,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "น้ำ อุ่น ไม่ ทำงาน ครับ",
+        "thai_native": "น้ำอุ่นไม่ทำงานครับ",
+        "romanization": "nam un mai tham ngan khrap",
+        "chinese": "熱水不能用。"
+      },
+      "female": {
+        "thai": "น้ำ อุ่น ไม่ ทำงาน ค่ะ",
+        "thai_native": "น้ำอุ่นไม่ทำงานค่ะ",
+        "romanization": "nam un mai tham ngan khâ",
+        "chinese": "熱水不能用。"
+      }
+    },
+    {
+      "id": 1039,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "ช่วย ทำความสะอาด ห้อง ได้ ไหม ครับ",
+        "thai_native": "ช่วยทำความสะอาดห้องได้ไหมครับ",
+        "romanization": "chuai tham khwam sa-at hong dai mai khrap",
+        "chinese": "可以幫我打掃房間嗎？"
+      },
+      "female": {
+        "thai": "ช่วย ทำความสะอาด ห้อง ได้ ไหม คะ",
+        "thai_native": "ช่วยทำความสะอาดห้องได้ไหมคะ",
+        "romanization": "chuai tham khwam sa-at hong dai mai khá",
+        "chinese": "可以幫我打掃房間嗎？"
+      }
+    },
+    {
+      "id": 1040,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "ขอ เช็กเอาต์ สาย ได้ ไหม ครับ",
+        "thai_native": "ขอเช็กเอาต์สายได้ไหมครับ",
+        "romanization": "kho chek ao sai dai mai khrap",
+        "chinese": "可以晚一點退房嗎？"
+      },
+      "female": {
+        "thai": "ขอ เช็กเอาต์ สาย ได้ ไหม คะ",
+        "thai_native": "ขอเช็กเอาต์สายได้ไหมคะ",
+        "romanization": "kho chek ao sai dai mai khá",
+        "chinese": "可以晚一點退房嗎？"
+      }
+    },
+    {
+      "id": 1041,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "ฝาก กระเป๋า ไว้ ที่ นี่ ได้ ไหม ครับ",
+        "thai_native": "ฝากกระเป๋าไว้ที่นี่ได้ไหมครับ",
+        "romanization": "fak krapao wai thi ni dai mai khrap",
+        "chinese": "可以把行李寄放在這裡嗎？"
+      },
+      "female": {
+        "thai": "ฝาก กระเป๋า ไว้ ที่ นี่ ได้ ไหม คะ",
+        "thai_native": "ฝากกระเป๋าไว้ที่นี่ได้ไหมคะ",
+        "romanization": "fak krapao wai thi ni dai mai khá",
+        "chinese": "可以把行李寄放在這裡嗎？"
+      }
+    },
+    {
+      "id": 1042,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "เช็กเอาต์ กี่ โมง ครับ",
+        "thai_native": "เช็กเอาต์กี่โมงครับ",
+        "romanization": "chek ao ki mong khrap",
+        "chinese": "幾點退房？"
+      },
+      "female": {
+        "thai": "เช็กเอาต์ กี่ โมง คะ",
+        "thai_native": "เช็กเอาต์กี่โมงคะ",
+        "romanization": "chek ao ki mong khá",
+        "chinese": "幾點退房？"
+      }
+    },
+    {
+      "id": 1043,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ไป สนามบิน ครับ",
+        "thai_native": "ไปสนามบินครับ",
+        "romanization": "pai sanam bin khrap",
+        "chinese": "去機場。"
+      },
+      "female": {
+        "thai": "ไป สนามบิน ค่ะ",
+        "thai_native": "ไปสนามบินค่ะ",
+        "romanization": "pai sanam bin khâ",
+        "chinese": "去機場。"
+      }
+    },
+    {
+      "id": 1044,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ไป สถานี รถไฟ ครับ",
+        "thai_native": "ไปสถานีรถไฟครับ",
+        "romanization": "pai sathani rotfai khrap",
+        "chinese": "去火車站。"
+      },
+      "female": {
+        "thai": "ไป สถานี รถไฟ ค่ะ",
+        "thai_native": "ไปสถานีรถไฟค่ะ",
+        "romanization": "pai sathani rotfai khâ",
+        "chinese": "去火車站。"
+      }
+    },
+    {
+      "id": 1045,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "ไป ที่ นี่ ได้ ไหม ครับ",
+        "thai_native": "ไปที่นี่ได้ไหมครับ",
+        "romanization": "pai thi ni dai mai khrap",
+        "chinese": "可以去這裡嗎？"
+      },
+      "female": {
+        "thai": "ไป ที่ นี่ ได้ ไหม คะ",
+        "thai_native": "ไปที่นี่ได้ไหมคะ",
+        "romanization": "pai thi ni dai mai khá",
+        "chinese": "可以去這裡嗎？"
+      }
+    },
+    {
+      "id": 1046,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ช่วย เปิด มิเตอร์ ด้วย ครับ",
+        "thai_native": "ช่วยเปิดมิเตอร์ด้วยครับ",
+        "romanization": "chuai poet miter duai khrap",
+        "chinese": "請跳表。"
+      },
+      "female": {
+        "thai": "ช่วย เปิด มิเตอร์ ด้วย ค่ะ",
+        "thai_native": "ช่วยเปิดมิเตอร์ด้วยค่ะ",
+        "romanization": "chuai poet miter duai khâ",
+        "chinese": "請跳表。"
+      }
+    },
+    {
+      "id": 1047,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "ค่าโดยสาร ประมาณ เท่าไร ครับ",
+        "thai_native": "ค่าโดยสารประมาณเท่าไรครับ",
+        "romanization": "kha doisan praman thao rai khrap",
+        "chinese": "車資大約多少？"
+      },
+      "female": {
+        "thai": "ค่าโดยสาร ประมาณ เท่าไร คะ",
+        "thai_native": "ค่าโดยสารประมาณเท่าไรคะ",
+        "romanization": "kha doisan praman thao rai khá",
+        "chinese": "車資大約多少？"
+      }
+    },
+    {
+      "id": 1048,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "ใช้ เวลา ประมาณ กี่ นาที ครับ",
+        "thai_native": "ใช้เวลาประมาณกี่นาทีครับ",
+        "romanization": "chai wela praman ki nathi khrap",
+        "chinese": "大約要幾分鐘？"
+      },
+      "female": {
+        "thai": "ใช้ เวลา ประมาณ กี่ นาที คะ",
+        "thai_native": "ใช้เวลาประมาณกี่นาทีคะ",
+        "romanization": "chai wela praman ki nathi khá",
+        "chinese": "大約要幾分鐘？"
+      }
+    },
+    {
+      "id": 1049,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "กรุณา ไป ทางด่วน ครับ",
+        "thai_native": "กรุณาไปทางด่วนครับ",
+        "romanization": "karuna pai thang duan khrap",
+        "chinese": "請走高速公路。"
+      },
+      "female": {
+        "thai": "กรุณา ไป ทางด่วน ค่ะ",
+        "thai_native": "กรุณาไปทางด่วนค่ะ",
+        "romanization": "karuna pai thang duan khâ",
+        "chinese": "請走高速公路。"
+      }
+    },
+    {
+      "id": 1050,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ไม่ ต้อง ไป ทางด่วน ครับ",
+        "thai_native": "ไม่ต้องไปทางด่วนครับ",
+        "romanization": "mai tong pai thang duan khrap",
+        "chinese": "不用走高速公路。"
+      },
+      "female": {
+        "thai": "ไม่ ต้อง ไป ทางด่วน ค่ะ",
+        "thai_native": "ไม่ต้องไปทางด่วนค่ะ",
+        "romanization": "mai tong pai thang duan khâ",
+        "chinese": "不用走高速公路。"
+      }
+    },
+    {
+      "id": 1051,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "จอด ตรง นี้ ได้ ไหม ครับ",
+        "thai_native": "จอดตรงนี้ได้ไหมครับ",
+        "romanization": "chot trong ni dai mai khrap",
+        "chinese": "可以停在這裡嗎？"
+      },
+      "female": {
+        "thai": "จอด ตรง นี้ ได้ ไหม คะ",
+        "thai_native": "จอดตรงนี้ได้ไหมคะ",
+        "romanization": "chot trong ni dai mai khá",
+        "chinese": "可以停在這裡嗎？"
+      }
+    },
+    {
+      "id": 1052,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ตรง ไป แล้ว เลี้ยว ซ้าย ครับ",
+        "thai_native": "ตรงไปแล้วเลี้ยวซ้ายครับ",
+        "romanization": "trong pai laeo liao sai khrap",
+        "chinese": "直走後左轉。"
+      },
+      "female": {
+        "thai": "ตรง ไป แล้ว เลี้ยว ซ้าย ค่ะ",
+        "thai_native": "ตรงไปแล้วเลี้ยวซ้ายค่ะ",
+        "romanization": "trong pai laeo liao sai khâ",
+        "chinese": "直走後左轉。"
+      }
+    },
+    {
+      "id": 1053,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ตรง ไป แล้ว เลี้ยว ขวา ครับ",
+        "thai_native": "ตรงไปแล้วเลี้ยวขวาครับ",
+        "romanization": "trong pai laeo liao khwa khrap",
+        "chinese": "直走後右轉。"
+      },
+      "female": {
+        "thai": "ตรง ไป แล้ว เลี้ยว ขวา ค่ะ",
+        "thai_native": "ตรงไปแล้วเลี้ยวขวาค่ะ",
+        "romanization": "trong pai laeo liao khwa khâ",
+        "chinese": "直走後右轉。"
+      }
+    },
+    {
+      "id": 1054,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ถึง แล้ว ช่วย บอก ผม ด้วย ครับ",
+        "thai_native": "ถึงแล้วช่วยบอกผมด้วยครับ",
+        "romanization": "thueng laeo chuai bok phom duai khrap",
+        "chinese": "到了請告訴我。"
+      },
+      "female": {
+        "thai": "ถึง แล้ว ช่วย บอก ฉัน ด้วย ค่ะ",
+        "thai_native": "ถึงแล้วช่วยบอกฉันด้วยค่ะ",
+        "romanization": "thueng laeo chuai bok chan duai khâ",
+        "chinese": "到了請告訴我。"
+      }
+    },
+    {
+      "id": 1055,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "อัน นี้ ราคา เท่าไร ครับ",
+        "thai_native": "อันนี้ราคาเท่าไรครับ",
+        "romanization": "an ni rakha thao rai khrap",
+        "chinese": "這個多少錢？"
+      },
+      "female": {
+        "thai": "อัน นี้ ราคา เท่าไร คะ",
+        "thai_native": "อันนี้ราคาเท่าไรคะ",
+        "romanization": "an ni rakha thao rai khá",
+        "chinese": "這個多少錢？"
+      }
+    },
+    {
+      "id": 1056,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "แพง ไป หน่อย ครับ",
+        "thai_native": "แพงไปหน่อยครับ",
+        "romanization": "phaeng pai noi khrap",
+        "chinese": "有點太貴了。"
+      },
+      "female": {
+        "thai": "แพง ไป หน่อย ค่ะ",
+        "thai_native": "แพงไปหน่อยค่ะ",
+        "romanization": "phaeng pai noi khâ",
+        "chinese": "有點太貴了。"
+      }
+    },
+    {
+      "id": 1057,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "ลด ราคา ได้ ไหม ครับ",
+        "thai_native": "ลดราคาได้ไหมครับ",
+        "romanization": "lot rakha dai mai khrap",
+        "chinese": "可以便宜一點嗎？"
+      },
+      "female": {
+        "thai": "ลด ราคา ได้ ไหม คะ",
+        "thai_native": "ลดราคาได้ไหมคะ",
+        "romanization": "lot rakha dai mai khá",
+        "chinese": "可以便宜一點嗎？"
+      }
+    },
+    {
+      "id": 1058,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "มี ส่วนลด ไหม ครับ",
+        "thai_native": "มีส่วนลดไหมครับ",
+        "romanization": "mi suan lot mai khrap",
+        "chinese": "有折扣嗎？"
+      },
+      "female": {
+        "thai": "มี ส่วนลด ไหม คะ",
+        "thai_native": "มีส่วนลดไหมคะ",
+        "romanization": "mi suan lot mai khá",
+        "chinese": "有折扣嗎？"
+      }
+    },
+    {
+      "id": 1059,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "มี สี อื่น ไหม ครับ",
+        "thai_native": "มีสีอื่นไหมครับ",
+        "romanization": "mi si uen mai khrap",
+        "chinese": "有其他顏色嗎？"
+      },
+      "female": {
+        "thai": "มี สี อื่น ไหม คะ",
+        "thai_native": "มีสีอื่นไหมคะ",
+        "romanization": "mi si uen mai khá",
+        "chinese": "有其他顏色嗎？"
+      }
+    },
+    {
+      "id": 1060,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "มี ไซซ์ ใหญ่ กว่า นี้ ไหม ครับ",
+        "thai_native": "มีไซซ์ใหญ่กว่านี้ไหมครับ",
+        "romanization": "mi sai yai kwa ni mai khrap",
+        "chinese": "有更大的尺寸嗎？"
+      },
+      "female": {
+        "thai": "มี ไซซ์ ใหญ่ กว่า นี้ ไหม คะ",
+        "thai_native": "มีไซซ์ใหญ่กว่านี้ไหมคะ",
+        "romanization": "mi sai yai kwa ni mai khá",
+        "chinese": "有更大的尺寸嗎？"
+      }
+    },
+    {
+      "id": 1061,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "มี ไซซ์ เล็ก กว่า นี้ ไหม ครับ",
+        "thai_native": "มีไซซ์เล็กกว่านี้ไหมครับ",
+        "romanization": "mi sai lek kwa ni mai khrap",
+        "chinese": "有更小的尺寸嗎？"
+      },
+      "female": {
+        "thai": "มี ไซซ์ เล็ก กว่า นี้ ไหม คะ",
+        "thai_native": "มีไซซ์เล็กกว่านี้ไหมคะ",
+        "romanization": "mi sai lek kwa ni mai khá",
+        "chinese": "有更小的尺寸嗎？"
+      }
+    },
+    {
+      "id": 1062,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "ขอ ลอง ได้ ไหม ครับ",
+        "thai_native": "ขอลองได้ไหมครับ",
+        "romanization": "kho long dai mai khrap",
+        "chinese": "可以試穿／試用嗎？"
+      },
+      "female": {
+        "thai": "ขอ ลอง ได้ ไหม คะ",
+        "thai_native": "ขอลองได้ไหมคะ",
+        "romanization": "kho long dai mai khá",
+        "chinese": "可以試穿／試用嗎？"
+      }
+    },
+    {
+      "id": 1063,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "ห้อง ลอง อยู่ ที่ไหน ครับ",
+        "thai_native": "ห้องลองอยู่ที่ไหนครับ",
+        "romanization": "hong long yu thi nai khrap",
+        "chinese": "試衣間在哪裡？"
+      },
+      "female": {
+        "thai": "ห้อง ลอง อยู่ ที่ไหน คะ",
+        "thai_native": "ห้องลองอยู่ที่ไหนคะ",
+        "romanization": "hong long yu thi nai khá",
+        "chinese": "試衣間在哪裡？"
+      }
+    },
+    {
+      "id": 1064,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ผม เอา อัน นี้ ครับ",
+        "thai_native": "ผมเอาอันนี้ครับ",
+        "romanization": "phom ao an ni khrap",
+        "chinese": "我要這個。"
+      },
+      "female": {
+        "thai": "ฉัน เอา อัน นี้ ค่ะ",
+        "thai_native": "ฉันเอาอันนี้ค่ะ",
+        "romanization": "chan ao an ni khâ",
+        "chinese": "我要這個。"
+      }
+    },
+    {
+      "id": 1065,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "จ่าย เงินสด ได้ ไหม ครับ",
+        "thai_native": "จ่ายเงินสดได้ไหมครับ",
+        "romanization": "chai ngoen sot dai mai khrap",
+        "chinese": "可以付現嗎？"
+      },
+      "female": {
+        "thai": "จ่าย เงินสด ได้ ไหม คะ",
+        "thai_native": "จ่ายเงินสดได้ไหมคะ",
+        "romanization": "chai ngoen sot dai mai khá",
+        "chinese": "可以付現嗎？"
+      }
+    },
+    {
+      "id": 1066,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "รับ บัตรเครดิต ไหม ครับ",
+        "thai_native": "รับบัตรเครดิตไหมครับ",
+        "romanization": "rap bat khredit mai khrap",
+        "chinese": "可以刷信用卡嗎？"
+      },
+      "female": {
+        "thai": "รับ บัตรเครดิต ไหม คะ",
+        "thai_native": "รับบัตรเครดิตไหมคะ",
+        "romanization": "rap bat khredit mai khá",
+        "chinese": "可以刷信用卡嗎？"
+      }
+    },
+    {
+      "id": 1067,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ขอ ใบเสร็จ ด้วย ครับ",
+        "thai_native": "ขอใบเสร็จด้วยครับ",
+        "romanization": "kho bai set duai khrap",
+        "chinese": "請給我收據。"
+      },
+      "female": {
+        "thai": "ขอ ใบเสร็จ ด้วย ค่ะ",
+        "thai_native": "ขอใบเสร็จด้วยค่ะ",
+        "romanization": "kho bai set duai khâ",
+        "chinese": "請給我收據。"
+      }
+    },
+    {
+      "id": 1068,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "เปลี่ยน หรือ คืน สินค้า ได้ ไหม ครับ",
+        "thai_native": "เปลี่ยนหรือคืนสินค้าได้ไหมครับ",
+        "romanization": "plian rue khuen sinkha dai mai khrap",
+        "chinese": "可以換貨或退貨嗎？"
+      },
+      "female": {
+        "thai": "เปลี่ยน หรือ คืน สินค้า ได้ ไหม คะ",
+        "thai_native": "เปลี่ยนหรือคืนสินค้าได้ไหมคะ",
+        "romanization": "plian rue khuen sinkha dai mai khá",
+        "chinese": "可以換貨或退貨嗎？"
+      }
+    },
+    {
+      "id": 1069,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "เคาน์เตอร์ เช็กอิน อยู่ ที่ไหน ครับ",
+        "thai_native": "เคาน์เตอร์เช็กอินอยู่ที่ไหนครับ",
+        "romanization": "khaotoe chek in yu thi nai khrap",
+        "chinese": "報到櫃檯在哪裡？"
+      },
+      "female": {
+        "thai": "เคาน์เตอร์ เช็กอิน อยู่ ที่ไหน คะ",
+        "thai_native": "เคาน์เตอร์เช็กอินอยู่ที่ไหนคะ",
+        "romanization": "khaotoe chek in yu thi nai khá",
+        "chinese": "報到櫃檯在哪裡？"
+      }
+    },
+    {
+      "id": 1070,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "เที่ยวบิน นี้ ออก กี่ โมง ครับ",
+        "thai_native": "เที่ยวบินนี้ออกกี่โมงครับ",
+        "romanization": "thiao bin ni ok ki mong khrap",
+        "chinese": "這班飛機幾點起飛？"
+      },
+      "female": {
+        "thai": "เที่ยวบิน นี้ ออก กี่ โมง คะ",
+        "thai_native": "เที่ยวบินนี้ออกกี่โมงคะ",
+        "romanization": "thiao bin ni ok ki mong khá",
+        "chinese": "這班飛機幾點起飛？"
+      }
+    },
+    {
+      "id": 1071,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "ประตู ขึ้น เครื่อง อยู่ ที่ไหน ครับ",
+        "thai_native": "ประตูขึ้นเครื่องอยู่ที่ไหนครับ",
+        "romanization": "pratu khuen khrueang yu thi nai khrap",
+        "chinese": "登機門在哪裡？"
+      },
+      "female": {
+        "thai": "ประตู ขึ้น เครื่อง อยู่ ที่ไหน คะ",
+        "thai_native": "ประตูขึ้นเครื่องอยู่ที่ไหนคะ",
+        "romanization": "pratu khuen khrueang yu thi nai khá",
+        "chinese": "登機門在哪裡？"
+      }
+    },
+    {
+      "id": 1072,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "เที่ยวบิน ล่าช้า ไหม ครับ",
+        "thai_native": "เที่ยวบินล่าช้าไหมครับ",
+        "romanization": "thiao bin lacha mai khrap",
+        "chinese": "班機延誤了嗎？"
+      },
+      "female": {
+        "thai": "เที่ยวบิน ล่าช้า ไหม คะ",
+        "thai_native": "เที่ยวบินล่าช้าไหมคะ",
+        "romanization": "thiao bin lacha mai khá",
+        "chinese": "班機延誤了嗎？"
+      }
+    },
+    {
+      "id": 1073,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ผม มี กระเป๋า หนึ่ง ใบ ครับ",
+        "thai_native": "ผมมีกระเป๋าหนึ่งใบครับ",
+        "romanization": "phom mi krapao nueng bai khrap",
+        "chinese": "我有一件行李。"
+      },
+      "female": {
+        "thai": "ฉัน มี กระเป๋า หนึ่ง ใบ ค่ะ",
+        "thai_native": "ฉันมีกระเป๋าหนึ่งใบค่ะ",
+        "romanization": "chan mi krapao nueng bai khâ",
+        "chinese": "我有一件行李。"
+      }
+    },
+    {
+      "id": 1074,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "กระเป๋า ใบ นี้ โหลด ได้ ไหม ครับ",
+        "thai_native": "กระเป๋าใบนี้โหลดได้ไหมครับ",
+        "romanization": "krapao bai ni lot dai mai khrap",
+        "chinese": "這件行李可以托運嗎？"
+      },
+      "female": {
+        "thai": "กระเป๋า ใบ นี้ โหลด ได้ ไหม คะ",
+        "thai_native": "กระเป๋าใบนี้โหลดได้ไหมคะ",
+        "romanization": "krapao bai ni lot dai mai khá",
+        "chinese": "這件行李可以托運嗎？"
+      }
+    },
+    {
+      "id": 1075,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "กระเป๋า หนัก เกิน ไหม ครับ",
+        "thai_native": "กระเป๋าหนักเกินไหมครับ",
+        "romanization": "krapao nak koen mai khrap",
+        "chinese": "行李有超重嗎？"
+      },
+      "female": {
+        "thai": "กระเป๋า หนัก เกิน ไหม คะ",
+        "thai_native": "กระเป๋าหนักเกินไหมคะ",
+        "romanization": "krapao nak koen mai khá",
+        "chinese": "行李有超重嗎？"
+      }
+    },
+    {
+      "id": 1076,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "จุด ตรวจ คน เข้า เมือง อยู่ ที่ไหน ครับ",
+        "thai_native": "จุดตรวจคนเข้าเมืองอยู่ที่ไหนครับ",
+        "romanization": "chut truat khon khao mueang yu thi nai khrap",
+        "chinese": "入境審查在哪裡？"
+      },
+      "female": {
+        "thai": "จุด ตรวจ คน เข้า เมือง อยู่ ที่ไหน คะ",
+        "thai_native": "จุดตรวจคนเข้าเมืองอยู่ที่ไหนคะ",
+        "romanization": "chut truat khon khao mueang yu thi nai khá",
+        "chinese": "入境審查在哪裡？"
+      }
+    },
+    {
+      "id": 1077,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "รับ กระเป๋า ที่ สายพาน ไหน ครับ",
+        "thai_native": "รับกระเป๋าที่สายพานไหนครับ",
+        "romanization": "rap krapao thi saiphan nai khrap",
+        "chinese": "在哪個行李轉盤領行李？"
+      },
+      "female": {
+        "thai": "รับ กระเป๋า ที่ สายพาน ไหน คะ",
+        "thai_native": "รับกระเป๋าที่สายพานไหนคะ",
+        "romanization": "rap krapao thi saiphan nai khá",
+        "chinese": "在哪個行李轉盤領行李？"
+      }
+    },
+    {
+      "id": 1078,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "กระเป๋า ของ ผม ไม่ มา ครับ",
+        "thai_native": "กระเป๋าของผมไม่มาครับ",
+        "romanization": "krapao khong phom mai ma khrap",
+        "chinese": "我的行李沒有出來。"
+      },
+      "female": {
+        "thai": "กระเป๋า ของ ฉัน ไม่ มา ค่ะ",
+        "thai_native": "กระเป๋าของฉันไม่มาค่ะ",
+        "romanization": "krapao khong chan mai ma khâ",
+        "chinese": "我的行李沒有出來。"
+      }
+    },
+    {
+      "id": 1079,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "ทางออก อยู่ ที่ไหน ครับ",
+        "thai_native": "ทางออกอยู่ที่ไหนครับ",
+        "romanization": "thang ok yu thi nai khrap",
+        "chinese": "出口在哪裡？"
+      },
+      "female": {
+        "thai": "ทางออก อยู่ ที่ไหน คะ",
+        "thai_native": "ทางออกอยู่ที่ไหนคะ",
+        "romanization": "thang ok yu thi nai khá",
+        "chinese": "出口在哪裡？"
+      }
+    },
+    {
+      "id": 1080,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "มี รถ ไป เข้า เมือง ไหม ครับ",
+        "thai_native": "มีรถไปเข้าเมืองไหมครับ",
+        "romanization": "mi rot pai khao mueang mai khrap",
+        "chinese": "有車進市區嗎？"
+      },
+      "female": {
+        "thai": "มี รถ ไป เข้า เมือง ไหม คะ",
+        "thai_native": "มีรถไปเข้าเมืองไหมคะ",
+        "romanization": "mi rot pai khao mueang mai khá",
+        "chinese": "有車進市區嗎？"
+      }
+    },
+    {
+      "id": 1081,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "วันนี้ ว่าง ไหม ครับ",
+        "thai_native": "วันนี้ว่างไหมครับ",
+        "romanization": "wan ni wang mai khrap",
+        "chinese": "今天有空嗎？"
+      },
+      "female": {
+        "thai": "วันนี้ ว่าง ไหม คะ",
+        "thai_native": "วันนี้ว่างไหมคะ",
+        "romanization": "wan ni wang mai khá",
+        "chinese": "今天有空嗎？"
+      }
+    },
+    {
+      "id": 1082,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "ไป กิน ข้าว ด้วยกัน ไหม ครับ",
+        "thai_native": "ไปกินข้าวด้วยกันไหมครับ",
+        "romanization": "pai kin khao duai kan mai khrap",
+        "chinese": "要一起吃飯嗎？"
+      },
+      "female": {
+        "thai": "ไป กิน ข้าว ด้วยกัน ไหม คะ",
+        "thai_native": "ไปกินข้าวด้วยกันไหมคะ",
+        "romanization": "pai kin khao duai kan mai khá",
+        "chinese": "要一起吃飯嗎？"
+      }
+    },
+    {
+      "id": 1083,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "อยาก ไป ดู หนัง ไหม ครับ",
+        "thai_native": "อยากไปดูหนังไหมครับ",
+        "romanization": "yak pai du nang mai khrap",
+        "chinese": "想去看電影嗎？"
+      },
+      "female": {
+        "thai": "อยาก ไป ดู หนัง ไหม คะ",
+        "thai_native": "อยากไปดูหนังไหมคะ",
+        "romanization": "yak pai du nang mai khá",
+        "chinese": "想去看電影嗎？"
+      }
+    },
+    {
+      "id": 1084,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "คุณ ชอบ อาหาร อะไร ครับ",
+        "thai_native": "คุณชอบอาหารอะไรครับ",
+        "romanization": "khun chop ahan arai khrap",
+        "chinese": "你喜歡什麼食物？"
+      },
+      "female": {
+        "thai": "คุณ ชอบ อาหาร อะไร คะ",
+        "thai_native": "คุณชอบอาหารอะไรคะ",
+        "romanization": "khun chop ahan arai khá",
+        "chinese": "你喜歡什麼食物？"
+      }
+    },
+    {
+      "id": 1085,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "คุณ ชอบ ทำ อะไร เวลา ว่าง ครับ",
+        "thai_native": "คุณชอบทำอะไรเวลาว่างครับ",
+        "romanization": "khun chop tham arai wela wang khrap",
+        "chinese": "你空閒時喜歡做什麼？"
+      },
+      "female": {
+        "thai": "คุณ ชอบ ทำ อะไร เวลา ว่าง คะ",
+        "thai_native": "คุณชอบทำอะไรเวลาว่างคะ",
+        "romanization": "khun chop tham arai wela wang khá",
+        "chinese": "你空閒時喜歡做什麼？"
+      }
+    },
+    {
+      "id": 1086,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ผม ชอบ คุย กับ คุณ ครับ",
+        "thai_native": "ผมชอบคุยกับคุณครับ",
+        "romanization": "phom chop khui kap khun khrap",
+        "chinese": "我喜歡和你聊天。"
+      },
+      "female": {
+        "thai": "ฉัน ชอบ คุย กับ คุณ ค่ะ",
+        "thai_native": "ฉันชอบคุยกับคุณค่ะ",
+        "romanization": "chan chop khui kap khun khâ",
+        "chinese": "我喜歡和你聊天。"
+      }
+    },
+    {
+      "id": 1087,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "วันนี้ สนุก มาก ครับ",
+        "thai_native": "วันนี้สนุกมากครับ",
+        "romanization": "wan ni sanuk mak khrap",
+        "chinese": "今天很開心。"
+      },
+      "female": {
+        "thai": "วันนี้ สนุก มาก ค่ะ",
+        "thai_native": "วันนี้สนุกมากค่ะ",
+        "romanization": "wan ni sanuk mak khâ",
+        "chinese": "今天很開心。"
+      }
+    },
+    {
+      "id": 1088,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ขอบคุณ สำหรับ วันนี้ ครับ",
+        "thai_native": "ขอบคุณสำหรับวันนี้ครับ",
+        "romanization": "khop khun samrap wan ni khrap",
+        "chinese": "謝謝你今天陪我。"
+      },
+      "female": {
+        "thai": "ขอบคุณ สำหรับ วันนี้ ค่ะ",
+        "thai_native": "ขอบคุณสำหรับวันนี้ค่ะ",
+        "romanization": "khop khun samrap wan ni khâ",
+        "chinese": "謝謝你今天陪我。"
+      }
+    },
+    {
+      "id": 1089,
+      "kind": "sentence",
+      "review": "softened_na",
+      "source": {
+        "thai": "ถึง บ้าน แล้ว บอก ผม ด้วย นะ ครับ",
+        "thai_native": "ถึงบ้านแล้วบอกผมด้วยนะครับ",
+        "romanization": "thueng ban laeo bok phom duai na khrap",
+        "chinese": "到家後跟我說一聲喔。"
+      },
+      "female": {
+        "thai": "ถึง บ้าน แล้ว บอก ฉัน ด้วย นะ คะ",
+        "thai_native": "ถึงบ้านแล้วบอกฉันด้วยนะคะ",
+        "romanization": "thueng ban laeo bok chan duai na khá",
+        "chinese": "到家後跟我說一聲喔。"
+      }
+    },
+    {
+      "id": 1090,
+      "kind": "sentence",
+      "review": "softened_na",
+      "source": {
+        "thai": "แล้ว เจอ กัน อีก นะ ครับ",
+        "thai_native": "แล้วเจอกันอีกนะครับ",
+        "romanization": "laeo choe kan ik na khrap",
+        "chinese": "下次再見喔。"
+      },
+      "female": {
+        "thai": "แล้ว เจอ กัน อีก นะ คะ",
+        "thai_native": "แล้วเจอกันอีกนะคะ",
+        "romanization": "laeo choe kan ik na khá",
+        "chinese": "下次再見喔。"
+      }
+    },
+    {
+      "id": 1091,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ช่วย ด้วย ครับ",
+        "thai_native": "ช่วยด้วยครับ",
+        "romanization": "chuai duai khrap",
+        "chinese": "救命；請幫忙！"
+      },
+      "female": {
+        "thai": "ช่วย ด้วย ค่ะ",
+        "thai_native": "ช่วยด้วยค่ะ",
+        "romanization": "chuai duai khâ",
+        "chinese": "救命；請幫忙！"
+      }
+    },
+    {
+      "id": 1092,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "โทร หา ตำรวจ ให้ หน่อย ครับ",
+        "thai_native": "โทรหาตำรวจให้หน่อยครับ",
+        "romanization": "tho ha tamruat hai noi khrap",
+        "chinese": "請幫我報警。"
+      },
+      "female": {
+        "thai": "โทร หา ตำรวจ ให้ หน่อย ค่ะ",
+        "thai_native": "โทรหาตำรวจให้หน่อยค่ะ",
+        "romanization": "tho ha tamruat hai noi khâ",
+        "chinese": "請幫我報警。"
+      }
+    },
+    {
+      "id": 1093,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "โทร เรียก รถพยาบาล ให้ หน่อย ครับ",
+        "thai_native": "โทรเรียกรถพยาบาลให้หน่อยครับ",
+        "romanization": "tho riak rot phayaban hai noi khrap",
+        "chinese": "請幫我叫救護車。"
+      },
+      "female": {
+        "thai": "โทร เรียก รถพยาบาล ให้ หน่อย ค่ะ",
+        "thai_native": "โทรเรียกรถพยาบาลให้หน่อยค่ะ",
+        "romanization": "tho riak rot phayaban hai noi khâ",
+        "chinese": "請幫我叫救護車。"
+      }
+    },
+    {
+      "id": 1094,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ผม ไม่ สบาย ครับ",
+        "thai_native": "ผมไม่สบายครับ",
+        "romanization": "phom mai sabai khrap",
+        "chinese": "我不舒服。"
+      },
+      "female": {
+        "thai": "ฉัน ไม่ สบาย ค่ะ",
+        "thai_native": "ฉันไม่สบายค่ะ",
+        "romanization": "chan mai sabai khâ",
+        "chinese": "我不舒服。"
+      }
+    },
+    {
+      "id": 1095,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ผม เจ็บ ตรง นี้ ครับ",
+        "thai_native": "ผมเจ็บตรงนี้ครับ",
+        "romanization": "phom chep trong ni khrap",
+        "chinese": "我這裡痛。"
+      },
+      "female": {
+        "thai": "ฉัน เจ็บ ตรง นี้ ค่ะ",
+        "thai_native": "ฉันเจ็บตรงนี้ค่ะ",
+        "romanization": "chan chep trong ni khâ",
+        "chinese": "我這裡痛。"
+      }
+    },
+    {
+      "id": 1096,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "ผม แพ้ ยา นี้ ครับ",
+        "thai_native": "ผมแพ้ยานี้ครับ",
+        "romanization": "phom phae ya ni khrap",
+        "chinese": "我對這個藥過敏。"
+      },
+      "female": {
+        "thai": "ฉัน แพ้ ยา นี้ ค่ะ",
+        "thai_native": "ฉันแพ้ยานี้ค่ะ",
+        "romanization": "chan phae ya ni khâ",
+        "chinese": "我對這個藥過敏。"
+      }
+    },
+    {
+      "id": 1097,
+      "kind": "sentence",
+      "review": "question",
+      "source": {
+        "thai": "โรงพยาบาล อยู่ ที่ไหน ครับ",
+        "thai_native": "โรงพยาบาลอยู่ที่ไหนครับ",
+        "romanization": "rongphayaban yu thi nai khrap",
+        "chinese": "醫院在哪裡？"
+      },
+      "female": {
+        "thai": "โรงพยาบาล อยู่ ที่ไหน คะ",
+        "thai_native": "โรงพยาบาลอยู่ที่ไหนคะ",
+        "romanization": "rongphayaban yu thi nai khá",
+        "chinese": "醫院在哪裡？"
+      }
+    },
+    {
+      "id": 1098,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "กระเป๋า ของ ผม หาย ครับ",
+        "thai_native": "กระเป๋าของผมหายครับ",
+        "romanization": "krapao khong phom hai khrap",
+        "chinese": "我的包包不見了。"
+      },
+      "female": {
+        "thai": "กระเป๋า ของ ฉัน หาย ค่ะ",
+        "thai_native": "กระเป๋าของฉันหายค่ะ",
+        "romanization": "krapao khong chan hai khâ",
+        "chinese": "我的包包不見了。"
+      }
+    },
+    {
+      "id": 1099,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "หนังสือเดินทาง ของ ผม หาย ครับ",
+        "thai_native": "หนังสือเดินทางของผมหายครับ",
+        "romanization": "nangsue doen thang khong phom hai khrap",
+        "chinese": "我的護照不見了。"
+      },
+      "female": {
+        "thai": "หนังสือเดินทาง ของ ฉัน หาย ค่ะ",
+        "thai_native": "หนังสือเดินทางของฉันหายค่ะ",
+        "romanization": "nangsue doen thang khong chan hai khâ",
+        "chinese": "我的護照不見了。"
+      }
+    },
+    {
+      "id": 1100,
+      "kind": "sentence",
+      "review": "statement_or_request",
+      "source": {
+        "thai": "กรุณา ติดต่อ สถานทูต ให้ ผม ครับ",
+        "thai_native": "กรุณาติดต่อสถานทูตให้ผมครับ",
+        "romanization": "karuna titto sathanthut hai phom khrap",
+        "chinese": "請幫我聯絡大使館。"
+      },
+      "female": {
+        "thai": "กรุณา ติดต่อ สถานทูต ให้ ฉัน ค่ะ",
+        "thai_native": "กรุณาติดต่อสถานทูตให้ฉันค่ะ",
+        "romanization": "karuna titto sathanthut hai chan khâ",
+        "chinese": "請幫我聯絡大使館。"
+      }
+    }
+  ]
+}

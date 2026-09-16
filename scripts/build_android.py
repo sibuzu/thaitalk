@@ -62,9 +62,13 @@ def encode_defines(key: str, region: str) -> dict[str, str]:
 def main() -> int:
     parser = argparse.ArgumentParser(description='Build ThaiTalk Android with encoded Azure credentials.')
     parser.add_argument('--flutter', default=os.environ.get('FLUTTER_BIN', 'flutter'))
-    parser.add_argument('--mode', choices=('debug', 'release'), default='debug')
-    parser.add_argument('--split-per-abi', action='store_true')
-    parser.add_argument('--verify-speech', action='store_true', help='Run one real Azure synthesis/assessment check before building.')
+    parser.add_argument('--mode', choices=('debug', 'release'), default='release')
+    packaging = parser.add_mutually_exclusive_group()
+    packaging.add_argument('--split-per-abi', dest='split_per_abi', action='store_true', help='One smaller APK per CPU architecture (default).')
+    packaging.add_argument('--universal', dest='split_per_abi', action='store_false', help='One larger APK containing all selected CPU architectures.')
+    parser.set_defaults(split_per_abi=True)
+    parser.add_argument('--target-platform', choices=('android-arm', 'android-arm64', 'android-x64'), help='Optionally build only this CPU architecture.')
+    parser.add_argument('--verify-speech', action='store_true', help='Assess AZURE_TEST_WAV with AZURE_TEST_REFERENCE before building (no Azure TTS).')
     args = parser.parse_args()
     values = read_dotenv(ROOT / '.env')
     key = os.environ.get('AZURE_APIKEY', values.get('AZURE_APIKEY', ''))
@@ -92,6 +96,8 @@ def main() -> int:
         command = [args.flutter, 'build', 'apk', f'--{args.mode}', f'--dart-define-from-file={config}']
         if args.split_per_abi:
             command.append('--split-per-abi')
+        if args.target_platform:
+            command.append(f'--target-platform={args.target_platform}')
         # The compiler only receives cipher+mask, never the original key env.
         environment = os.environ.copy()
         environment.pop('AZURE_APIKEY', None)
