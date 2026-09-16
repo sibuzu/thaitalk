@@ -23,8 +23,8 @@ void main() {
 
   test('source and bundled curriculum remain identical', () async {
     expect(
-      await File('assets/data/thai_practice_dataset_400.json').readAsString(),
-      await File('thai_practice_dataset_400.json').readAsString(),
+      await File('assets/data/thai_practice_dataset.json').readAsString(),
+      await File('thai_practice_dataset.json').readAsString(),
     );
   });
 

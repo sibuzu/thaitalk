@@ -2,6 +2,7 @@
 // Intl.Segmenter uses ICU's Thai dictionary. Protect established loanwords and
 // compound vocabulary that ICU can split incorrectly; never split Thai marks.
 import fs from 'node:fs';
+import {createHash} from 'node:crypto';
 const segmenter = new Intl.Segmenter('th', {granularity:'word'});
 const protectedWords = [
   'เช็กเอาต์','เช็กอิน','เช็ก','ต้องการ','กรุงเทพ','หนังสือเดินทาง','ผ้าเช็ดตัว',
@@ -15,7 +16,7 @@ const pattern = new RegExp(`(${protectedWords.join('|')})`, 'gu');
 function spaced(text) {
   return text.split(pattern).filter(Boolean).flatMap(part => protectedWords.includes(part) ? [part] : [...segmenter.segment(part)].map(s=>s.segment.trim()).filter(Boolean)).join(' ').replaceAll('ขอดู', 'ขอ ดู');
 }
-const path = 'thai_practice_dataset_400.json';
+const path = 'thai_practice_dataset.json';
 const data = JSON.parse(fs.readFileSync(path, 'utf8'));
 for (const item of [...data.vocabulary, ...data.sentences]) {
   item.thai_native ??= item.thai;
@@ -26,4 +27,5 @@ for (const item of [...data.vocabulary, ...data.sentences]) {
 const output = JSON.stringify(data, null, 2)+'\n';
 fs.writeFileSync(path, output);
 fs.writeFileSync('assets/data/'+path, output);
+fs.writeFileSync(path+'.sha256', createHash('sha256').update(output).digest('hex')+'  '+path+'\n');
 console.log('Updated 400 items and examples; native Thai preserved for speech.');

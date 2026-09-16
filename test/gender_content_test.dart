@@ -9,7 +9,7 @@ void main() {
 
   setUpAll(() {
     items = LearningItem.parseCurriculum(
-      File('thai_practice_dataset_400.json').readAsStringSync(),
+      File('thai_practice_dataset.json').readAsStringSync(),
     );
   });
 

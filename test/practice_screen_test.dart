@@ -5,6 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:thaitalk/models/learning_item.dart';
 import 'package:thaitalk/screens/practice_screen.dart';
 import 'package:thaitalk/services/learning_store.dart';
+import 'package:thaitalk/services/curriculum_repository.dart';
 import 'package:thaitalk/theme.dart';
 
 const practiceItems = [
@@ -55,7 +56,7 @@ Future<LearningStore> pumpPractice(
         home: PracticeScreen(items: items, store: store, quiz: quiz),
       ),
     );
-    if (quiz) await LearningItem.loadCurriculum();
+    if (quiz) await CurriculumRepository.instance.load();
   }
 
   // The screen's large curriculum asset uses an isolate for JSON loading.

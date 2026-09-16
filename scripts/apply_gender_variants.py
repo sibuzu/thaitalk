@@ -12,10 +12,11 @@ import json
 from pathlib import Path
 
 from example_romanization import add_example_romanization
+from update_dataset import update
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / 'thai_practice_dataset_400.json'
-BUNDLE = ROOT / 'assets/data/thai_practice_dataset_400.json'
+SOURCE = ROOT / 'thai_practice_dataset.json'
+BUNDLE = ROOT / 'assets/data/thai_practice_dataset.json'
 MANIFEST = ROOT / 'scripts/gender_variants.json'
 
 
@@ -28,10 +29,10 @@ def rendered_curriculum():
     manifest = json.loads(MANIFEST.read_text(encoding='utf-8'))
     if manifest['schema_version'] != 1:
         raise ValueError('Unsupported gender variant manifest version.')
-    if len(data['vocabulary']) != 300 or len(data['sentences']) != 100:
-        raise ValueError('Review coverage expects 300 vocabulary items and 100 sentences.')
+    if not data['vocabulary'] or not data['sentences']:
+        raise ValueError('Review coverage requires vocabulary and sentence entries.')
     items = {item['id']: item for item in data['vocabulary'] + data['sentences']}
-    if len(items) != 400:
+    if len(items) != len(data['vocabulary']) + len(data['sentences']):
         raise ValueError('Curriculum IDs must be unique.')
     for item in items.values():
         item.pop('female', None)
@@ -92,7 +93,8 @@ def main():
     else:
         SOURCE.write_text(rendered, encoding='utf-8')
         BUNDLE.write_text(rendered, encoding='utf-8')
-        print('Applied 68 example and 100 scenario variants to both curriculum copies.')
+        update()
+        print('Applied reviewed gender variants and updated both curriculum copies and checksum.')
 
 
 if __name__ == '__main__':

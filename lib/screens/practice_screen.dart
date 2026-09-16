@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import '../models/learning_item.dart';
 import '../services/learning_store.dart';
 import '../services/app_settings.dart';
+import '../services/curriculum_repository.dart';
 import '../services/speech_service.dart';
 import '../theme.dart';
 
@@ -73,7 +74,7 @@ class _PracticeScreenState extends State<PracticeScreen>
 
   Future<void> _loadChoices() async {
     try {
-      final curriculum = await LearningItem.loadCurriculum();
+      final curriculum = await CurriculumRepository.instance.load();
       if (!mounted) return;
       _pool = [
         ..._items,

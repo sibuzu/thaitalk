@@ -1,1 +1,3 @@
 scripts/copy_thaitalk_apk.bat text eol=crlf
+thai_practice_dataset.json text eol=lf
+*.sha256 text eol=lf

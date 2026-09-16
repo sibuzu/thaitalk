@@ -24,7 +24,7 @@ def required_codepoints():
     points.update(range(0x3000, 0x3040))
     points.update(range(0xFF00, 0xFFF0))
     paths = sorted((ROOT / 'lib').rglob('*.dart'))
-    paths.append(ROOT / 'assets/data/thai_practice_dataset_400.json')
+    paths.append(ROOT / 'assets/data/thai_practice_dataset.json')
     for path in paths:
         points.update(map(ord, path.read_text(encoding='utf-8')))
     return points

@@ -25,6 +25,27 @@ Android 泰語學習 App，以 Flutter 製作。繁體中文介面、300 個常�
 
 每次發音評分需要網路，App 透過 HTTPS 直接呼叫 Azure。錄音最長 30 秒，只在送出評分時傳送，不會保存在學習紀錄或資料庫中。沒有 Azure Key 的一般開發建置仍可使用本機朗讀及學習。
 
+## 教材啟動更新
+
+App 每次啟動先讀取手機保存的教材（初次安裝使用 APK 內建教材），再檢查 GitHub `main` 分支：
+
+- 教材：[thai_practice_dataset.json](https://raw.githubusercontent.com/sibuzu/thaitalk/main/thai_practice_dataset.json)
+- SHA-256：[thai_practice_dataset.json.sha256](https://raw.githubusercontent.com/sibuzu/thaitalk/main/thai_practice_dataset.json.sha256)
+
+只有 SHA-256 不同才下載 JSON；版本以檔案內容的 checksum 判定。校驗檔請求最多等待 3 秒，教材下載最多等待 5 秒、大小上限 5 MiB。下載後先驗證 SHA-256、JSON 欄位、唯一 ID、男女版本及顯示／語音文字一致性，再以暫存檔寫入與原子重新命名替換 Android 私有儲存中的教材。APK 內建資料本身不會被改寫。
+
+斷網、404、逾時、下載損壞或寫入失敗，均保留舊教材；本機檔案損壞時回退至 APK 內建資料。首頁、單字／句子及測驗選項使用同一份已接受的版本。更新不清除收藏與學習紀錄，因此既有教材 ID 不應重新編號或改給另一個單字。
+
+發布教材更新：
+
+```bash
+# 編輯根目錄教材後，同步 APK 副本並重新產生 SHA-256
+python3 scripts/update_dataset.py
+python3 scripts/update_dataset.py --check
+```
+
+一起提交根目錄 JSON、`assets/data/` 副本及 `.sha256` 檔，再 push 到 `main`。`apply_gender_variants.py` 與 `space-thai.mjs` 產生教材時也會更新 checksum。新版 App 不需要重新安裝即可取得之後的教材更新；**目前已安裝的舊 APK，仍需先安裝含此更新功能的新 APK 一次**。本次依指示不 build。
+
 ## 建置 Android APK（預設瘦身版）
 
 需要 Flutter 3.44+ / Dart 3.12+、Python 3、JDK 17 與 Android SDK。Android 最低 API 24。只有使用者明確要求 build 時才執行建置。
@@ -108,13 +129,14 @@ Supabase 僅用於帳號及跨裝置學習進度同步。未設定時完全使�
 
 ## 驗證
 
-設定頁及獨立 TTS 按鈕修改已通過靜態分析、89 項 Flutter 測試與 5 項建置腳本單元測試；Azure 線上實測 1 項略過。建置腳本測試使用模擬建置，不產生 APK。未重新建置 APK，尚未在 Android 實機驗證本機語音引擎。
+設定頁及獨立 TTS 按鈕修改已通過靜態分析、110 項 Flutter 測試與 8 項 Python 單元測試；Azure 線上實測 1 項略過。建置腳本測試使用模擬建置，不產生 APK。未重新建置 APK，尚未在 Android 實機驗證本機語音引擎。
 
 ```bash
 flutter analyze
 flutter test
 python3 -m unittest discover -s scripts -p 'test_*.py'
 python3 scripts/apply_gender_variants.py --check
+python3 scripts/update_dataset.py --check
 ```
 
 測試涵蓋設定保存與寫入失敗復原、男女用語、教材一致性、泰文間隔、隨機抽題與排序、切卡不重複計分、例句朗讀入口、學習紀錄、測驗、320px 手機版面、剪貼簿、直接 Azure 請求格式、錯誤處理、本機 TTS 離線語音篩選、不使用快取、Azure 音檔快取與男女聲隔離、缺少語音提示、切換來源及取消朗讀、建置編碼與暫存檔清理。
@@ -123,7 +145,7 @@ python3 scripts/apply_gender_variants.py --check
 
 ## 資料與圖示
 
-- `thai_practice_dataset_400.json` 與 `assets/data/` 的副本保持相同。
+- `thai_practice_dataset.json` 與 `assets/data/` 的副本保持相同。
 - `thai`／`example_thai` 供分詞閱讀；`thai_native`／`example_thai_native` 保留原始泰文供語音使用。
 - `node scripts/space-thai.mjs` 可重建閱讀空白，使用 ICU 泰語斷詞與複合詞補充清單。
 - 男性版為教材基準，`female` 欄位保存經檢查的女性版；100 個情境句及 68 個需調整的單字例句可切換。中性例句與字典中的性別詞義保留不變。

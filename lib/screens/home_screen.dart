@@ -624,7 +624,7 @@ class _HomeScreenState extends State<HomeScreen> {
             _pathCard(
               '常用單字',
               '從生活裡最常用的單字開始',
-              '300 個單字 · 8 個主題',
+              '${_items.where((i) => !i.isSentence).length} 個單字 · ${_items.where((i) => !i.isSentence).map((i) => i.category).toSet().length} 個主題',
               Icons.style_outlined,
               sage,
               () => _navigate(1),
@@ -632,7 +632,7 @@ class _HomeScreenState extends State<HomeScreen> {
             _pathCard(
               '日常句子',
               '把泰語帶進真實生活情境',
-              '100 個句子 · 8 個情境',
+              '${_items.where((i) => i.isSentence).length} 個句子 · ${_items.where((i) => i.isSentence).map((i) => i.category).toSet().length} 個情境',
               Icons.forum_outlined,
               const Color(0xFFF7EFE2),
               () => _navigate(2),
@@ -923,9 +923,11 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _dailyWord() {
-    final item = _items
-        .where((i) => !i.isSentence)
-        .toList()[DateTime.now().difference(DateTime(2026)).inDays.abs() % 300];
+    final words = _items.where((i) => !i.isSentence).toList();
+    if (words.isEmpty) return const SizedBox.shrink();
+    final item =
+        words[DateTime.now().difference(DateTime(2026)).inDays.abs() %
+            words.length];
     return Panel(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,

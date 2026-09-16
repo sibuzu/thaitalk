@@ -4,7 +4,7 @@ App Name: ThaiTalk
 
 Flutter Android App；朗讀可選本機 TTS 或 Azure TTS，Azure Speech 負責錄音發音評分，Supabase 為選用的學習進度同步。
 
-「單字/句字資料」 thai_practice_dataset_400.md
+「單字/句字資料」 thai_practice_dataset.json
 
 APIKEY: AZURE_APIKEY in .env
 AZURE_URL=https://southeastasia.api.cognitive.microsoft.com/
@@ -51,3 +51,11 @@ Support Android App
 - 沒有 `android/key.properties` 時，Release 使用既有 debug key 簽章供直接安裝；有正式設定時沿用正式金鑰。
 - Noto Sans TC 僅打包涵蓋介面與教材的裁切版，保留原始完整字型供重新產生；Noto Serif Thai 保留完整字型。
 - 品牌資料只打包實際使用的圖片。仍遵守 NO BUILD，直到使用者再次要求建置。
+
+## 教材更新
+
+- 教材改名為 `thai_practice_dataset.json`（根目錄及 assets 副本），以 SHA-256 sidecar `thai_practice_dataset.json.sha256` 判定內容版本。
+- 每次啟動檢查 `https://raw.githubusercontent.com/sibuzu/thaitalk/main/` 的 checksum；相同時不下載教材，不同時下載驗證後替換手機上的教材副本。
+- 保留 APK 內建資料供首次使用與故障回退；斷網、逾時、校驗／格式錯誤或寫入失敗都不破壞舊資料。
+- 教材筆數可變，首頁統計、每日一詞及測驗使用同一更新版本。收藏及進度仍以既有 ID 對應。
+- 發布時用 `python3 scripts/update_dataset.py` 同步 assets 與 checksum，再 commit／push 到 GitHub main。此功能須先安裝含更新程式的 APK 才會生效。

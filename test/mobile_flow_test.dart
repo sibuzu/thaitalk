@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:thaitalk/main.dart';
-import 'package:thaitalk/models/learning_item.dart';
+import 'package:thaitalk/services/curriculum_repository.dart';
 import 'package:thaitalk/screens/practice_screen.dart';
 import 'package:thaitalk/services/cloud_sync.dart';
 import 'package:thaitalk/services/learning_store.dart';
@@ -21,13 +21,13 @@ void main() {
       final cloud = await CloudSync.initialize(store);
       final items = (await tester.runAsync(() async {
         // Actual glyph widths catch layout problems hidden by test fonts.
-        await (FontLoader(
-          'NotoSansTC',
-        )..addFont(rootBundle.load('assets/fonts/NotoSansTC.subset.ttf'))).load();
+        await (FontLoader('NotoSansTC')
+              ..addFont(rootBundle.load('assets/fonts/NotoSansTC.subset.ttf')))
+            .load();
         await (FontLoader(
           'NotoSerifThai',
         )..addFont(rootBundle.load('assets/fonts/NotoSerifThai.ttf'))).load();
-        return loadCurriculum();
+        return CurriculumRepository.instance.load();
       }))!;
       final sentence = items
           .where((item) => item.isSentence)
@@ -147,7 +147,7 @@ void main() {
       await tester.runAsync(() async {
         await tester.tap(quiz);
         await tester.pump();
-        await loadCurriculum();
+        await CurriculumRepository.instance.load();
       });
       await tester.pumpAndSettle();
       final quizRound = tester.widget<PracticeScreen>(

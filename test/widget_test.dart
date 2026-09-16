@@ -38,4 +38,27 @@ void main() {
       store.dispose();
     },
   );
+  testWidgets(
+    'updated curriculum can change counts without breaking daily word',
+    (tester) async {
+      SharedPreferences.setMockInitialValues({});
+      final store = await LearningStore.load();
+      final cloud = await CloudSync.initialize(store);
+      final all = (await tester.runAsync(loadCurriculum))!;
+      final small = [
+        all.firstWhere((item) => !item.isSentence),
+        all.firstWhere((item) => item.isSentence),
+      ];
+      await tester.pumpWidget(
+        ThaiTalkApp(items: small, store: store, cloud: cloud),
+      );
+      await tester.pumpAndSettle();
+      expect(tester.takeException(), isNull);
+      expect(find.text('1 個單字 · 1 個主題'), findsOneWidget);
+      expect(find.text('1 個句子 · 1 個情境'), findsOneWidget);
+      await tester.pumpWidget(const SizedBox());
+      cloud.dispose();
+      store.dispose();
+    },
+  );
 }
