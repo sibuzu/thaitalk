@@ -4607,6 +4607,1806 @@
         "example_romanization": "chan cha tho ha khun"
       },
       "example_romanization": "phom cha tho ha khun"
+    },
+    {
+      "id": 301,
+      "thai": "สบาย",
+      "thai_native": "สบาย",
+      "romanization": "sabai",
+      "chinese": "舒服；健康",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 302,
+      "thai": "จริง",
+      "thai_native": "จริง",
+      "romanization": "ching",
+      "chinese": "真的",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 303,
+      "thai": "แน่นอน",
+      "thai_native": "แน่นอน",
+      "romanization": "nae non",
+      "chinese": "當然",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 304,
+      "thai": "อาจจะ",
+      "thai_native": "อาจจะ",
+      "romanization": "at cha",
+      "chinese": "可能",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 305,
+      "thai": "เพราะ",
+      "thai_native": "เพราะ",
+      "romanization": "phro",
+      "chinese": "因為",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 306,
+      "thai": "แต่",
+      "thai_native": "แต่",
+      "romanization": "tae",
+      "chinese": "但是",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 307,
+      "thai": "หรือ",
+      "thai_native": "หรือ",
+      "romanization": "rue",
+      "chinese": "或者",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 308,
+      "thai": "และ",
+      "thai_native": "และ",
+      "romanization": "lae",
+      "chinese": "和",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 309,
+      "thai": "กับ",
+      "thai_native": "กับ",
+      "romanization": "kap",
+      "chinese": "和；與",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 310,
+      "thai": "ของ",
+      "thai_native": "ของ",
+      "romanization": "khong",
+      "chinese": "的；物品",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 311,
+      "thai": "ที่",
+      "thai_native": "ที่",
+      "romanization": "thi",
+      "chinese": "在；地方",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 312,
+      "thai": "จาก",
+      "thai_native": "จาก",
+      "romanization": "chak",
+      "chinese": "從",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 313,
+      "thai": "เพื่อ",
+      "thai_native": "เพื่อ",
+      "romanization": "phuea",
+      "chinese": "為了",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 314,
+      "thai": "โดย",
+      "thai_native": "โดย",
+      "romanization": "doi",
+      "chinese": "透過；由",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 315,
+      "thai": "ถ้า",
+      "thai_native": "ถ้า",
+      "romanization": "tha",
+      "chinese": "如果",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 316,
+      "thai": "เมื่อ",
+      "thai_native": "เมื่อ",
+      "romanization": "muea",
+      "chinese": "當…時",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 317,
+      "thai": "จน",
+      "thai_native": "จน",
+      "romanization": "chon",
+      "chinese": "直到",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 318,
+      "thai": "ยัง",
+      "thai_native": "ยัง",
+      "romanization": "yang",
+      "chinese": "還；仍然",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 319,
+      "thai": "เคย",
+      "thai_native": "เคย",
+      "romanization": "khoei",
+      "chinese": "曾經",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 320,
+      "thai": "บ้าน",
+      "thai_native": "บ้าน",
+      "romanization": "ban",
+      "chinese": "家；房子",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 321,
+      "thai": "ครอบครัว",
+      "thai_native": "ครอบครัว",
+      "romanization": "khrop khrua",
+      "chinese": "家庭",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 322,
+      "thai": "พ่อ",
+      "thai_native": "พ่อ",
+      "romanization": "pho",
+      "chinese": "爸爸",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 323,
+      "thai": "แม่",
+      "thai_native": "แม่",
+      "romanization": "mae",
+      "chinese": "媽媽",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 324,
+      "thai": "ลูก",
+      "thai_native": "ลูก",
+      "romanization": "luk",
+      "chinese": "孩子",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 325,
+      "thai": "พี่",
+      "thai_native": "พี่",
+      "romanization": "phi",
+      "chinese": "哥哥姊姊；年長者",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 326,
+      "thai": "น้อง",
+      "thai_native": "น้อง",
+      "romanization": "nong",
+      "chinese": "弟弟妹妹；年幼者",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 327,
+      "thai": "สามี",
+      "thai_native": "สามี",
+      "romanization": "sami",
+      "chinese": "丈夫",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 328,
+      "thai": "ภรรยา",
+      "thai_native": "ภรรยา",
+      "romanization": "phanraya",
+      "chinese": "妻子",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 329,
+      "thai": "แฟน",
+      "thai_native": "แฟน",
+      "romanization": "faen",
+      "chinese": "伴侶；男／女朋友",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 330,
+      "thai": "เด็ก",
+      "thai_native": "เด็ก",
+      "romanization": "dek",
+      "chinese": "小孩",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 331,
+      "thai": "ผู้ใหญ่",
+      "thai_native": "ผู้ใหญ่",
+      "romanization": "phu yai",
+      "chinese": "大人",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 332,
+      "thai": "ผู้หญิง",
+      "thai_native": "ผู้หญิง",
+      "romanization": "phu ying",
+      "chinese": "女人",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 333,
+      "thai": "ผู้ชาย",
+      "thai_native": "ผู้ชาย",
+      "romanization": "phu chai",
+      "chinese": "男人",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 334,
+      "thai": "ชื่อเล่น",
+      "thai_native": "ชื่อเล่น",
+      "romanization": "chue len",
+      "chinese": "綽號",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 335,
+      "thai": "เพื่อนบ้าน",
+      "thai_native": "เพื่อนบ้าน",
+      "romanization": "phuean ban",
+      "chinese": "鄰居",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 336,
+      "thai": "แขก",
+      "thai_native": "แขก",
+      "romanization": "khaek",
+      "chinese": "客人",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 337,
+      "thai": "เจ้าของ",
+      "thai_native": "เจ้าของ",
+      "romanization": "chao khong",
+      "chinese": "主人；擁有者",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 338,
+      "thai": "ครู",
+      "thai_native": "ครู",
+      "romanization": "khru",
+      "chinese": "老師",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 339,
+      "thai": "นักเรียน",
+      "thai_native": "นักเรียน",
+      "romanization": "nak rian",
+      "chinese": "學生",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 340,
+      "thai": "โรงเรียน",
+      "thai_native": "โรงเรียน",
+      "romanization": "rong rian",
+      "chinese": "學校",
+      "category": "greeting",
+      "level": 2
+    },
+    {
+      "id": 341,
+      "thai": "มหาวิทยาลัย",
+      "thai_native": "มหาวิทยาลัย",
+      "romanization": "maha witthayalai",
+      "chinese": "大學",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 342,
+      "thai": "หนังสือ",
+      "thai_native": "หนังสือ",
+      "romanization": "nangsue",
+      "chinese": "書",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 343,
+      "thai": "สมุด",
+      "thai_native": "สมุด",
+      "romanization": "samut",
+      "chinese": "筆記本",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 344,
+      "thai": "ปากกา",
+      "thai_native": "ปากกา",
+      "romanization": "pakka",
+      "chinese": "筆",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 345,
+      "thai": "ดินสอ",
+      "thai_native": "ดินสอ",
+      "romanization": "dinso",
+      "chinese": "鉛筆",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 346,
+      "thai": "โต๊ะ",
+      "thai_native": "โต๊ะ",
+      "romanization": "to",
+      "chinese": "桌子",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 347,
+      "thai": "เก้าอี้",
+      "thai_native": "เก้าอี้",
+      "romanization": "kao i",
+      "chinese": "椅子",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 348,
+      "thai": "กระดาษ",
+      "thai_native": "กระดาษ",
+      "romanization": "kradat",
+      "chinese": "紙",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 349,
+      "thai": "คำ",
+      "thai_native": "คำ",
+      "romanization": "kham",
+      "chinese": "字；詞",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 350,
+      "thai": "ประโยค",
+      "thai_native": "ประโยค",
+      "romanization": "prayok",
+      "chinese": "句子",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 351,
+      "thai": "คำถาม",
+      "thai_native": "คำถาม",
+      "romanization": "kham tham",
+      "chinese": "問題",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 352,
+      "thai": "คำตอบ",
+      "thai_native": "คำตอบ",
+      "romanization": "kham top",
+      "chinese": "答案",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 353,
+      "thai": "การบ้าน",
+      "thai_native": "การบ้าน",
+      "romanization": "kan ban",
+      "chinese": "作業",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 354,
+      "thai": "บทเรียน",
+      "thai_native": "บทเรียน",
+      "romanization": "bot rian",
+      "chinese": "課程",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 355,
+      "thai": "สอบ",
+      "thai_native": "สอบ",
+      "romanization": "sop",
+      "chinese": "考試",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 356,
+      "thai": "ฝึก",
+      "thai_native": "ฝึก",
+      "romanization": "fuek",
+      "chinese": "練習",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 357,
+      "thai": "จำได้",
+      "thai_native": "จำได้",
+      "romanization": "cham dai",
+      "chinese": "記得",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 358,
+      "thai": "แปล",
+      "thai_native": "แปล",
+      "romanization": "plae",
+      "chinese": "翻譯",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 359,
+      "thai": "ออกเสียง",
+      "thai_native": "ออกเสียง",
+      "romanization": "ok siang",
+      "chinese": "發音",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 360,
+      "thai": "หัว",
+      "thai_native": "หัว",
+      "romanization": "hua",
+      "chinese": "頭",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 361,
+      "thai": "หน้า",
+      "thai_native": "หน้า",
+      "romanization": "na",
+      "chinese": "臉；前面",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 362,
+      "thai": "ตา",
+      "thai_native": "ตา",
+      "romanization": "ta",
+      "chinese": "眼睛",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 363,
+      "thai": "หู",
+      "thai_native": "หู",
+      "romanization": "hu",
+      "chinese": "耳朵",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 364,
+      "thai": "จมูก",
+      "thai_native": "จมูก",
+      "romanization": "chamuk",
+      "chinese": "鼻子",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 365,
+      "thai": "ปาก",
+      "thai_native": "ปาก",
+      "romanization": "pak",
+      "chinese": "嘴巴",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 366,
+      "thai": "ฟัน",
+      "thai_native": "ฟัน",
+      "romanization": "fan",
+      "chinese": "牙齒",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 367,
+      "thai": "คอ",
+      "thai_native": "คอ",
+      "romanization": "kho",
+      "chinese": "脖子；喉嚨",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 368,
+      "thai": "มือ",
+      "thai_native": "มือ",
+      "romanization": "mue",
+      "chinese": "手",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 369,
+      "thai": "แขน",
+      "thai_native": "แขน",
+      "romanization": "khaen",
+      "chinese": "手臂",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 370,
+      "thai": "ขา",
+      "thai_native": "ขา",
+      "romanization": "kha",
+      "chinese": "腿",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 371,
+      "thai": "เท้า",
+      "thai_native": "เท้า",
+      "romanization": "thao",
+      "chinese": "腳",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 372,
+      "thai": "ท้อง",
+      "thai_native": "ท้อง",
+      "romanization": "thong",
+      "chinese": "肚子",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 373,
+      "thai": "หัวใจ",
+      "thai_native": "หัวใจ",
+      "romanization": "hua chai",
+      "chinese": "心臟；心",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 374,
+      "thai": "เลือด",
+      "thai_native": "เลือด",
+      "romanization": "lueat",
+      "chinese": "血",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 375,
+      "thai": "ร่างกาย",
+      "thai_native": "ร่างกาย",
+      "romanization": "rang kai",
+      "chinese": "身體",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 376,
+      "thai": "หมอ",
+      "thai_native": "หมอ",
+      "romanization": "mo",
+      "chinese": "醫生",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 377,
+      "thai": "พยาบาล",
+      "thai_native": "พยาบาล",
+      "romanization": "phayaban",
+      "chinese": "護理師",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 378,
+      "thai": "ยา",
+      "thai_native": "ยา",
+      "romanization": "ya",
+      "chinese": "藥",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 379,
+      "thai": "โรงพยาบาล",
+      "thai_native": "โรงพยาบาล",
+      "romanization": "rong phayaban",
+      "chinese": "醫院",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 380,
+      "thai": "คลินิก",
+      "thai_native": "คลินิก",
+      "romanization": "khlinik",
+      "chinese": "診所",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 381,
+      "thai": "ป่วย",
+      "thai_native": "ป่วย",
+      "romanization": "puai",
+      "chinese": "生病",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 382,
+      "thai": "เจ็บ",
+      "thai_native": "เจ็บ",
+      "romanization": "chep",
+      "chinese": "疼痛",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 383,
+      "thai": "ไข้",
+      "thai_native": "ไข้",
+      "romanization": "khai",
+      "chinese": "發燒",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 384,
+      "thai": "ไอ",
+      "thai_native": "ไอ",
+      "romanization": "ai",
+      "chinese": "咳嗽",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 385,
+      "thai": "หนาว",
+      "thai_native": "หนาว",
+      "romanization": "nao",
+      "chinese": "冷",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 386,
+      "thai": "ร้อน",
+      "thai_native": "ร้อน",
+      "romanization": "ron",
+      "chinese": "熱",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 387,
+      "thai": "เหนื่อย",
+      "thai_native": "เหนื่อย",
+      "romanization": "nueai",
+      "chinese": "累",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 388,
+      "thai": "พัก",
+      "thai_native": "พัก",
+      "romanization": "phak",
+      "chinese": "休息",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 389,
+      "thai": "หายใจ",
+      "thai_native": "หายใจ",
+      "romanization": "hai chai",
+      "chinese": "呼吸",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 390,
+      "thai": "อันตราย",
+      "thai_native": "อันตราย",
+      "romanization": "antarai",
+      "chinese": "危險",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 391,
+      "thai": "ปลอดภัย",
+      "thai_native": "ปลอดภัย",
+      "romanization": "plot phai",
+      "chinese": "安全",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 392,
+      "thai": "ช่วยด้วย",
+      "thai_native": "ช่วยด้วย",
+      "romanization": "chuai duai",
+      "chinese": "救命",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 393,
+      "thai": "ตำรวจ",
+      "thai_native": "ตำรวจ",
+      "romanization": "tamruat",
+      "chinese": "警察",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 394,
+      "thai": "ไฟ",
+      "thai_native": "ไฟ",
+      "romanization": "fai",
+      "chinese": "火；電燈",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 395,
+      "thai": "ฝน",
+      "thai_native": "ฝน",
+      "romanization": "fon",
+      "chinese": "雨",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 396,
+      "thai": "แดด",
+      "thai_native": "แดด",
+      "romanization": "daet",
+      "chinese": "陽光",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 397,
+      "thai": "ลม",
+      "thai_native": "ลม",
+      "romanization": "lom",
+      "chinese": "風",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 398,
+      "thai": "เมฆ",
+      "thai_native": "เมฆ",
+      "romanization": "mek",
+      "chinese": "雲",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 399,
+      "thai": "ฟ้า",
+      "thai_native": "ฟ้า",
+      "romanization": "fa",
+      "chinese": "天空",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 400,
+      "thai": "อากาศ",
+      "thai_native": "อากาศ",
+      "romanization": "akat",
+      "chinese": "天氣；空氣",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 401,
+      "thai": "ฤดู",
+      "thai_native": "ฤดู",
+      "romanization": "ruedu",
+      "chinese": "季節",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 402,
+      "thai": "ฤดูร้อน",
+      "thai_native": "ฤดูร้อน",
+      "romanization": "ruedu ron",
+      "chinese": "夏季",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 403,
+      "thai": "ฤดูฝน",
+      "thai_native": "ฤดูฝน",
+      "romanization": "ruedu fon",
+      "chinese": "雨季",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 404,
+      "thai": "ฤดูหนาว",
+      "thai_native": "ฤดูหนาว",
+      "romanization": "ruedu nao",
+      "chinese": "冬季",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 405,
+      "thai": "ดอกไม้",
+      "thai_native": "ดอกไม้",
+      "romanization": "dok mai",
+      "chinese": "花",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 406,
+      "thai": "ต้นไม้",
+      "thai_native": "ต้นไม้",
+      "romanization": "ton mai",
+      "chinese": "樹",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 407,
+      "thai": "ใบไม้",
+      "thai_native": "ใบไม้",
+      "romanization": "bai mai",
+      "chinese": "樹葉",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 408,
+      "thai": "แม่น้ำ",
+      "thai_native": "แม่น้ำ",
+      "romanization": "mae nam",
+      "chinese": "河流",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 409,
+      "thai": "ป่า",
+      "thai_native": "ป่า",
+      "romanization": "pa",
+      "chinese": "森林",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 410,
+      "thai": "ทุ่ง",
+      "thai_native": "ทุ่ง",
+      "romanization": "thung",
+      "chinese": "田野",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 411,
+      "thai": "สัตว์",
+      "thai_native": "สัตว์",
+      "romanization": "sat",
+      "chinese": "動物",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 412,
+      "thai": "สุนัข",
+      "thai_native": "สุนัข",
+      "romanization": "sunak",
+      "chinese": "狗",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 413,
+      "thai": "แมว",
+      "thai_native": "แมว",
+      "romanization": "maeo",
+      "chinese": "貓",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 414,
+      "thai": "นก",
+      "thai_native": "นก",
+      "romanization": "nok",
+      "chinese": "鳥",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 415,
+      "thai": "ช้าง",
+      "thai_native": "ช้าง",
+      "romanization": "chang",
+      "chinese": "大象",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 416,
+      "thai": "งู",
+      "thai_native": "งู",
+      "romanization": "ngu",
+      "chinese": "蛇",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 417,
+      "thai": "ลิง",
+      "thai_native": "ลิง",
+      "romanization": "ling",
+      "chinese": "猴子",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 418,
+      "thai": "ม้า",
+      "thai_native": "ม้า",
+      "romanization": "ma",
+      "chinese": "馬",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 419,
+      "thai": "วัว",
+      "thai_native": "วัว",
+      "romanization": "wua",
+      "chinese": "牛",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 420,
+      "thai": "แกะ",
+      "thai_native": "แกะ",
+      "romanization": "kae",
+      "chinese": "羊",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 421,
+      "thai": "ปลาโลมา",
+      "thai_native": "ปลาโลมา",
+      "romanization": "pla loma",
+      "chinese": "海豚",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 422,
+      "thai": "งาน",
+      "thai_native": "งาน",
+      "romanization": "ngan",
+      "chinese": "工作；活動",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 423,
+      "thai": "บริษัท",
+      "thai_native": "บริษัท",
+      "romanization": "borisat",
+      "chinese": "公司",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 424,
+      "thai": "สำนักงาน",
+      "thai_native": "สำนักงาน",
+      "romanization": "samnak ngan",
+      "chinese": "辦公室",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 425,
+      "thai": "เจ้านาย",
+      "thai_native": "เจ้านาย",
+      "romanization": "chao nai",
+      "chinese": "老闆",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 426,
+      "thai": "เพื่อนร่วมงาน",
+      "thai_native": "เพื่อนร่วมงาน",
+      "romanization": "phuean ruam ngan",
+      "chinese": "同事",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 427,
+      "thai": "ประชุม",
+      "thai_native": "ประชุม",
+      "romanization": "prachum",
+      "chinese": "開會",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 428,
+      "thai": "โครงการ",
+      "thai_native": "โครงการ",
+      "romanization": "khrong kan",
+      "chinese": "計畫；專案",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 429,
+      "thai": "เงินเดือน",
+      "thai_native": "เงินเดือน",
+      "romanization": "ngoen duean",
+      "chinese": "薪水",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 430,
+      "thai": "อาชีพ",
+      "thai_native": "อาชีพ",
+      "romanization": "achip",
+      "chinese": "職業",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 431,
+      "thai": "ธุรกิจ",
+      "thai_native": "ธุรกิจ",
+      "romanization": "thurakit",
+      "chinese": "生意；事業",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 432,
+      "thai": "ธนาคาร",
+      "thai_native": "ธนาคาร",
+      "romanization": "thanakhan",
+      "chinese": "銀行",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 433,
+      "thai": "ไปรษณีย์",
+      "thai_native": "ไปรษณีย์",
+      "romanization": "praisani",
+      "chinese": "郵局",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 434,
+      "thai": "จดหมาย",
+      "thai_native": "จดหมาย",
+      "romanization": "chot mai",
+      "chinese": "信件",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 435,
+      "thai": "พัสดุ",
+      "thai_native": "พัสดุ",
+      "romanization": "phatsadu",
+      "chinese": "包裹",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 436,
+      "thai": "โทรศัพท์",
+      "thai_native": "โทรศัพท์",
+      "romanization": "thorasap",
+      "chinese": "電話",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 437,
+      "thai": "มือถือ",
+      "thai_native": "มือถือ",
+      "romanization": "mue thue",
+      "chinese": "手機",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 438,
+      "thai": "คอมพิวเตอร์",
+      "thai_native": "คอมพิวเตอร์",
+      "romanization": "khomphiutoe",
+      "chinese": "電腦",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 439,
+      "thai": "หน้าจอ",
+      "thai_native": "หน้าจอ",
+      "romanization": "na cho",
+      "chinese": "螢幕",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 440,
+      "thai": "แบตเตอรี่",
+      "thai_native": "แบตเตอรี่",
+      "romanization": "baettoeri",
+      "chinese": "電池",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 441,
+      "thai": "ชาร์จ",
+      "thai_native": "ชาร์จ",
+      "romanization": "chat",
+      "chinese": "充電",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 442,
+      "thai": "เสื้อเชิ้ต",
+      "thai_native": "เสื้อเชิ้ต",
+      "romanization": "suea choet",
+      "chinese": "襯衫",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 443,
+      "thai": "เสื้อยืด",
+      "thai_native": "เสื้อยืด",
+      "romanization": "suea yuet",
+      "chinese": "T 恤",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 444,
+      "thai": "เสื้อกันหนาว",
+      "thai_native": "เสื้อกันหนาว",
+      "romanization": "suea kan nao",
+      "chinese": "外套",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 445,
+      "thai": "กระโปรง",
+      "thai_native": "กระโปรง",
+      "romanization": "kraprong",
+      "chinese": "裙子",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 446,
+      "thai": "ชุด",
+      "thai_native": "ชุด",
+      "romanization": "chut",
+      "chinese": "一套衣服",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 447,
+      "thai": "ถุงเท้า",
+      "thai_native": "ถุงเท้า",
+      "romanization": "thung thao",
+      "chinese": "襪子",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 448,
+      "thai": "เข็มขัด",
+      "thai_native": "เข็มขัด",
+      "romanization": "khem khat",
+      "chinese": "皮帶",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 449,
+      "thai": "แว่นตา",
+      "thai_native": "แว่นตา",
+      "romanization": "waen ta",
+      "chinese": "眼鏡",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 450,
+      "thai": "ร่ม",
+      "thai_native": "ร่ม",
+      "romanization": "rom",
+      "chinese": "雨傘",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 451,
+      "thai": "นาฬิกา",
+      "thai_native": "นาฬิกา",
+      "romanization": "nalika",
+      "chinese": "手錶；時鐘",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 452,
+      "thai": "แหวน",
+      "thai_native": "แหวน",
+      "romanization": "waen",
+      "chinese": "戒指",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 453,
+      "thai": "สร้อย",
+      "thai_native": "สร้อย",
+      "romanization": "soi",
+      "chinese": "項鍊",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 454,
+      "thai": "ของขวัญ",
+      "thai_native": "ของขวัญ",
+      "romanization": "khong khwan",
+      "chinese": "禮物",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 455,
+      "thai": "ขนาด",
+      "thai_native": "ขนาด",
+      "romanization": "khanat",
+      "chinese": "尺寸",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 456,
+      "thai": "ยาว",
+      "thai_native": "ยาว",
+      "romanization": "yao",
+      "chinese": "長",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 457,
+      "thai": "สั้น",
+      "thai_native": "สั้น",
+      "romanization": "san",
+      "chinese": "短",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 458,
+      "thai": "กว้าง",
+      "thai_native": "กว้าง",
+      "romanization": "kwang",
+      "chinese": "寬",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 459,
+      "thai": "แคบ",
+      "thai_native": "แคบ",
+      "romanization": "khaep",
+      "chinese": "窄",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 460,
+      "thai": "หนา",
+      "thai_native": "หนา",
+      "romanization": "na",
+      "chinese": "厚",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 461,
+      "thai": "บาง",
+      "thai_native": "บาง",
+      "romanization": "bang",
+      "chinese": "薄",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 462,
+      "thai": "สีเหลือง",
+      "thai_native": "สีเหลือง",
+      "romanization": "si lueang",
+      "chinese": "黃色",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 463,
+      "thai": "สีชมพู",
+      "thai_native": "สีชมพู",
+      "romanization": "si chomphu",
+      "chinese": "粉紅色",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 464,
+      "thai": "สีส้ม",
+      "thai_native": "สีส้ม",
+      "romanization": "si som",
+      "chinese": "橘色",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 465,
+      "thai": "สีม่วง",
+      "thai_native": "สีม่วง",
+      "romanization": "si muang",
+      "chinese": "紫色",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 466,
+      "thai": "สีน้ำตาล",
+      "thai_native": "สีน้ำตาล",
+      "romanization": "si nam tan",
+      "chinese": "棕色",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 467,
+      "thai": "สีเทา",
+      "thai_native": "สีเทา",
+      "romanization": "si thao",
+      "chinese": "灰色",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 468,
+      "thai": "สะอาด",
+      "thai_native": "สะอาด",
+      "romanization": "sa at",
+      "chinese": "乾淨",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 469,
+      "thai": "สกปรก",
+      "thai_native": "สกปรก",
+      "romanization": "sokkaprok",
+      "chinese": "髒",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 470,
+      "thai": "ใหม่",
+      "thai_native": "ใหม่",
+      "romanization": "mai",
+      "chinese": "新的",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 471,
+      "thai": "เก่า",
+      "thai_native": "เก่า",
+      "romanization": "kao",
+      "chinese": "舊的",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 472,
+      "thai": "ดี",
+      "thai_native": "ดี",
+      "romanization": "di",
+      "chinese": "好的",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 473,
+      "thai": "แย่",
+      "thai_native": "แย่",
+      "romanization": "yae",
+      "chinese": "不好的",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 474,
+      "thai": "ง่าย",
+      "thai_native": "ง่าย",
+      "romanization": "ngai",
+      "chinese": "容易",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 475,
+      "thai": "ยาก",
+      "thai_native": "ยาก",
+      "romanization": "yak",
+      "chinese": "困難",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 476,
+      "thai": "สนุก",
+      "thai_native": "สนุก",
+      "romanization": "sanuk",
+      "chinese": "有趣；好玩",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 477,
+      "thai": "น่าเบื่อ",
+      "thai_native": "น่าเบื่อ",
+      "romanization": "na buea",
+      "chinese": "無聊",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 478,
+      "thai": "สวย",
+      "thai_native": "สวย",
+      "romanization": "suai",
+      "chinese": "漂亮",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 479,
+      "thai": "หล่อ",
+      "thai_native": "หล่อ",
+      "romanization": "lo",
+      "chinese": "英俊",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 480,
+      "thai": "น่ารัก",
+      "thai_native": "น่ารัก",
+      "romanization": "na rak",
+      "chinese": "可愛",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 481,
+      "thai": "ใจดี",
+      "thai_native": "ใจดี",
+      "romanization": "chai di",
+      "chinese": "善良",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 482,
+      "thai": "ใจร้าย",
+      "thai_native": "ใจร้าย",
+      "romanization": "chai rai",
+      "chinese": "壞心；刻薄",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 483,
+      "thai": "เศร้า",
+      "thai_native": "เศร้า",
+      "romanization": "sao",
+      "chinese": "難過",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 484,
+      "thai": "โกรธ",
+      "thai_native": "โกรธ",
+      "romanization": "krot",
+      "chinese": "生氣",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 485,
+      "thai": "กลัว",
+      "thai_native": "กลัว",
+      "romanization": "klua",
+      "chinese": "害怕",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 486,
+      "thai": "ตื่นเต้น",
+      "thai_native": "ตื่นเต้น",
+      "romanization": "tuen ten",
+      "chinese": "興奮",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 487,
+      "thai": "กังวล",
+      "thai_native": "กังวล",
+      "romanization": "kangwon",
+      "chinese": "擔心",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 488,
+      "thai": "คิด",
+      "thai_native": "คิด",
+      "romanization": "khit",
+      "chinese": "想；思考",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 489,
+      "thai": "เชื่อ",
+      "thai_native": "เชื่อ",
+      "romanization": "chuea",
+      "chinese": "相信",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 490,
+      "thai": "หวัง",
+      "thai_native": "หวัง",
+      "romanization": "wang",
+      "chinese": "希望",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 491,
+      "thai": "เลือก",
+      "thai_native": "เลือก",
+      "romanization": "lueak",
+      "chinese": "選擇",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 492,
+      "thai": "ตัดสินใจ",
+      "thai_native": "ตัดสินใจ",
+      "romanization": "tat sin chai",
+      "chinese": "決定",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 493,
+      "thai": "ยอมรับ",
+      "thai_native": "ยอมรับ",
+      "romanization": "yom rap",
+      "chinese": "接受",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 494,
+      "thai": "ปฏิเสธ",
+      "thai_native": "ปฏิเสธ",
+      "romanization": "patiset",
+      "chinese": "拒絕",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 495,
+      "thai": "ถาม",
+      "thai_native": "ถาม",
+      "romanization": "tham",
+      "chinese": "問",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 496,
+      "thai": "ตอบ",
+      "thai_native": "ตอบ",
+      "romanization": "top",
+      "chinese": "回答",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 497,
+      "thai": "บอก",
+      "thai_native": "บอก",
+      "romanization": "bok",
+      "chinese": "告訴",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 498,
+      "thai": "อธิบาย",
+      "thai_native": "อธิบาย",
+      "romanization": "athibai",
+      "chinese": "解釋",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 499,
+      "thai": "ส่ง",
+      "thai_native": "ส่ง",
+      "romanization": "song",
+      "chinese": "寄送；送出",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 500,
+      "thai": "รับ",
+      "thai_native": "รับ",
+      "romanization": "rap",
+      "chinese": "接收",
+      "category": "verbs",
+      "level": 2
     }
   ],
   "sentences": [
@@ -6209,6 +8009,1808 @@
         "romanization": "karuna titto sathanthut hai chan khâ",
         "chinese": "請幫我聯絡大使館。"
       }
+    }
+  ],
+  "phrases": [
+    {
+      "id": 2001,
+      "thai": "ขอ ข้าว หน่อย",
+      "thai_native": "ขอข้าวหน่อย",
+      "romanization": "kho khao noi",
+      "chinese": "請給我飯",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2002,
+      "thai": "เอา ข้าว ด้วย",
+      "thai_native": "เอาข้าวด้วย",
+      "romanization": "ao khao duai",
+      "chinese": "也要飯",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2003,
+      "thai": "มี ข้าว ไหม",
+      "thai_native": "มีข้าวไหม",
+      "romanization": "mi khao mai",
+      "chinese": "有飯嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2004,
+      "thai": "ข้าว อยู่ ไหน",
+      "thai_native": "ข้าวอยู่ไหน",
+      "romanization": "khao yu nai",
+      "chinese": "飯在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2005,
+      "thai": "ขอ ข้าวผัด หน่อย",
+      "thai_native": "ขอข้าวผัดหน่อย",
+      "romanization": "kho khao phat noi",
+      "chinese": "請給我炒飯",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2006,
+      "thai": "เอา ข้าวผัด ด้วย",
+      "thai_native": "เอาข้าวผัดด้วย",
+      "romanization": "ao khao phat duai",
+      "chinese": "也要炒飯",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2007,
+      "thai": "มี ข้าวผัด ไหม",
+      "thai_native": "มีข้าวผัดไหม",
+      "romanization": "mi khao phat mai",
+      "chinese": "有炒飯嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2008,
+      "thai": "ข้าวผัด อยู่ ไหน",
+      "thai_native": "ข้าวผัดอยู่ไหน",
+      "romanization": "khao phat yu nai",
+      "chinese": "炒飯在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2009,
+      "thai": "ขอ ข้าวมันไก่ หน่อย",
+      "thai_native": "ขอข้าวมันไก่หน่อย",
+      "romanization": "kho khao man kai noi",
+      "chinese": "請給我海南雞飯",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2010,
+      "thai": "เอา ข้าวมันไก่ ด้วย",
+      "thai_native": "เอาข้าวมันไก่ด้วย",
+      "romanization": "ao khao man kai duai",
+      "chinese": "也要海南雞飯",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2011,
+      "thai": "มี ข้าวมันไก่ ไหม",
+      "thai_native": "มีข้าวมันไก่ไหม",
+      "romanization": "mi khao man kai mai",
+      "chinese": "有海南雞飯嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2012,
+      "thai": "ข้าวมันไก่ อยู่ ไหน",
+      "thai_native": "ข้าวมันไก่อยู่ไหน",
+      "romanization": "khao man kai yu nai",
+      "chinese": "海南雞飯在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2013,
+      "thai": "ขอ ผัดไทย หน่อย",
+      "thai_native": "ขอผัดไทยหน่อย",
+      "romanization": "kho phat thai noi",
+      "chinese": "請給我泰式炒河粉",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2014,
+      "thai": "เอา ผัดไทย ด้วย",
+      "thai_native": "เอาผัดไทยด้วย",
+      "romanization": "ao phat thai duai",
+      "chinese": "也要泰式炒河粉",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2015,
+      "thai": "มี ผัดไทย ไหม",
+      "thai_native": "มีผัดไทยไหม",
+      "romanization": "mi phat thai mai",
+      "chinese": "有泰式炒河粉嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2016,
+      "thai": "ผัดไทย อยู่ ไหน",
+      "thai_native": "ผัดไทยอยู่ไหน",
+      "romanization": "phat thai yu nai",
+      "chinese": "泰式炒河粉在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2017,
+      "thai": "ขอ ก๋วยเตี๋ยว หน่อย",
+      "thai_native": "ขอก๋วยเตี๋ยวหน่อย",
+      "romanization": "kho kuai tiao noi",
+      "chinese": "請給我麵",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2018,
+      "thai": "เอา ก๋วยเตี๋ยว ด้วย",
+      "thai_native": "เอาก๋วยเตี๋ยวด้วย",
+      "romanization": "ao kuai tiao duai",
+      "chinese": "也要麵",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2019,
+      "thai": "มี ก๋วยเตี๋ยว ไหม",
+      "thai_native": "มีก๋วยเตี๋ยวไหม",
+      "romanization": "mi kuai tiao mai",
+      "chinese": "有麵嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2020,
+      "thai": "ก๋วยเตี๋ยว อยู่ ไหน",
+      "thai_native": "ก๋วยเตี๋ยวอยู่ไหน",
+      "romanization": "kuai tiao yu nai",
+      "chinese": "麵在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2021,
+      "thai": "ขอ ต้มยำ หน่อย",
+      "thai_native": "ขอต้มยำหน่อย",
+      "romanization": "kho tom yam noi",
+      "chinese": "請給我冬蔭功",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2022,
+      "thai": "เอา ต้มยำ ด้วย",
+      "thai_native": "เอาต้มยำด้วย",
+      "romanization": "ao tom yam duai",
+      "chinese": "也要冬蔭功",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2023,
+      "thai": "มี ต้มยำ ไหม",
+      "thai_native": "มีต้มยำไหม",
+      "romanization": "mi tom yam mai",
+      "chinese": "有冬蔭功嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2024,
+      "thai": "ต้มยำ อยู่ ไหน",
+      "thai_native": "ต้มยำอยู่ไหน",
+      "romanization": "tom yam yu nai",
+      "chinese": "冬蔭功在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2025,
+      "thai": "ขอ ส้มตำ หน่อย",
+      "thai_native": "ขอส้มตำหน่อย",
+      "romanization": "kho som tam noi",
+      "chinese": "請給我青木瓜沙拉",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2026,
+      "thai": "เอา ส้มตำ ด้วย",
+      "thai_native": "เอาส้มตำด้วย",
+      "romanization": "ao som tam duai",
+      "chinese": "也要青木瓜沙拉",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2027,
+      "thai": "มี ส้มตำ ไหม",
+      "thai_native": "มีส้มตำไหม",
+      "romanization": "mi som tam mai",
+      "chinese": "有青木瓜沙拉嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2028,
+      "thai": "ส้มตำ อยู่ ไหน",
+      "thai_native": "ส้มตำอยู่ไหน",
+      "romanization": "som tam yu nai",
+      "chinese": "青木瓜沙拉在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2029,
+      "thai": "ขอ แกง หน่อย",
+      "thai_native": "ขอแกงหน่อย",
+      "romanization": "kho kaeng noi",
+      "chinese": "請給我咖哩",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2030,
+      "thai": "เอา แกง ด้วย",
+      "thai_native": "เอาแกงด้วย",
+      "romanization": "ao kaeng duai",
+      "chinese": "也要咖哩",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2031,
+      "thai": "มี แกง ไหม",
+      "thai_native": "มีแกงไหม",
+      "romanization": "mi kaeng mai",
+      "chinese": "有咖哩嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2032,
+      "thai": "แกง อยู่ ไหน",
+      "thai_native": "แกงอยู่ไหน",
+      "romanization": "kaeng yu nai",
+      "chinese": "咖哩在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2033,
+      "thai": "ขอ ไก่ หน่อย",
+      "thai_native": "ขอไก่หน่อย",
+      "romanization": "kho kai noi",
+      "chinese": "請給我雞肉",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2034,
+      "thai": "เอา ไก่ ด้วย",
+      "thai_native": "เอาไก่ด้วย",
+      "romanization": "ao kai duai",
+      "chinese": "也要雞肉",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2035,
+      "thai": "มี ไก่ ไหม",
+      "thai_native": "มีไก่ไหม",
+      "romanization": "mi kai mai",
+      "chinese": "有雞肉嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2036,
+      "thai": "ไก่ อยู่ ไหน",
+      "thai_native": "ไก่อยู่ไหน",
+      "romanization": "kai yu nai",
+      "chinese": "雞肉在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2037,
+      "thai": "ขอ หมู หน่อย",
+      "thai_native": "ขอหมูหน่อย",
+      "romanization": "kho mu noi",
+      "chinese": "請給我豬肉",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2038,
+      "thai": "เอา หมู ด้วย",
+      "thai_native": "เอาหมูด้วย",
+      "romanization": "ao mu duai",
+      "chinese": "也要豬肉",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2039,
+      "thai": "มี หมู ไหม",
+      "thai_native": "มีหมูไหม",
+      "romanization": "mi mu mai",
+      "chinese": "有豬肉嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2040,
+      "thai": "หมู อยู่ ไหน",
+      "thai_native": "หมูอยู่ไหน",
+      "romanization": "mu yu nai",
+      "chinese": "豬肉在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2041,
+      "thai": "ขอ เนื้อ หน่อย",
+      "thai_native": "ขอเนื้อหน่อย",
+      "romanization": "kho nuea noi",
+      "chinese": "請給我牛肉",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2042,
+      "thai": "เอา เนื้อ ด้วย",
+      "thai_native": "เอาเนื้อด้วย",
+      "romanization": "ao nuea duai",
+      "chinese": "也要牛肉",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2043,
+      "thai": "มี เนื้อ ไหม",
+      "thai_native": "มีเนื้อไหม",
+      "romanization": "mi nuea mai",
+      "chinese": "有牛肉嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2044,
+      "thai": "เนื้อ อยู่ ไหน",
+      "thai_native": "เนื้ออยู่ไหน",
+      "romanization": "nuea yu nai",
+      "chinese": "牛肉在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2045,
+      "thai": "ขอ ปลา หน่อย",
+      "thai_native": "ขอปลาหน่อย",
+      "romanization": "kho pla noi",
+      "chinese": "請給我魚",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2046,
+      "thai": "เอา ปลา ด้วย",
+      "thai_native": "เอาปลาด้วย",
+      "romanization": "ao pla duai",
+      "chinese": "也要魚",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2047,
+      "thai": "มี ปลา ไหม",
+      "thai_native": "มีปลาไหม",
+      "romanization": "mi pla mai",
+      "chinese": "有魚嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2048,
+      "thai": "ปลา อยู่ ไหน",
+      "thai_native": "ปลาอยู่ไหน",
+      "romanization": "pla yu nai",
+      "chinese": "魚在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2049,
+      "thai": "ขอ กุ้ง หน่อย",
+      "thai_native": "ขอกุ้งหน่อย",
+      "romanization": "kho kung noi",
+      "chinese": "請給我蝦",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2050,
+      "thai": "เอา กุ้ง ด้วย",
+      "thai_native": "เอากุ้งด้วย",
+      "romanization": "ao kung duai",
+      "chinese": "也要蝦",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2051,
+      "thai": "มี กุ้ง ไหม",
+      "thai_native": "มีกุ้งไหม",
+      "romanization": "mi kung mai",
+      "chinese": "有蝦嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2052,
+      "thai": "กุ้ง อยู่ ไหน",
+      "thai_native": "กุ้งอยู่ไหน",
+      "romanization": "kung yu nai",
+      "chinese": "蝦在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2053,
+      "thai": "ขอ ปู หน่อย",
+      "thai_native": "ขอปูหน่อย",
+      "romanization": "kho pu noi",
+      "chinese": "請給我螃蟹",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2054,
+      "thai": "เอา ปู ด้วย",
+      "thai_native": "เอาปูด้วย",
+      "romanization": "ao pu duai",
+      "chinese": "也要螃蟹",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2055,
+      "thai": "มี ปู ไหม",
+      "thai_native": "มีปูไหม",
+      "romanization": "mi pu mai",
+      "chinese": "有螃蟹嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2056,
+      "thai": "ปู อยู่ ไหน",
+      "thai_native": "ปูอยู่ไหน",
+      "romanization": "pu yu nai",
+      "chinese": "螃蟹在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2057,
+      "thai": "ขอ ไข่ หน่อย",
+      "thai_native": "ขอไข่หน่อย",
+      "romanization": "kho khai noi",
+      "chinese": "請給我蛋",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2058,
+      "thai": "เอา ไข่ ด้วย",
+      "thai_native": "เอาไข่ด้วย",
+      "romanization": "ao khai duai",
+      "chinese": "也要蛋",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2059,
+      "thai": "มี ไข่ ไหม",
+      "thai_native": "มีไข่ไหม",
+      "romanization": "mi khai mai",
+      "chinese": "有蛋嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2060,
+      "thai": "ไข่ อยู่ ไหน",
+      "thai_native": "ไข่อยู่ไหน",
+      "romanization": "khai yu nai",
+      "chinese": "蛋在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2061,
+      "thai": "ขอ ผัก หน่อย",
+      "thai_native": "ขอผักหน่อย",
+      "romanization": "kho phak noi",
+      "chinese": "請給我蔬菜",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2062,
+      "thai": "เอา ผัก ด้วย",
+      "thai_native": "เอาผักด้วย",
+      "romanization": "ao phak duai",
+      "chinese": "也要蔬菜",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2063,
+      "thai": "มี ผัก ไหม",
+      "thai_native": "มีผักไหม",
+      "romanization": "mi phak mai",
+      "chinese": "有蔬菜嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2064,
+      "thai": "ผัก อยู่ ไหน",
+      "thai_native": "ผักอยู่ไหน",
+      "romanization": "phak yu nai",
+      "chinese": "蔬菜在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2065,
+      "thai": "ขอ ผลไม้ หน่อย",
+      "thai_native": "ขอผลไม้หน่อย",
+      "romanization": "kho phonlamai noi",
+      "chinese": "請給我水果",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2066,
+      "thai": "เอา ผลไม้ ด้วย",
+      "thai_native": "เอาผลไม้ด้วย",
+      "romanization": "ao phonlamai duai",
+      "chinese": "也要水果",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2067,
+      "thai": "มี ผลไม้ ไหม",
+      "thai_native": "มีผลไม้ไหม",
+      "romanization": "mi phonlamai mai",
+      "chinese": "有水果嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2068,
+      "thai": "ผลไม้ อยู่ ไหน",
+      "thai_native": "ผลไม้อยู่ไหน",
+      "romanization": "phonlamai yu nai",
+      "chinese": "水果在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2069,
+      "thai": "ขอ มะม่วง หน่อย",
+      "thai_native": "ขอมะม่วงหน่อย",
+      "romanization": "kho mamuang noi",
+      "chinese": "請給我芒果",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2070,
+      "thai": "เอา มะม่วง ด้วย",
+      "thai_native": "เอามะม่วงด้วย",
+      "romanization": "ao mamuang duai",
+      "chinese": "也要芒果",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2071,
+      "thai": "มี มะม่วง ไหม",
+      "thai_native": "มีมะม่วงไหม",
+      "romanization": "mi mamuang mai",
+      "chinese": "有芒果嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2072,
+      "thai": "มะม่วง อยู่ ไหน",
+      "thai_native": "มะม่วงอยู่ไหน",
+      "romanization": "mamuang yu nai",
+      "chinese": "芒果在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2073,
+      "thai": "ขอ แตงโม หน่อย",
+      "thai_native": "ขอแตงโมหน่อย",
+      "romanization": "kho taengmo noi",
+      "chinese": "請給我西瓜",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2074,
+      "thai": "เอา แตงโม ด้วย",
+      "thai_native": "เอาแตงโมด้วย",
+      "romanization": "ao taengmo duai",
+      "chinese": "也要西瓜",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2075,
+      "thai": "มี แตงโม ไหม",
+      "thai_native": "มีแตงโมไหม",
+      "romanization": "mi taengmo mai",
+      "chinese": "有西瓜嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2076,
+      "thai": "แตงโม อยู่ ไหน",
+      "thai_native": "แตงโมอยู่ไหน",
+      "romanization": "taengmo yu nai",
+      "chinese": "西瓜在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2077,
+      "thai": "ขอ กล้วย หน่อย",
+      "thai_native": "ขอกล้วยหน่อย",
+      "romanization": "kho kluai noi",
+      "chinese": "請給我香蕉",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2078,
+      "thai": "เอา กล้วย ด้วย",
+      "thai_native": "เอากล้วยด้วย",
+      "romanization": "ao kluai duai",
+      "chinese": "也要香蕉",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2079,
+      "thai": "มี กล้วย ไหม",
+      "thai_native": "มีกล้วยไหม",
+      "romanization": "mi kluai mai",
+      "chinese": "有香蕉嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2080,
+      "thai": "กล้วย อยู่ ไหน",
+      "thai_native": "กล้วยอยู่ไหน",
+      "romanization": "kluai yu nai",
+      "chinese": "香蕉在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2081,
+      "thai": "ขอ มะพร้าว หน่อย",
+      "thai_native": "ขอมะพร้าวหน่อย",
+      "romanization": "kho maphrao noi",
+      "chinese": "請給我椰子",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2082,
+      "thai": "เอา มะพร้าว ด้วย",
+      "thai_native": "เอามะพร้าวด้วย",
+      "romanization": "ao maphrao duai",
+      "chinese": "也要椰子",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2083,
+      "thai": "มี มะพร้าว ไหม",
+      "thai_native": "มีมะพร้าวไหม",
+      "romanization": "mi maphrao mai",
+      "chinese": "有椰子嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2084,
+      "thai": "มะพร้าว อยู่ ไหน",
+      "thai_native": "มะพร้าวอยู่ไหน",
+      "romanization": "maphrao yu nai",
+      "chinese": "椰子在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2085,
+      "thai": "ขอ ทุเรียน หน่อย",
+      "thai_native": "ขอทุเรียนหน่อย",
+      "romanization": "kho thurian noi",
+      "chinese": "請給我榴槤",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2086,
+      "thai": "เอา ทุเรียน ด้วย",
+      "thai_native": "เอาทุเรียนด้วย",
+      "romanization": "ao thurian duai",
+      "chinese": "也要榴槤",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2087,
+      "thai": "มี ทุเรียน ไหม",
+      "thai_native": "มีทุเรียนไหม",
+      "romanization": "mi thurian mai",
+      "chinese": "有榴槤嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2088,
+      "thai": "ทุเรียน อยู่ ไหน",
+      "thai_native": "ทุเรียนอยู่ไหน",
+      "romanization": "thurian yu nai",
+      "chinese": "榴槤在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2089,
+      "thai": "ขอ น้ำ หน่อย",
+      "thai_native": "ขอน้ำหน่อย",
+      "romanization": "kho nam noi",
+      "chinese": "請給我水",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2090,
+      "thai": "เอา น้ำ ด้วย",
+      "thai_native": "เอาน้ำด้วย",
+      "romanization": "ao nam duai",
+      "chinese": "也要水",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2091,
+      "thai": "มี น้ำ ไหม",
+      "thai_native": "มีน้ำไหม",
+      "romanization": "mi nam mai",
+      "chinese": "有水嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2092,
+      "thai": "น้ำ อยู่ ไหน",
+      "thai_native": "น้ำอยู่ไหน",
+      "romanization": "nam yu nai",
+      "chinese": "水在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2093,
+      "thai": "ขอ น้ำเปล่า หน่อย",
+      "thai_native": "ขอน้ำเปล่าหน่อย",
+      "romanization": "kho nam plao noi",
+      "chinese": "請給我白開水",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2094,
+      "thai": "เอา น้ำเปล่า ด้วย",
+      "thai_native": "เอาน้ำเปล่าด้วย",
+      "romanization": "ao nam plao duai",
+      "chinese": "也要白開水",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2095,
+      "thai": "มี น้ำเปล่า ไหม",
+      "thai_native": "มีน้ำเปล่าไหม",
+      "romanization": "mi nam plao mai",
+      "chinese": "有白開水嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2096,
+      "thai": "น้ำเปล่า อยู่ ไหน",
+      "thai_native": "น้ำเปล่าอยู่ไหน",
+      "romanization": "nam plao yu nai",
+      "chinese": "白開水在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2097,
+      "thai": "ขอ กาแฟ หน่อย",
+      "thai_native": "ขอกาแฟหน่อย",
+      "romanization": "kho kafae noi",
+      "chinese": "請給我咖啡",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2098,
+      "thai": "เอา กาแฟ ด้วย",
+      "thai_native": "เอากาแฟด้วย",
+      "romanization": "ao kafae duai",
+      "chinese": "也要咖啡",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2099,
+      "thai": "มี กาแฟ ไหม",
+      "thai_native": "มีกาแฟไหม",
+      "romanization": "mi kafae mai",
+      "chinese": "有咖啡嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2100,
+      "thai": "กาแฟ อยู่ ไหน",
+      "thai_native": "กาแฟอยู่ไหน",
+      "romanization": "kafae yu nai",
+      "chinese": "咖啡在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2101,
+      "thai": "ขอ ชา หน่อย",
+      "thai_native": "ขอชาหน่อย",
+      "romanization": "kho cha noi",
+      "chinese": "請給我茶",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2102,
+      "thai": "เอา ชา ด้วย",
+      "thai_native": "เอาชาด้วย",
+      "romanization": "ao cha duai",
+      "chinese": "也要茶",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2103,
+      "thai": "มี ชา ไหม",
+      "thai_native": "มีชาไหม",
+      "romanization": "mi cha mai",
+      "chinese": "有茶嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2104,
+      "thai": "ชา อยู่ ไหน",
+      "thai_native": "ชาอยู่ไหน",
+      "romanization": "cha yu nai",
+      "chinese": "茶在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2105,
+      "thai": "ขอ นม หน่อย",
+      "thai_native": "ขอนมหน่อย",
+      "romanization": "kho nom noi",
+      "chinese": "請給我牛奶",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2106,
+      "thai": "เอา นม ด้วย",
+      "thai_native": "เอานมด้วย",
+      "romanization": "ao nom duai",
+      "chinese": "也要牛奶",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2107,
+      "thai": "มี นม ไหม",
+      "thai_native": "มีนมไหม",
+      "romanization": "mi nom mai",
+      "chinese": "有牛奶嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2108,
+      "thai": "นม อยู่ ไหน",
+      "thai_native": "นมอยู่ไหน",
+      "romanization": "nom yu nai",
+      "chinese": "牛奶在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2109,
+      "thai": "ขอ เบียร์ หน่อย",
+      "thai_native": "ขอเบียร์หน่อย",
+      "romanization": "kho bia noi",
+      "chinese": "請給我啤酒",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2110,
+      "thai": "เอา เบียร์ ด้วย",
+      "thai_native": "เอาเบียร์ด้วย",
+      "romanization": "ao bia duai",
+      "chinese": "也要啤酒",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2111,
+      "thai": "มี เบียร์ ไหม",
+      "thai_native": "มีเบียร์ไหม",
+      "romanization": "mi bia mai",
+      "chinese": "有啤酒嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2112,
+      "thai": "เบียร์ อยู่ ไหน",
+      "thai_native": "เบียร์อยู่ไหน",
+      "romanization": "bia yu nai",
+      "chinese": "啤酒在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2113,
+      "thai": "ขอ น้ำผลไม้ หน่อย",
+      "thai_native": "ขอน้ำผลไม้หน่อย",
+      "romanization": "kho nam phonlamai noi",
+      "chinese": "請給我果汁",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2114,
+      "thai": "เอา น้ำผลไม้ ด้วย",
+      "thai_native": "เอาน้ำผลไม้ด้วย",
+      "romanization": "ao nam phonlamai duai",
+      "chinese": "也要果汁",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2115,
+      "thai": "มี น้ำผลไม้ ไหม",
+      "thai_native": "มีน้ำผลไม้ไหม",
+      "romanization": "mi nam phonlamai mai",
+      "chinese": "有果汁嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2116,
+      "thai": "น้ำผลไม้ อยู่ ไหน",
+      "thai_native": "น้ำผลไม้อยู่ไหน",
+      "romanization": "nam phonlamai yu nai",
+      "chinese": "果汁在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2117,
+      "thai": "ขอ น้ำแข็ง หน่อย",
+      "thai_native": "ขอน้ำแข็งหน่อย",
+      "romanization": "kho nam khaeng noi",
+      "chinese": "請給我冰塊",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2118,
+      "thai": "เอา น้ำแข็ง ด้วย",
+      "thai_native": "เอาน้ำแข็งด้วย",
+      "romanization": "ao nam khaeng duai",
+      "chinese": "也要冰塊",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2119,
+      "thai": "มี น้ำแข็ง ไหม",
+      "thai_native": "มีน้ำแข็งไหม",
+      "romanization": "mi nam khaeng mai",
+      "chinese": "有冰塊嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2120,
+      "thai": "น้ำแข็ง อยู่ ไหน",
+      "thai_native": "น้ำแข็งอยู่ไหน",
+      "romanization": "nam khaeng yu nai",
+      "chinese": "冰塊在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2121,
+      "thai": "ขอ น้ำตาล หน่อย",
+      "thai_native": "ขอน้ำตาลหน่อย",
+      "romanization": "kho namtan noi",
+      "chinese": "請給我糖",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2122,
+      "thai": "เอา น้ำตาล ด้วย",
+      "thai_native": "เอาน้ำตาลด้วย",
+      "romanization": "ao namtan duai",
+      "chinese": "也要糖",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2123,
+      "thai": "มี น้ำตาล ไหม",
+      "thai_native": "มีน้ำตาลไหม",
+      "romanization": "mi namtan mai",
+      "chinese": "有糖嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2124,
+      "thai": "น้ำตาล อยู่ ไหน",
+      "thai_native": "น้ำตาลอยู่ไหน",
+      "romanization": "namtan yu nai",
+      "chinese": "糖在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2125,
+      "thai": "ขอ เกลือ หน่อย",
+      "thai_native": "ขอเกลือหน่อย",
+      "romanization": "kho kluea noi",
+      "chinese": "請給我鹽",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2126,
+      "thai": "เอา เกลือ ด้วย",
+      "thai_native": "เอาเกลือด้วย",
+      "romanization": "ao kluea duai",
+      "chinese": "也要鹽",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2127,
+      "thai": "มี เกลือ ไหม",
+      "thai_native": "มีเกลือไหม",
+      "romanization": "mi kluea mai",
+      "chinese": "有鹽嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2128,
+      "thai": "เกลือ อยู่ ไหน",
+      "thai_native": "เกลืออยู่ไหน",
+      "romanization": "kluea yu nai",
+      "chinese": "鹽在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2129,
+      "thai": "ขอ พริก หน่อย",
+      "thai_native": "ขอพริกหน่อย",
+      "romanization": "kho phrik noi",
+      "chinese": "請給我辣椒",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2130,
+      "thai": "เอา พริก ด้วย",
+      "thai_native": "เอาพริกด้วย",
+      "romanization": "ao phrik duai",
+      "chinese": "也要辣椒",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2131,
+      "thai": "มี พริก ไหม",
+      "thai_native": "มีพริกไหม",
+      "romanization": "mi phrik mai",
+      "chinese": "有辣椒嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2132,
+      "thai": "พริก อยู่ ไหน",
+      "thai_native": "พริกอยู่ไหน",
+      "romanization": "phrik yu nai",
+      "chinese": "辣椒在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2133,
+      "thai": "ขอ จาน หน่อย",
+      "thai_native": "ขอจานหน่อย",
+      "romanization": "kho chan noi",
+      "chinese": "請給我盤子",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2134,
+      "thai": "เอา จาน ด้วย",
+      "thai_native": "เอาจานด้วย",
+      "romanization": "ao chan duai",
+      "chinese": "也要盤子",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2135,
+      "thai": "มี จาน ไหม",
+      "thai_native": "มีจานไหม",
+      "romanization": "mi chan mai",
+      "chinese": "有盤子嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2136,
+      "thai": "จาน อยู่ ไหน",
+      "thai_native": "จานอยู่ไหน",
+      "romanization": "chan yu nai",
+      "chinese": "盤子在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2137,
+      "thai": "ขอ ชาม หน่อย",
+      "thai_native": "ขอชามหน่อย",
+      "romanization": "kho cham noi",
+      "chinese": "請給我碗",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2138,
+      "thai": "เอา ชาม ด้วย",
+      "thai_native": "เอาชามด้วย",
+      "romanization": "ao cham duai",
+      "chinese": "也要碗",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2139,
+      "thai": "มี ชาม ไหม",
+      "thai_native": "มีชามไหม",
+      "romanization": "mi cham mai",
+      "chinese": "有碗嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2140,
+      "thai": "ชาม อยู่ ไหน",
+      "thai_native": "ชามอยู่ไหน",
+      "romanization": "cham yu nai",
+      "chinese": "碗在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2141,
+      "thai": "ขอ แก้ว หน่อย",
+      "thai_native": "ขอแก้วหน่อย",
+      "romanization": "kho kaeo noi",
+      "chinese": "請給我杯",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2142,
+      "thai": "เอา แก้ว ด้วย",
+      "thai_native": "เอาแก้วด้วย",
+      "romanization": "ao kaeo duai",
+      "chinese": "也要杯",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2143,
+      "thai": "มี แก้ว ไหม",
+      "thai_native": "มีแก้วไหม",
+      "romanization": "mi kaeo mai",
+      "chinese": "有杯嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2144,
+      "thai": "แก้ว อยู่ ไหน",
+      "thai_native": "แก้วอยู่ไหน",
+      "romanization": "kaeo yu nai",
+      "chinese": "杯在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2145,
+      "thai": "ขอ ขวด หน่อย",
+      "thai_native": "ขอขวดหน่อย",
+      "romanization": "kho khuat noi",
+      "chinese": "請給我瓶",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2146,
+      "thai": "เอา ขวด ด้วย",
+      "thai_native": "เอาขวดด้วย",
+      "romanization": "ao khuat duai",
+      "chinese": "也要瓶",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2147,
+      "thai": "มี ขวด ไหม",
+      "thai_native": "มีขวดไหม",
+      "romanization": "mi khuat mai",
+      "chinese": "有瓶嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2148,
+      "thai": "ขวด อยู่ ไหน",
+      "thai_native": "ขวดอยู่ไหน",
+      "romanization": "khuat yu nai",
+      "chinese": "瓶在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2149,
+      "thai": "ขอ ช้อน หน่อย",
+      "thai_native": "ขอช้อนหน่อย",
+      "romanization": "kho chon noi",
+      "chinese": "請給我湯匙",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2150,
+      "thai": "เอา ช้อน ด้วย",
+      "thai_native": "เอาช้อนด้วย",
+      "romanization": "ao chon duai",
+      "chinese": "也要湯匙",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2151,
+      "thai": "มี ช้อน ไหม",
+      "thai_native": "มีช้อนไหม",
+      "romanization": "mi chon mai",
+      "chinese": "有湯匙嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2152,
+      "thai": "ช้อน อยู่ ไหน",
+      "thai_native": "ช้อนอยู่ไหน",
+      "romanization": "chon yu nai",
+      "chinese": "湯匙在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2153,
+      "thai": "ขอ ส้อม หน่อย",
+      "thai_native": "ขอส้อมหน่อย",
+      "romanization": "kho som noi",
+      "chinese": "請給我叉子",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2154,
+      "thai": "เอา ส้อม ด้วย",
+      "thai_native": "เอาส้อมด้วย",
+      "romanization": "ao som duai",
+      "chinese": "也要叉子",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2155,
+      "thai": "มี ส้อม ไหม",
+      "thai_native": "มีส้อมไหม",
+      "romanization": "mi som mai",
+      "chinese": "有叉子嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2156,
+      "thai": "ส้อม อยู่ ไหน",
+      "thai_native": "ส้อมอยู่ไหน",
+      "romanization": "som yu nai",
+      "chinese": "叉子在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2157,
+      "thai": "ขอ ตะเกียบ หน่อย",
+      "thai_native": "ขอตะเกียบหน่อย",
+      "romanization": "kho takiap noi",
+      "chinese": "請給我筷子",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2158,
+      "thai": "เอา ตะเกียบ ด้วย",
+      "thai_native": "เอาตะเกียบด้วย",
+      "romanization": "ao takiap duai",
+      "chinese": "也要筷子",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2159,
+      "thai": "มี ตะเกียบ ไหม",
+      "thai_native": "มีตะเกียบไหม",
+      "romanization": "mi takiap mai",
+      "chinese": "有筷子嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2160,
+      "thai": "ตะเกียบ อยู่ ไหน",
+      "thai_native": "ตะเกียบอยู่ไหน",
+      "romanization": "takiap yu nai",
+      "chinese": "筷子在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2161,
+      "thai": "ขอ เมนู หน่อย",
+      "thai_native": "ขอเมนูหน่อย",
+      "romanization": "kho menu noi",
+      "chinese": "請給我菜單",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2162,
+      "thai": "เอา เมนู ด้วย",
+      "thai_native": "เอาเมนูด้วย",
+      "romanization": "ao menu duai",
+      "chinese": "也要菜單",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2163,
+      "thai": "มี เมนู ไหม",
+      "thai_native": "มีเมนูไหม",
+      "romanization": "mi menu mai",
+      "chinese": "有菜單嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2164,
+      "thai": "เมนู อยู่ ไหน",
+      "thai_native": "เมนูอยู่ไหน",
+      "romanization": "menu yu nai",
+      "chinese": "菜單在哪裡？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 2165,
+      "thai": "ขอ ตั๋ว หน่อย",
+      "thai_native": "ขอตั๋วหน่อย",
+      "romanization": "kho tua noi",
+      "chinese": "請給我票",
+      "category": "transport",
+      "level": 2
+    },
+    {
+      "id": 2166,
+      "thai": "เอา ตั๋ว ด้วย",
+      "thai_native": "เอาตั๋วด้วย",
+      "romanization": "ao tua duai",
+      "chinese": "也要票",
+      "category": "transport",
+      "level": 2
+    },
+    {
+      "id": 2167,
+      "thai": "มี ตั๋ว ไหม",
+      "thai_native": "มีตั๋วไหม",
+      "romanization": "mi tua mai",
+      "chinese": "有票嗎？",
+      "category": "transport",
+      "level": 2
+    },
+    {
+      "id": 2168,
+      "thai": "ตั๋ว อยู่ ไหน",
+      "thai_native": "ตั๋วอยู่ไหน",
+      "romanization": "tua yu nai",
+      "chinese": "票在哪裡？",
+      "category": "transport",
+      "level": 2
+    },
+    {
+      "id": 2169,
+      "thai": "ขอ แผนที่ หน่อย",
+      "thai_native": "ขอแผนที่หน่อย",
+      "romanization": "kho phaen thi noi",
+      "chinese": "請給我地圖",
+      "category": "transport",
+      "level": 2
+    },
+    {
+      "id": 2170,
+      "thai": "เอา แผนที่ ด้วย",
+      "thai_native": "เอาแผนที่ด้วย",
+      "romanization": "ao phaen thi duai",
+      "chinese": "也要地圖",
+      "category": "transport",
+      "level": 2
+    },
+    {
+      "id": 2171,
+      "thai": "มี แผนที่ ไหม",
+      "thai_native": "มีแผนที่ไหม",
+      "romanization": "mi phaen thi mai",
+      "chinese": "有地圖嗎？",
+      "category": "transport",
+      "level": 2
+    },
+    {
+      "id": 2172,
+      "thai": "แผนที่ อยู่ ไหน",
+      "thai_native": "แผนที่อยู่ไหน",
+      "romanization": "phaen thi yu nai",
+      "chinese": "地圖在哪裡？",
+      "category": "transport",
+      "level": 2
+    },
+    {
+      "id": 2173,
+      "thai": "ขอ กุญแจ หน่อย",
+      "thai_native": "ขอกุญแจหน่อย",
+      "romanization": "kho kunchae noi",
+      "chinese": "請給我鑰匙",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2174,
+      "thai": "เอา กุญแจ ด้วย",
+      "thai_native": "เอากุญแจด้วย",
+      "romanization": "ao kunchae duai",
+      "chinese": "也要鑰匙",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2175,
+      "thai": "มี กุญแจ ไหม",
+      "thai_native": "มีกุญแจไหม",
+      "romanization": "mi kunchae mai",
+      "chinese": "有鑰匙嗎？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2176,
+      "thai": "กุญแจ อยู่ ไหน",
+      "thai_native": "กุญแจอยู่ไหน",
+      "romanization": "kunchae yu nai",
+      "chinese": "鑰匙在哪裡？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2177,
+      "thai": "ขอ หนังสือเดินทาง หน่อย",
+      "thai_native": "ขอหนังสือเดินทางหน่อย",
+      "romanization": "kho nangsue doen thang noi",
+      "chinese": "請給我護照",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2178,
+      "thai": "เอา หนังสือเดินทาง ด้วย",
+      "thai_native": "เอาหนังสือเดินทางด้วย",
+      "romanization": "ao nangsue doen thang duai",
+      "chinese": "也要護照",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2179,
+      "thai": "มี หนังสือเดินทาง ไหม",
+      "thai_native": "มีหนังสือเดินทางไหม",
+      "romanization": "mi nangsue doen thang mai",
+      "chinese": "有護照嗎？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2180,
+      "thai": "หนังสือเดินทาง อยู่ ไหน",
+      "thai_native": "หนังสือเดินทางอยู่ไหน",
+      "romanization": "nangsue doen thang yu nai",
+      "chinese": "護照在哪裡？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2181,
+      "thai": "ขอ กระเป๋า หน่อย",
+      "thai_native": "ขอกระเป๋าหน่อย",
+      "romanization": "kho krapao noi",
+      "chinese": "請給我包包",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2182,
+      "thai": "เอา กระเป๋า ด้วย",
+      "thai_native": "เอากระเป๋าด้วย",
+      "romanization": "ao krapao duai",
+      "chinese": "也要包包",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2183,
+      "thai": "มี กระเป๋า ไหม",
+      "thai_native": "มีกระเป๋าไหม",
+      "romanization": "mi krapao mai",
+      "chinese": "有包包嗎？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2184,
+      "thai": "กระเป๋า อยู่ ไหน",
+      "thai_native": "กระเป๋าอยู่ไหน",
+      "romanization": "krapao yu nai",
+      "chinese": "包包在哪裡？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2185,
+      "thai": "ขอ รูป หน่อย",
+      "thai_native": "ขอรูปหน่อย",
+      "romanization": "kho rup noi",
+      "chinese": "請給我照片",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2186,
+      "thai": "เอา รูป ด้วย",
+      "thai_native": "เอารูปด้วย",
+      "romanization": "ao rup duai",
+      "chinese": "也要照片",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2187,
+      "thai": "มี รูป ไหม",
+      "thai_native": "มีรูปไหม",
+      "romanization": "mi rup mai",
+      "chinese": "有照片嗎？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2188,
+      "thai": "รูป อยู่ ไหน",
+      "thai_native": "รูปอยู่ไหน",
+      "romanization": "rup yu nai",
+      "chinese": "照片在哪裡？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2189,
+      "thai": "ขอ กล้อง หน่อย",
+      "thai_native": "ขอกล้องหน่อย",
+      "romanization": "kho klong noi",
+      "chinese": "請給我相機",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2190,
+      "thai": "เอา กล้อง ด้วย",
+      "thai_native": "เอากล้องด้วย",
+      "romanization": "ao klong duai",
+      "chinese": "也要相機",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2191,
+      "thai": "มี กล้อง ไหม",
+      "thai_native": "มีกล้องไหม",
+      "romanization": "mi klong mai",
+      "chinese": "有相機嗎？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2192,
+      "thai": "กล้อง อยู่ ไหน",
+      "thai_native": "กล้องอยู่ไหน",
+      "romanization": "klong yu nai",
+      "chinese": "相機在哪裡？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 2193,
+      "thai": "ขอ บัตร หน่อย",
+      "thai_native": "ขอบัตรหน่อย",
+      "romanization": "kho bat noi",
+      "chinese": "請給我卡片",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 2194,
+      "thai": "เอา บัตร ด้วย",
+      "thai_native": "เอาบัตรด้วย",
+      "romanization": "ao bat duai",
+      "chinese": "也要卡片",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 2195,
+      "thai": "มี บัตร ไหม",
+      "thai_native": "มีบัตรไหม",
+      "romanization": "mi bat mai",
+      "chinese": "有卡片嗎？",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 2196,
+      "thai": "บัตร อยู่ ไหน",
+      "thai_native": "บัตรอยู่ไหน",
+      "romanization": "bat yu nai",
+      "chinese": "卡片在哪裡？",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 2197,
+      "thai": "ขอ ใบเสร็จ หน่อย",
+      "thai_native": "ขอใบเสร็จหน่อย",
+      "romanization": "kho bai set noi",
+      "chinese": "請給我收據",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 2198,
+      "thai": "เอา ใบเสร็จ ด้วย",
+      "thai_native": "เอาใบเสร็จด้วย",
+      "romanization": "ao bai set duai",
+      "chinese": "也要收據",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 2199,
+      "thai": "มี ใบเสร็จ ไหม",
+      "thai_native": "มีใบเสร็จไหม",
+      "romanization": "mi bai set mai",
+      "chinese": "有收據嗎？",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 2200,
+      "thai": "ใบเสร็จ อยู่ ไหน",
+      "thai_native": "ใบเสร็จอยู่ไหน",
+      "romanization": "bai set yu nai",
+      "chinese": "收據在哪裡？",
+      "category": "shopping",
+      "level": 2
     }
   ]
 }

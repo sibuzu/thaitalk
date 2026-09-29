@@ -78,9 +78,13 @@ class _PracticeScreenState extends State<PracticeScreen>
       if (!mounted) return;
       _pool = [
         ..._items,
-        ...curriculum.map(
-          (item) => item.forGender(AppSettings.instance.gender),
-        ),
+        ...curriculum
+            .where(
+              (item) =>
+                  item.isSentence == _item.isSentence &&
+                  item.isPhrase == _item.isPhrase,
+            )
+            .map((item) => item.forGender(AppSettings.instance.gender)),
       ];
     } catch (_) {
       // A selection containing four meanings can still supply distractors.
@@ -374,22 +378,6 @@ class _PracticeScreenState extends State<PracticeScreen>
               ),
             ),
             CopyThaiButton(_item.thai),
-            ListenableBuilder(
-              listenable: widget.store,
-              builder: (context, child) => IconButton(
-                tooltip: widget.store.savedIds.contains(_item.id)
-                    ? '取消收藏'
-                    : '收藏',
-                onPressed: () => widget.store.toggleSaved(_item.id),
-                icon: Icon(
-                  widget.store.savedIds.contains(_item.id)
-                      ? Icons.bookmark_rounded
-                      : Icons.bookmark_border_rounded,
-                  color: orange,
-                  size: 20,
-                ),
-              ),
-            ),
           ],
         ),
         const SizedBox(height: 8),

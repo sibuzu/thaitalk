@@ -7,13 +7,27 @@ void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
   test(
-    'the bundled curriculum has 300 words and 100 unique sentences',
+    'the bundled curriculum has 500 words, 200 phrases and 100 sentences',
     () async {
       final items = await LearningItem.loadCurriculum();
-      expect(items.length, 400);
-      expect(items.where((item) => !item.isSentence).length, 300);
+      expect(items.length, 800);
+      expect(
+        items.where((item) => !item.isSentence && !item.isPhrase).length,
+        500,
+      );
+      expect(items.where((item) => item.isPhrase).length, 200);
       expect(items.where((item) => item.isSentence).length, 100);
-      expect(items.map((item) => item.id).toSet().length, 400);
+      expect(items.map((item) => item.id).toSet().length, 800);
+      expect(
+        items
+            .where((item) => item.isPhrase)
+            .every(
+              (item) =>
+                  item.romanization.split(' ').length >= 3 &&
+                  item.romanization.split(' ').length <= 5,
+            ),
+        isTrue,
+      );
       expect(
         items.every((item) => item.thai.isNotEmpty && item.chinese.isNotEmpty),
         isTrue,

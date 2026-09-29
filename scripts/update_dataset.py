@@ -16,7 +16,7 @@ def update(root=ROOT, check=False):
     original = source.read_bytes()
     content = original.replace(b'\r\n', b'\n')
     data = json.loads(content)
-    entries = data['vocabulary'] + data['sentences']
+    entries = data['vocabulary'] + data.get('phrases', []) + data['sentences']
     ids = [entry['id'] for entry in entries]
     if not entries or len(ids) != len(set(ids)):
         raise ValueError('Dataset must contain entries with unique IDs.')

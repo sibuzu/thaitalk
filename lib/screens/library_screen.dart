@@ -11,6 +11,7 @@ class LibraryScreen extends StatefulWidget {
     required this.items,
     required this.store,
     required this.sentences,
+    this.phrases = false,
     required this.savedOnly,
     required this.onPractice,
     this.initialCategory,
@@ -18,6 +19,7 @@ class LibraryScreen extends StatefulWidget {
   final List<LearningItem> items;
   final LearningStore store;
   final bool sentences, savedOnly;
+  final bool phrases;
   final String? initialCategory;
   final void Function(List<LearningItem> items, {bool quiz}) onPractice;
   @override
@@ -71,7 +73,9 @@ class _LibraryScreenState extends State<LibraryScreen>
       .where(
         (i) => widget.savedOnly
             ? widget.store.savedIds.contains(i.id)
-            : i.isSentence == widget.sentences,
+            : widget.phrases
+            ? i.isPhrase
+            : i.isSentence == widget.sentences && !i.isPhrase,
       )
       .toList();
   List<LearningItem> get _filtered {
@@ -126,6 +130,8 @@ class _LibraryScreenState extends State<LibraryScreen>
         .toSet();
     final noun = widget.savedOnly
         ? '收藏'
+        : widget.phrases
+        ? '片語'
         : widget.sentences
         ? '句子'
         : '單字';
@@ -136,6 +142,8 @@ class _LibraryScreenState extends State<LibraryScreen>
         Text(
           widget.savedOnly
               ? '我的收藏'
+              : widget.phrases
+              ? '片語練習'
               : widget.sentences
               ? '句子練習'
               : '單字練習',
@@ -143,7 +151,11 @@ class _LibraryScreenState extends State<LibraryScreen>
         ),
         const SizedBox(height: 6),
         Text(
-          widget.savedOnly ? '把想記住的內容，練習到熟悉。' : '選個主題，開始一輪 10 題練習。',
+          widget.savedOnly
+              ? '把想記住的內容，練習到熟悉。'
+              : widget.phrases
+              ? '每個片語約 3–5 音節，聽讀後試著錄音練習。'
+              : '選個主題，開始一輪 10 題練習。',
           style: const TextStyle(color: muted, fontSize: 12),
         ),
         const SizedBox(height: 18),
@@ -297,7 +309,7 @@ class _LibraryScreenState extends State<LibraryScreen>
         if (!widget.savedOnly && items.isNotEmpty) ...[
           const SizedBox(height: 16),
           const Text(
-            '進入練習後，可朗讀、評分、複製泰文與收藏。',
+            '進入練習後，可朗讀、評分與複製泰文。',
             style: TextStyle(fontSize: 12, color: muted),
           ),
         ],

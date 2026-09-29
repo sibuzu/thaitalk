@@ -1,19 +1,19 @@
 # ThaiTalk
 
-Android 泰語學習 App，以 Flutter 製作。繁體中文介面、300 個常用單字、100 個情境句，可切換男女說話者用語，並用獨立按鈕播放 Local／Azure TTS；錄音發音評分使用 Azure。
+Android 泰語學習 App，以 Flutter 製作。繁體中文介面、500 個常用單字、200 個發音片語、100 個情境句，可切換男女說話者用語，並用獨立按鈕播放 Local／Azure TTS；錄音發音評分使用 Azure。
 
 ## 安裝與使用
 
-安裝 `build/app/outputs/flutter-apk/app-debug.apk` 後即可使用；**不需要自建後端，也不需要使用者輸入 API Key**。
+安裝對應手機 CPU 的 `build/app/outputs/flutter-apk/*-release.apk` 後即可使用；**不需要自建後端，也不需要使用者輸入 API Key**。
 
-目前 APK 是先前的 1.1.0 測試版本，尚未包含本機 TTS 與設定頁修改。依使用者要求，本次 **NO BUILD**，僅在再次明確要求 **build** 時重新建置。
+目前已建置包含 500 個單字、200 個片語、100 個句子的 Release APK；產物與 CPU 對照見下方建置章節。
 
-- 單字、拼音、中文及例句，泰文以詞語空白方便跟讀。
-- 主題／程度篩選、搜尋、收藏、間隔複習、單字卡及四選一測驗。
-- 單字／句子頁顯示篩選與練習入口。每次開始抽選最多 10 個不重複內容，出現順序也隨機。
+- 單字、片語、句子均有泰文、拼音與中文；原有 300 個單字另有例句。
+- 主題／程度篩選、搜尋、間隔複習、單字卡及四選一測驗。
+- 單字／片語／句子頁顯示篩選與練習入口。每次開始抽選最多 10 個不重複內容，出現順序也隨機。
 - 手機單一卡面直接顯示單字中文；左右箭頭切卡，朗讀／發音練習使用同框圖示。測驗以中文選項作答。
-- 單字卡下方依序為例句、Local TTS、Azure TTS、錄音練習圖示；句子卡與測驗不顯示例句按鈕。例句顯示泰文、拼音與中文，底部提供 Local TTS、Azure TTS、關閉按鈕，也可複製泰文。
-- 一鍵複製單字或句子到剪貼簿。
+- 有例句的單字卡提供例句按鈕；單字、片語及句子卡均可使用 Local TTS、Azure TTS 與錄音練習。例句顯示泰文、拼音與中文，可朗讀及複製。
+- 一鍵複製單字、片語或句子到剪貼簿。
 - 首頁右上角齒輪開啟設定頁：說話者「男／女」，選擇後自動保存，預設男。TTS 直接由卡片上的 Local／Azure 播放按鈕選擇。
 - 例句及情境句依說話者切換自稱、禮貌用語與對應拼音；顯示、複製、朗讀及評分使用相同版本。字典單字保留原本詞義。
 - Local／Azure 播放按鈕使用正常速度，已移除慢速按鈕，涵蓋單字、句子及例句；錄音準確度／流暢度／完整度由 Azure 評分。
@@ -34,7 +34,7 @@ App 每次啟動先讀取手機保存的教材（初次安裝使用 APK 內建�
 
 只有 SHA-256 不同才下載 JSON；版本以檔案內容的 checksum 判定。校驗檔請求最多等待 3 秒，教材下載最多等待 5 秒、大小上限 5 MiB。下載後先驗證 SHA-256、JSON 欄位、唯一 ID、男女版本及顯示／語音文字一致性，再以暫存檔寫入與原子重新命名替換 Android 私有儲存中的教材。APK 內建資料本身不會被改寫。
 
-斷網、404、逾時、下載損壞或寫入失敗，均保留舊教材；本機檔案損壞時回退至 APK 內建資料。首頁、單字／句子及測驗選項使用同一份已接受的版本。更新不清除收藏與學習紀錄，因此既有教材 ID 不應重新編號或改給另一個單字。
+斷網、404、逾時、下載損壞或寫入失敗，均保留舊教材；本機檔案損壞時回退至 APK 內建資料。首頁、單字／片語／句子及測驗選項使用同一份已接受的版本。更新不清除收藏與學習紀錄，因此既有教材 ID 不應重新編號或改給另一個單字。
 
 發布教材更新：
 
@@ -44,7 +44,7 @@ python3 scripts/update_dataset.py
 python3 scripts/update_dataset.py --check
 ```
 
-一起提交根目錄 JSON、`assets/data/` 副本及 `.sha256` 檔，再 push 到 `main`。`apply_gender_variants.py` 與 `space-thai.mjs` 產生教材時也會更新 checksum。新版 App 不需要重新安裝即可取得之後的教材更新；**目前已安裝的舊 APK，仍需先安裝含此更新功能的新 APK 一次**。本次依指示不 build。
+一起提交根目錄 JSON、`assets/data/` 副本及 `.sha256` 檔，再 push 到 `main`。`apply_gender_variants.py` 與 `space-thai.mjs` 產生教材時也會更新 checksum。新版 App 不需要重新安裝即可取得之後的教材更新；**目前已安裝的舊 APK，仍需先安裝含此更新功能的新 APK 一次**。
 
 ## 建置 Android APK（預設瘦身版）
 
@@ -76,7 +76,7 @@ python3 scripts/build_android.py \
 
 - 預設 Release，使用 Flutter 既有的 R8 程式與資源縮減。
 - 依 CPU 分開 APK，避免一支手機下載其他架構的引擎。
-- Noto Sans TC 從 11,941,968 bytes 裁切成 500,176 bytes，保留目前介面、教材、拉丁字母與標點需要的字形及字重。Noto Serif Thai 完整保留。
+- Noto Sans TC 從 11,941,968 bytes 裁切成 581,376 bytes，保留目前介面、教材、拉丁字母與標點需要的字形及字重。Noto Serif Thai 完整保留。
 - 原始中文字型保留於 `assets/fonts/NotoSansTC.ttf`，APK 只打包 `NotoSansTC.subset.ttf`；完整字型不會隨 App 打包。其他動態中文字由 Android 系統字型補足。
 - 品牌素材只打包使用中的 PNG，不包含產圖說明與工具腳本。
 
@@ -89,7 +89,7 @@ python3 -m venv /tmp/thaitalk-font-tools
 /tmp/thaitalk-font-tools/bin/python scripts/subset_fonts.py --check
 ```
 
-本次未 build，因此最終 APK 大小與安裝結果需在下次建置後驗證。
+本次已建置三種 CPU 的 Release APK，並確認各 APK 內含 500 個單字、200 個片語、100 個句子；尚未在實機安裝驗證。
 
 ### 正式簽章（選用，自行安裝不需要）
 

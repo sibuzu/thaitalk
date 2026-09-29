@@ -57,7 +57,7 @@ void main() {
   test('same checksum checks once per start and skips JSON download', () async {
     response = (_) => http.Response(checksum(bundled), 200);
     final repo = repository();
-    expect(await repo.loadAtStartup(), hasLength(400));
+    expect(await repo.loadAtStartup(), hasLength(800));
     await repo.loadAtStartup();
     await repo.load();
     expect(requests, [CurriculumRepository.checksumUrl]);
@@ -68,10 +68,10 @@ void main() {
     'verified update replaces local JSON and all readers use new items',
     () async {
       final repo = repository();
-      expect(await repo.load(), hasLength(400));
+      expect(await repo.load(), hasLength(800));
       expect(requests, isEmpty);
       final items = await repo.loadAtStartup();
-      expect(items, hasLength(401));
+      expect(items, hasLength(801));
       expect(items.lastWhere((item) => item.id == 9999).chinese, '更新教材');
       expect(await repo.load(), same(items));
       expect(await localFile().readAsBytes(), updated);
@@ -81,7 +81,7 @@ void main() {
         CurriculumRepository.datasetUrl,
       ]);
       requests.clear();
-      expect(await repository().loadAtStartup(), hasLength(401));
+      expect(await repository().loadAtStartup(), hasLength(801));
       expect(requests, [CurriculumRepository.checksumUrl]);
     },
   );
@@ -89,14 +89,14 @@ void main() {
   test('offline startup retains installed update', () async {
     await localFile().writeAsBytes(updated);
     response = (_) => throw const SocketException('offline');
-    expect(await repository().loadAtStartup(), hasLength(401));
+    expect(await repository().loadAtStartup(), hasLength(801));
     expect(await localFile().readAsBytes(), updated);
   });
 
   test('corrupt local file falls back to bundled data offline', () async {
     await localFile().writeAsString('truncated');
     response = (_) => http.Response('unavailable', 503);
-    expect(await repository().loadAtStartup(), hasLength(400));
+    expect(await repository().loadAtStartup(), hasLength(800));
   });
 
   for (final failure in [
@@ -151,7 +151,7 @@ void main() {
           _ => http.Response.bytes(incoming, 200),
         };
       };
-      expect(await repository().loadAtStartup(), hasLength(400));
+      expect(await repository().loadAtStartup(), hasLength(800));
       expect(await localFile().readAsBytes(), bundled);
       expect(await directory.list().length, 1);
     });
@@ -185,7 +185,7 @@ void main() {
             );
           }),
         );
-        expect(await repo.loadAtStartup(), hasLength(400));
+        expect(await repo.loadAtStartup(), hasLength(800));
         expect(await localFile().readAsBytes(), bundled);
       },
     );
@@ -193,7 +193,7 @@ void main() {
 
   test('checksum 404 keeps bundled curriculum', () async {
     response = (_) => http.Response('not found', 404);
-    expect(await repository().loadAtStartup(), hasLength(400));
+    expect(await repository().loadAtStartup(), hasLength(800));
     expect(requests, hasLength(1));
   });
 
@@ -215,14 +215,14 @@ void main() {
             return pending.future;
           }),
         );
-        expect(await repo.loadAtStartup(), hasLength(400));
+        expect(await repo.loadAtStartup(), hasLength(800));
         pending.complete(
           delayChecksum
               ? http.Response(checksum(updated), 200)
               : http.Response.bytes(updated, 200),
         );
         await Future<void>.delayed(const Duration(milliseconds: 20));
-        expect(await repo.load(), hasLength(400));
+        expect(await repo.load(), hasLength(800));
         expect(await localFile().exists(), isFalse);
       },
     );
@@ -233,7 +233,7 @@ void main() {
     () async {
       await localFile().writeAsBytes(bundled);
       await Directory('${localFile().path}.download').create();
-      expect(await repository().loadAtStartup(), hasLength(400));
+      expect(await repository().loadAtStartup(), hasLength(800));
       expect(await localFile().readAsBytes(), bundled);
     },
   );

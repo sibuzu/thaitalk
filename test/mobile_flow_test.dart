@@ -10,7 +10,7 @@ import 'package:thaitalk/services/learning_store.dart';
 
 void main() {
   testWidgets(
-    '320px phone launches random rounds, navigates, saves and copies Thai',
+    '320px phone launches word, phrase and sentence rounds and copies Thai',
     (tester) async {
       tester.view.physicalSize = const Size(320, 740);
       tester.view.devicePixelRatio = 1;
@@ -100,11 +100,6 @@ void main() {
         0,
         reason: 'Browsing must not count as an answer.',
       );
-      await tester.tap(
-        find.widgetWithIcon(IconButton, Icons.bookmark_border_rounded),
-      );
-      await tester.pumpAndSettle();
-      expect(store.savedIds, contains(word.id));
       await copyAndDismissNotice();
       expect(clipboardText, word.thai);
       await tester.tap(find.byTooltip('結束練習'));
@@ -112,10 +107,24 @@ void main() {
 
       await tester.tap(find.byType(NavigationDestination).at(3));
       await tester.pumpAndSettle();
-      expect(find.text(word.thai), findsOneWidget);
+      expect(find.text('句子練習'), findsOneWidget);
       expect(tester.takeException(), isNull);
 
       await tester.tap(find.byType(NavigationDestination).at(2));
+      await tester.pumpAndSettle();
+      expect(find.text('片語練習'), findsOneWidget);
+      await tester.ensureVisible(flashcards);
+      await tester.tap(flashcards);
+      await tester.pumpAndSettle();
+      final phraseRound = tester.widget<PracticeScreen>(
+        find.byType(PracticeScreen),
+      );
+      expect(phraseRound.items, hasLength(10));
+      expect(phraseRound.items.every((item) => item.isPhrase), isTrue);
+      await tester.tap(find.byTooltip('結束練習'));
+      await tester.pumpAndSettle();
+
+      await tester.tap(find.byType(NavigationDestination).at(3));
       await tester.pumpAndSettle();
       expect(find.text('句子練習'), findsOneWidget);
       expect(find.byTooltip('複製泰文'), findsNothing);
@@ -160,7 +169,6 @@ void main() {
       expect(tester.takeException(), isNull);
 
       await store.flush();
-      expect((await LearningStore.load()).savedIds, contains(word.id));
       await tester.pumpWidget(const SizedBox());
       cloud.dispose();
       store.dispose();

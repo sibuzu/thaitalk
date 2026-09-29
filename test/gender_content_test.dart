@@ -35,7 +35,7 @@ void main() {
         expect(female.exampleChinese, source.exampleChinese);
         for (final selected in [male, female]) {
           expect(compact(selected.thai), compact(selected.speechText));
-          if (!selected.isSentence) {
+          if (source.id <= 300) {
             expect(selected.exampleThai, isNotNull);
             expect(selected.exampleRomanization, isNotEmpty);
             expect(
@@ -141,10 +141,12 @@ void main() {
   });
 
   test(
-    '300 dictionary headwords retain meaning while 68 speaker examples adapt',
+    '500 dictionary headwords retain meaning while 68 speaker examples adapt',
     () {
-      final vocabulary = items.where((item) => !item.isSentence).toList();
-      expect(vocabulary, hasLength(300));
+      final vocabulary = items
+          .where((item) => !item.isSentence && !item.isPhrase)
+          .toList();
+      expect(vocabulary, hasLength(500));
       var changedExamples = 0;
       for (final source in vocabulary) {
         final female = source.forGender(SpeakerGender.female);

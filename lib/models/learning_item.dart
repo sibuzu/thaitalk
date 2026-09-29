@@ -14,6 +14,7 @@ class LearningItem {
     required this.category,
     required this.level,
     required this.isSentence,
+    this.isPhrase = false,
     this.nativeThai,
     this.exampleThai,
     this.exampleChinese,
@@ -34,6 +35,7 @@ class LearningItem {
       category = source.category,
       level = source.level,
       isSentence = source.isSentence,
+      isPhrase = source.isPhrase,
       nativeThai =
           source._femaleVariant['thai_native'] ??
           (source._femaleVariant.containsKey('thai')
@@ -60,6 +62,7 @@ class LearningItem {
   final String category;
   final int level;
   final bool isSentence;
+  final bool isPhrase;
   final String? nativeThai;
   final String? exampleThai;
   final String? exampleChinese;
@@ -85,6 +88,7 @@ class LearningItem {
   factory LearningItem.fromJson(
     Map<String, dynamic> json, {
     required bool isSentence,
+    bool isPhrase = false,
   }) {
     if (json['id'] is! int ||
         (json['id'] as int) <= 0 ||
@@ -120,6 +124,7 @@ class LearningItem {
       category: json['category'] as String,
       level: (json['level'] as num).toInt(),
       isSentence: isSentence,
+      isPhrase: isPhrase,
       nativeThai: json['thai_native'] as String?,
       exampleThai: json['example_thai'] as String?,
       exampleChinese: json['example_chinese'] as String?,
@@ -164,6 +169,12 @@ class LearningItem {
         LearningItem.fromJson(
           Map<String, dynamic>.from(value as Map),
           isSentence: false,
+        ),
+      for (final value in (data['phrases'] as List<dynamic>? ?? const []))
+        LearningItem.fromJson(
+          Map<String, dynamic>.from(value as Map),
+          isSentence: false,
+          isPhrase: true,
         ),
       for (final value in data['sentences'] as List<dynamic>)
         LearningItem.fromJson(

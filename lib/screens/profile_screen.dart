@@ -83,7 +83,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               for (final stat in [
                 (
                   Icons.auto_stories_outlined,
-                  '${store.learnedIds.length} / 400',
+                  '${store.learnedIds.length} / ${widget.items.length}',
                   '已學會內容',
                 ),
                 (

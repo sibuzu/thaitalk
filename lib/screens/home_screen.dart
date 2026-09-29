@@ -40,12 +40,12 @@ class _HomeScreenState extends State<HomeScreen> {
   int _page = 0;
   String? _category;
   final _scroll = ScrollController();
-  static const _labels = ['今日學習', '常用單字', '日常句子', '收藏複習', '學習進度'];
+  static const _labels = ['今日學習', '常用單字', '片語練習', '日常句子', '學習進度'];
   static const _icons = [
     Icons.grid_view_rounded,
     Icons.style_outlined,
+    Icons.record_voice_over_outlined,
     Icons.chat_bubble_outline_rounded,
-    Icons.bookmark_border_rounded,
     Icons.insights_rounded,
   ];
   void _navigate(int page, {String? category}) {
@@ -58,7 +58,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _practice(List<LearningItem> items, {bool quiz = false}) {
     if (items.isEmpty) {
-      showNotice(context, '先收藏幾個單字，開始你的複習吧。');
+      showNotice(context, '目前沒有可練習的內容。');
       return;
     }
     final session = samplePracticeItems(items);
@@ -99,7 +99,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   for (var i = 0; i < 5; i++)
                     NavigationDestination(
                       icon: Icon(_icons[i], size: 22),
-                      label: ['今日', '單字', '句子', '收藏', '進度'][i],
+                      label: ['今日', '單字', '片語', '句子', '進度'][i],
                     ),
                 ],
               ),
@@ -125,8 +125,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                 key: ValueKey('$_page/$_category'),
                                 items: _items,
                                 store: widget.store,
-                                sentences: _page == 2,
-                                savedOnly: _page == 3,
+                                sentences: _page == 3,
+                                phrases: _page == 2,
+                                savedOnly: false,
                                 initialCategory: _category,
                                 onPractice: _practice,
                               ),
@@ -230,13 +231,6 @@ class _HomeScreenState extends State<HomeScreen> {
                               : FontWeight.w500,
                         ),
                       ),
-                      if (i == 3 && widget.store.savedIds.isNotEmpty) ...[
-                        const Spacer(),
-                        Text(
-                          '${widget.store.savedIds.length}',
-                          style: const TextStyle(fontSize: 11, color: muted),
-                        ),
-                      ],
                     ],
                   ),
                 ),
@@ -624,10 +618,18 @@ class _HomeScreenState extends State<HomeScreen> {
             _pathCard(
               '常用單字',
               '從生活裡最常用的單字開始',
-              '${_items.where((i) => !i.isSentence).length} 個單字 · ${_items.where((i) => !i.isSentence).map((i) => i.category).toSet().length} 個主題',
+              '${_items.where((i) => !i.isSentence && !i.isPhrase).length} 個單字 · ${_items.where((i) => !i.isSentence && !i.isPhrase).map((i) => i.category).toSet().length} 個主題',
               Icons.style_outlined,
               sage,
               () => _navigate(1),
+            ),
+            _pathCard(
+              '發音片語',
+              '3–5 音節，練習開口與連音',
+              '${_items.where((i) => i.isPhrase).length} 個片語 · ${_items.where((i) => i.isPhrase).map((i) => i.category).toSet().length} 個主題',
+              Icons.record_voice_over_outlined,
+              peach,
+              () => _navigate(2),
             ),
             _pathCard(
               '日常句子',
@@ -635,18 +637,25 @@ class _HomeScreenState extends State<HomeScreen> {
               '${_items.where((i) => i.isSentence).length} 個句子 · ${_items.where((i) => i.isSentence).map((i) => i.category).toSet().length} 個情境',
               Icons.forum_outlined,
               const Color(0xFFF7EFE2),
-              () => _navigate(2),
+              () => _navigate(3),
             ),
           ];
           return c.maxWidth < 470
               ? Column(
-                  children: [cards[0], const SizedBox(height: 14), cards[1]],
+                  children: [
+                    for (var i = 0; i < cards.length; i++) ...[
+                      if (i > 0) const SizedBox(height: 14),
+                      cards[i],
+                    ],
+                  ],
                 )
               : Row(
                   children: [
                     Expanded(child: cards[0]),
                     const SizedBox(width: 16),
                     Expanded(child: cards[1]),
+                    const SizedBox(width: 16),
+                    Expanded(child: cards[2]),
                   ],
                 );
         },
@@ -923,7 +932,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _dailyWord() {
-    final words = _items.where((i) => !i.isSentence).toList();
+    final words = _items.where((i) => !i.isSentence && !i.isPhrase).toList();
     if (words.isEmpty) return const SizedBox.shrink();
     final item =
         words[DateTime.now().difference(DateTime(2026)).inDays.abs() %

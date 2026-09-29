@@ -132,7 +132,7 @@ void main() {
       ).hideCurrentSnackBar();
       await tester.pumpAndSettle();
 
-      await tester.tap(find.byType(NavigationDestination).at(2));
+      await tester.tap(find.byType(NavigationDestination).at(3));
       await tester.pumpAndSettle();
       await tester.enterText(
         find.byKey(const ValueKey('library-search')),
