@@ -1,0 +1,6908 @@
+{
+  "vocabulary": [
+    {
+      "id": 1,
+      "japanese": "以来",
+      "reading": "いらい",
+      "chinese": "自……以來",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1155210"
+    },
+    {
+      "id": 2,
+      "japanese": "維持",
+      "reading": "いじ",
+      "chinese": "維持",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1158450"
+    },
+    {
+      "id": 3,
+      "japanese": "違反",
+      "reading": "いはん",
+      "chinese": "違反",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1158950"
+    },
+    {
+      "id": 4,
+      "japanese": "医療",
+      "reading": "いりょう",
+      "chinese": "醫療",
+      "category": "health",
+      "level": 1,
+      "source_id": "1160140"
+    },
+    {
+      "id": 5,
+      "japanese": "一般",
+      "reading": "いっぱん",
+      "chinese": "一般",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1165790"
+    },
+    {
+      "id": 6,
+      "japanese": "一方",
+      "reading": "いっぽう",
+      "chinese": "一方",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1166510"
+    },
+    {
+      "id": 7,
+      "japanese": "影響",
+      "reading": "えいきょう",
+      "chinese": "影響",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1173660"
+    },
+    {
+      "id": 8,
+      "japanese": "援助",
+      "reading": "えんじょ",
+      "chinese": "援助",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1176660"
+    },
+    {
+      "id": 9,
+      "japanese": "価格",
+      "reading": "かかく",
+      "chinese": "價格",
+      "category": "shopping",
+      "level": 1,
+      "source_id": "1189500"
+    },
+    {
+      "id": 10,
+      "japanese": "可能",
+      "reading": "かのう",
+      "chinese": "可能的",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1191060"
+    },
+    {
+      "id": 11,
+      "japanese": "過去",
+      "reading": "かこ",
+      "chinese": "過去",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1196030"
+    },
+    {
+      "id": 12,
+      "japanese": "会員",
+      "reading": "かいいん",
+      "chinese": "會員",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1198230"
+    },
+    {
+      "id": 13,
+      "japanese": "解決",
+      "reading": "かいけつ",
+      "chinese": "解決",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1198960"
+    },
+    {
+      "id": 14,
+      "japanese": "回復",
+      "reading": "かいふく",
+      "chinese": "恢復",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1199720"
+    },
+    {
+      "id": 15,
+      "japanese": "海外",
+      "reading": "かいがい",
+      "chinese": "國外",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1201260"
+    },
+    {
+      "id": 16,
+      "japanese": "拡大",
+      "reading": "かくだい",
+      "chinese": "擴大",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1205200"
+    },
+    {
+      "id": 17,
+      "japanese": "活動",
+      "reading": "かつどう",
+      "chinese": "活動",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1208360"
+    },
+    {
+      "id": 18,
+      "japanese": "患者",
+      "reading": "かんじゃ",
+      "chinese": "患者",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1212210"
+    },
+    {
+      "id": 19,
+      "japanese": "環境",
+      "reading": "かんきょう",
+      "chinese": "環境",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1213280"
+    },
+    {
+      "id": 20,
+      "japanese": "管理",
+      "reading": "かんり",
+      "chinese": "管理",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1214200"
+    },
+    {
+      "id": 21,
+      "japanese": "関心",
+      "reading": "かんしん",
+      "chinese": "關心",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1215870"
+    },
+    {
+      "id": 22,
+      "japanese": "関連",
+      "reading": "かんれん",
+      "chinese": "關聯",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1216060"
+    },
+    {
+      "id": 23,
+      "japanese": "基本",
+      "reading": "きほん",
+      "chinese": "基礎",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1219190"
+    },
+    {
+      "id": 24,
+      "japanese": "期間",
+      "reading": "きかん",
+      "chinese": "期間",
+      "category": "time",
+      "level": 1,
+      "source_id": "1220550"
+    },
+    {
+      "id": 25,
+      "japanese": "期待",
+      "reading": "きたい",
+      "chinese": "期望",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1220570"
+    },
+    {
+      "id": 26,
+      "japanese": "機関",
+      "reading": "きかん",
+      "chinese": "機構",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1220870"
+    },
+    {
+      "id": 27,
+      "japanese": "機能",
+      "reading": "きのう",
+      "chinese": "功能",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1221130"
+    },
+    {
+      "id": 28,
+      "japanese": "記事",
+      "reading": "きじ",
+      "chinese": "文章",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1223240"
+    },
+    {
+      "id": 29,
+      "japanese": "記録",
+      "reading": "きろく",
+      "chinese": "記錄",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1223440"
+    },
+    {
+      "id": 30,
+      "japanese": "筋",
+      "reading": "すじ",
+      "chinese": "筋",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1241750"
+    },
+    {
+      "id": 31,
+      "japanese": "契約",
+      "reading": "けいやく",
+      "chinese": "契約",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1250190"
+    },
+    {
+      "id": 32,
+      "japanese": "決定",
+      "reading": "けってい",
+      "chinese": "決定",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1254380"
+    },
+    {
+      "id": 33,
+      "japanese": "結果",
+      "reading": "けっか",
+      "chinese": "結果",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1254690"
+    },
+    {
+      "id": 34,
+      "japanese": "現在",
+      "reading": "げんざい",
+      "chinese": "現在",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1263650"
+    },
+    {
+      "id": 35,
+      "japanese": "現実",
+      "reading": "げんじつ",
+      "chinese": "現實",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1263710"
+    },
+    {
+      "id": 36,
+      "japanese": "現場",
+      "reading": "げんば",
+      "chinese": "現場",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1263760"
+    },
+    {
+      "id": 37,
+      "japanese": "言わば",
+      "reading": "いわば",
+      "chinese": "可以說",
+      "category": "communication",
+      "level": 1,
+      "source_id": "1264380"
+    },
+    {
+      "id": 38,
+      "japanese": "個人",
+      "reading": "こじん",
+      "chinese": "個人",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1264770"
+    },
+    {
+      "id": 39,
+      "japanese": "効果",
+      "reading": "こうか",
+      "chinese": "效果",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1275130"
+    },
+    {
+      "id": 40,
+      "japanese": "考え",
+      "reading": "かんがえ",
+      "chinese": "思考",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1281000"
+    },
+    {
+      "id": 41,
+      "japanese": "行動",
+      "reading": "こうどう",
+      "chinese": "行動",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1282100"
+    },
+    {
+      "id": 42,
+      "japanese": "今回",
+      "reading": "こんかい",
+      "chinese": "這次",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1289070"
+    },
+    {
+      "id": 43,
+      "japanese": "今後",
+      "reading": "こんご",
+      "chinese": "今後",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1289140"
+    },
+    {
+      "id": 44,
+      "japanese": "最高",
+      "reading": "さいこう",
+      "chinese": "最好",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1293850"
+    },
+    {
+      "id": 45,
+      "japanese": "最終",
+      "reading": "さいしゅう",
+      "chinese": "最後",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1293940"
+    },
+    {
+      "id": 46,
+      "japanese": "作業",
+      "reading": "さぎょう",
+      "chinese": "工作",
+      "category": "work",
+      "level": 1,
+      "source_id": "1297540"
+    },
+    {
+      "id": 47,
+      "japanese": "作品",
+      "reading": "さくひん",
+      "chinese": "作品",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1297910"
+    },
+    {
+      "id": 48,
+      "japanese": "参加",
+      "reading": "さんか",
+      "chinese": "參加",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1302090"
+    },
+    {
+      "id": 49,
+      "japanese": "姿",
+      "reading": "すがた",
+      "chinese": "身形",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1307710"
+    },
+    {
+      "id": 50,
+      "japanese": "指導",
+      "reading": "しどう",
+      "chinese": "指導",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1309950"
+    },
+    {
+      "id": 51,
+      "japanese": "事実",
+      "reading": "じじつ",
+      "chinese": "事實",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1313960"
+    },
+    {
+      "id": 52,
+      "japanese": "事情",
+      "reading": "じじょう",
+      "chinese": "情況",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1314010"
+    },
+    {
+      "id": 53,
+      "japanese": "事務",
+      "reading": "じむ",
+      "chinese": "辦公工作",
+      "category": "work",
+      "level": 1,
+      "source_id": "1314270"
+    },
+    {
+      "id": 54,
+      "japanese": "時期",
+      "reading": "じき",
+      "chinese": "時期",
+      "category": "time",
+      "level": 1,
+      "source_id": "1316040"
+    },
+    {
+      "id": 55,
+      "japanese": "自身",
+      "reading": "じしん",
+      "chinese": "自己",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1318000"
+    },
+    {
+      "id": 56,
+      "japanese": "自然",
+      "reading": "しぜん",
+      "chinese": "自然",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1318090"
+    },
+    {
+      "id": 57,
+      "japanese": "実施",
+      "reading": "じっし",
+      "chinese": "實施",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1321140"
+    },
+    {
+      "id": 58,
+      "japanese": "住宅",
+      "reading": "じゅうたく",
+      "chinese": "住宅",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1334150"
+    },
+    {
+      "id": 59,
+      "japanese": "住民",
+      "reading": "じゅうみん",
+      "chinese": "居民",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1334210"
+    },
+    {
+      "id": 60,
+      "japanese": "重要",
+      "reading": "じゅうよう",
+      "chinese": "重要",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1336820"
+    },
+    {
+      "id": 61,
+      "japanese": "出身",
+      "reading": "しゅっしん",
+      "chinese": "出身",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1339260"
+    },
+    {
+      "id": 62,
+      "japanese": "女子",
+      "reading": "じょし",
+      "chinese": "女子",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1345140"
+    },
+    {
+      "id": 63,
+      "japanese": "商品",
+      "reading": "しょうひん",
+      "chinese": "商品",
+      "category": "shopping",
+      "level": 1,
+      "source_id": "1347310"
+    },
+    {
+      "id": 64,
+      "japanese": "情報",
+      "reading": "じょうほう",
+      "chinese": "資訊",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1356370"
+    },
+    {
+      "id": 65,
+      "japanese": "条件",
+      "reading": "じょうけん",
+      "chinese": "條件",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1356510"
+    },
+    {
+      "id": 66,
+      "japanese": "状況",
+      "reading": "じょうきょう",
+      "chinese": "事態",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1356700"
+    },
+    {
+      "id": 67,
+      "japanese": "状態",
+      "reading": "じょうたい",
+      "chinese": "狀態",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1356730"
+    },
+    {
+      "id": 68,
+      "japanese": "新た",
+      "reading": "あらた",
+      "chinese": "新的",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1361510"
+    },
+    {
+      "id": 69,
+      "japanese": "人間",
+      "reading": "にんげん",
+      "chinese": "人",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1366770"
+    },
+    {
+      "id": 70,
+      "japanese": "人気",
+      "reading": "にんき",
+      "chinese": "人氣",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1367010"
+    },
+    {
+      "id": 71,
+      "japanese": "成長",
+      "reading": "せいちょう",
+      "chinese": "成長",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1375790"
+    },
+    {
+      "id": 72,
+      "japanese": "積極的",
+      "reading": "せっきょくてき",
+      "chinese": "積極的",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1383030"
+    },
+    {
+      "id": 73,
+      "japanese": "責任",
+      "reading": "せきにん",
+      "chinese": "職責",
+      "category": "work",
+      "level": 1,
+      "source_id": "1383180"
+    },
+    {
+      "id": 74,
+      "japanese": "全体",
+      "reading": "ぜんたい",
+      "chinese": "全體",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1395660"
+    },
+    {
+      "id": 75,
+      "japanese": "相手",
+      "reading": "あいて",
+      "chinese": "同伴",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1401000"
+    },
+    {
+      "id": 76,
+      "japanese": "対象",
+      "reading": "たいしょう",
+      "chinese": "對象",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1410120"
+    },
+    {
+      "id": 77,
+      "japanese": "台",
+      "reading": "だい",
+      "chinese": "台、座",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1412560"
+    },
+    {
+      "id": 78,
+      "japanese": "男子",
+      "reading": "だんし",
+      "chinese": "男孩",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1420070"
+    },
+    {
+      "id": 79,
+      "japanese": "中心",
+      "reading": "ちゅうしん",
+      "chinese": "中心",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1424550"
+    },
+    {
+      "id": 80,
+      "japanese": "通信",
+      "reading": "つうしん",
+      "chinese": "通訊",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1433330"
+    },
+    {
+      "id": 81,
+      "japanese": "程度",
+      "reading": "ていど",
+      "chinese": "程度",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1436540"
+    },
+    {
+      "id": 82,
+      "japanese": "都市",
+      "reading": "とし",
+      "chinese": "城鎮",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1444990"
+    },
+    {
+      "id": 83,
+      "japanese": "努力",
+      "reading": "どりょく",
+      "chinese": "努力",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1445130"
+    },
+    {
+      "id": 84,
+      "japanese": "土地",
+      "reading": "とち",
+      "chinese": "土地",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1445470"
+    },
+    {
+      "id": 85,
+      "japanese": "当時",
+      "reading": "とうじ",
+      "chinese": "當時",
+      "category": "time",
+      "level": 1,
+      "source_id": "1449090"
+    },
+    {
+      "id": 86,
+      "japanese": "同時",
+      "reading": "どうじ",
+      "chinese": "同時",
+      "category": "time",
+      "level": 1,
+      "source_id": "1452500"
+    },
+    {
+      "id": 87,
+      "japanese": "内容",
+      "reading": "ないよう",
+      "chinese": "內容",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1459400"
+    },
+    {
+      "id": 88,
+      "japanese": "年間",
+      "reading": "ねんかん",
+      "chinese": "一年",
+      "category": "time",
+      "level": 1,
+      "source_id": "1468380"
+    },
+    {
+      "id": 89,
+      "japanese": "判断",
+      "reading": "はんだん",
+      "chinese": "判斷",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1478620"
+    },
+    {
+      "id": 90,
+      "japanese": "部分",
+      "reading": "ぶぶん",
+      "chinese": "部分",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1499490"
+    },
+    {
+      "id": 91,
+      "japanese": "分野",
+      "reading": "ぶんや",
+      "chinese": "領域",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1504330"
+    },
+    {
+      "id": 92,
+      "japanese": "平和",
+      "reading": "へいわ",
+      "chinese": "和平",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1508070"
+    },
+    {
+      "id": 93,
+      "japanese": "変化",
+      "reading": "へんか",
+      "chinese": "變化",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1510890"
+    },
+    {
+      "id": 94,
+      "japanese": "報告",
+      "reading": "ほうこく",
+      "chinese": "報告",
+      "category": "work",
+      "level": 1,
+      "source_id": "1515670"
+    },
+    {
+      "id": 95,
+      "japanese": "方向",
+      "reading": "ほうこう",
+      "chinese": "方向",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1516990"
+    },
+    {
+      "id": 96,
+      "japanese": "方法",
+      "reading": "ほうほう",
+      "chinese": "方法",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1517090"
+    },
+    {
+      "id": 97,
+      "japanese": "訪問",
+      "reading": "ほうもん",
+      "chinese": "拜訪",
+      "category": "communication",
+      "level": 1,
+      "source_id": "1518120"
+    },
+    {
+      "id": 98,
+      "japanese": "明らか",
+      "reading": "あきらか",
+      "chinese": "清楚",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1532310"
+    },
+    {
+      "id": 99,
+      "japanese": "目的",
+      "reading": "もくてき",
+      "chinese": "目的",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1535560"
+    },
+    {
+      "id": 100,
+      "japanese": "目標",
+      "reading": "もくひょう",
+      "chinese": "目標",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1535650"
+    },
+    {
+      "id": 101,
+      "japanese": "役割",
+      "reading": "やくわり",
+      "chinese": "角色",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1538000"
+    },
+    {
+      "id": 102,
+      "japanese": "予算",
+      "reading": "よさん",
+      "chinese": "預算",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1543000"
+    },
+    {
+      "id": 103,
+      "japanese": "要求",
+      "reading": "ようきゅう",
+      "chinese": "要求",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1546680"
+    },
+    {
+      "id": 104,
+      "japanese": "立場",
+      "reading": "たちば",
+      "chinese": "立場",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1551710"
+    },
+    {
+      "id": 105,
+      "japanese": "連続",
+      "reading": "れんぞく",
+      "chinese": "連續",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1559610"
+    },
+    {
+      "id": 106,
+      "japanese": "一時",
+      "reading": "いちじ",
+      "chinese": "暫時",
+      "category": "time",
+      "level": 1,
+      "source_id": "1576100"
+    },
+    {
+      "id": 107,
+      "japanese": "全国",
+      "reading": "ぜんこく",
+      "chinese": "全國",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1581180"
+    },
+    {
+      "id": 108,
+      "japanese": "平均",
+      "reading": "へいきん",
+      "chinese": "平均",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1583870"
+    },
+    {
+      "id": 109,
+      "japanese": "共同",
+      "reading": "きょうどう",
+      "chinese": "合作",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1591660"
+    },
+    {
+      "id": 110,
+      "japanese": "協力",
+      "reading": "きょうりょく",
+      "chinese": "合作",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1591720"
+    },
+    {
+      "id": 111,
+      "japanese": "事態",
+      "reading": "じたい",
+      "chinese": "局面",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1595240"
+    },
+    {
+      "id": 112,
+      "japanese": "愛",
+      "reading": "あい",
+      "chinese": "愛",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1150410"
+    },
+    {
+      "id": 113,
+      "japanese": "安定",
+      "reading": "あんてい",
+      "chinese": "穩定",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1154120"
+    },
+    {
+      "id": 114,
+      "japanese": "意思",
+      "reading": "いし",
+      "chinese": "意圖",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1156610"
+    },
+    {
+      "id": 115,
+      "japanese": "意識",
+      "reading": "いしき",
+      "chinese": "意識",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1156640"
+    },
+    {
+      "id": 116,
+      "japanese": "違い",
+      "reading": "ちがい",
+      "chinese": "差異",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1158870"
+    },
+    {
+      "id": 117,
+      "japanese": "医師",
+      "reading": "いし",
+      "chinese": "醫生",
+      "category": "health",
+      "level": 1,
+      "source_id": "1159930"
+    },
+    {
+      "id": 118,
+      "japanese": "営業",
+      "reading": "えいぎょう",
+      "chinese": "營業",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1173430"
+    },
+    {
+      "id": 119,
+      "japanese": "会合",
+      "reading": "かいごう",
+      "chinese": "會面",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1198530"
+    },
+    {
+      "id": 120,
+      "japanese": "改善",
+      "reading": "かいぜん",
+      "chinese": "改善",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1200960"
+    },
+    {
+      "id": 121,
+      "japanese": "開始",
+      "reading": "かいし",
+      "chinese": "開始",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1202760"
+    },
+    {
+      "id": 122,
+      "japanese": "確実",
+      "reading": "かくじつ",
+      "chinese": "確實",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1205830"
+    },
+    {
+      "id": 123,
+      "japanese": "感じ",
+      "reading": "かんじ",
+      "chinese": "感覺",
+      "category": "feelings",
+      "level": 1,
+      "source_id": "1212250"
+    },
+    {
+      "id": 124,
+      "japanese": "観光",
+      "reading": "かんこう",
+      "chinese": "觀光",
+      "category": "travel",
+      "level": 1,
+      "source_id": "1214840"
+    },
+    {
+      "id": 125,
+      "japanese": "希望",
+      "reading": "きぼう",
+      "chinese": "希望",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1219910"
+    },
+    {
+      "id": 126,
+      "japanese": "記念",
+      "reading": "きねん",
+      "chinese": "紀念",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1223340"
+    },
+    {
+      "id": 127,
+      "japanese": "疑問",
+      "reading": "ぎもん",
+      "chinese": "疑問",
+      "category": "communication",
+      "level": 1,
+      "source_id": "1225630"
+    },
+    {
+      "id": 128,
+      "japanese": "共通",
+      "reading": "きょうつう",
+      "chinese": "共通的",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1234700"
+    },
+    {
+      "id": 129,
+      "japanese": "教師",
+      "reading": "きょうし",
+      "chinese": "教師",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1237130"
+    },
+    {
+      "id": 130,
+      "japanese": "胸",
+      "reading": "むね",
+      "chinese": "胸部",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1237820"
+    },
+    {
+      "id": 131,
+      "japanese": "禁止",
+      "reading": "きんし",
+      "chinese": "禁止",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1241550"
+    },
+    {
+      "id": 132,
+      "japanese": "傾向",
+      "reading": "けいこう",
+      "chinese": "趨勢",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1249470"
+    },
+    {
+      "id": 133,
+      "japanese": "結局",
+      "reading": "けっきょく",
+      "chinese": "終究",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1254730"
+    },
+    {
+      "id": 134,
+      "japanese": "結論",
+      "reading": "けつろん",
+      "chinese": "結論",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1255020"
+    },
+    {
+      "id": 135,
+      "japanese": "健康",
+      "reading": "けんこう",
+      "chinese": "健康",
+      "category": "health",
+      "level": 1,
+      "source_id": "1256170"
+    },
+    {
+      "id": 136,
+      "japanese": "検査",
+      "reading": "けんさ",
+      "chinese": "檢查",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1257890"
+    },
+    {
+      "id": 137,
+      "japanese": "検討",
+      "reading": "けんとう",
+      "chinese": "考慮",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1258000"
+    },
+    {
+      "id": 138,
+      "japanese": "権利",
+      "reading": "けんり",
+      "chinese": "權利",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1258200"
+    },
+    {
+      "id": 139,
+      "japanese": "見解",
+      "reading": "けんかい",
+      "chinese": "觀點",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1259390"
+    },
+    {
+      "id": 140,
+      "japanese": "現状",
+      "reading": "げんじょう",
+      "chinese": "現狀",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1263770"
+    },
+    {
+      "id": 141,
+      "japanese": "現代",
+      "reading": "げんだい",
+      "chinese": "現在",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1263810"
+    },
+    {
+      "id": 142,
+      "japanese": "交換",
+      "reading": "こうかん",
+      "chinese": "交換",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1271750"
+    },
+    {
+      "id": 143,
+      "japanese": "広告",
+      "reading": "こうこく",
+      "chinese": "廣告",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1278510"
+    },
+    {
+      "id": 144,
+      "japanese": "航空",
+      "reading": "こうくう",
+      "chinese": "航空",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1281270"
+    },
+    {
+      "id": 145,
+      "japanese": "混乱",
+      "reading": "こんらん",
+      "chinese": "混亂",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1290560"
+    },
+    {
+      "id": 146,
+      "japanese": "差",
+      "reading": "さ",
+      "chinese": "差異",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1291070"
+    },
+    {
+      "id": 147,
+      "japanese": "再び",
+      "reading": "ふたたび",
+      "chinese": "再次",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1292300"
+    },
+    {
+      "id": 148,
+      "japanese": "賛成",
+      "reading": "さんせい",
+      "chinese": "贊成",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1304200"
+    },
+    {
+      "id": 149,
+      "japanese": "使用",
+      "reading": "しよう",
+      "chinese": "使用",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1306200"
+    },
+    {
+      "id": 150,
+      "japanese": "思わず",
+      "reading": "おもわず",
+      "chinese": "不知不覺",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1309460"
+    },
+    {
+      "id": 151,
+      "japanese": "支店",
+      "reading": "してん",
+      "chinese": "分店",
+      "category": "shopping",
+      "level": 1,
+      "source_id": "1310230"
+    },
+    {
+      "id": 152,
+      "japanese": "実現",
+      "reading": "じつげん",
+      "chinese": "實現",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1321020"
+    },
+    {
+      "id": 153,
+      "japanese": "実際",
+      "reading": "じっさい",
+      "chinese": "現實",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1321110"
+    },
+    {
+      "id": 154,
+      "japanese": "主張",
+      "reading": "しゅちょう",
+      "chinese": "主張",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1325910"
+    },
+    {
+      "id": 155,
+      "japanese": "主婦",
+      "reading": "しゅふ",
+      "chinese": "家庭主婦",
+      "category": "home",
+      "level": 1,
+      "source_id": "1326160"
+    },
+    {
+      "id": 156,
+      "japanese": "主要",
+      "reading": "しゅよう",
+      "chinese": "主要的",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1326320"
+    },
+    {
+      "id": 157,
+      "japanese": "収入",
+      "reading": "しゅうにゅう",
+      "chinese": "收入",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1330790"
+    },
+    {
+      "id": 158,
+      "japanese": "修正",
+      "reading": "しゅうせい",
+      "chinese": "修正",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1332130"
+    },
+    {
+      "id": 159,
+      "japanese": "処理",
+      "reading": "しょり",
+      "chinese": "處理",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1342510"
+    },
+    {
+      "id": 160,
+      "japanese": "少年",
+      "reading": "しょうねん",
+      "chinese": "少年",
+      "category": "time",
+      "level": 1,
+      "source_id": "1349170"
+    },
+    {
+      "id": 161,
+      "japanese": "承認",
+      "reading": "しょうにん",
+      "chinese": "承認",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1349520"
+    },
+    {
+      "id": 162,
+      "japanese": "消費",
+      "reading": "しょうひ",
+      "chinese": "消費",
+      "category": "shopping",
+      "level": 1,
+      "source_id": "1350290"
+    },
+    {
+      "id": 163,
+      "japanese": "深刻",
+      "reading": "しんこく",
+      "chinese": "嚴重",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1362730"
+    },
+    {
+      "id": 164,
+      "japanese": "身",
+      "reading": "み",
+      "chinese": "身體",
+      "category": "health",
+      "level": 1,
+      "source_id": "1365520"
+    },
+    {
+      "id": 165,
+      "japanese": "人生",
+      "reading": "じんせい",
+      "chinese": "人生",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1368370"
+    },
+    {
+      "id": 166,
+      "japanese": "人物",
+      "reading": "じんぶつ",
+      "chinese": "人物",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1369070"
+    },
+    {
+      "id": 167,
+      "japanese": "推薦",
+      "reading": "すいせん",
+      "chinese": "推薦",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1371170"
+    },
+    {
+      "id": 168,
+      "japanese": "水準",
+      "reading": "すいじゅん",
+      "chinese": "水平",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1371610"
+    },
+    {
+      "id": 169,
+      "japanese": "数字",
+      "reading": "すうじ",
+      "chinese": "數字",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1373060"
+    },
+    {
+      "id": 170,
+      "japanese": "正式",
+      "reading": "せいしき",
+      "chinese": "正式的",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1377290"
+    },
+    {
+      "id": 171,
+      "japanese": "製品",
+      "reading": "せいひん",
+      "chinese": "製成品",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1380760"
+    },
+    {
+      "id": 172,
+      "japanese": "設備",
+      "reading": "せつび",
+      "chinese": "裝置",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1386070"
+    },
+    {
+      "id": 173,
+      "japanese": "全員",
+      "reading": "ぜんいん",
+      "chinese": "全體人員",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1394840"
+    },
+    {
+      "id": 174,
+      "japanese": "増加",
+      "reading": "ぞうか",
+      "chinese": "增加",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1403160"
+    },
+    {
+      "id": 175,
+      "japanese": "存在",
+      "reading": "そんざい",
+      "chinese": "存在",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1406150"
+    },
+    {
+      "id": 176,
+      "japanese": "態度",
+      "reading": "たいど",
+      "chinese": "態度",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1410780"
+    },
+    {
+      "id": 177,
+      "japanese": "担当",
+      "reading": "たんとう",
+      "chinese": "負責",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1418160"
+    },
+    {
+      "id": 178,
+      "japanese": "仲間",
+      "reading": "なかま",
+      "chinese": "夥伴",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1425790"
+    },
+    {
+      "id": 179,
+      "japanese": "長期",
+      "reading": "ちょうき",
+      "chinese": "長期",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1429850"
+    },
+    {
+      "id": 180,
+      "japanese": "直接",
+      "reading": "ちょくせつ",
+      "chinese": "直接的",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1431110"
+    },
+    {
+      "id": 181,
+      "japanese": "提案",
+      "reading": "ていあん",
+      "chinese": "提案",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1436320"
+    },
+    {
+      "id": 182,
+      "japanese": "伝統",
+      "reading": "でんとう",
+      "chinese": "傳統",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1442260"
+    },
+    {
+      "id": 183,
+      "japanese": "同様",
+      "reading": "どうよう",
+      "chinese": "同樣",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1453550"
+    },
+    {
+      "id": 184,
+      "japanese": "道路",
+      "reading": "どうろ",
+      "chinese": "道路",
+      "category": "transport",
+      "level": 1,
+      "source_id": "1454290"
+    },
+    {
+      "id": 185,
+      "japanese": "特徴",
+      "reading": "とくちょう",
+      "chinese": "特徵",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1455170"
+    },
+    {
+      "id": 186,
+      "japanese": "独立",
+      "reading": "どくりつ",
+      "chinese": "獨立",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1456040"
+    },
+    {
+      "id": 187,
+      "japanese": "能力",
+      "reading": "のうりょく",
+      "chinese": "能力",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1470370"
+    },
+    {
+      "id": 188,
+      "japanese": "発表",
+      "reading": "はっぴょう",
+      "chinese": "公告",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1477840"
+    },
+    {
+      "id": 189,
+      "japanese": "費用",
+      "reading": "ひよう",
+      "chinese": "費用",
+      "category": "shopping",
+      "level": 1,
+      "source_id": "1484620"
+    },
+    {
+      "id": 190,
+      "japanese": "非常",
+      "reading": "ひじょう",
+      "chinese": "緊急",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1484920"
+    },
+    {
+      "id": 191,
+      "japanese": "表現",
+      "reading": "ひょうげん",
+      "chinese": "表達",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1489510"
+    },
+    {
+      "id": 192,
+      "japanese": "表情",
+      "reading": "ひょうじょう",
+      "chinese": "面部表情",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1489700"
+    },
+    {
+      "id": 193,
+      "japanese": "評価",
+      "reading": "ひょうか",
+      "chinese": "評價",
+      "category": "shopping",
+      "level": 1,
+      "source_id": "1490010"
+    },
+    {
+      "id": 194,
+      "japanese": "不安",
+      "reading": "ふあん",
+      "chinese": "不安",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1491150"
+    },
+    {
+      "id": 195,
+      "japanese": "不足",
+      "reading": "ふそく",
+      "chinese": "不足",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1493700"
+    },
+    {
+      "id": 196,
+      "japanese": "不満",
+      "reading": "ふまん",
+      "chinese": "不滿",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1494970"
+    },
+    {
+      "id": 197,
+      "japanese": "夫人",
+      "reading": "ふじん",
+      "chinese": "妻子",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1496540"
+    },
+    {
+      "id": 198,
+      "japanese": "父親",
+      "reading": "ちちおや",
+      "chinese": "父親",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1497680"
+    },
+    {
+      "id": 199,
+      "japanese": "幅",
+      "reading": "はば",
+      "chinese": "寬度",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1500880"
+    },
+    {
+      "id": 200,
+      "japanese": "母親",
+      "reading": "ははおや",
+      "chinese": "母親",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1515120"
+    },
+    {
+      "id": 201,
+      "japanese": "豊か",
+      "reading": "ゆたか",
+      "chinese": "豐富",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1518130"
+    },
+    {
+      "id": 202,
+      "japanese": "本人",
+      "reading": "ほんにん",
+      "chinese": "本人",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1522750"
+    },
+    {
+      "id": 203,
+      "japanese": "無料",
+      "reading": "むりょう",
+      "chinese": "免費",
+      "category": "shopping",
+      "level": 1,
+      "source_id": "1531040"
+    },
+    {
+      "id": 204,
+      "japanese": "名",
+      "reading": "な",
+      "chinese": "名字",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1531330"
+    },
+    {
+      "id": 205,
+      "japanese": "明確",
+      "reading": "めいかく",
+      "chinese": "清晰",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1532410"
+    },
+    {
+      "id": 206,
+      "japanese": "友人",
+      "reading": "ゆうじん",
+      "chinese": "朋友",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1540150"
+    },
+    {
+      "id": 207,
+      "japanese": "有効",
+      "reading": "ゆうこう",
+      "chinese": "有效",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1541290"
+    },
+    {
+      "id": 208,
+      "japanese": "様子",
+      "reading": "ようす",
+      "chinese": "狀態",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1545820"
+    },
+    {
+      "id": 209,
+      "japanese": "利益",
+      "reading": "りえき",
+      "chinese": "利潤",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1549470"
+    },
+    {
+      "id": 210,
+      "japanese": "理解",
+      "reading": "りかい",
+      "chinese": "理解",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1549910"
+    },
+    {
+      "id": 211,
+      "japanese": "流れ",
+      "reading": "ながれ",
+      "chinese": "流動",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1552130"
+    },
+    {
+      "id": 212,
+      "japanese": "料金",
+      "reading": "りょうきん",
+      "chinese": "費用",
+      "category": "shopping",
+      "level": 1,
+      "source_id": "1554280"
+    },
+    {
+      "id": 213,
+      "japanese": "老人",
+      "reading": "ろうじん",
+      "chinese": "老人",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1561090"
+    },
+    {
+      "id": 214,
+      "japanese": "話題",
+      "reading": "わだい",
+      "chinese": "話題",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1562400"
+    },
+    {
+      "id": 215,
+      "japanese": "数",
+      "reading": "かず",
+      "chinese": "數字",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1580820"
+    },
+    {
+      "id": 216,
+      "japanese": "夫婦",
+      "reading": "ふうふ",
+      "chinese": "夫婦",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1583640"
+    },
+    {
+      "id": 217,
+      "japanese": "例",
+      "reading": "れい",
+      "chinese": "例子",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1585230"
+    },
+    {
+      "id": 218,
+      "japanese": "年齢",
+      "reading": "ねんれい",
+      "chinese": "年齡",
+      "category": "time",
+      "level": 1,
+      "source_id": "1600240"
+    },
+    {
+      "id": 219,
+      "japanese": "我々",
+      "reading": "われわれ",
+      "chinese": "我們",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1607050"
+    },
+    {
+      "id": 220,
+      "japanese": "以前",
+      "reading": "いぜん",
+      "chinese": "以前",
+      "category": "time",
+      "level": 1,
+      "source_id": "1155150"
+    },
+    {
+      "id": 221,
+      "japanese": "一層",
+      "reading": "いっそう",
+      "chinese": "更加",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1164340"
+    },
+    {
+      "id": 222,
+      "japanese": "印象",
+      "reading": "いんしょう",
+      "chinese": "印象",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1168390"
+    },
+    {
+      "id": 223,
+      "japanese": "何か",
+      "reading": "なにか",
+      "chinese": "某事",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1188270"
+    },
+    {
+      "id": 224,
+      "japanese": "価値",
+      "reading": "かち",
+      "chinese": "價值",
+      "category": "shopping",
+      "level": 1,
+      "source_id": "1189600"
+    },
+    {
+      "id": 225,
+      "japanese": "歌手",
+      "reading": "かしゅ",
+      "chinese": "歌手",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1193290"
+    },
+    {
+      "id": 226,
+      "japanese": "確認",
+      "reading": "かくにん",
+      "chinese": "確認",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1205900"
+    },
+    {
+      "id": 227,
+      "japanese": "学習",
+      "reading": "がくしゅう",
+      "chinese": "學習",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1206820"
+    },
+    {
+      "id": 228,
+      "japanese": "額",
+      "reading": "がく",
+      "chinese": "金額",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1207500"
+    },
+    {
+      "id": 229,
+      "japanese": "株",
+      "reading": "かぶ",
+      "chinese": "股票",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1208920"
+    },
+    {
+      "id": 230,
+      "japanese": "感覚",
+      "reading": "かんかく",
+      "chinese": "感覺",
+      "category": "feelings",
+      "level": 1,
+      "source_id": "1212330"
+    },
+    {
+      "id": 231,
+      "japanese": "機械",
+      "reading": "きかい",
+      "chinese": "機器",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1220810"
+    },
+    {
+      "id": 232,
+      "japanese": "義務",
+      "reading": "ぎむ",
+      "chinese": "義務",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1225900"
+    },
+    {
+      "id": 233,
+      "japanese": "急速",
+      "reading": "きゅうそく",
+      "chinese": "迅速",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1228890"
+    },
+    {
+      "id": 234,
+      "japanese": "許可",
+      "reading": "きょか",
+      "chinese": "許可",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1232880"
+    },
+    {
+      "id": 235,
+      "japanese": "緊張",
+      "reading": "きんちょう",
+      "chinese": "緊張",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1241880"
+    },
+    {
+      "id": 236,
+      "japanese": "近代",
+      "reading": "きんだい",
+      "chinese": "現代",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1242420"
+    },
+    {
+      "id": 237,
+      "japanese": "金額",
+      "reading": "きんがく",
+      "chinese": "金額",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1242700"
+    },
+    {
+      "id": 238,
+      "japanese": "具体",
+      "reading": "ぐたい",
+      "chinese": "具體性",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1245020"
+    },
+    {
+      "id": 239,
+      "japanese": "空",
+      "reading": "から",
+      "chinese": "空虛",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1245280"
+    },
+    {
+      "id": 240,
+      "japanese": "肩",
+      "reading": "かた",
+      "chinese": "肩",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1258950"
+    },
+    {
+      "id": 241,
+      "japanese": "現金",
+      "reading": "げんきん",
+      "chinese": "現金",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1263550"
+    },
+    {
+      "id": 242,
+      "japanese": "合計",
+      "reading": "ごうけい",
+      "chinese": "總計",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1284740"
+    },
+    {
+      "id": 243,
+      "japanese": "差別",
+      "reading": "さべつ",
+      "chinese": "區別",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1291410"
+    },
+    {
+      "id": 244,
+      "japanese": "最低",
+      "reading": "さいてい",
+      "chinese": "最少",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1294220"
+    },
+    {
+      "id": 245,
+      "japanese": "材料",
+      "reading": "ざいりょう",
+      "chinese": "材料",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1296670"
+    },
+    {
+      "id": 246,
+      "japanese": "参考",
+      "reading": "さんこう",
+      "chinese": "參考",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1302280"
+    },
+    {
+      "id": 247,
+      "japanese": "残り",
+      "reading": "のこり",
+      "chinese": "剩餘",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1304480"
+    },
+    {
+      "id": 248,
+      "japanese": "失業",
+      "reading": "しつぎょう",
+      "chinese": "失業",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1319860"
+    },
+    {
+      "id": 249,
+      "japanese": "実は",
+      "reading": "じつは",
+      "chinese": "實際上",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1320830"
+    },
+    {
+      "id": 250,
+      "japanese": "実行",
+      "reading": "じっこう",
+      "chinese": "執行",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1321040"
+    },
+    {
+      "id": 251,
+      "japanese": "手術",
+      "reading": "しゅじゅつ",
+      "chinese": "手術",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1327790"
+    },
+    {
+      "id": 252,
+      "japanese": "手段",
+      "reading": "しゅだん",
+      "chinese": "手段",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1328110"
+    },
+    {
+      "id": 253,
+      "japanese": "周囲",
+      "reading": "しゅうい",
+      "chinese": "周圍",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1331030"
+    },
+    {
+      "id": 254,
+      "japanese": "就職",
+      "reading": "しゅうしょく",
+      "chinese": "找工作",
+      "category": "work",
+      "level": 1,
+      "source_id": "1331670"
+    },
+    {
+      "id": 255,
+      "japanese": "集中",
+      "reading": "しゅうちゅう",
+      "chinese": "專注",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1333750"
+    },
+    {
+      "id": 256,
+      "japanese": "出版",
+      "reading": "しゅっぱん",
+      "chinese": "出版",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1340030"
+    },
+    {
+      "id": 257,
+      "japanese": "章",
+      "reading": "しょう",
+      "chinese": "章",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1351270"
+    },
+    {
+      "id": 258,
+      "japanese": "場面",
+      "reading": "ばめん",
+      "chinese": "場面",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1355910"
+    },
+    {
+      "id": 259,
+      "japanese": "職業",
+      "reading": "しょくぎょう",
+      "chinese": "職業",
+      "category": "work",
+      "level": 1,
+      "source_id": "1357510"
+    },
+    {
+      "id": 260,
+      "japanese": "食品",
+      "reading": "しょくひん",
+      "chinese": "食品",
+      "category": "food",
+      "level": 1,
+      "source_id": "1358600"
+    },
+    {
+      "id": 261,
+      "japanese": "信用",
+      "reading": "しんよう",
+      "chinese": "信任",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1359620"
+    },
+    {
+      "id": 262,
+      "japanese": "信頼",
+      "reading": "しんらい",
+      "chinese": "信任",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1359730"
+    },
+    {
+      "id": 263,
+      "japanese": "制限",
+      "reading": "せいげん",
+      "chinese": "限制",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1374700"
+    },
+    {
+      "id": 264,
+      "japanese": "勢い",
+      "reading": "いきおい",
+      "chinese": "力量",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1375040"
+    },
+    {
+      "id": 265,
+      "japanese": "性格",
+      "reading": "せいかく",
+      "chinese": "性格",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1375290"
+    },
+    {
+      "id": 266,
+      "japanese": "成功",
+      "reading": "せいこう",
+      "chinese": "成功",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1375690"
+    },
+    {
+      "id": 267,
+      "japanese": "成績",
+      "reading": "せいせき",
+      "chinese": "成績",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1375760"
+    },
+    {
+      "id": 268,
+      "japanese": "正午",
+      "reading": "しょうご",
+      "chinese": "正午",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1377080"
+    },
+    {
+      "id": 269,
+      "japanese": "生命",
+      "reading": "せいめい",
+      "chinese": "生命",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1379530"
+    },
+    {
+      "id": 270,
+      "japanese": "請求",
+      "reading": "せいきゅう",
+      "chinese": "請求",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1381320"
+    },
+    {
+      "id": 271,
+      "japanese": "青年",
+      "reading": "せいねん",
+      "chinese": "青年",
+      "category": "time",
+      "level": 1,
+      "source_id": "1381750"
+    },
+    {
+      "id": 272,
+      "japanese": "跡",
+      "reading": "あと",
+      "chinese": "蹤跡",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1383680"
+    },
+    {
+      "id": 273,
+      "japanese": "設計",
+      "reading": "せっけい",
+      "chinese": "計劃",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1386020"
+    },
+    {
+      "id": 274,
+      "japanese": "専攻",
+      "reading": "せんこう",
+      "chinese": "專業",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1389780"
+    },
+    {
+      "id": 275,
+      "japanese": "選択",
+      "reading": "せんたく",
+      "chinese": "選擇",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1392290"
+    },
+    {
+      "id": 276,
+      "japanese": "損害",
+      "reading": "そんがい",
+      "chinese": "損害",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1406710"
+    },
+    {
+      "id": 277,
+      "japanese": "体育",
+      "reading": "たいいく",
+      "chinese": "體育",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1409200"
+    },
+    {
+      "id": 278,
+      "japanese": "代理",
+      "reading": "だいり",
+      "chinese": "代理",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1412400"
+    },
+    {
+      "id": 279,
+      "japanese": "大臣",
+      "reading": "だいじん",
+      "chinese": "內閣部長",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1414160"
+    },
+    {
+      "id": 280,
+      "japanese": "大半",
+      "reading": "たいはん",
+      "chinese": "大多數",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1414790"
+    },
+    {
+      "id": 281,
+      "japanese": "アイスクリーム",
+      "reading": "アイスクリーム",
+      "chinese": "冰淇淋",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1013980"
+    },
+    {
+      "id": 282,
+      "japanese": "アルバム",
+      "reading": "アルバム",
+      "chinese": "相簿",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1019450"
+    },
+    {
+      "id": 283,
+      "japanese": "オフィス",
+      "reading": "オフィス",
+      "chinese": "辦公室",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1034660"
+    },
+    {
+      "id": 284,
+      "japanese": "カード",
+      "reading": "カード",
+      "chinese": "卡片",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1036400"
+    },
+    {
+      "id": 285,
+      "japanese": "クリーム",
+      "reading": "クリーム",
+      "chinese": "奶油",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1044480"
+    },
+    {
+      "id": 286,
+      "japanese": "クリスマス",
+      "reading": "クリスマス",
+      "chinese": "聖誕節",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1044830"
+    },
+    {
+      "id": 287,
+      "japanese": "グラス",
+      "reading": "グラス",
+      "chinese": "玻璃杯",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1046430"
+    },
+    {
+      "id": 288,
+      "japanese": "ゲーム",
+      "reading": "ゲーム",
+      "chinese": "遊戲",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1048400"
+    },
+    {
+      "id": 289,
+      "japanese": "ジーンズ",
+      "reading": "ジーンズ",
+      "chinese": "牛仔褲",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1064120"
+    },
+    {
+      "id": 290,
+      "japanese": "ジュース",
+      "reading": "ジュース",
+      "chinese": "果汁",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1065950"
+    },
+    {
+      "id": 291,
+      "japanese": "スープ",
+      "reading": "スープ",
+      "chinese": "（西式）湯",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1067040"
+    },
+    {
+      "id": 292,
+      "japanese": "スイッチ",
+      "reading": "スイッチ",
+      "chinese": "開關",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1067210"
+    },
+    {
+      "id": 293,
+      "japanese": "ソファ",
+      "reading": "ソファ",
+      "chinese": "沙發",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1075480"
+    },
+    {
+      "id": 294,
+      "japanese": "タオル",
+      "reading": "タオル",
+      "chinese": "毛巾",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1076170"
+    },
+    {
+      "id": 295,
+      "japanese": "チーズ",
+      "reading": "チーズ",
+      "chinese": "乳酪",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1077330"
+    },
+    {
+      "id": 296,
+      "japanese": "デート",
+      "reading": "デート",
+      "chinese": "約會",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1081430"
+    },
+    {
+      "id": 297,
+      "japanese": "ドライブ",
+      "reading": "ドライブ",
+      "chinese": "駕車",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1088580"
+    },
+    {
+      "id": 298,
+      "japanese": "パスポート",
+      "reading": "パスポート",
+      "chinese": "護照",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1101510"
+    },
+    {
+      "id": 299,
+      "japanese": "ミルク",
+      "reading": "ミルク",
+      "chinese": "牛奶",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1131990"
+    },
+    {
+      "id": 300,
+      "japanese": "ワイン",
+      "reading": "ワイン",
+      "chinese": "葡萄酒",
+      "category": "daily",
+      "level": 1,
+      "source_id": "1148850"
+    },
+    {
+      "id": 301,
+      "japanese": "強化",
+      "reading": "きょうか",
+      "chinese": "強化",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1236200"
+    },
+    {
+      "id": 302,
+      "japanese": "交流",
+      "reading": "こうりゅう",
+      "chinese": "交流",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1272580"
+    },
+    {
+      "id": 303,
+      "japanese": "構造",
+      "reading": "こうぞう",
+      "chinese": "結構",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1279790"
+    },
+    {
+      "id": 304,
+      "japanese": "姿勢",
+      "reading": "しせい",
+      "chinese": "姿態",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1307740"
+    },
+    {
+      "id": 305,
+      "japanese": "周辺",
+      "reading": "しゅうへん",
+      "chinese": "周圍",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1331300"
+    },
+    {
+      "id": 306,
+      "japanese": "対策",
+      "reading": "たいさく",
+      "chinese": "措施",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1410050"
+    },
+    {
+      "id": 307,
+      "japanese": "段階",
+      "reading": "だんかい",
+      "chinese": "階段",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1419950"
+    },
+    {
+      "id": 308,
+      "japanese": "調整",
+      "reading": "ちょうせい",
+      "chinese": "調整",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1429200"
+    },
+    {
+      "id": 309,
+      "japanese": "長男",
+      "reading": "ちょうなん",
+      "chinese": "長男",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1430080"
+    },
+    {
+      "id": 310,
+      "japanese": "方針",
+      "reading": "ほうしん",
+      "chinese": "政策",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1517040"
+    },
+    {
+      "id": 311,
+      "japanese": "本部",
+      "reading": "ほんぶ",
+      "chinese": "總部",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1523170"
+    },
+    {
+      "id": 312,
+      "japanese": "基準",
+      "reading": "きじゅん",
+      "chinese": "標準",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1591210"
+    },
+    {
+      "id": 313,
+      "japanese": "問い合わせ",
+      "reading": "といあわせ",
+      "chinese": "詢問",
+      "category": "communication",
+      "level": 2,
+      "source_id": "1598590"
+    },
+    {
+      "id": 314,
+      "japanese": "延長",
+      "reading": "えんちょう",
+      "chinese": "延長",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1176510"
+    },
+    {
+      "id": 315,
+      "japanese": "解散",
+      "reading": "かいさん",
+      "chinese": "散會",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1199000"
+    },
+    {
+      "id": 316,
+      "japanese": "回答",
+      "reading": "かいとう",
+      "chinese": "回答",
+      "category": "communication",
+      "level": 2,
+      "source_id": "1199680"
+    },
+    {
+      "id": 317,
+      "japanese": "開放",
+      "reading": "かいほう",
+      "chinese": "開啟",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1202950"
+    },
+    {
+      "id": 318,
+      "japanese": "基礎",
+      "reading": "きそ",
+      "chinese": "基礎",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1219060"
+    },
+    {
+      "id": 319,
+      "japanese": "公共",
+      "reading": "こうきょう",
+      "chinese": "公共的",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1273510"
+    },
+    {
+      "id": 320,
+      "japanese": "公式",
+      "reading": "こうしき",
+      "chinese": "官方",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1273820"
+    },
+    {
+      "id": 321,
+      "japanese": "資料",
+      "reading": "しりょう",
+      "chinese": "材料",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1312820"
+    },
+    {
+      "id": 322,
+      "japanese": "実績",
+      "reading": "じっせき",
+      "chinese": "成績",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1321240"
+    },
+    {
+      "id": 323,
+      "japanese": "実力",
+      "reading": "じつりょく",
+      "chinese": "實力",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1321530"
+    },
+    {
+      "id": 324,
+      "japanese": "受験",
+      "reading": "じゅけん",
+      "chinese": "參加考試",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1329740"
+    },
+    {
+      "id": 325,
+      "japanese": "焦点",
+      "reading": "しょうてん",
+      "chinese": "焦點",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1350810"
+    },
+    {
+      "id": 326,
+      "japanese": "成立",
+      "reading": "せいりつ",
+      "chinese": "成立",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1375880"
+    },
+    {
+      "id": 327,
+      "japanese": "整備",
+      "reading": "せいび",
+      "chinese": "維修",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1376240"
+    },
+    {
+      "id": 328,
+      "japanese": "中間",
+      "reading": "ちゅうかん",
+      "chinese": "中間",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1423680"
+    },
+    {
+      "id": 329,
+      "japanese": "直後",
+      "reading": "ちょくご",
+      "chinese": "之後不久",
+      "category": "time",
+      "level": 2,
+      "source_id": "1430930"
+    },
+    {
+      "id": 330,
+      "japanese": "直前",
+      "reading": "ちょくぜん",
+      "chinese": "剛好之前",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1431330"
+    },
+    {
+      "id": 331,
+      "japanese": "停止",
+      "reading": "ていし",
+      "chinese": "停止",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1434920"
+    },
+    {
+      "id": 332,
+      "japanese": "展開",
+      "reading": "てんかい",
+      "chinese": "發展",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1440600"
+    },
+    {
+      "id": 333,
+      "japanese": "日程",
+      "reading": "にってい",
+      "chinese": "日程",
+      "category": "time",
+      "level": 2,
+      "source_id": "1464300"
+    },
+    {
+      "id": 334,
+      "japanese": "防止",
+      "reading": "ぼうし",
+      "chinese": "預防",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1520380"
+    },
+    {
+      "id": 335,
+      "japanese": "臨時",
+      "reading": "りんじ",
+      "chinese": "臨時",
+      "category": "time",
+      "level": 2,
+      "source_id": "1555610"
+    },
+    {
+      "id": 336,
+      "japanese": "会館",
+      "reading": "かいかん",
+      "chinese": "會館",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1589660"
+    },
+    {
+      "id": 337,
+      "japanese": "少なくとも",
+      "reading": "すくなくとも",
+      "chinese": "至少",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1595610"
+    },
+    {
+      "id": 338,
+      "japanese": "相互",
+      "reading": "そうご",
+      "chinese": "相互的",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1596370"
+    },
+    {
+      "id": 339,
+      "japanese": "手続き",
+      "reading": "てつづき",
+      "chinese": "手續",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1598350"
+    },
+    {
+      "id": 340,
+      "japanese": "編集",
+      "reading": "へんしゅう",
+      "chinese": "編輯",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1603240"
+    },
+    {
+      "id": 341,
+      "japanese": "一定",
+      "reading": "いってい",
+      "chinese": "規定",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1164950"
+    },
+    {
+      "id": 342,
+      "japanese": "応援",
+      "reading": "おうえん",
+      "chinese": "援助",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1179840"
+    },
+    {
+      "id": 343,
+      "japanese": "下車",
+      "reading": "げしゃ",
+      "chinese": "下車",
+      "category": "transport",
+      "level": 2,
+      "source_id": "1185170"
+    },
+    {
+      "id": 344,
+      "japanese": "過程",
+      "reading": "かてい",
+      "chinese": "過程",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1196270"
+    },
+    {
+      "id": 345,
+      "japanese": "基盤",
+      "reading": "きばん",
+      "chinese": "基礎",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1219170"
+    },
+    {
+      "id": 346,
+      "japanese": "期限",
+      "reading": "きげん",
+      "chinese": "期限",
+      "category": "time",
+      "level": 2,
+      "source_id": "1220560"
+    },
+    {
+      "id": 347,
+      "japanese": "継続",
+      "reading": "けいぞく",
+      "chinese": "繼續",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1251810"
+    },
+    {
+      "id": 348,
+      "japanese": "研修",
+      "reading": "けんしゅう",
+      "chinese": "培訓",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1258660"
+    },
+    {
+      "id": 349,
+      "japanese": "講師",
+      "reading": "こうし",
+      "chinese": "講師",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1282280"
+    },
+    {
+      "id": 350,
+      "japanese": "合同",
+      "reading": "ごうどう",
+      "chinese": "聯合",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1285140"
+    },
+    {
+      "id": 351,
+      "japanese": "撮影",
+      "reading": "さつえい",
+      "chinese": "攝影",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1298800"
+    },
+    {
+      "id": 352,
+      "japanese": "指定",
+      "reading": "してい",
+      "chinese": "指定",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1309910"
+    },
+    {
+      "id": 353,
+      "japanese": "氏名",
+      "reading": "しめい",
+      "chinese": "姓名",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1311060"
+    },
+    {
+      "id": 354,
+      "japanese": "私立",
+      "reading": "しりつ",
+      "chinese": "私立的",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1311420"
+    },
+    {
+      "id": 355,
+      "japanese": "児童",
+      "reading": "じどう",
+      "chinese": "兒童",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1315060"
+    },
+    {
+      "id": 356,
+      "japanese": "勝負",
+      "reading": "しょうぶ",
+      "chinese": "勝負",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1346230"
+    },
+    {
+      "id": 357,
+      "japanese": "新幹線",
+      "reading": "しんかんせん",
+      "chinese": "新幹線",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1361590"
+    },
+    {
+      "id": 358,
+      "japanese": "深夜",
+      "reading": "しんや",
+      "chinese": "深夜",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1362810"
+    },
+    {
+      "id": 359,
+      "japanese": "申請",
+      "reading": "しんせい",
+      "chinese": "申請",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1363130"
+    },
+    {
+      "id": 360,
+      "japanese": "相撲",
+      "reading": "すもう",
+      "chinese": "相撲",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1401360"
+    },
+    {
+      "id": 361,
+      "japanese": "追加",
+      "reading": "ついか",
+      "chinese": "新增",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1432460"
+    },
+    {
+      "id": 362,
+      "japanese": "低下",
+      "reading": "ていか",
+      "chinese": "下降",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1434250"
+    },
+    {
+      "id": 363,
+      "japanese": "電力",
+      "reading": "でんりょく",
+      "chinese": "電力",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1443810"
+    },
+    {
+      "id": 364,
+      "japanese": "東西",
+      "reading": "とうざい",
+      "chinese": "東西方",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1447910"
+    },
+    {
+      "id": 365,
+      "japanese": "特定",
+      "reading": "とくてい",
+      "chinese": "特定的",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1455210"
+    },
+    {
+      "id": 366,
+      "japanese": "年度",
+      "reading": "ねんど",
+      "chinese": "財政年度",
+      "category": "time",
+      "level": 2,
+      "source_id": "1469050"
+    },
+    {
+      "id": 367,
+      "japanese": "売買",
+      "reading": "ばいばい",
+      "chinese": "買賣",
+      "category": "shopping",
+      "level": 2,
+      "source_id": "1474050"
+    },
+    {
+      "id": 368,
+      "japanese": "迫る",
+      "reading": "せまる",
+      "chinese": "逼近",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1475720"
+    },
+    {
+      "id": 369,
+      "japanese": "発売",
+      "reading": "はつばい",
+      "chinese": "銷售",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1477810"
+    },
+    {
+      "id": 370,
+      "japanese": "付近",
+      "reading": "ふきん",
+      "chinese": "附近",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1496240"
+    },
+    {
+      "id": 371,
+      "japanese": "普及",
+      "reading": "ふきゅう",
+      "chinese": "普及",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1497110"
+    },
+    {
+      "id": 372,
+      "japanese": "部品",
+      "reading": "ぶひん",
+      "chinese": "零件",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1499480"
+    },
+    {
+      "id": 373,
+      "japanese": "複数",
+      "reading": "ふくすう",
+      "chinese": "複數",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1501400"
+    },
+    {
+      "id": 374,
+      "japanese": "本来",
+      "reading": "ほんらい",
+      "chinese": "原來",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1523270"
+    },
+    {
+      "id": 375,
+      "japanese": "友好",
+      "reading": "ゆうこう",
+      "chinese": "友好",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1540080"
+    },
+    {
+      "id": 376,
+      "japanese": "来日",
+      "reading": "らいにち",
+      "chinese": "來日",
+      "category": "time",
+      "level": 2,
+      "source_id": "1548200"
+    },
+    {
+      "id": 377,
+      "japanese": "売り上げ",
+      "reading": "うりあげ",
+      "chinese": "銷售額",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1588500"
+    },
+    {
+      "id": 378,
+      "japanese": "切っ掛け",
+      "reading": "きっかけ",
+      "chinese": "契機",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1591290"
+    },
+    {
+      "id": 379,
+      "japanese": "交代",
+      "reading": "こうたい",
+      "chinese": "交替",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1592990"
+    },
+    {
+      "id": 380,
+      "japanese": "話し合い",
+      "reading": "はなしあい",
+      "chinese": "討論",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1600910"
+    },
+    {
+      "id": 381,
+      "japanese": "意義",
+      "reading": "いぎ",
+      "chinese": "意義",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1156520"
+    },
+    {
+      "id": 382,
+      "japanese": "移転",
+      "reading": "いてん",
+      "chinese": "遷移",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1158390"
+    },
+    {
+      "id": 383,
+      "japanese": "一斉",
+      "reading": "いっせい",
+      "chinese": "同時",
+      "category": "time",
+      "level": 2,
+      "source_id": "1164040"
+    },
+    {
+      "id": 384,
+      "japanese": "解説",
+      "reading": "かいせつ",
+      "chinese": "解說",
+      "category": "communication",
+      "level": 2,
+      "source_id": "1199080"
+    },
+    {
+      "id": 385,
+      "japanese": "改造",
+      "reading": "かいぞう",
+      "chinese": "改造",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1201000"
+    },
+    {
+      "id": 386,
+      "japanese": "開会",
+      "reading": "かいかい",
+      "chinese": "開會",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1202560"
+    },
+    {
+      "id": 387,
+      "japanese": "活躍",
+      "reading": "かつやく",
+      "chinese": "活躍",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1208450"
+    },
+    {
+      "id": 388,
+      "japanese": "感想",
+      "reading": "かんそう",
+      "chinese": "印象",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1212480"
+    },
+    {
+      "id": 389,
+      "japanese": "警備",
+      "reading": "けいび",
+      "chinese": "防衛",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1252490"
+    },
+    {
+      "id": 390,
+      "japanese": "項目",
+      "reading": "こうもく",
+      "chinese": "專案",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1283000"
+    },
+    {
+      "id": 391,
+      "japanese": "高級",
+      "reading": "こうきゅう",
+      "chinese": "高階",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1283400"
+    },
+    {
+      "id": 392,
+      "japanese": "重点",
+      "reading": "じゅうてん",
+      "chinese": "要點",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1336570"
+    },
+    {
+      "id": 393,
+      "japanese": "書店",
+      "reading": "しょてん",
+      "chinese": "書店",
+      "category": "shopping",
+      "level": 2,
+      "source_id": "1344120"
+    },
+    {
+      "id": 394,
+      "japanese": "商業",
+      "reading": "しょうぎょう",
+      "chinese": "商業",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1346740"
+    },
+    {
+      "id": 395,
+      "japanese": "小学生",
+      "reading": "しょうがくせい",
+      "chinese": "小學生",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1347880"
+    },
+    {
+      "id": 396,
+      "japanese": "賞金",
+      "reading": "しょうきん",
+      "chinese": "獎金",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1351930"
+    },
+    {
+      "id": 397,
+      "japanese": "森林",
+      "reading": "しんりん",
+      "chinese": "森林",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1362530"
+    },
+    {
+      "id": 398,
+      "japanese": "正面",
+      "reading": "しょうめん",
+      "chinese": "正面",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1378030"
+    },
+    {
+      "id": 399,
+      "japanese": "製作",
+      "reading": "せいさく",
+      "chinese": "製造",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1380650"
+    },
+    {
+      "id": 400,
+      "japanese": "窓口",
+      "reading": "まどぐち",
+      "chinese": "服務窗口",
+      "category": "home",
+      "level": 2,
+      "source_id": "1401420"
+    },
+    {
+      "id": 401,
+      "japanese": "短期",
+      "reading": "たんき",
+      "chinese": "短期",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1418640"
+    },
+    {
+      "id": 402,
+      "japanese": "知人",
+      "reading": "ちじん",
+      "chinese": "朋友",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1420620"
+    },
+    {
+      "id": 403,
+      "japanese": "竹",
+      "reading": "たけ",
+      "chinese": "竹",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1422230"
+    },
+    {
+      "id": 404,
+      "japanese": "長女",
+      "reading": "ちょうじょ",
+      "chinese": "長女",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1430040"
+    },
+    {
+      "id": 405,
+      "japanese": "定員",
+      "reading": "ていいん",
+      "chinese": "規定人數",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1435400"
+    },
+    {
+      "id": 406,
+      "japanese": "特殊",
+      "reading": "とくしゅ",
+      "chinese": "特殊",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1454970"
+    },
+    {
+      "id": 407,
+      "japanese": "入社",
+      "reading": "にゅうしゃ",
+      "chinese": "入社",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1466260"
+    },
+    {
+      "id": 408,
+      "japanese": "発想",
+      "reading": "はっそう",
+      "chinese": "想法",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1477660"
+    },
+    {
+      "id": 409,
+      "japanese": "反省",
+      "reading": "はんせい",
+      "chinese": "反省",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1480540"
+    },
+    {
+      "id": 410,
+      "japanese": "標準",
+      "reading": "ひょうじゅん",
+      "chinese": "標準",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1488710"
+    },
+    {
+      "id": 411,
+      "japanese": "夫妻",
+      "reading": "ふさい",
+      "chinese": "夫妻",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1496520"
+    },
+    {
+      "id": 412,
+      "japanese": "保健",
+      "reading": "ほけん",
+      "chinese": "健康保護",
+      "category": "health",
+      "level": 2,
+      "source_id": "1513410"
+    },
+    {
+      "id": 413,
+      "japanese": "募集",
+      "reading": "ぼしゅう",
+      "chinese": "招募",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1514830"
+    },
+    {
+      "id": 414,
+      "japanese": "摩擦",
+      "reading": "まさつ",
+      "chinese": "摩擦",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1523830"
+    },
+    {
+      "id": 415,
+      "japanese": "未満",
+      "reading": "みまん",
+      "chinese": "少於",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1528040"
+    },
+    {
+      "id": 416,
+      "japanese": "面積",
+      "reading": "めんせき",
+      "chinese": "面積",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1533500"
+    },
+    {
+      "id": 417,
+      "japanese": "予備",
+      "reading": "よび",
+      "chinese": "備用",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1543320"
+    },
+    {
+      "id": 418,
+      "japanese": "先頭",
+      "reading": "せんとう",
+      "chinese": "隊伍的前頭",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1596210"
+    },
+    {
+      "id": 419,
+      "japanese": "中身",
+      "reading": "なかみ",
+      "chinese": "內容物",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1599430"
+    },
+    {
+      "id": 420,
+      "japanese": "育児",
+      "reading": "いくじ",
+      "chinese": "育兒",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1160630"
+    },
+    {
+      "id": 421,
+      "japanese": "一段",
+      "reading": "いちだん",
+      "chinese": "更加",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1164690"
+    },
+    {
+      "id": 422,
+      "japanese": "下旬",
+      "reading": "げじゅん",
+      "chinese": "下旬",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1185330"
+    },
+    {
+      "id": 423,
+      "japanese": "回数",
+      "reading": "かいすう",
+      "chinese": "次數",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1199510"
+    },
+    {
+      "id": 424,
+      "japanese": "看板",
+      "reading": "かんばん",
+      "chinese": "招牌",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1213990"
+    },
+    {
+      "id": 425,
+      "japanese": "間もなく",
+      "reading": "まもなく",
+      "chinese": "不久",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1215290"
+    },
+    {
+      "id": 426,
+      "japanese": "給与",
+      "reading": "きゅうよ",
+      "chinese": "薪酬",
+      "category": "work",
+      "level": 2,
+      "source_id": "1230350"
+    },
+    {
+      "id": 427,
+      "japanese": "芸能",
+      "reading": "げいのう",
+      "chinese": "公眾娛樂",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1253130"
+    },
+    {
+      "id": 428,
+      "japanese": "血液",
+      "reading": "けつえき",
+      "chinese": "血液",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1255120"
+    },
+    {
+      "id": 429,
+      "japanese": "公表",
+      "reading": "こうひょう",
+      "chinese": "公開發表",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1274550"
+    },
+    {
+      "id": 430,
+      "japanese": "工夫",
+      "reading": "くふう",
+      "chinese": "動腦筋、巧思",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1278220"
+    },
+    {
+      "id": 431,
+      "japanese": "広場",
+      "reading": "ひろば",
+      "chinese": "廣場",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1278590"
+    },
+    {
+      "id": 432,
+      "japanese": "行事",
+      "reading": "ぎょうじ",
+      "chinese": "活動",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1281930"
+    },
+    {
+      "id": 433,
+      "japanese": "作成",
+      "reading": "さくせい",
+      "chinese": "製作",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1297760"
+    },
+    {
+      "id": 434,
+      "japanese": "主役",
+      "reading": "しゅやく",
+      "chinese": "主角",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1326290"
+    },
+    {
+      "id": 435,
+      "japanese": "終了",
+      "reading": "しゅうりょう",
+      "chinese": "結束",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1333040"
+    },
+    {
+      "id": 436,
+      "japanese": "商店",
+      "reading": "しょうてん",
+      "chinese": "商店",
+      "category": "shopping",
+      "level": 2,
+      "source_id": "1347180"
+    },
+    {
+      "id": 437,
+      "japanese": "消極的",
+      "reading": "しょうきょくてき",
+      "chinese": "消極的",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1350220"
+    },
+    {
+      "id": 438,
+      "japanese": "上下",
+      "reading": "じょうげ",
+      "chinese": "上下",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1352710"
+    },
+    {
+      "id": 439,
+      "japanese": "診断",
+      "reading": "しんだん",
+      "chinese": "診斷",
+      "category": "health",
+      "level": 2,
+      "source_id": "1365480"
+    },
+    {
+      "id": 440,
+      "japanese": "推定",
+      "reading": "すいてい",
+      "chinese": "推定",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1371210"
+    },
+    {
+      "id": 441,
+      "japanese": "宣伝",
+      "reading": "せんでん",
+      "chinese": "宣傳",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1389730"
+    },
+    {
+      "id": 442,
+      "japanese": "地点",
+      "reading": "ちてん",
+      "chinese": "地點",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1421380"
+    },
+    {
+      "id": 443,
+      "japanese": "中旬",
+      "reading": "ちゅうじゅん",
+      "chinese": "月中旬",
+      "category": "time",
+      "level": 2,
+      "source_id": "1424490"
+    },
+    {
+      "id": 444,
+      "japanese": "電波",
+      "reading": "でんぱ",
+      "chinese": "電波",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1443720"
+    },
+    {
+      "id": 445,
+      "japanese": "都心",
+      "reading": "としん",
+      "chinese": "城市中心",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1445000"
+    },
+    {
+      "id": 446,
+      "japanese": "当日",
+      "reading": "とうじつ",
+      "chinese": "當日",
+      "category": "time",
+      "level": 2,
+      "source_id": "1449210"
+    },
+    {
+      "id": 447,
+      "japanese": "透明",
+      "reading": "とうめい",
+      "chinese": "透明",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1450590"
+    },
+    {
+      "id": 448,
+      "japanese": "要旨",
+      "reading": "ようし",
+      "chinese": "要點",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1546770"
+    },
+    {
+      "id": 449,
+      "japanese": "例外",
+      "reading": "れいがい",
+      "chinese": "例外",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1556410"
+    },
+    {
+      "id": 450,
+      "japanese": "率直",
+      "reading": "そっちょく",
+      "chinese": "坦率",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1596570"
+    },
+    {
+      "id": 451,
+      "japanese": "付属",
+      "reading": "ふぞく",
+      "chinese": "附屬",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1602700"
+    },
+    {
+      "id": 452,
+      "japanese": "以後",
+      "reading": "いご",
+      "chinese": "此後",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1155100"
+    },
+    {
+      "id": 453,
+      "japanese": "往復",
+      "reading": "おうふく",
+      "chinese": "往返",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1179760"
+    },
+    {
+      "id": 454,
+      "japanese": "温泉",
+      "reading": "おんせん",
+      "chinese": "溫泉",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1183450"
+    },
+    {
+      "id": 455,
+      "japanese": "外部",
+      "reading": "がいぶ",
+      "chinese": "建築物等的外部",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1204070"
+    },
+    {
+      "id": 456,
+      "japanese": "学科",
+      "reading": "がっか",
+      "chinese": "學科",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1206590"
+    },
+    {
+      "id": 457,
+      "japanese": "気配",
+      "reading": "けはい",
+      "chinese": "跡象",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1222510"
+    },
+    {
+      "id": 458,
+      "japanese": "強気",
+      "reading": "つよき",
+      "chinese": "自信的",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1236230"
+    },
+    {
+      "id": 459,
+      "japanese": "努める",
+      "reading": "つとめる",
+      "chinese": "努力",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1240820"
+    },
+    {
+      "id": 460,
+      "japanese": "高層",
+      "reading": "こうそう",
+      "chinese": "高層建築",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1283690"
+    },
+    {
+      "id": 461,
+      "japanese": "高度",
+      "reading": "こうど",
+      "chinese": "高度",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1283830"
+    },
+    {
+      "id": 462,
+      "japanese": "高等",
+      "reading": "こうとう",
+      "chinese": "高等",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1283850"
+    },
+    {
+      "id": 463,
+      "japanese": "作者",
+      "reading": "さくしゃ",
+      "chinese": "作品的創作者",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1297710"
+    },
+    {
+      "id": 464,
+      "japanese": "実用",
+      "reading": "じつよう",
+      "chinese": "實用",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1321480"
+    },
+    {
+      "id": 465,
+      "japanese": "縮小",
+      "reading": "しゅくしょう",
+      "chinese": "縮小",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1337630"
+    },
+    {
+      "id": 466,
+      "japanese": "前後",
+      "reading": "ぜんご",
+      "chinese": "前後",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1392910"
+    },
+    {
+      "id": 467,
+      "japanese": "全身",
+      "reading": "ぜんしん",
+      "chinese": "全身",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1395410"
+    },
+    {
+      "id": 468,
+      "japanese": "地盤",
+      "reading": "じばん",
+      "chinese": "地面",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1421420"
+    },
+    {
+      "id": 469,
+      "japanese": "彫刻",
+      "reading": "ちょうこく",
+      "chinese": "雕刻",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1427980"
+    },
+    {
+      "id": 470,
+      "japanese": "通勤",
+      "reading": "つうきん",
+      "chinese": "通勤",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1433140"
+    },
+    {
+      "id": 471,
+      "japanese": "当たり前",
+      "reading": "あたりまえ",
+      "chinese": "理所當然",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1448800"
+    },
+    {
+      "id": 472,
+      "japanese": "敷地",
+      "reading": "しきち",
+      "chinese": "地皮",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1497060"
+    },
+    {
+      "id": 473,
+      "japanese": "父母",
+      "reading": "ふぼ",
+      "chinese": "父親和母親",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1497690"
+    },
+    {
+      "id": 474,
+      "japanese": "文芸",
+      "reading": "ぶんげい",
+      "chinese": "文學",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1505290"
+    },
+    {
+      "id": 475,
+      "japanese": "放る",
+      "reading": "ほうる",
+      "chinese": "投擲",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1516530"
+    },
+    {
+      "id": 476,
+      "japanese": "方面",
+      "reading": "ほうめん",
+      "chinese": "方向",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1517100"
+    },
+    {
+      "id": 477,
+      "japanese": "夜間",
+      "reading": "やかん",
+      "chinese": "夜間",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1536530"
+    },
+    {
+      "id": 478,
+      "japanese": "欄",
+      "reading": "らん",
+      "chinese": "欄",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1549350"
+    },
+    {
+      "id": 479,
+      "japanese": "売れ行き",
+      "reading": "うれゆき",
+      "chinese": "銷售",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1588590"
+    },
+    {
+      "id": 480,
+      "japanese": "締め切り",
+      "reading": "しめきり",
+      "chinese": "截止期限",
+      "category": "time",
+      "level": 2,
+      "source_id": "1594590"
+    },
+    {
+      "id": 481,
+      "japanese": "アイデア",
+      "reading": "アイデア",
+      "chinese": "想法",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1014210"
+    },
+    {
+      "id": 482,
+      "japanese": "エプロン",
+      "reading": "エプロン",
+      "chinese": "圍裙",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1029760"
+    },
+    {
+      "id": 483,
+      "japanese": "カロリー",
+      "reading": "カロリー",
+      "chinese": "卡路里",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1039300"
+    },
+    {
+      "id": 484,
+      "japanese": "ガム",
+      "reading": "ガム",
+      "chinese": "口香糖",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1040350"
+    },
+    {
+      "id": 485,
+      "japanese": "クーラー",
+      "reading": "クーラー",
+      "chinese": "空調",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1043310"
+    },
+    {
+      "id": 486,
+      "japanese": "クリーニング",
+      "reading": "クリーニング",
+      "chinese": "洗衣服務",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1044440"
+    },
+    {
+      "id": 487,
+      "japanese": "コンセント",
+      "reading": "コンセント",
+      "chinese": "電源插座",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1052330"
+    },
+    {
+      "id": 488,
+      "japanese": "サラリーマン",
+      "reading": "サラリーマン",
+      "chinese": "上班族",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1057960"
+    },
+    {
+      "id": 489,
+      "japanese": "スケジュール",
+      "reading": "スケジュール",
+      "chinese": "日程",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1068870"
+    },
+    {
+      "id": 490,
+      "japanese": "シーツ",
+      "reading": "シーツ",
+      "chinese": "床單",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1059400"
+    },
+    {
+      "id": 491,
+      "japanese": "ショップ",
+      "reading": "ショップ",
+      "chinese": "商店",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1062820"
+    },
+    {
+      "id": 492,
+      "japanese": "スカーフ",
+      "reading": "スカーフ",
+      "chinese": "圍巾",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1067480"
+    },
+    {
+      "id": 493,
+      "japanese": "タイヤ",
+      "reading": "タイヤ",
+      "chinese": "輪胎",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1076120"
+    },
+    {
+      "id": 494,
+      "japanese": "チップ",
+      "reading": "チップ",
+      "chinese": "小費",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1077740"
+    },
+    {
+      "id": 495,
+      "japanese": "ネックレス",
+      "reading": "ネックレス",
+      "chinese": "項鍊",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1093000"
+    },
+    {
+      "id": 496,
+      "japanese": "ビタミン",
+      "reading": "ビタミン",
+      "chinese": "維生素",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1105160"
+    },
+    {
+      "id": 497,
+      "japanese": "フライパン",
+      "reading": "フライパン",
+      "chinese": "煎鍋",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1111160"
+    },
+    {
+      "id": 498,
+      "japanese": "マスク",
+      "reading": "マスク",
+      "chinese": "口罩",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1127870"
+    },
+    {
+      "id": 499,
+      "japanese": "メニュー",
+      "reading": "メニュー",
+      "chinese": "選單",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1133790"
+    },
+    {
+      "id": 500,
+      "japanese": "ランチ",
+      "reading": "ランチ",
+      "chinese": "午餐",
+      "category": "daily",
+      "level": 2,
+      "source_id": "1140100"
+    }
+  ],
+  "sentences": [
+    {
+      "id": 1001,
+      "japanese": "予定について、もう一度確認したいです。",
+      "reading": "よていについて、もういちどかくにんしたいです。",
+      "chinese": "我想再確認一次計畫。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1002,
+      "japanese": "予定が変わったら、早めに教えてください。",
+      "reading": "よていがかわったら、はやめにおしえてください。",
+      "chinese": "如果計畫有變動，請早點告訴我。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1003,
+      "japanese": "日程について、もう一度確認したいです。",
+      "reading": "にっていについて、もういちどかくにんしたいです。",
+      "chinese": "我想再確認一次行程。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1004,
+      "japanese": "日程が変わったら、早めに教えてください。",
+      "reading": "にっていがかわったら、はやめにおしえてください。",
+      "chinese": "如果行程有變動，請早點告訴我。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1005,
+      "japanese": "時間について、もう一度確認したいです。",
+      "reading": "じかんについて、もういちどかくにんしたいです。",
+      "chinese": "我想再確認一次時間。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1006,
+      "japanese": "時間が変わったら、早めに教えてください。",
+      "reading": "じかんがかわったら、はやめにおしえてください。",
+      "chinese": "如果時間有變動，請早點告訴我。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1007,
+      "japanese": "場所について、もう一度確認したいです。",
+      "reading": "ばしょについて、もういちどかくにんしたいです。",
+      "chinese": "我想再確認一次地點。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1008,
+      "japanese": "場所が変わったら、早めに教えてください。",
+      "reading": "ばしょがかわったら、はやめにおしえてください。",
+      "chinese": "如果地點有變動，請早點告訴我。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1009,
+      "japanese": "内容について、もう一度確認したいです。",
+      "reading": "ないようについて、もういちどかくにんしたいです。",
+      "chinese": "我想再確認一次內容。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1010,
+      "japanese": "内容が変わったら、早めに教えてください。",
+      "reading": "ないようがかわったら、はやめにおしえてください。",
+      "chinese": "如果內容有變動，請早點告訴我。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1011,
+      "japanese": "方法について、もう一度確認したいです。",
+      "reading": "ほうほうについて、もういちどかくにんしたいです。",
+      "chinese": "我想再確認一次方法。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1012,
+      "japanese": "方法が変わったら、早めに教えてください。",
+      "reading": "ほうほうがかわったら、はやめにおしえてください。",
+      "chinese": "如果方法有變動，請早點告訴我。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1013,
+      "japanese": "手順について、もう一度確認したいです。",
+      "reading": "てじゅんについて、もういちどかくにんしたいです。",
+      "chinese": "我想再確認一次步驟。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1014,
+      "japanese": "手順が変わったら、早めに教えてください。",
+      "reading": "てじゅんがかわったら、はやめにおしえてください。",
+      "chinese": "如果步驟有變動，請早點告訴我。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1015,
+      "japanese": "予約について、もう一度確認したいです。",
+      "reading": "よやくについて、もういちどかくにんしたいです。",
+      "chinese": "我想再確認一次預約。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1016,
+      "japanese": "予約が変わったら、早めに教えてください。",
+      "reading": "よやくがかわったら、はやめにおしえてください。",
+      "chinese": "如果預約有變動，請早點告訴我。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1017,
+      "japanese": "約束について、もう一度確認したいです。",
+      "reading": "やくそくについて、もういちどかくにんしたいです。",
+      "chinese": "我想再確認一次約定。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1018,
+      "japanese": "約束が変わったら、早めに教えてください。",
+      "reading": "やくそくがかわったら、はやめにおしえてください。",
+      "chinese": "如果約定有變動，請早點告訴我。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1019,
+      "japanese": "条件について、もう一度確認したいです。",
+      "reading": "じょうけんについて、もういちどかくにんしたいです。",
+      "chinese": "我想再確認一次條件。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1020,
+      "japanese": "条件が変わったら、早めに教えてください。",
+      "reading": "じょうけんがかわったら、はやめにおしえてください。",
+      "chinese": "如果條件有變動，請早點告訴我。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1021,
+      "japanese": "書類を受け取ったら、連絡してください。",
+      "reading": "しょるいをうけとったら、れんらくしてください。",
+      "chinese": "收到文件後請聯絡我。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1022,
+      "japanese": "書類をなくさないように気をつけます。",
+      "reading": "しょるいをなくさないようにきをつけます。",
+      "chinese": "我會小心不要弄丟文件。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1023,
+      "japanese": "資料を受け取ったら、連絡してください。",
+      "reading": "しりょうをうけとったら、れんらくしてください。",
+      "chinese": "收到資料後請聯絡我。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1024,
+      "japanese": "資料をなくさないように気をつけます。",
+      "reading": "しりょうをなくさないようにきをつけます。",
+      "chinese": "我會小心不要弄丟資料。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1025,
+      "japanese": "申込書を受け取ったら、連絡してください。",
+      "reading": "もうしこみしょをうけとったら、れんらくしてください。",
+      "chinese": "收到申請表後請聯絡我。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1026,
+      "japanese": "申込書をなくさないように気をつけます。",
+      "reading": "もうしこみしょをなくさないようにきをつけます。",
+      "chinese": "我會小心不要弄丟申請表。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1027,
+      "japanese": "履歴書を受け取ったら、連絡してください。",
+      "reading": "りれきしょをうけとったら、れんらくしてください。",
+      "chinese": "收到履歷表後請聯絡我。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1028,
+      "japanese": "履歴書をなくさないように気をつけます。",
+      "reading": "りれきしょをなくさないようにきをつけます。",
+      "chinese": "我會小心不要弄丟履歷表。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1029,
+      "japanese": "メールを受け取ったら、連絡してください。",
+      "reading": "めーるをうけとったら、れんらくしてください。",
+      "chinese": "收到電子郵件後請聯絡我。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1030,
+      "japanese": "メールをなくさないように気をつけます。",
+      "reading": "めーるをなくさないようにきをつけます。",
+      "chinese": "我會小心不要弄丟電子郵件。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1031,
+      "japanese": "写真を受け取ったら、連絡してください。",
+      "reading": "しゃしんをうけとったら、れんらくしてください。",
+      "chinese": "收到照片後請聯絡我。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1032,
+      "japanese": "写真をなくさないように気をつけます。",
+      "reading": "しゃしんをなくさないようにきをつけます。",
+      "chinese": "我會小心不要弄丟照片。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1033,
+      "japanese": "荷物を受け取ったら、連絡してください。",
+      "reading": "にもつをうけとったら、れんらくしてください。",
+      "chinese": "收到行李後請聯絡我。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1034,
+      "japanese": "荷物をなくさないように気をつけます。",
+      "reading": "にもつをなくさないようにきをつけます。",
+      "chinese": "我會小心不要弄丟行李。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1035,
+      "japanese": "鍵を受け取ったら、連絡してください。",
+      "reading": "かぎをうけとったら、れんらくしてください。",
+      "chinese": "收到鑰匙後請聯絡我。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1036,
+      "japanese": "鍵をなくさないように気をつけます。",
+      "reading": "かぎをなくさないようにきをつけます。",
+      "chinese": "我會小心不要弄丟鑰匙。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1037,
+      "japanese": "チケットを受け取ったら、連絡してください。",
+      "reading": "ちけっとをうけとったら、れんらくしてください。",
+      "chinese": "收到票券後請聯絡我。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1038,
+      "japanese": "チケットをなくさないように気をつけます。",
+      "reading": "ちけっとをなくさないようにきをつけます。",
+      "chinese": "我會小心不要弄丟票券。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1039,
+      "japanese": "領収書を受け取ったら、連絡してください。",
+      "reading": "りょうしゅうしょをうけとったら、れんらくしてください。",
+      "chinese": "收到收據後請聯絡我。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1040,
+      "japanese": "領収書をなくさないように気をつけます。",
+      "reading": "りょうしゅうしょをなくさないようにきをつけます。",
+      "chinese": "我會小心不要弄丟收據。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1041,
+      "japanese": "この商品は思ったより高かったです。",
+      "reading": "このしょうひんはおもったよりたかかったです。",
+      "chinese": "這個商品比想像中貴。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1042,
+      "japanese": "この商品を買う前に、評判を調べます。",
+      "reading": "このしょうひんをかうまえに、ひょうばんをしらべます。",
+      "chinese": "買商品之前，我會先查評價。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1043,
+      "japanese": "この服は思ったより高かったです。",
+      "reading": "このふくはおもったよりたかかったです。",
+      "chinese": "這個衣服比想像中貴。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1044,
+      "japanese": "この服を買う前に、評判を調べます。",
+      "reading": "このふくをかうまえに、ひょうばんをしらべます。",
+      "chinese": "買衣服之前，我會先查評價。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1045,
+      "japanese": "この靴は思ったより高かったです。",
+      "reading": "このくつはおもったよりたかかったです。",
+      "chinese": "這個鞋子比想像中貴。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1046,
+      "japanese": "この靴を買う前に、評判を調べます。",
+      "reading": "このくつをかうまえに、ひょうばんをしらべます。",
+      "chinese": "買鞋子之前，我會先查評價。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1047,
+      "japanese": "このかばんは思ったより高かったです。",
+      "reading": "このかばんはおもったよりたかかったです。",
+      "chinese": "這個包包比想像中貴。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1048,
+      "japanese": "このかばんを買う前に、評判を調べます。",
+      "reading": "このかばんをかうまえに、ひょうばんをしらべます。",
+      "chinese": "買包包之前，我會先查評價。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1049,
+      "japanese": "この弁当は思ったより高かったです。",
+      "reading": "このべんとうはおもったよりたかかったです。",
+      "chinese": "這個便當比想像中貴。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1050,
+      "japanese": "この弁当を買う前に、評判を調べます。",
+      "reading": "このべんとうをかうまえに、ひょうばんをしらべます。",
+      "chinese": "買便當之前，我會先查評價。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1051,
+      "japanese": "この飲み物は思ったより高かったです。",
+      "reading": "こののみものはおもったよりたかかったです。",
+      "chinese": "這個飲料比想像中貴。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1052,
+      "japanese": "この飲み物を買う前に、評判を調べます。",
+      "reading": "こののみものをかうまえに、ひょうばんをしらべます。",
+      "chinese": "買飲料之前，我會先查評價。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1053,
+      "japanese": "この雑誌は思ったより高かったです。",
+      "reading": "このざっしはおもったよりたかかったです。",
+      "chinese": "這個雜誌比想像中貴。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1054,
+      "japanese": "この雑誌を買う前に、評判を調べます。",
+      "reading": "このざっしをかうまえに、ひょうばんをしらべます。",
+      "chinese": "買雜誌之前，我會先查評價。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1055,
+      "japanese": "このお土産は思ったより高かったです。",
+      "reading": "このおみやげはおもったよりたかかったです。",
+      "chinese": "這個伴手禮比想像中貴。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1056,
+      "japanese": "このお土産を買う前に、評判を調べます。",
+      "reading": "このおみやげをかうまえに、ひょうばんをしらべます。",
+      "chinese": "買伴手禮之前，我會先查評價。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1057,
+      "japanese": "このプレゼントは思ったより高かったです。",
+      "reading": "このぷれぜんとはおもったよりたかかったです。",
+      "chinese": "這個禮物比想像中貴。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1058,
+      "japanese": "このプレゼントを買う前に、評判を調べます。",
+      "reading": "このぷれぜんとをかうまえに、ひょうばんをしらべます。",
+      "chinese": "買禮物之前，我會先查評價。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1059,
+      "japanese": "この携帯電話は思ったより高かったです。",
+      "reading": "このけいたいでんわはおもったよりたかかったです。",
+      "chinese": "這個手機比想像中貴。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1060,
+      "japanese": "この携帯電話を買う前に、評判を調べます。",
+      "reading": "このけいたいでんわをかうまえに、ひょうばんをしらべます。",
+      "chinese": "買手機之前，我會先查評價。",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1061,
+      "japanese": "最近、不安を感じることが多いです。",
+      "reading": "さいきん、ふあんをかんじることがおおいです。",
+      "chinese": "最近常常感到不安。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1062,
+      "japanese": "最近、不安について、友人と話しました。",
+      "reading": "さいきん、ふあんについて、ゆうじんとはなしました。",
+      "chinese": "我和朋友談了不安的事。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1063,
+      "japanese": "最近、緊張を感じることが多いです。",
+      "reading": "さいきん、きんちょうをかんじることがおおいです。",
+      "chinese": "最近常常感到緊張。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1064,
+      "japanese": "最近、緊張について、友人と話しました。",
+      "reading": "さいきん、きんちょうについて、ゆうじんとはなしました。",
+      "chinese": "我和朋友談了緊張的事。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1065,
+      "japanese": "最近、疲れを感じることが多いです。",
+      "reading": "さいきん、つかれをかんじることがおおいです。",
+      "chinese": "最近常常感到疲勞。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1066,
+      "japanese": "最近、疲れについて、友人と話しました。",
+      "reading": "さいきん、つかれについて、ゆうじんとはなしました。",
+      "chinese": "我和朋友談了疲勞的事。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1067,
+      "japanese": "最近、痛みを感じることが多いです。",
+      "reading": "さいきん、いたみをかんじることがおおいです。",
+      "chinese": "最近常常感到疼痛。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1068,
+      "japanese": "最近、痛みについて、友人と話しました。",
+      "reading": "さいきん、いたみについて、ゆうじんとはなしました。",
+      "chinese": "我和朋友談了疼痛的事。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1069,
+      "japanese": "最近、ストレスを感じることが多いです。",
+      "reading": "さいきん、すとれすをかんじることがおおいです。",
+      "chinese": "最近常常感到壓力。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1070,
+      "japanese": "最近、ストレスについて、友人と話しました。",
+      "reading": "さいきん、すとれすについて、ゆうじんとはなしました。",
+      "chinese": "我和朋友談了壓力的事。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1071,
+      "japanese": "最近、喜びを感じることが多いです。",
+      "reading": "さいきん、よろこびをかんじることがおおいです。",
+      "chinese": "最近常常感到喜悅。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1072,
+      "japanese": "最近、喜びについて、友人と話しました。",
+      "reading": "さいきん、よろこびについて、ゆうじんとはなしました。",
+      "chinese": "我和朋友談了喜悅的事。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1073,
+      "japanese": "最近、違和感を感じることが多いです。",
+      "reading": "さいきん、いわかんをかんじることがおおいです。",
+      "chinese": "最近常常感到不適感。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1074,
+      "japanese": "最近、違和感について、友人と話しました。",
+      "reading": "さいきん、いわかんについて、ゆうじんとはなしました。",
+      "chinese": "我和朋友談了不適感的事。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1075,
+      "japanese": "最近、プレッシャーを感じることが多いです。",
+      "reading": "さいきん、ぷれっしゃーをかんじることがおおいです。",
+      "chinese": "最近常常感到心理壓力。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1076,
+      "japanese": "最近、プレッシャーについて、友人と話しました。",
+      "reading": "さいきん、ぷれっしゃーについて、ゆうじんとはなしました。",
+      "chinese": "我和朋友談了心理壓力的事。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1077,
+      "japanese": "最近、期待を感じることが多いです。",
+      "reading": "さいきん、きたいをかんじることがおおいです。",
+      "chinese": "最近常常感到期待。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1078,
+      "japanese": "最近、期待について、友人と話しました。",
+      "reading": "さいきん、きたいについて、ゆうじんとはなしました。",
+      "chinese": "我和朋友談了期待的事。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1079,
+      "japanese": "最近、寂しさを感じることが多いです。",
+      "reading": "さいきん、さびしさをかんじることがおおいです。",
+      "chinese": "最近常常感到寂寞。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1080,
+      "japanese": "最近、寂しさについて、友人と話しました。",
+      "reading": "さいきん、さびしさについて、ゆうじんとはなしました。",
+      "chinese": "我和朋友談了寂寞的事。",
+      "category": "feelings",
+      "level": 2
+    },
+    {
+      "id": 1081,
+      "japanese": "電車が遅れているので、少し遅れます。",
+      "reading": "でんしゃがおくれているので、すこしおくれます。",
+      "chinese": "電車誤點了，所以我會晚一點到。",
+      "category": "transport",
+      "level": 2
+    },
+    {
+      "id": 1082,
+      "japanese": "体調が優れないため、今日は早めに帰ります。",
+      "reading": "たいちょうがすぐれないため、きょうははやめにかえります。",
+      "chinese": "身體不太舒服，今天會早點回去。",
+      "category": "health",
+      "level": 2
+    },
+    {
+      "id": 1083,
+      "japanese": "予約の時間を変更していただけますか。",
+      "reading": "よやくのじかんをへんこうしていただけますか。",
+      "chinese": "可以幫我更改預約時間嗎？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1084,
+      "japanese": "明日の会議はオンラインで参加します。",
+      "reading": "あすのかいぎはおんらいんでさんかします。",
+      "chinese": "明天的會議我會線上參加。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1085,
+      "japanese": "書類に記入漏れがないか確認してください。",
+      "reading": "しょるいにきにゅうもれがないかかくにんしてください。",
+      "chinese": "請確認文件是否有漏填。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1086,
+      "japanese": "駅から歩いて十分ほどかかります。",
+      "reading": "えきからあるいてじゅうふんほどかかります。",
+      "chinese": "從車站步行大約要十分鐘。",
+      "category": "transport",
+      "level": 2
+    },
+    {
+      "id": 1087,
+      "japanese": "この商品は返品できますか。",
+      "reading": "このしょうひんはへんぴんできますか。",
+      "chinese": "這個商品可以退貨嗎？",
+      "category": "shopping",
+      "level": 2
+    },
+    {
+      "id": 1088,
+      "japanese": "週末は友人と温泉に行く予定です。",
+      "reading": "しゅうまつはゆうじんとおんせんにいくよていです。",
+      "chinese": "週末預計和朋友去泡溫泉。",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1089,
+      "japanese": "最近、仕事が忙しくて睡眠不足です。",
+      "reading": "さいきん、しごとがいそがしくてすいみんふそくです。",
+      "chinese": "最近工作很忙，睡眠不足。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1090,
+      "japanese": "薬を飲んでも熱が下がりません。",
+      "reading": "くすりをのんでもねつがさがりません。",
+      "chinese": "吃了藥，燒還是沒有退。",
+      "category": "health",
+      "level": 2
+    },
+    {
+      "id": 1091,
+      "japanese": "道に迷ったので、駅までの行き方を教えてください。",
+      "reading": "みちにまよったので、えきまでのいきかたをおしえてください。",
+      "chinese": "我迷路了，請告訴我到車站怎麼走。",
+      "category": "transport",
+      "level": 2
+    },
+    {
+      "id": 1092,
+      "japanese": "雨が降りそうなので、傘を持って行きます。",
+      "reading": "あめがふりそうなので、かさをもっていきます。",
+      "chinese": "看起來快下雨了，我會帶傘。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1093,
+      "japanese": "引っ越しの準備がまだ終わっていません。",
+      "reading": "ひっこしのじゅんびがまだおわっていません。",
+      "chinese": "搬家的準備還沒有完成。",
+      "category": "home",
+      "level": 2
+    },
+    {
+      "id": 1094,
+      "japanese": "この料理には卵が入っていますか。",
+      "reading": "このりょうりにはたまごがはいっていますか。",
+      "chinese": "這道料理裡有蛋嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 1095,
+      "japanese": "会計を別々にしていただけますか。",
+      "reading": "かいけいをべつべつにしていただけますか。",
+      "chinese": "可以分開結帳嗎？",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 1096,
+      "japanese": "スマートフォンを充電できる場所はありますか。",
+      "reading": "すまーとふぉんをじゅうでんできるばしょはありますか。",
+      "chinese": "有可以替手機充電的地方嗎？",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1097,
+      "japanese": "旅行の写真を家族に送りました。",
+      "reading": "りょこうのしゃしんをかぞくにおくりました。",
+      "chinese": "我把旅行照片傳給了家人。",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1098,
+      "japanese": "困ったことがあれば、いつでも相談してください。",
+      "reading": "こまったことがあれば、いつでもそうだんしてください。",
+      "chinese": "有困難的話，隨時找我商量。",
+      "category": "communication",
+      "level": 2
+    },
+    {
+      "id": 1099,
+      "japanese": "予定より早く着いたので、近くで待っています。",
+      "reading": "よていよりはやくついたので、ちかくでまっています。",
+      "chinese": "我比預定時間早到，正在附近等候。",
+      "category": "daily",
+      "level": 2
+    },
+    {
+      "id": 1100,
+      "japanese": "来月から新しい仕事を始めることになりました。",
+      "reading": "らいげつからあたらしいしごとをはじめることになりました。",
+      "chinese": "我決定從下個月開始做新工作。",
+      "category": "work",
+      "level": 2
+    }
+  ],
+  "phrases": [
+    {
+      "id": 2001,
+      "japanese": "予定を確認する",
+      "reading": "よていをかくにんする",
+      "chinese": "確認計畫",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2002,
+      "japanese": "予定を変更する",
+      "reading": "よていをへんこうする",
+      "chinese": "更改計畫",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2003,
+      "japanese": "予定を調整する",
+      "reading": "よていをちょうせいする",
+      "chinese": "調整計畫",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2004,
+      "japanese": "予定を決める",
+      "reading": "よていをきめる",
+      "chinese": "決定計畫",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2005,
+      "japanese": "予定について相談する",
+      "reading": "よていについてそうだんする",
+      "chinese": "商量計畫",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2006,
+      "japanese": "日程を確認する",
+      "reading": "にっていをかくにんする",
+      "chinese": "確認行程",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2007,
+      "japanese": "日程を変更する",
+      "reading": "にっていをへんこうする",
+      "chinese": "更改行程",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2008,
+      "japanese": "日程を調整する",
+      "reading": "にっていをちょうせいする",
+      "chinese": "調整行程",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2009,
+      "japanese": "日程を決める",
+      "reading": "にっていをきめる",
+      "chinese": "決定行程",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2010,
+      "japanese": "日程について相談する",
+      "reading": "にっていについてそうだんする",
+      "chinese": "商量行程",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2011,
+      "japanese": "時間を確認する",
+      "reading": "じかんをかくにんする",
+      "chinese": "確認時間",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2012,
+      "japanese": "時間を変更する",
+      "reading": "じかんをへんこうする",
+      "chinese": "更改時間",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2013,
+      "japanese": "時間を調整する",
+      "reading": "じかんをちょうせいする",
+      "chinese": "調整時間",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2014,
+      "japanese": "時間を決める",
+      "reading": "じかんをきめる",
+      "chinese": "決定時間",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2015,
+      "japanese": "時間について相談する",
+      "reading": "じかんについてそうだんする",
+      "chinese": "商量時間",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2016,
+      "japanese": "場所を確認する",
+      "reading": "ばしょをかくにんする",
+      "chinese": "確認地點",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2017,
+      "japanese": "場所を変更する",
+      "reading": "ばしょをへんこうする",
+      "chinese": "更改地點",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2018,
+      "japanese": "場所を調整する",
+      "reading": "ばしょをちょうせいする",
+      "chinese": "調整地點",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2019,
+      "japanese": "場所を決める",
+      "reading": "ばしょをきめる",
+      "chinese": "決定地點",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2020,
+      "japanese": "場所について相談する",
+      "reading": "ばしょについてそうだんする",
+      "chinese": "商量地點",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2021,
+      "japanese": "内容を確認する",
+      "reading": "ないようをかくにんする",
+      "chinese": "確認內容",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2022,
+      "japanese": "内容を変更する",
+      "reading": "ないようをへんこうする",
+      "chinese": "更改內容",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2023,
+      "japanese": "内容を調整する",
+      "reading": "ないようをちょうせいする",
+      "chinese": "調整內容",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2024,
+      "japanese": "内容を決める",
+      "reading": "ないようをきめる",
+      "chinese": "決定內容",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2025,
+      "japanese": "内容について相談する",
+      "reading": "ないようについてそうだんする",
+      "chinese": "商量內容",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2026,
+      "japanese": "方法を確認する",
+      "reading": "ほうほうをかくにんする",
+      "chinese": "確認方法",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2027,
+      "japanese": "方法を変更する",
+      "reading": "ほうほうをへんこうする",
+      "chinese": "更改方法",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2028,
+      "japanese": "方法を調整する",
+      "reading": "ほうほうをちょうせいする",
+      "chinese": "調整方法",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2029,
+      "japanese": "方法を決める",
+      "reading": "ほうほうをきめる",
+      "chinese": "決定方法",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2030,
+      "japanese": "方法について相談する",
+      "reading": "ほうほうについてそうだんする",
+      "chinese": "商量方法",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2031,
+      "japanese": "手順を確認する",
+      "reading": "てじゅんをかくにんする",
+      "chinese": "確認步驟",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2032,
+      "japanese": "手順を変更する",
+      "reading": "てじゅんをへんこうする",
+      "chinese": "更改步驟",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2033,
+      "japanese": "手順を調整する",
+      "reading": "てじゅんをちょうせいする",
+      "chinese": "調整步驟",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2034,
+      "japanese": "手順を決める",
+      "reading": "てじゅんをきめる",
+      "chinese": "決定步驟",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2035,
+      "japanese": "手順について相談する",
+      "reading": "てじゅんについてそうだんする",
+      "chinese": "商量步驟",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2036,
+      "japanese": "予約を確認する",
+      "reading": "よやくをかくにんする",
+      "chinese": "確認預約",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2037,
+      "japanese": "予約を変更する",
+      "reading": "よやくをへんこうする",
+      "chinese": "更改預約",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2038,
+      "japanese": "予約を調整する",
+      "reading": "よやくをちょうせいする",
+      "chinese": "調整預約",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2039,
+      "japanese": "予約を決める",
+      "reading": "よやくをきめる",
+      "chinese": "決定預約",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2040,
+      "japanese": "予約について相談する",
+      "reading": "よやくについてそうだんする",
+      "chinese": "商量預約",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2041,
+      "japanese": "約束を確認する",
+      "reading": "やくそくをかくにんする",
+      "chinese": "確認約定",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2042,
+      "japanese": "約束を変更する",
+      "reading": "やくそくをへんこうする",
+      "chinese": "更改約定",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2043,
+      "japanese": "約束を調整する",
+      "reading": "やくそくをちょうせいする",
+      "chinese": "調整約定",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2044,
+      "japanese": "約束を決める",
+      "reading": "やくそくをきめる",
+      "chinese": "決定約定",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2045,
+      "japanese": "約束について相談する",
+      "reading": "やくそくについてそうだんする",
+      "chinese": "商量約定",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2046,
+      "japanese": "条件を確認する",
+      "reading": "じょうけんをかくにんする",
+      "chinese": "確認條件",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2047,
+      "japanese": "条件を変更する",
+      "reading": "じょうけんをへんこうする",
+      "chinese": "更改條件",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2048,
+      "japanese": "条件を調整する",
+      "reading": "じょうけんをちょうせいする",
+      "chinese": "調整條件",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2049,
+      "japanese": "条件を決める",
+      "reading": "じょうけんをきめる",
+      "chinese": "決定條件",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2050,
+      "japanese": "条件について相談する",
+      "reading": "じょうけんについてそうだんする",
+      "chinese": "商量條件",
+      "category": "daily",
+      "level": 1
+    },
+    {
+      "id": 2051,
+      "japanese": "書類を確認する",
+      "reading": "しょるいをかくにんする",
+      "chinese": "確認文件",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2052,
+      "japanese": "書類を用意する",
+      "reading": "しょるいをよういする",
+      "chinese": "準備文件",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2053,
+      "japanese": "書類を探す",
+      "reading": "しょるいをさがす",
+      "chinese": "尋找文件",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2054,
+      "japanese": "書類を受け取る",
+      "reading": "しょるいをうけとる",
+      "chinese": "收到文件",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2055,
+      "japanese": "書類を保管する",
+      "reading": "しょるいをほかんする",
+      "chinese": "保管文件",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2056,
+      "japanese": "資料を確認する",
+      "reading": "しりょうをかくにんする",
+      "chinese": "確認資料",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2057,
+      "japanese": "資料を用意する",
+      "reading": "しりょうをよういする",
+      "chinese": "準備資料",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2058,
+      "japanese": "資料を探す",
+      "reading": "しりょうをさがす",
+      "chinese": "尋找資料",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2059,
+      "japanese": "資料を受け取る",
+      "reading": "しりょうをうけとる",
+      "chinese": "收到資料",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2060,
+      "japanese": "資料を保管する",
+      "reading": "しりょうをほかんする",
+      "chinese": "保管資料",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2061,
+      "japanese": "申込書を確認する",
+      "reading": "もうしこみしょをかくにんする",
+      "chinese": "確認申請表",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2062,
+      "japanese": "申込書を用意する",
+      "reading": "もうしこみしょをよういする",
+      "chinese": "準備申請表",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2063,
+      "japanese": "申込書を探す",
+      "reading": "もうしこみしょをさがす",
+      "chinese": "尋找申請表",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2064,
+      "japanese": "申込書を受け取る",
+      "reading": "もうしこみしょをうけとる",
+      "chinese": "收到申請表",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2065,
+      "japanese": "申込書を保管する",
+      "reading": "もうしこみしょをほかんする",
+      "chinese": "保管申請表",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2066,
+      "japanese": "履歴書を確認する",
+      "reading": "りれきしょをかくにんする",
+      "chinese": "確認履歷表",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2067,
+      "japanese": "履歴書を用意する",
+      "reading": "りれきしょをよういする",
+      "chinese": "準備履歷表",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2068,
+      "japanese": "履歴書を探す",
+      "reading": "りれきしょをさがす",
+      "chinese": "尋找履歷表",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2069,
+      "japanese": "履歴書を受け取る",
+      "reading": "りれきしょをうけとる",
+      "chinese": "收到履歷表",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2070,
+      "japanese": "履歴書を保管する",
+      "reading": "りれきしょをほかんする",
+      "chinese": "保管履歷表",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2071,
+      "japanese": "メールを確認する",
+      "reading": "めーるをかくにんする",
+      "chinese": "確認電子郵件",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2072,
+      "japanese": "メールを用意する",
+      "reading": "めーるをよういする",
+      "chinese": "準備電子郵件",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2073,
+      "japanese": "メールを探す",
+      "reading": "めーるをさがす",
+      "chinese": "尋找電子郵件",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2074,
+      "japanese": "メールを受け取る",
+      "reading": "めーるをうけとる",
+      "chinese": "收到電子郵件",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2075,
+      "japanese": "メールを保管する",
+      "reading": "めーるをほかんする",
+      "chinese": "保管電子郵件",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2076,
+      "japanese": "写真を確認する",
+      "reading": "しゃしんをかくにんする",
+      "chinese": "確認照片",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2077,
+      "japanese": "写真を用意する",
+      "reading": "しゃしんをよういする",
+      "chinese": "準備照片",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2078,
+      "japanese": "写真を探す",
+      "reading": "しゃしんをさがす",
+      "chinese": "尋找照片",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2079,
+      "japanese": "写真を受け取る",
+      "reading": "しゃしんをうけとる",
+      "chinese": "收到照片",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2080,
+      "japanese": "写真を保管する",
+      "reading": "しゃしんをほかんする",
+      "chinese": "保管照片",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2081,
+      "japanese": "荷物を確認する",
+      "reading": "にもつをかくにんする",
+      "chinese": "確認行李",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2082,
+      "japanese": "荷物を用意する",
+      "reading": "にもつをよういする",
+      "chinese": "準備行李",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2083,
+      "japanese": "荷物を探す",
+      "reading": "にもつをさがす",
+      "chinese": "尋找行李",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2084,
+      "japanese": "荷物を受け取る",
+      "reading": "にもつをうけとる",
+      "chinese": "收到行李",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2085,
+      "japanese": "荷物を保管する",
+      "reading": "にもつをほかんする",
+      "chinese": "保管行李",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2086,
+      "japanese": "鍵を確認する",
+      "reading": "かぎをかくにんする",
+      "chinese": "確認鑰匙",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2087,
+      "japanese": "鍵を用意する",
+      "reading": "かぎをよういする",
+      "chinese": "準備鑰匙",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2088,
+      "japanese": "鍵を探す",
+      "reading": "かぎをさがす",
+      "chinese": "尋找鑰匙",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2089,
+      "japanese": "鍵を受け取る",
+      "reading": "かぎをうけとる",
+      "chinese": "收到鑰匙",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2090,
+      "japanese": "鍵を保管する",
+      "reading": "かぎをほかんする",
+      "chinese": "保管鑰匙",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2091,
+      "japanese": "チケットを確認する",
+      "reading": "ちけっとをかくにんする",
+      "chinese": "確認票券",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2092,
+      "japanese": "チケットを用意する",
+      "reading": "ちけっとをよういする",
+      "chinese": "準備票券",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2093,
+      "japanese": "チケットを探す",
+      "reading": "ちけっとをさがす",
+      "chinese": "尋找票券",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2094,
+      "japanese": "チケットを受け取る",
+      "reading": "ちけっとをうけとる",
+      "chinese": "收到票券",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2095,
+      "japanese": "チケットを保管する",
+      "reading": "ちけっとをほかんする",
+      "chinese": "保管票券",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2096,
+      "japanese": "領収書を確認する",
+      "reading": "りょうしゅうしょをかくにんする",
+      "chinese": "確認收據",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2097,
+      "japanese": "領収書を用意する",
+      "reading": "りょうしゅうしょをよういする",
+      "chinese": "準備收據",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2098,
+      "japanese": "領収書を探す",
+      "reading": "りょうしゅうしょをさがす",
+      "chinese": "尋找收據",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2099,
+      "japanese": "領収書を受け取る",
+      "reading": "りょうしゅうしょをうけとる",
+      "chinese": "收到收據",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2100,
+      "japanese": "領収書を保管する",
+      "reading": "りょうしゅうしょをほかんする",
+      "chinese": "保管收據",
+      "category": "work",
+      "level": 1
+    },
+    {
+      "id": 2101,
+      "japanese": "商品を探す",
+      "reading": "しょうひんをさがす",
+      "chinese": "尋找商品",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2102,
+      "japanese": "商品を選ぶ",
+      "reading": "しょうひんをえらぶ",
+      "chinese": "挑選商品",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2103,
+      "japanese": "商品を買う",
+      "reading": "しょうひんをかう",
+      "chinese": "購買商品",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2104,
+      "japanese": "商品を受け取る",
+      "reading": "しょうひんをうけとる",
+      "chinese": "收到商品",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2105,
+      "japanese": "商品の値段を調べる",
+      "reading": "しょうひんのねだんをしらべる",
+      "chinese": "查詢商品的價格",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2106,
+      "japanese": "服を探す",
+      "reading": "ふくをさがす",
+      "chinese": "尋找衣服",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2107,
+      "japanese": "服を選ぶ",
+      "reading": "ふくをえらぶ",
+      "chinese": "挑選衣服",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2108,
+      "japanese": "服を買う",
+      "reading": "ふくをかう",
+      "chinese": "購買衣服",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2109,
+      "japanese": "服を受け取る",
+      "reading": "ふくをうけとる",
+      "chinese": "收到衣服",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2110,
+      "japanese": "服の値段を調べる",
+      "reading": "ふくのねだんをしらべる",
+      "chinese": "查詢衣服的價格",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2111,
+      "japanese": "靴を探す",
+      "reading": "くつをさがす",
+      "chinese": "尋找鞋子",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2112,
+      "japanese": "靴を選ぶ",
+      "reading": "くつをえらぶ",
+      "chinese": "挑選鞋子",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2113,
+      "japanese": "靴を買う",
+      "reading": "くつをかう",
+      "chinese": "購買鞋子",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2114,
+      "japanese": "靴を受け取る",
+      "reading": "くつをうけとる",
+      "chinese": "收到鞋子",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2115,
+      "japanese": "靴の値段を調べる",
+      "reading": "くつのねだんをしらべる",
+      "chinese": "查詢鞋子的價格",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2116,
+      "japanese": "かばんを探す",
+      "reading": "かばんをさがす",
+      "chinese": "尋找包包",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2117,
+      "japanese": "かばんを選ぶ",
+      "reading": "かばんをえらぶ",
+      "chinese": "挑選包包",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2118,
+      "japanese": "かばんを買う",
+      "reading": "かばんをかう",
+      "chinese": "購買包包",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2119,
+      "japanese": "かばんを受け取る",
+      "reading": "かばんをうけとる",
+      "chinese": "收到包包",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2120,
+      "japanese": "かばんの値段を調べる",
+      "reading": "かばんのねだんをしらべる",
+      "chinese": "查詢包包的價格",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2121,
+      "japanese": "弁当を探す",
+      "reading": "べんとうをさがす",
+      "chinese": "尋找便當",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2122,
+      "japanese": "弁当を選ぶ",
+      "reading": "べんとうをえらぶ",
+      "chinese": "挑選便當",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2123,
+      "japanese": "弁当を買う",
+      "reading": "べんとうをかう",
+      "chinese": "購買便當",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2124,
+      "japanese": "弁当を受け取る",
+      "reading": "べんとうをうけとる",
+      "chinese": "收到便當",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2125,
+      "japanese": "弁当の値段を調べる",
+      "reading": "べんとうのねだんをしらべる",
+      "chinese": "查詢便當的價格",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2126,
+      "japanese": "飲み物を探す",
+      "reading": "のみものをさがす",
+      "chinese": "尋找飲料",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2127,
+      "japanese": "飲み物を選ぶ",
+      "reading": "のみものをえらぶ",
+      "chinese": "挑選飲料",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2128,
+      "japanese": "飲み物を買う",
+      "reading": "のみものをかう",
+      "chinese": "購買飲料",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2129,
+      "japanese": "飲み物を受け取る",
+      "reading": "のみものをうけとる",
+      "chinese": "收到飲料",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2130,
+      "japanese": "飲み物の値段を調べる",
+      "reading": "のみもののねだんをしらべる",
+      "chinese": "查詢飲料的價格",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2131,
+      "japanese": "雑誌を探す",
+      "reading": "ざっしをさがす",
+      "chinese": "尋找雜誌",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2132,
+      "japanese": "雑誌を選ぶ",
+      "reading": "ざっしをえらぶ",
+      "chinese": "挑選雜誌",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2133,
+      "japanese": "雑誌を買う",
+      "reading": "ざっしをかう",
+      "chinese": "購買雜誌",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2134,
+      "japanese": "雑誌を受け取る",
+      "reading": "ざっしをうけとる",
+      "chinese": "收到雜誌",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2135,
+      "japanese": "雑誌の値段を調べる",
+      "reading": "ざっしのねだんをしらべる",
+      "chinese": "查詢雜誌的價格",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2136,
+      "japanese": "お土産を探す",
+      "reading": "おみやげをさがす",
+      "chinese": "尋找伴手禮",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2137,
+      "japanese": "お土産を選ぶ",
+      "reading": "おみやげをえらぶ",
+      "chinese": "挑選伴手禮",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2138,
+      "japanese": "お土産を買う",
+      "reading": "おみやげをかう",
+      "chinese": "購買伴手禮",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2139,
+      "japanese": "お土産を受け取る",
+      "reading": "おみやげをうけとる",
+      "chinese": "收到伴手禮",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2140,
+      "japanese": "お土産の値段を調べる",
+      "reading": "おみやげのねだんをしらべる",
+      "chinese": "查詢伴手禮的價格",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2141,
+      "japanese": "プレゼントを探す",
+      "reading": "ぷれぜんとをさがす",
+      "chinese": "尋找禮物",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2142,
+      "japanese": "プレゼントを選ぶ",
+      "reading": "ぷれぜんとをえらぶ",
+      "chinese": "挑選禮物",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2143,
+      "japanese": "プレゼントを買う",
+      "reading": "ぷれぜんとをかう",
+      "chinese": "購買禮物",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2144,
+      "japanese": "プレゼントを受け取る",
+      "reading": "ぷれぜんとをうけとる",
+      "chinese": "收到禮物",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2145,
+      "japanese": "プレゼントの値段を調べる",
+      "reading": "ぷれぜんとのねだんをしらべる",
+      "chinese": "查詢禮物的價格",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2146,
+      "japanese": "携帯電話を探す",
+      "reading": "けいたいでんわをさがす",
+      "chinese": "尋找手機",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2147,
+      "japanese": "携帯電話を選ぶ",
+      "reading": "けいたいでんわをえらぶ",
+      "chinese": "挑選手機",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2148,
+      "japanese": "携帯電話を買う",
+      "reading": "けいたいでんわをかう",
+      "chinese": "購買手機",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2149,
+      "japanese": "携帯電話を受け取る",
+      "reading": "けいたいでんわをうけとる",
+      "chinese": "收到手機",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2150,
+      "japanese": "携帯電話の値段を調べる",
+      "reading": "けいたいでんわのねだんをしらべる",
+      "chinese": "查詢手機的價格",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2151,
+      "japanese": "不安を感じる",
+      "reading": "ふあんをかんじる",
+      "chinese": "感到不安",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2152,
+      "japanese": "不安を言葉にする",
+      "reading": "ふあんをことばにする",
+      "chinese": "說出不安的感受",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2153,
+      "japanese": "不安について話す",
+      "reading": "ふあんについてはなす",
+      "chinese": "談談不安",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2154,
+      "japanese": "不安が続く",
+      "reading": "ふあんがつづく",
+      "chinese": "不安持續",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2155,
+      "japanese": "不安が強くなる",
+      "reading": "ふあんがつよくなる",
+      "chinese": "不安變得更強烈",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2156,
+      "japanese": "緊張を感じる",
+      "reading": "きんちょうをかんじる",
+      "chinese": "感到緊張",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2157,
+      "japanese": "緊張を言葉にする",
+      "reading": "きんちょうをことばにする",
+      "chinese": "說出緊張的感受",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2158,
+      "japanese": "緊張について話す",
+      "reading": "きんちょうについてはなす",
+      "chinese": "談談緊張",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2159,
+      "japanese": "緊張が続く",
+      "reading": "きんちょうがつづく",
+      "chinese": "緊張持續",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2160,
+      "japanese": "緊張が強くなる",
+      "reading": "きんちょうがつよくなる",
+      "chinese": "緊張變得更強烈",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2161,
+      "japanese": "疲れを感じる",
+      "reading": "つかれをかんじる",
+      "chinese": "感到疲勞",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2162,
+      "japanese": "疲れを言葉にする",
+      "reading": "つかれをことばにする",
+      "chinese": "說出疲勞的感受",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2163,
+      "japanese": "疲れについて話す",
+      "reading": "つかれについてはなす",
+      "chinese": "談談疲勞",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2164,
+      "japanese": "疲れが続く",
+      "reading": "つかれがつづく",
+      "chinese": "疲勞持續",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2165,
+      "japanese": "疲れが強くなる",
+      "reading": "つかれがつよくなる",
+      "chinese": "疲勞變得更強烈",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2166,
+      "japanese": "痛みを感じる",
+      "reading": "いたみをかんじる",
+      "chinese": "感到疼痛",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2167,
+      "japanese": "痛みを言葉にする",
+      "reading": "いたみをことばにする",
+      "chinese": "說出疼痛的感受",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2168,
+      "japanese": "痛みについて話す",
+      "reading": "いたみについてはなす",
+      "chinese": "談談疼痛",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2169,
+      "japanese": "痛みが続く",
+      "reading": "いたみがつづく",
+      "chinese": "疼痛持續",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2170,
+      "japanese": "痛みが強くなる",
+      "reading": "いたみがつよくなる",
+      "chinese": "疼痛變得更強烈",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2171,
+      "japanese": "ストレスを感じる",
+      "reading": "すとれすをかんじる",
+      "chinese": "感到壓力",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2172,
+      "japanese": "ストレスを言葉にする",
+      "reading": "すとれすをことばにする",
+      "chinese": "說出壓力的感受",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2173,
+      "japanese": "ストレスについて話す",
+      "reading": "すとれすについてはなす",
+      "chinese": "談談壓力",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2174,
+      "japanese": "ストレスが続く",
+      "reading": "すとれすがつづく",
+      "chinese": "壓力持續",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2175,
+      "japanese": "ストレスが強くなる",
+      "reading": "すとれすがつよくなる",
+      "chinese": "壓力變得更強烈",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2176,
+      "japanese": "喜びを感じる",
+      "reading": "よろこびをかんじる",
+      "chinese": "感到喜悅",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2177,
+      "japanese": "喜びを言葉にする",
+      "reading": "よろこびをことばにする",
+      "chinese": "說出喜悅的感受",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2178,
+      "japanese": "喜びについて話す",
+      "reading": "よろこびについてはなす",
+      "chinese": "談談喜悅",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2179,
+      "japanese": "喜びが続く",
+      "reading": "よろこびがつづく",
+      "chinese": "喜悅持續",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2180,
+      "japanese": "喜びが強くなる",
+      "reading": "よろこびがつよくなる",
+      "chinese": "喜悅變得更強烈",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2181,
+      "japanese": "違和感を感じる",
+      "reading": "いわかんをかんじる",
+      "chinese": "感到不適感",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2182,
+      "japanese": "違和感を言葉にする",
+      "reading": "いわかんをことばにする",
+      "chinese": "說出不適感的感受",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2183,
+      "japanese": "違和感について話す",
+      "reading": "いわかんについてはなす",
+      "chinese": "談談不適感",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2184,
+      "japanese": "違和感が続く",
+      "reading": "いわかんがつづく",
+      "chinese": "不適感持續",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2185,
+      "japanese": "違和感が強くなる",
+      "reading": "いわかんがつよくなる",
+      "chinese": "不適感變得更強烈",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2186,
+      "japanese": "プレッシャーを感じる",
+      "reading": "ぷれっしゃーをかんじる",
+      "chinese": "感到心理壓力",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2187,
+      "japanese": "プレッシャーを言葉にする",
+      "reading": "ぷれっしゃーをことばにする",
+      "chinese": "說出心理壓力的感受",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2188,
+      "japanese": "プレッシャーについて話す",
+      "reading": "ぷれっしゃーについてはなす",
+      "chinese": "談談心理壓力",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2189,
+      "japanese": "プレッシャーが続く",
+      "reading": "ぷれっしゃーがつづく",
+      "chinese": "心理壓力持續",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2190,
+      "japanese": "プレッシャーが強くなる",
+      "reading": "ぷれっしゃーがつよくなる",
+      "chinese": "心理壓力變得更強烈",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2191,
+      "japanese": "期待を感じる",
+      "reading": "きたいをかんじる",
+      "chinese": "感到期待",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2192,
+      "japanese": "期待を言葉にする",
+      "reading": "きたいをことばにする",
+      "chinese": "說出期待的感受",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2193,
+      "japanese": "期待について話す",
+      "reading": "きたいについてはなす",
+      "chinese": "談談期待",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2194,
+      "japanese": "期待が続く",
+      "reading": "きたいがつづく",
+      "chinese": "期待持續",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2195,
+      "japanese": "期待が強くなる",
+      "reading": "きたいがつよくなる",
+      "chinese": "期待變得更強烈",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2196,
+      "japanese": "寂しさを感じる",
+      "reading": "さびしさをかんじる",
+      "chinese": "感到寂寞",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2197,
+      "japanese": "寂しさを言葉にする",
+      "reading": "さびしさをことばにする",
+      "chinese": "說出寂寞的感受",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2198,
+      "japanese": "寂しさについて話す",
+      "reading": "さびしさについてはなす",
+      "chinese": "談談寂寞",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2199,
+      "japanese": "寂しさが続く",
+      "reading": "さびしさがつづく",
+      "chinese": "寂寞持續",
+      "category": "feelings",
+      "level": 1
+    },
+    {
+      "id": 2200,
+      "japanese": "寂しさが強くなる",
+      "reading": "さびしさがつよくなる",
+      "chinese": "寂寞變得更強烈",
+      "category": "feelings",
+      "level": 1
+    }
+  ]
+}

@@ -4,9 +4,11 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 import '../models/learning_item.dart';
+import '../models/study_language.dart';
 import '../services/learning_store.dart';
 import '../services/app_settings.dart';
 import '../services/curriculum_repository.dart';
+import '../services/practice_session.dart';
 import '../services/speech_service.dart';
 import '../theme.dart';
 
@@ -14,11 +16,13 @@ class PracticeScreen extends StatefulWidget {
   const PracticeScreen({
     super.key,
     required this.items,
+    this.eligibleItems,
     required this.store,
     this.quiz = false,
   });
 
   final List<LearningItem> items;
+  final List<LearningItem>? eligibleItems;
   final LearningStore store;
   final bool quiz;
 
@@ -33,7 +37,7 @@ class _PracticeScreenState extends State<PracticeScreen>
   final _reviews = <int, bool>{};
   final _choiceSets = <int, List<String>>{};
   final _assessments = <int, Assessment>{};
-  late final List<LearningItem> _items;
+  late List<LearningItem> _items;
   List<LearningItem> _pool = [];
   SpeechService? _speech;
   Timer? _timer;
@@ -74,17 +78,17 @@ class _PracticeScreenState extends State<PracticeScreen>
 
   Future<void> _loadChoices() async {
     try {
-      final curriculum = await CurriculumRepository.instance.load();
+      final curriculum =
+          await (_items.first.language == StudyLanguage.japanese
+                  ? CurriculumRepository.japaneseInstance
+                  : CurriculumRepository.instance)
+              .load();
       if (!mounted) return;
       _pool = [
         ..._items,
-        ...curriculum
-            .where(
-              (item) =>
-                  item.isSentence == _item.isSentence &&
-                  item.isPhrase == _item.isPhrase,
-            )
-            .map((item) => item.forGender(AppSettings.instance.gender)),
+        ...curriculum.map(
+          (item) => item.forGender(AppSettings.instance.gender),
+        ),
       ];
     } catch (_) {
       // A selection containing four meanings can still supply distractors.
@@ -102,6 +106,11 @@ class _PracticeScreenState extends State<PracticeScreen>
     }
     final distractors =
         _pool
+            .where(
+              (item) =>
+                  item.isSentence == _item.isSentence &&
+                  item.isPhrase == _item.isPhrase,
+            )
             .map((item) => item.chinese)
             .where((meaning) => meaning != _item.chinese)
             .toSet()
@@ -269,8 +278,17 @@ class _PracticeScreenState extends State<PracticeScreen>
 
   void _restart() {
     _releaseMedia();
+    final previousIds = _items.map((item) => item.id).toSet();
+    final next = samplePracticeItems(
+      widget.eligibleItems ?? widget.items,
+      random: _random,
+      excludeIds: previousIds,
+      count: AppSettings.instance.questionsPerRound,
+    );
     setState(() {
-      _items.shuffle(_random);
+      _items = next
+          .map((item) => item.forGender(AppSettings.instance.gender))
+          .toList();
       _index = 0;
       _answers.clear();
       _reviews.clear();
@@ -396,20 +414,10 @@ class _PracticeScreenState extends State<PracticeScreen>
                         child: Column(
                           mainAxisSize: MainAxisSize.min,
                           children: [
-                            thai(
-                              _item.thai,
+                            learningText(
+                              _item,
                               size: _item.isSentence ? 28 : 38,
                               align: TextAlign.center,
-                            ),
-                            const SizedBox(height: 8),
-                            Text(
-                              _item.romanization,
-                              textAlign: TextAlign.center,
-                              style: const TextStyle(
-                                color: muted,
-                                fontSize: 14,
-                                height: 1.5,
-                              ),
                             ),
                             if (!widget.quiz) ...[
                               const SizedBox(height: 16),

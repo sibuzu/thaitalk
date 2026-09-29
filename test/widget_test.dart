@@ -3,10 +3,46 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:thaitalk/main.dart';
 import 'package:thaitalk/models/learning_item.dart';
+import 'package:thaitalk/screens/practice_screen.dart';
+import 'package:thaitalk/services/app_settings.dart';
 import 'package:thaitalk/services/cloud_sync.dart';
 import 'package:thaitalk/services/learning_store.dart';
 
 void main() {
+  testWidgets('settings round size controls the next practice session', (
+    tester,
+  ) async {
+    SharedPreferences.setMockInitialValues({});
+    final store = await LearningStore.load();
+    final cloud = await CloudSync.initialize(store);
+    final items = (await tester.runAsync(loadCurriculum))!;
+    await tester.pumpWidget(
+      ThaiTalkApp(items: items, store: store, cloud: cloud),
+    );
+    await tester.pumpAndSettle();
+    await tester.tap(find.byTooltip('設定'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('settings-questions-20')));
+    await tester.pumpAndSettle();
+    expect(AppSettings.instance.questionsPerRound, 20);
+    Navigator.of(tester.element(find.text('每輪題數'))).pop();
+    await tester.pumpAndSettle();
+    await tester.tap(find.byType(NavigationDestination).at(1));
+    await tester.pumpAndSettle();
+    expect(find.text('本輪隨機 20 題 · 每次重新排序'), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('library-flashcards')));
+    await tester.pumpAndSettle();
+    expect(
+      tester.widget<PracticeScreen>(find.byType(PracticeScreen)).items,
+      hasLength(20),
+    );
+    await tester.pumpWidget(const SizedBox());
+    await AppSettings.instance.setQuestionsPerRound(10);
+    await store.flush();
+    cloud.dispose();
+    store.dispose();
+  });
+
   testWidgets(
     'New learner sees real empty progress and can change daily goal',
     (tester) async {

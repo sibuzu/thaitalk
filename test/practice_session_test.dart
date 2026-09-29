@@ -43,4 +43,51 @@ void main() {
     expect(samplePracticeItems([pool.first]), [pool.first]);
     expect(samplePracticeItems([]), isEmpty);
   });
+
+  test('configured round sizes are capped by the available pool', () {
+    for (final count in [10, 20, 30, 50]) {
+      final selected = samplePracticeItems(
+        pool,
+        random: Random(1),
+        count: count,
+      );
+      expect(selected, hasLength(count < pool.length ? count : pool.length));
+      expect(
+        selected.map((item) => item.id).toSet(),
+        hasLength(selected.length),
+      );
+    }
+  });
+
+  test(
+    'next round uses new cards first and fills short pools without repeats',
+    () {
+      final first = samplePracticeItems(pool, random: Random(1));
+      final firstIds = first.map((item) => item.id).toSet();
+      final next = samplePracticeItems(
+        pool,
+        random: Random(2),
+        excludeIds: firstIds,
+      );
+      expect(next, hasLength(10));
+      expect(
+        next.map((item) => item.id).toSet().intersection(firstIds),
+        isEmpty,
+      );
+
+      final shortPool = pool.take(12).toList();
+      final shortFirst = samplePracticeItems(shortPool, random: Random(1));
+      final shortIds = shortFirst.map((item) => item.id).toSet();
+      final shortNext = samplePracticeItems(
+        shortPool,
+        random: Random(2),
+        excludeIds: shortIds,
+      );
+      expect(shortNext.map((item) => item.id).toSet(), hasLength(10));
+      expect(
+        shortNext.map((item) => item.id).toSet().difference(shortIds),
+        hasLength(2),
+      );
+    },
+  );
 }

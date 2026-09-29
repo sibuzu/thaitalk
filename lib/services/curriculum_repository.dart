@@ -9,13 +9,18 @@ import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
 
 import '../models/learning_item.dart';
+import '../models/study_language.dart';
 
 class _Curriculum {
-  _Curriculum(this.bytes)
+  _Curriculum(this.bytes, this.language)
     : digest = sha256.convert(bytes).toString(),
-      items = LearningItem.parseCurriculum(utf8.decode(bytes));
+      items = LearningItem.parseCurriculum(
+        utf8.decode(bytes),
+        language: language,
+      );
 
   final Uint8List bytes;
+  final StudyLanguage language;
   final String digest;
   final List<LearningItem> items;
 }
@@ -24,6 +29,7 @@ class _Curriculum {
 /// private app storage, using an atomic rename so interruption preserves it.
 class CurriculumRepository {
   CurriculumRepository({
+    this.language = StudyLanguage.thai,
     this.directory,
     this.clientFactory,
     this.bundleLoader,
@@ -32,11 +38,24 @@ class CurriculumRepository {
   });
 
   static final instance = CurriculumRepository();
+  static final japaneseInstance = CurriculumRepository(
+    language: StudyLanguage.japanese,
+  );
+  final StudyLanguage language;
   static const filename = 'thai_practice_dataset.json';
+  String get activeFilename => language.datasetFilename;
   static final datasetUrl = Uri.parse(
     'https://raw.githubusercontent.com/sibuzu/thaitalk/main/$filename',
   );
   static final checksumUrl = Uri.parse('$datasetUrl.sha256');
+  Uri get activeDatasetUrl => language == StudyLanguage.thai
+      ? datasetUrl
+      : Uri.parse(
+          'https://raw.githubusercontent.com/sibuzu/thaitalk/main/$activeFilename',
+        );
+  Uri get activeChecksumUrl => language == StudyLanguage.thai
+      ? checksumUrl
+      : Uri.parse('$activeDatasetUrl.sha256');
   static const maxBytes = 5 * 1024 * 1024;
   final Directory? directory;
   final http.Client Function()? clientFactory;
@@ -49,14 +68,14 @@ class CurriculumRepository {
 
   Future<File> _localFile() async {
     final folder = directory ?? await getApplicationSupportDirectory();
-    return File('${folder.path}${Platform.pathSeparator}$filename');
+    return File('${folder.path}${Platform.pathSeparator}$activeFilename');
   }
 
   Future<_Curriculum> _load() async {
     try {
       final file = await _localFile();
       if (await file.length() <= maxBytes) {
-        return _active = _Curriculum(await file.readAsBytes());
+        return _active = _Curriculum(await file.readAsBytes(), language);
       }
     } on Object {
       // Missing, corrupt or inaccessible storage falls back to bundled data.
@@ -66,10 +85,10 @@ class CurriculumRepository {
     if (loader != null) {
       bytes = await loader();
     } else {
-      final data = await rootBundle.load('assets/data/$filename');
+      final data = await rootBundle.load('assets/data/$activeFilename');
       bytes = data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes);
     }
-    return _active = _Curriculum(bytes);
+    return _active = _Curriculum(bytes, language);
   }
 
   Future<_Curriculum> _current() async =>
@@ -112,24 +131,24 @@ class CurriculumRepository {
     try {
       client = clientFactory?.call() ?? http.Client();
       final checksum = utf8
-          .decode(await _download(client, checksumUrl, 256, checkTimeout))
+          .decode(await _download(client, activeChecksumUrl, 256, checkTimeout))
           .trim();
       final match = RegExp(
-        r'^([a-fA-F0-9]{64})(?:\s+\*?thai_practice_dataset\.json)?$',
+        '^([a-fA-F0-9]{64})(?:\\s+\\*?${RegExp.escape(activeFilename)})?\$',
       ).firstMatch(checksum);
       if (match == null) throw const FormatException('Invalid SHA-256 file.');
       final expected = match.group(1)!.toLowerCase();
       if (expected == current.digest) return current.items;
       final bytes = await _download(
         client,
-        datasetUrl,
+        activeDatasetUrl,
         maxBytes,
         downloadTimeout,
       );
       if (sha256.convert(bytes).toString() != expected) {
         throw const FormatException('Curriculum checksum mismatch.');
       }
-      final next = _Curriculum(bytes);
+      final next = _Curriculum(bytes, language);
       final target = await _localFile();
       await target.parent.create(recursive: true);
       temporary = File('${target.path}.download');

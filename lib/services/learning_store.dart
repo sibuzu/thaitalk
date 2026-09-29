@@ -4,14 +4,21 @@ import 'dart:math';
 
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import '../models/study_language.dart';
 
 /// Offline-first study progress. Counters are kept per installation so cloud
 /// merges do not double-count activities or discard work from another device.
 class LearningStore extends ChangeNotifier {
-  LearningStore._(this._preferences, this._deviceId, this._clock);
+  LearningStore._(
+    this._preferences,
+    this._deviceId,
+    this._clock,
+    this.language,
+  );
 
   static const _prefix = 'thaitalk.progress.v1';
   final SharedPreferences _preferences;
+  final StudyLanguage language;
   final String _deviceId;
   final DateTime Function() _clock;
   String _counterSource = '';
@@ -27,7 +34,10 @@ class LearningStore extends ChangeNotifier {
   Future<void> _pendingWrite = Future<void>.value();
   String? _persistenceError;
 
-  static Future<LearningStore> load({DateTime Function()? clock}) async {
+  static Future<LearningStore> load({
+    DateTime Function()? clock,
+    StudyLanguage language = StudyLanguage.thai,
+  }) async {
     final preferences = await SharedPreferences.getInstance();
     var deviceId = preferences.getString('thaitalk.device_id');
     if (deviceId == null) {
@@ -36,13 +46,20 @@ class LearningStore extends ChangeNotifier {
           '-${Random.secure().nextInt(0x100000000).toRadixString(36)}';
       await preferences.setString('thaitalk.device_id', deviceId);
     }
-    final store = LearningStore._(preferences, deviceId, clock ?? DateTime.now);
+    final store = LearningStore._(
+      preferences,
+      deviceId,
+      clock ?? DateTime.now,
+      language,
+    );
     await store._loadCounterSource();
     store._restore(preferences.getString(store._storageKey));
     return store;
   }
 
-  String get _storageKey => '$_prefix.${_accountId ?? 'guest'}';
+  String get _storageKey => language == StudyLanguage.thai
+      ? '$_prefix.${_accountId ?? 'guest'}'
+      : '$_prefix.${language.name}.${_accountId ?? 'guest'}';
   String? get accountId => _accountId;
   String? get persistenceError => _persistenceError;
   Set<int> get savedIds => Set<int>.unmodifiable(
@@ -330,8 +347,11 @@ class LearningStore extends ChangeNotifier {
     _restore(_preferences.getString(_storageKey));
     if (guest != null) {
       _merge(guest);
-      await _preferences.remove('$_prefix.guest');
-      await _preferences.remove('$_prefix.guest.counter_source');
+      final guestKey = language == StudyLanguage.thai
+          ? '$_prefix.guest'
+          : '$_prefix.${language.name}.guest';
+      await _preferences.remove(guestKey);
+      await _preferences.remove('$guestKey.counter_source');
     }
     _changed();
     await flush();

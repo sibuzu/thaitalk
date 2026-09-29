@@ -1,6 +1,6 @@
 # ThaiTalk
 
-Android 泰語學習 App，以 Flutter 製作。繁體中文介面、500 個常用單字、200 個發音片語、100 個情境句，可切換男女說話者用語，並用獨立按鈕播放 Local／Azure TTS；錄音發音評分使用 Azure。
+Android 泰語／日語學習 App，以 Flutter 製作。繁體中文介面，每種語言各有 500 個單字、200 個片語、100 個句子。可切換語言與男女聲，並用獨立按鈕播放 Local／Azure TTS；錄音發音評分使用 Azure。
 
 ## 安裝與使用
 
@@ -9,12 +9,15 @@ Android 泰語學習 App，以 Flutter 製作。繁體中文介面、500 個常�
 目前已建置包含 500 個單字、200 個片語、100 個句子的 Release APK；產物與 CPU 對照見下方建置章節。
 
 - 單字、片語、句子均有泰文、拼音與中文；原有 300 個單字另有例句。
+- 設定首項可切換 🇹🇭 ภาษาไทย／🇯🇵 日本語。日語教材以 N3–N2 程度的生活詞彙、短語及句子為主，顯示漢字、假名讀音及中文；純片假名不重複顯示假名，也不顯示羅馬拼音。
+- 泰語與日語的本機收藏、複習、分數和每日進度分開保存。日語模式目前只儲存在本機；泰語帳號同步維持原有功能。
 - 主題／程度篩選、搜尋、間隔複習、單字卡及四選一測驗。
-- 單字／片語／句子頁顯示篩選與練習入口。每次開始抽選最多 10 個不重複內容，出現順序也隨機。
+- 單字／片語／句子頁顯示篩選與練習入口。可在設定選擇每輪 10／20／30／50 題；開始時隨機抽選，不足時使用全部，單輪不重複。
+- 結果頁的「再練習一次」會從目前篩選範圍重新抽選，優先選沒有出現在上一輪的內容；題庫不足時才重複。
 - 手機單一卡面直接顯示單字中文；左右箭頭切卡，朗讀／發音練習使用同框圖示。測驗以中文選項作答。
 - 有例句的單字卡提供例句按鈕；單字、片語及句子卡均可使用 Local TTS、Azure TTS 與錄音練習。例句顯示泰文、拼音與中文，可朗讀及複製。
 - 一鍵複製單字、片語或句子到剪貼簿。
-- 首頁右上角齒輪開啟設定頁：說話者「男／女」，選擇後自動保存，預設男。TTS 直接由卡片上的 Local／Azure 播放按鈕選擇。
+- 首頁右上角齒輪開啟設定頁：說話者「男／女」及每輪 10／20／30／50 題，選擇後自動保存，預設男聲與 10 題。TTS 直接由卡片上的 Local／Azure 播放按鈕選擇。
 - 例句及情境句依說話者切換自稱、禮貌用語與對應拼音；顯示、複製、朗讀及評分使用相同版本。字典單字保留原本詞義。
 - Local／Azure 播放按鈕使用正常速度，已移除慢速按鈕，涵蓋單字、句子及例句；錄音準確度／流暢度／完整度由 Azure 評分。
 - Local 只選擇已安裝的離線泰語語音，不需 Azure Key 或網路，也不讀寫音檔快取。
@@ -31,6 +34,8 @@ App 每次啟動先讀取手機保存的教材（初次安裝使用 APK 內建�
 
 - 教材：[thai_practice_dataset.json](https://raw.githubusercontent.com/sibuzu/thaitalk/main/thai_practice_dataset.json)
 - SHA-256：[thai_practice_dataset.json.sha256](https://raw.githubusercontent.com/sibuzu/thaitalk/main/thai_practice_dataset.json.sha256)
+- 日語教材：[japanese_practice_dataset.json](https://raw.githubusercontent.com/sibuzu/thaitalk/main/japanese_practice_dataset.json)
+- 日語 SHA-256：[japanese_practice_dataset.json.sha256](https://raw.githubusercontent.com/sibuzu/thaitalk/main/japanese_practice_dataset.json.sha256)
 
 只有 SHA-256 不同才下載 JSON；版本以檔案內容的 checksum 判定。校驗檔請求最多等待 3 秒，教材下載最多等待 5 秒、大小上限 5 MiB。下載後先驗證 SHA-256、JSON 欄位、唯一 ID、男女版本及顯示／語音文字一致性，再以暫存檔寫入與原子重新命名替換 Android 私有儲存中的教材。APK 內建資料本身不會被改寫。
 
@@ -45,6 +50,8 @@ python3 scripts/update_dataset.py --check
 ```
 
 一起提交根目錄 JSON、`assets/data/` 副本及 `.sha256` 檔，再 push 到 `main`。`apply_gender_variants.py` 與 `space-thai.mjs` 產生教材時也會更新 checksum。新版 App 不需要重新安裝即可取得之後的教材更新；**目前已安裝的舊 APK，仍需先安裝含此更新功能的新 APK 一次**。
+
+日語單字資料來源與修改聲明見 [Japanese curriculum attribution](docs/attribution/japanese-curriculum.md)；日語例句與短語為此專案編寫。N3／N2 是社群估計程度，並非 JLPT 官方字表。
 
 ## 建置 Android APK（預設瘦身版）
 
@@ -76,7 +83,7 @@ python3 scripts/build_android.py \
 
 - 預設 Release，使用 Flutter 既有的 R8 程式與資源縮減。
 - 依 CPU 分開 APK，避免一支手機下載其他架構的引擎。
-- Noto Sans TC 從 11,941,968 bytes 裁切成 581,376 bytes，保留目前介面、教材、拉丁字母與標點需要的字形及字重。Noto Serif Thai 完整保留。
+- Noto Sans TC 從 11,941,968 bytes 裁切成 581,688 bytes，保留目前介面、教材、拉丁字母與標點需要的字形及字重。Noto Serif Thai 完整保留。
 - 原始中文字型保留於 `assets/fonts/NotoSansTC.ttf`，APK 只打包 `NotoSansTC.subset.ttf`；完整字型不會隨 App 打包。其他動態中文字由 Android 系統字型補足。
 - 品牌素材只打包使用中的 PNG，不包含產圖說明與工具腳本。
 

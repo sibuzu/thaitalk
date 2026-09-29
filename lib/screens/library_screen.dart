@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/learning_item.dart';
+import '../models/study_language.dart';
 import '../services/learning_store.dart';
 import '../services/app_settings.dart';
 import '../services/speech_service.dart';
@@ -135,7 +136,10 @@ class _LibraryScreenState extends State<LibraryScreen>
         : widget.sentences
         ? '句子'
         : '單字';
-    final roundSize = items.length < 10 ? items.length : 10;
+    final selectedCount = AppSettings.instance.questionsPerRound;
+    final roundSize = items.length < selectedCount
+        ? items.length
+        : selectedCount;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -155,7 +159,7 @@ class _LibraryScreenState extends State<LibraryScreen>
               ? '把想記住的內容，練習到熟悉。'
               : widget.phrases
               ? '每個片語約 3–5 音節，聽讀後試著錄音練習。'
-              : '選個主題，開始一輪 10 題練習。',
+              : '選個主題，開始一輪 $selectedCount 題練習。',
           style: const TextStyle(color: muted, fontSize: 12),
         ),
         const SizedBox(height: 18),
@@ -164,7 +168,10 @@ class _LibraryScreenState extends State<LibraryScreen>
           controller: _search,
           onChanged: (_) => setState(() {}),
           decoration: InputDecoration(
-            hintText: '搜尋泰文、拼音或中文…',
+            hintText:
+                widget.items.firstOrNull?.language == StudyLanguage.japanese
+                ? '搜尋日文、假名或中文…'
+                : '搜尋泰文、拼音或中文…',
             isDense: true,
             contentPadding: const EdgeInsets.symmetric(
               horizontal: 12,
@@ -236,10 +243,26 @@ class _LibraryScreenState extends State<LibraryScreen>
                     vertical: 12,
                   ),
                 ),
-                items: const [
-                  DropdownMenuItem(value: null, child: Text('全部程度')),
-                  DropdownMenuItem(value: 1, child: Text('入門 A1')),
-                  DropdownMenuItem(value: 2, child: Text('基礎 A2')),
+                items: [
+                  const DropdownMenuItem(value: null, child: Text('全部程度')),
+                  DropdownMenuItem(
+                    value: 1,
+                    child: Text(
+                      widget.items.firstOrNull?.language ==
+                              StudyLanguage.japanese
+                          ? 'N3'
+                          : '入門 A1',
+                    ),
+                  ),
+                  DropdownMenuItem(
+                    value: 2,
+                    child: Text(
+                      widget.items.firstOrNull?.language ==
+                              StudyLanguage.japanese
+                          ? 'N2'
+                          : '基礎 A2',
+                    ),
+                  ),
                 ],
                 onChanged: (value) => setState(() => _level = value),
               ),
@@ -404,11 +427,7 @@ class _LibraryScreenState extends State<LibraryScreen>
           ],
         ),
         const SizedBox(height: 9),
-        thai(item.thai, size: item.isSentence ? 25 : 30),
-        Text(
-          item.romanization,
-          style: const TextStyle(fontSize: 12, color: muted),
-        ),
+        learningText(item, size: item.isSentence ? 25 : 30),
         const SizedBox(height: 10),
         Text(item.chinese, style: const TextStyle(fontSize: 14)),
         const SizedBox(height: 14),
@@ -416,7 +435,9 @@ class _LibraryScreenState extends State<LibraryScreen>
         Row(
           children: [
             Text(
-              item.level == 1 ? '入門 A1' : '基礎 A2',
+              item.language == StudyLanguage.japanese
+                  ? item.levelLabel
+                  : (item.level == 1 ? '入門 A1' : '基礎 A2'),
               style: const TextStyle(fontSize: 10, color: muted),
             ),
             const Spacer(),

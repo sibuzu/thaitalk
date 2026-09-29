@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 
 import '../models/speaker_gender.dart';
+import '../models/study_language.dart';
 import '../services/app_settings.dart';
 import '../theme.dart';
 
@@ -57,6 +58,38 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    Text('學習語言', style: Theme.of(context).textTheme.titleLarge),
+                    const SizedBox(height: 12),
+                    Row(
+                      children: [
+                        for (final language in StudyLanguage.values) ...[
+                          if (language != StudyLanguage.values.first)
+                            const SizedBox(width: 10),
+                          _choice(
+                            key: 'settings-language-${language.name}',
+                            label: '${language.flag} ${language.displayName}',
+                            selected: _settings.language == language,
+                            enabled: !busy,
+                            onTap: () =>
+                                _change(() => _settings.setLanguage(language)),
+                          ),
+                        ],
+                      ],
+                    ),
+                    const SizedBox(height: 10),
+                    const Text(
+                      '兩種語言的教材與學習紀錄分開保存。',
+                      style: TextStyle(fontSize: 12, color: muted),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 14),
+              Panel(
+                padding: const EdgeInsets.all(18),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
                     Text('說話者', style: Theme.of(context).textTheme.titleLarge),
                     const SizedBox(height: 12),
                     Row(
@@ -83,8 +116,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       ],
                     ),
                     const SizedBox(height: 10),
-                    const Text(
-                      '切換例句的自稱、禮貌用語與 Azure 聲音。',
+                    Text(
+                      _settings.language == StudyLanguage.thai
+                          ? '切換例句的自稱、禮貌用語與 Azure 聲音。'
+                          : '切換日語朗讀使用的男聲或女聲。',
                       style: TextStyle(fontSize: 12, color: muted),
                     ),
                     const SizedBox(height: 10),
@@ -92,7 +127,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       children: [
                         Expanded(
                           child: thai(
-                            _settings.gender == SpeakerGender.male
+                            _settings.language == StudyLanguage.japanese
+                                ? 'こんにちは'
+                                : _settings.gender == SpeakerGender.male
                                 ? 'สวัสดี ครับ'
                                 : 'สวัสดี ค่ะ',
                             size: 24,
@@ -103,6 +140,40 @@ class _SettingsScreenState extends State<SettingsScreen> {
                           style: TextStyle(fontSize: 12, color: muted),
                         ),
                       ],
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 14),
+              Panel(
+                padding: const EdgeInsets.all(18),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text('每輪題數', style: Theme.of(context).textTheme.titleLarge),
+                    const SizedBox(height: 12),
+                    Row(
+                      children: [
+                        for (final count
+                            in AppSettings.questionCountOptions) ...[
+                          if (count != AppSettings.questionCountOptions.first)
+                            const SizedBox(width: 6),
+                          _choice(
+                            key: 'settings-questions-$count',
+                            label: '$count',
+                            selected: _settings.questionsPerRound == count,
+                            enabled: !busy,
+                            onTap: () => _change(
+                              () => _settings.setQuestionsPerRound(count),
+                            ),
+                          ),
+                        ],
+                      ],
+                    ),
+                    const SizedBox(height: 10),
+                    const Text(
+                      '單字、片語、句子與今日練習都使用此題數；內容不足時使用全部。',
+                      style: TextStyle(fontSize: 12, color: muted),
                     ),
                   ],
                 ),

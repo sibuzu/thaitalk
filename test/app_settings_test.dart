@@ -4,6 +4,7 @@ import 'dart:convert';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:thaitalk/models/speaker_gender.dart';
+import 'package:thaitalk/models/study_language.dart';
 import 'package:thaitalk/services/app_settings.dart';
 
 class ControlledPreferences implements SharedPreferences {
@@ -38,6 +39,22 @@ class ControlledPreferences implements SharedPreferences {
 }
 
 void main() {
+  test(
+    'study language persists and defaults to Thai for older settings',
+    () async {
+      SharedPreferences.setMockInitialValues({});
+      final settings = AppSettings();
+      await settings.load();
+      expect(settings.language, StudyLanguage.thai);
+      await settings.setLanguage(StudyLanguage.japanese);
+      await settings.flush();
+      final restored = AppSettings();
+      await restored.load();
+      expect(restored.language, StudyLanguage.japanese);
+      settings.dispose();
+      restored.dispose();
+    },
+  );
   TestWidgetsFlutterBinding.ensureInitialized();
 
   setUp(() => SharedPreferences.setMockInitialValues({}));
@@ -47,6 +64,7 @@ void main() {
     await settings.load();
     expect(settings.gender, SpeakerGender.male);
     expect(settings.provider, TtsProvider.local);
+    expect(settings.questionsPerRound, 10);
     expect(settings.error, isNull);
     settings.dispose();
   });
@@ -68,10 +86,37 @@ void main() {
     expect(jsonDecode(stored), {
       'version': 1,
       'gender': 'female',
+      'language': 'thai',
       'tts_provider': 'azure',
+      'questions_per_round': 10,
     });
     settings.dispose();
     restarted.dispose();
+  });
+
+  test('round size persists and older snapshots default to ten', () async {
+    final settings = AppSettings();
+    await settings.setQuestionsPerRound(30);
+    expect(settings.questionsPerRound, 30);
+    final reloaded = AppSettings();
+    await reloaded.load();
+    expect(reloaded.questionsPerRound, 30);
+    expect(() => settings.setQuestionsPerRound(15), throwsArgumentError);
+    settings.dispose();
+    reloaded.dispose();
+
+    SharedPreferences.setMockInitialValues({
+      AppSettings.storageKey: jsonEncode({
+        'version': 1,
+        'gender': 'female',
+        'tts_provider': 'local',
+      }),
+    });
+    final older = AppSettings();
+    await older.load();
+    expect(older.questionsPerRound, 10);
+    expect(older.gender, SpeakerGender.female);
+    older.dispose();
   });
 
   test('queued changes preserve both settings without lost updates', () async {

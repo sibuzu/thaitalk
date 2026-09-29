@@ -8,6 +8,7 @@ import 'package:http/http.dart' as http;
 import 'package:record/record.dart';
 
 import '../models/speaker_gender.dart';
+import '../models/study_language.dart';
 import 'app_settings.dart';
 import 'local_tts.dart';
 import 'speech_cache.dart';
@@ -35,7 +36,7 @@ class Assessment {
       'InitialSilenceTimeout',
       'BabbleTimeout',
     ].contains(result['RecognitionStatus'])) {
-      throw SpeechException('沒有辨識到清楚的泰語，請靠近麥克風再試一次。');
+      throw SpeechException('沒有辨識到清楚的語音，請靠近麥克風再試一次。');
     }
     final alternatives = result['NBest'];
     if (result['RecognitionStatus'] != 'Success' ||
@@ -184,6 +185,7 @@ class SpeechService {
        _audioOutput = audioOutput ?? SpeechAudioOutput() {
     _lastProvider = _preferences.provider;
     _lastGender = _preferences.gender;
+    _lastLanguage = _preferences.language;
     _preferences.addListener(_onPreferencesChanged);
   }
 
@@ -199,6 +201,7 @@ class SpeechService {
   final Map<String, Uint8List> _cache = {};
   late TtsProvider _lastProvider;
   late SpeakerGender _lastGender;
+  late StudyLanguage _lastLanguage;
   int _speechGeneration = 0;
   Future<void> _stopping = Future<void>.value();
   final List<int> _pcm = [];
@@ -303,11 +306,13 @@ class SpeechService {
   void _onPreferencesChanged() {
     if (_disposed ||
         (_lastProvider == _preferences.provider &&
-            _lastGender == _preferences.gender)) {
+            _lastGender == _preferences.gender &&
+            _lastLanguage == _preferences.language)) {
       return;
     }
     _lastProvider = _preferences.provider;
     _lastGender = _preferences.gender;
+    _lastLanguage = _preferences.language;
     unawaited(stop());
   }
 
@@ -347,7 +352,12 @@ class SpeechService {
     final gender = _preferences.gender;
     try {
       if (selectedProvider == TtsProvider.local) {
-        await _tts.speak(nativeText, slow: slow, gender: gender);
+        await _tts.speak(
+          nativeText,
+          slow: slow,
+          gender: gender,
+          language: _preferences.language,
+        );
       } else {
         final bytes = await loadSpeechAudio(
           nativeText,
@@ -379,7 +389,10 @@ class SpeechService {
     _ensureActive();
     final generation = _speechGeneration;
     final isMale = male ?? _preferences.gender == SpeakerGender.male;
-    final voice = isMale ? 'th-TH-NiwatNeural' : 'th-TH-PremwadeeNeural';
+    final language = _preferences.language;
+    final voice = language == StudyLanguage.japanese
+        ? (isMale ? 'ja-JP-KeitaNeural' : 'ja-JP-NanamiNeural')
+        : (isMale ? 'th-TH-NiwatNeural' : 'th-TH-PremwadeeNeural');
     final ssml = buildSpeechSsml(text, voice: voice, slow: slow);
     // Version 1 preserves the WAV cache created by earlier app versions.
     final key = sha256
@@ -387,7 +400,7 @@ class SpeechService {
           utf8.encode(
             jsonEncode({
               'version': 1,
-              'locale': 'th-TH',
+              'locale': language.speechLocale,
               'text': text,
               'voice': voice,
               'slow': slow,
@@ -484,7 +497,7 @@ class SpeechService {
       Uri.https(
         '${credentials.region}.stt.speech.microsoft.com',
         '/speech/recognition/conversation/cognitiveservices/v1',
-        {'language': 'th-TH', 'format': 'detailed'},
+        {'language': _preferences.language.speechLocale, 'format': 'detailed'},
       ),
       headers: {
         'Ocp-Apim-Subscription-Key': credentials.apiKey,
@@ -539,7 +552,7 @@ String _validateText(String value) {
       RegExp(
         '[\\u0000-\\u0008\\u000b\\u000c\\u000e-\\u001f\\ufffe\\uffff]',
       ).hasMatch(text)) {
-    throw SpeechException('請提供 1 至 500 個字元的泰文內容。');
+    throw SpeechException('請提供 1 至 500 個字元的學習內容。');
   }
   return text;
 }
@@ -550,8 +563,13 @@ String buildSpeechSsml(
   bool slow = false,
 }) {
   final plainText = _validateText(text);
-  if (!const ['th-TH-NiwatNeural', 'th-TH-PremwadeeNeural'].contains(voice)) {
-    throw SpeechException('請選擇支援的泰語聲音。');
+  if (!const [
+    'th-TH-NiwatNeural',
+    'th-TH-PremwadeeNeural',
+    'ja-JP-KeitaNeural',
+    'ja-JP-NanamiNeural',
+  ].contains(voice)) {
+    throw SpeechException('請選擇支援的朗讀聲音。');
   }
   final escaped = plainText.replaceAllMapped(
     RegExp('[&<>"\']'),
@@ -563,7 +581,8 @@ String buildSpeechSsml(
       "'": '&apos;',
     }[match[0]]!,
   );
-  return '<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="th-TH">'
+  final locale = voice.startsWith('ja-') ? 'ja-JP' : 'th-TH';
+  return '<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="$locale">'
       '<voice name="$voice"><prosody rate="${slow ? '-25%' : '0%'}">'
       '$escaped</prosody></voice></speak>';
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'models/learning_item.dart';
+import 'models/study_language.dart';
 import 'services/learning_store.dart';
 import 'services/cloud_sync.dart';
 import 'services/speech_settings.dart';
@@ -15,9 +16,22 @@ Future<void> main() async {
     await SpeechSettings.instance.load();
     await AppSettings.instance.load();
     final items = await CurriculumRepository.instance.loadAtStartup();
+    final japaneseItems = await CurriculumRepository.japaneseInstance
+        .loadAtStartup();
     final store = await LearningStore.load();
+    final japaneseStore = await LearningStore.load(
+      language: StudyLanguage.japanese,
+    );
     final cloud = await CloudSync.initialize(store);
-    runApp(ThaiTalkApp(items: items, store: store, cloud: cloud));
+    runApp(
+      ThaiTalkApp(
+        items: items,
+        japaneseItems: japaneseItems,
+        store: store,
+        japaneseStore: japaneseStore,
+        cloud: cloud,
+      ),
+    );
   } catch (error, stack) {
     debugPrint('ThaiTalk startup failed: $error\n$stack');
     runApp(
@@ -46,20 +60,43 @@ class ThaiTalkApp extends StatelessWidget {
   const ThaiTalkApp({
     super.key,
     required this.items,
+    this.japaneseItems,
     required this.store,
+    this.japaneseStore,
     required this.cloud,
   });
   final List<LearningItem> items;
+  final List<LearningItem>? japaneseItems;
   final LearningStore store;
+  final LearningStore? japaneseStore;
   final CloudSync cloud;
   @override
-  Widget build(BuildContext context) => MaterialApp(
-    title: 'ThaiTalk · 每天一點泰語',
-    debugShowCheckedModeBanner: false,
-    theme: appTheme(),
-    locale: const Locale('zh', 'TW'),
-    supportedLocales: const [Locale('zh', 'TW'), Locale('en'), Locale('th')],
-    localizationsDelegates: GlobalMaterialLocalizations.delegates,
-    home: HomeScreen(items: items, store: store, cloud: cloud),
+  Widget build(BuildContext context) => ListenableBuilder(
+    listenable: AppSettings.instance,
+    builder: (context, _) {
+      final japanese =
+          AppSettings.instance.language == StudyLanguage.japanese &&
+          japaneseItems != null &&
+          japaneseStore != null;
+      return MaterialApp(
+        title: 'ThaiTalk · 每天一點泰語',
+        debugShowCheckedModeBanner: false,
+        theme: appTheme(),
+        locale: const Locale('zh', 'TW'),
+        supportedLocales: const [
+          Locale('zh', 'TW'),
+          Locale('en'),
+          Locale('th'),
+        ],
+        localizationsDelegates: GlobalMaterialLocalizations.delegates,
+        home: HomeScreen(
+          key: ValueKey(japanese ? 'japanese' : 'thai'),
+          items: japanese ? japaneseItems! : items,
+          store: japanese ? japaneseStore! : store,
+          cloud: cloud,
+          language: japanese ? StudyLanguage.japanese : StudyLanguage.thai,
+        ),
+      );
+    },
   );
 }

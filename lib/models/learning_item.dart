@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 
 import 'speaker_gender.dart';
+import 'study_language.dart';
 
 /// One item from the bundled, offline Thai curriculum.
 class LearningItem {
@@ -14,6 +15,7 @@ class LearningItem {
     required this.category,
     required this.level,
     required this.isSentence,
+    this.language = StudyLanguage.thai,
     this.isPhrase = false,
     this.nativeThai,
     this.exampleThai,
@@ -35,6 +37,7 @@ class LearningItem {
       category = source.category,
       level = source.level,
       isSentence = source.isSentence,
+      language = source.language,
       isPhrase = source.isPhrase,
       nativeThai =
           source._femaleVariant['thai_native'] ??
@@ -62,6 +65,7 @@ class LearningItem {
   final String category;
   final int level;
   final bool isSentence;
+  final StudyLanguage language;
   final bool isPhrase;
   final String? nativeThai;
   final String? exampleThai;
@@ -73,6 +77,10 @@ class LearningItem {
   final LearningItem? _canonical;
 
   String get speechText => nativeThai ?? thai;
+  bool get showsFurigana =>
+      language == StudyLanguage.japanese &&
+      RegExp(r'[\u3400-\u9fff]').hasMatch(thai) &&
+      romanization != thai;
 
   /// Uses reviewed curriculum variants, never guesses grammar from substrings.
   /// Dictionary headwords and their meanings remain the same in either mode.
@@ -89,17 +97,25 @@ class LearningItem {
     Map<String, dynamic> json, {
     required bool isSentence,
     bool isPhrase = false,
+    StudyLanguage language = StudyLanguage.thai,
   }) {
     if (json['id'] is! int ||
         (json['id'] as int) <= 0 ||
         !const [1, 2].contains(json['level'])) {
       throw const FormatException('Invalid curriculum ID or level.');
     }
-    for (final field in ['thai', 'romanization', 'chinese', 'category']) {
+    final textField = language == StudyLanguage.thai ? 'thai' : 'japanese';
+    final nativeField = language == StudyLanguage.thai
+        ? 'thai_native'
+        : 'japanese_native';
+    final readingField = language == StudyLanguage.thai
+        ? 'romanization'
+        : 'reading';
+    for (final field in [textField, readingField, 'chinese', 'category']) {
       _validateText(json[field]);
     }
     for (final field in [
-      'thai_native',
+      nativeField,
       'example_thai',
       'example_thai_native',
       'example_chinese',
@@ -118,14 +134,15 @@ class LearningItem {
     }
     return LearningItem(
       id: (json['id'] as num).toInt(),
-      thai: json['thai'] as String,
-      romanization: json['romanization'] as String,
+      thai: json[textField] as String,
+      romanization: json[readingField] as String,
       chinese: json['chinese'] as String,
       category: json['category'] as String,
       level: (json['level'] as num).toInt(),
       isSentence: isSentence,
+      language: language,
       isPhrase: isPhrase,
-      nativeThai: json['thai_native'] as String?,
+      nativeThai: json[nativeField] as String?,
       exampleThai: json['example_thai'] as String?,
       exampleChinese: json['example_chinese'] as String?,
       exampleRomanization: json['example_romanization'] as String?,
@@ -143,7 +160,9 @@ class LearningItem {
   }
 
   String get categoryLabel => categoryLabels[category] ?? category;
-  String get levelLabel => level == 1 ? '入門' : '基礎';
+  String get levelLabel => language == StudyLanguage.japanese
+      ? (level == 1 ? 'N3' : 'N2')
+      : (level == 1 ? '入門' : '基礎');
 
   static const categoryLabels = <String, String>{
     'greeting': '打招呼',
@@ -162,24 +181,30 @@ class LearningItem {
     'taxi': '搭計程車',
   };
 
-  static List<LearningItem> parseCurriculum(String source) {
+  static List<LearningItem> parseCurriculum(
+    String source, {
+    StudyLanguage language = StudyLanguage.thai,
+  }) {
     final data = jsonDecode(source) as Map<String, dynamic>;
     final items = <LearningItem>[
       for (final value in data['vocabulary'] as List<dynamic>)
         LearningItem.fromJson(
           Map<String, dynamic>.from(value as Map),
           isSentence: false,
+          language: language,
         ),
       for (final value in (data['phrases'] as List<dynamic>? ?? const []))
         LearningItem.fromJson(
           Map<String, dynamic>.from(value as Map),
           isSentence: false,
           isPhrase: true,
+          language: language,
         ),
       for (final value in data['sentences'] as List<dynamic>)
         LearningItem.fromJson(
           Map<String, dynamic>.from(value as Map),
           isSentence: true,
+          language: language,
         ),
     ];
     if (items.isEmpty || items.length > 10000) {
@@ -204,9 +229,12 @@ class LearningItem {
     return List<LearningItem>.unmodifiable(items);
   }
 
-  static Future<List<LearningItem>> loadCurriculum() async {
+  static Future<List<LearningItem>> loadCurriculum({
+    StudyLanguage language = StudyLanguage.thai,
+  }) async {
     return parseCurriculum(
-      await rootBundle.loadString('assets/data/thai_practice_dataset.json'),
+      await rootBundle.loadString('assets/data/${language.datasetFilename}'),
+      language: language,
     );
   }
 }

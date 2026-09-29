@@ -1,6 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:thaitalk/services/learning_store.dart';
+import 'package:thaitalk/models/study_language.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -27,6 +28,29 @@ void main() {
     expect(store.learnedIds, isEmpty);
     expect(store.reviewDueIds, isEmpty);
   });
+
+  test(
+    'Thai and Japanese keep independent progress for the same item ID',
+    () async {
+      store.markReviewed(1, remembered: true);
+      store.toggleSaved(1);
+      await store.flush();
+      final japanese = await LearningStore.load(
+        clock: () => now,
+        language: StudyLanguage.japanese,
+      );
+      expect(japanese.learnedIds, isEmpty);
+      expect(japanese.savedIds, isEmpty);
+      japanese.markReviewed(1, remembered: false);
+      await japanese.flush();
+      final thaiAgain = await LearningStore.load(clock: () => now);
+      expect(thaiAgain.learnedIds, {1});
+      expect(thaiAgain.savedIds, {1});
+      expect(japanese.learnedIds, isEmpty);
+      thaiAgain.dispose();
+      japanese.dispose();
+    },
+  );
 
   test(
     'study, saved items, daily goal and best score survive reload',

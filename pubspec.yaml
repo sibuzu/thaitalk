@@ -25,6 +25,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/data/thai_practice_dataset.json
+    - assets/data/japanese_practice_dataset.json
     - assets/brand/app-icon.png
     - assets/fonts/OFL-NotoSansTC.txt
     - assets/fonts/OFL-NotoSerifThai.txt

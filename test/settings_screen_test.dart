@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:thaitalk/models/speaker_gender.dart';
+import 'package:thaitalk/models/study_language.dart';
 import 'package:thaitalk/screens/settings_screen.dart';
 import 'package:thaitalk/services/app_settings.dart';
 import 'package:thaitalk/theme.dart';
@@ -46,12 +47,26 @@ void main() {
     expect(find.text('Local TTS'), findsNothing);
     expect(find.text('Azure TTS'), findsNothing);
     expect(find.text('已儲存設定。'), findsOneWidget);
+    expect(find.text('每輪題數'), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('settings-questions-20')));
+    await tester.pumpAndSettle();
+    expect(settings.questionsPerRound, 20);
     expect(tester.takeException(), isNull);
+
+    await tester.ensureVisible(
+      find.byKey(const ValueKey('settings-language-japanese')),
+    );
+    await tester.tap(find.byKey(const ValueKey('settings-language-japanese')));
+    await tester.pumpAndSettle();
+    expect(settings.language, StudyLanguage.japanese);
+    expect(find.text('こんにちは'), findsOneWidget);
 
     await settings.flush();
     final restarted = AppSettings();
     await restarted.load();
     expect(restarted.gender, SpeakerGender.female);
+    expect(restarted.questionsPerRound, 20);
+    expect(restarted.language, StudyLanguage.japanese);
     await tester.pumpWidget(const SizedBox());
     settings.dispose();
     restarted.dispose();
@@ -79,6 +94,7 @@ void main() {
           .selected,
       isTrue,
     );
+    await tester.scrollUntilVisible(find.textContaining('設定尚未儲存'), 120);
     expect(find.textContaining('設定尚未儲存'), findsOneWidget);
     expect(find.text('已儲存設定。'), findsNothing);
     await settings.flush();

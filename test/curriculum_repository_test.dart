@@ -8,6 +8,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
 import 'package:thaitalk/services/curriculum_repository.dart';
+import 'package:thaitalk/models/study_language.dart';
 
 void main() {
   late Directory directory;
@@ -61,6 +62,41 @@ void main() {
     await repo.loadAtStartup();
     await repo.load();
     expect(requests, [CurriculumRepository.checksumUrl]);
+    expect(await localFile().exists(), isFalse);
+  });
+
+  test('Japanese update uses its own GitHub URL and storage file', () async {
+    final japanese = await File('japanese_practice_dataset.json').readAsBytes();
+    final changed = jsonDecode(utf8.decode(japanese)) as Map<String, dynamic>;
+    (changed['vocabulary'] as List).add({
+      ...(changed['vocabulary'] as List).first as Map,
+      'id': 9999,
+      'chinese': '更新日語教材',
+    });
+    final incoming = encode(changed);
+    final repo = CurriculumRepository(
+      language: StudyLanguage.japanese,
+      directory: directory,
+      bundleLoader: () async => japanese,
+      clientFactory: () => MockClient((request) async {
+        requests.add(request.url);
+        return request.url.path.endsWith('.sha256')
+            ? http.Response(
+                '${checksum(incoming)}  japanese_practice_dataset.json\n',
+                200,
+              )
+            : http.Response.bytes(incoming, 200);
+      }),
+    );
+    expect(
+      (await repo.loadAtStartup()).lastWhere((item) => item.id == 9999).chinese,
+      '更新日語教材',
+    );
+    expect(requests, [repo.activeChecksumUrl, repo.activeDatasetUrl]);
+    expect(
+      await File('${directory.path}/japanese_practice_dataset.json').exists(),
+      isTrue,
+    );
     expect(await localFile().exists(), isFalse);
   });
 

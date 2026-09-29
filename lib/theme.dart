@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'services/app_settings.dart';
+import 'models/study_language.dart';
+import 'models/learning_item.dart';
 
 const ink = Color(0xFF263F36);
 const muted = Color(0xFF858C84);
@@ -94,13 +97,39 @@ Text thai(
   text,
   textAlign: align,
   style: TextStyle(
-    fontFamily: 'NotoSerifThai',
+    fontFamily: AppSettings.instance.language == StudyLanguage.thai
+        ? 'NotoSerifThai'
+        : 'NotoSansTC',
     fontSize: size,
     fontWeight: weight,
     color: color,
     height: 1.6,
   ),
 );
+
+/// Reading appears above Japanese kanji; katakana needs no repeated reading.
+Widget learningText(LearningItem item, {double size = 30, TextAlign? align}) =>
+    Column(
+      mainAxisSize: MainAxisSize.min,
+      crossAxisAlignment: align == TextAlign.center
+          ? CrossAxisAlignment.center
+          : CrossAxisAlignment.start,
+      children: [
+        if (item.showsFurigana)
+          Text(
+            item.romanization,
+            textAlign: align,
+            style: const TextStyle(color: muted, fontSize: 13),
+          ),
+        thai(item.thai, size: size, align: align),
+        if (item.language == StudyLanguage.thai)
+          Text(
+            item.romanization,
+            textAlign: align,
+            style: const TextStyle(color: muted, fontSize: 13),
+          ),
+      ],
+    );
 
 class Panel extends StatelessWidget {
   const Panel({
@@ -259,12 +288,21 @@ class CopyThaiButton extends StatelessWidget {
   final String text;
   @override
   Widget build(BuildContext context) => IconButton(
-    tooltip: '複製泰文',
+    tooltip: AppSettings.instance.language == StudyLanguage.thai
+        ? '複製泰文'
+        : '複製日文',
     icon: const Icon(Icons.content_copy_rounded, size: 18, color: muted),
     onPressed: () async {
       try {
         await Clipboard.setData(ClipboardData(text: text));
-        if (context.mounted) showNotice(context, '已複製泰文');
+        if (context.mounted) {
+          showNotice(
+            context,
+            AppSettings.instance.language == StudyLanguage.thai
+                ? '已複製泰文'
+                : '已複製日文',
+          );
+        }
       } catch (_) {
         if (context.mounted) showNotice(context, '無法存取剪貼簿，請再試一次。');
       }

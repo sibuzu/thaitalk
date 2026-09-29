@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 
 import '../models/speaker_gender.dart';
+import '../models/study_language.dart';
 
 class LocalTtsException implements Exception {
   const LocalTtsException(this.message);
@@ -58,6 +59,7 @@ class LocalTts {
     String text, {
     bool slow = false,
     SpeakerGender gender = SpeakerGender.male,
+    StudyLanguage language = StudyLanguage.thai,
   }) async {
     if (_disposed) throw const LocalTtsException('朗讀已結束，請重新開啟練習。');
     final generation = ++_generation;
@@ -73,12 +75,16 @@ class LocalTts {
                   ?.toString()
                   .replaceAll('_', '-')
                   .toLowerCase();
-              return (locale == 'th' || locale == 'th-th') &&
+              return (locale == language.speechLocale.toLowerCase() ||
+                      locale == language.speechLocale.split('-').first) &&
                   voice['name'] is String &&
                   _offline(voice);
             }).toList()
           : <Map>[];
-      if (voices.isEmpty) throw const LocalTtsException(missingVoice);
+      final missing = language == StudyLanguage.thai
+          ? missingVoice
+          : '手機尚未安裝離線日語語音。請到系統「文字轉語音」設定安裝日語語音資料。';
+      if (voices.isEmpty) throw LocalTtsException(missing);
       final defaultVoice = await _step(engine.getDefaultVoice, cancel);
       voices.sort(
         (a, b) => a['name'].toString().compareTo(b['name'].toString()),
@@ -94,7 +100,7 @@ class LocalTts {
         (v) => defaultVoice is Map && v['name'] == defaultVoice['name'],
         orElse: () => candidates.first,
       );
-      if (await _step(engine.setLanguage('th-TH'), cancel) != 1 ||
+      if (await _step(engine.setLanguage(language.speechLocale), cancel) != 1 ||
           await _step(
                 engine.setVoice({
                   'name': voice['name'] as String,
@@ -103,7 +109,7 @@ class LocalTts {
                 cancel,
               ) !=
               1) {
-        throw const LocalTtsException(missingVoice);
+        throw LocalTtsException(missing);
       }
       // flutter_tts maps 0.5 to Android's normal 1.0 speech rate.
       await _step(engine.setSpeechRate(slow ? 0.375 : 0.5), cancel);

@@ -46,6 +46,7 @@ Future<LearningStore> pumpPractice(
   WidgetTester tester, {
   bool quiz = false,
   List<LearningItem> items = practiceItems,
+  List<LearningItem>? eligibleItems,
 }) async {
   SharedPreferences.setMockInitialValues({});
   final store = await LearningStore.load();
@@ -53,7 +54,12 @@ Future<LearningStore> pumpPractice(
     await tester.pumpWidget(
       MaterialApp(
         theme: appTheme(),
-        home: PracticeScreen(items: items, store: store, quiz: quiz),
+        home: PracticeScreen(
+          items: items,
+          eligibleItems: eligibleItems,
+          store: store,
+          quiz: quiz,
+        ),
       ),
     );
     if (quiz) await CurriculumRepository.instance.load();
@@ -85,6 +91,53 @@ List<String> choiceMeanings(WidgetTester tester) =>
     }).toList();
 
 void main() {
+  testWidgets(
+    'practice again draws ten different cards from the eligible pool',
+    (tester) async {
+      final pool = List.generate(
+        20,
+        (index) => LearningItem(
+          id: index + 1,
+          thai: 'คำ${index + 1}',
+          romanization: 'kham${index + 1}',
+          chinese: '詞義${index + 1}',
+          category: 'greeting',
+          level: 1,
+          isSentence: false,
+        ),
+      );
+      final store = await pumpPractice(
+        tester,
+        items: pool.take(10).toList(),
+        eligibleItems: pool,
+      );
+      for (var index = 0; index < 10; index++) {
+        await tester.tap(next);
+        await tester.pumpAndSettle();
+      }
+      expect(find.text('再練習一次'), findsOneWidget);
+      await tester.tap(find.text('再練習一次'));
+      await tester.pumpAndSettle();
+      expect(find.text('第 1 / 10 題'), findsOneWidget);
+      for (var index = 0; index < 10; index++) {
+        for (final previous in pool.take(10)) {
+          expect(find.text(previous.thai), findsNothing);
+        }
+        expect(
+          pool
+              .skip(10)
+              .where((item) => find.text(item.thai).evaluate().isNotEmpty),
+          hasLength(1),
+        );
+        if (index < 9) {
+          await tester.tap(next);
+          await tester.pumpAndSettle();
+        }
+      }
+      await store.flush();
+    },
+  );
+
   testWidgets(
     'flashcards show Chinese immediately; arrows preserve review state',
     (tester) async {
