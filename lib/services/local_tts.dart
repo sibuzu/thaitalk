@@ -14,7 +14,7 @@ class LocalTtsException implements Exception {
 class _Cancelled implements Exception {}
 
 /// Android system TTS. Only installed voices that do not require a network
-/// are eligible; missing Thai data never falls back to a cloud voice.
+/// are eligible; missing language data never falls back to a cloud voice.
 class LocalTts {
   FlutterTts? _engine;
   Completer<int>? _cancel;
@@ -22,6 +22,8 @@ class LocalTts {
   bool _disposed = false;
   int _generation = 0;
   static const missingVoice = '手機尚未安裝離線泰語語音。請到系統「文字轉語音」設定，安裝泰語語音資料後再試。';
+  static String missingVoiceFor(StudyLanguage language) =>
+      '手機尚未安裝離線${language.chineseName}語音。請到系統「文字轉語音」設定，安裝${language.chineseName}語音資料後再試。';
 
   FlutterTts get _tts {
     if (_engine != null) return _engine!;
@@ -81,9 +83,7 @@ class LocalTts {
                   _offline(voice);
             }).toList()
           : <Map>[];
-      final missing = language == StudyLanguage.thai
-          ? missingVoice
-          : '手機尚未安裝離線日語語音。請到系統「文字轉語音」設定安裝日語語音資料。';
+      final missing = missingVoiceFor(language);
       if (voices.isEmpty) throw LocalTtsException(missing);
       final defaultVoice = await _step(engine.getDefaultVoice, cancel);
       voices.sort(
@@ -124,7 +124,7 @@ class LocalTts {
         timeout: const Duration(minutes: 2),
       );
       if (result != 1 && result != 2) {
-        throw const LocalTtsException('本機朗讀失敗，請確認系統泰語語音資料已安裝。');
+        throw LocalTtsException('本機朗讀失敗，請確認系統${language.chineseName}語音資料已安裝。');
       }
     } on _Cancelled {
       // Navigating away or starting a recording cancels pending synthesis.
@@ -134,7 +134,7 @@ class LocalTts {
       await stop();
       throw const LocalTtsException('本機語音引擎沒有回應，請檢查系統文字轉語音設定。');
     } on PlatformException {
-      throw const LocalTtsException(missingVoice);
+      throw LocalTtsException(missingVoiceFor(language));
     } on MissingPluginException {
       throw const LocalTtsException('此版本未包含本機朗讀功能，請安裝更新後的 Android APK。');
     } finally {

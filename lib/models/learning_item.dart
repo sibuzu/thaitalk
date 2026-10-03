@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 import 'speaker_gender.dart';
 import 'study_language.dart';
 
-/// One item from the bundled, offline Thai curriculum.
+/// One item from a bundled, offline curriculum.
 class LearningItem {
   const LearningItem({
     required this.id,
@@ -104,14 +104,10 @@ class LearningItem {
         !const [1, 2].contains(json['level'])) {
       throw const FormatException('Invalid curriculum ID or level.');
     }
-    final textField = language == StudyLanguage.thai ? 'thai' : 'japanese';
-    final nativeField = language == StudyLanguage.thai
-        ? 'thai_native'
-        : 'japanese_native';
-    final readingField = language == StudyLanguage.thai
-        ? 'romanization'
-        : 'reading';
-    for (final field in [textField, readingField, 'chinese', 'category']) {
+    final textField = language.name;
+    final nativeField = '${language.name}_native';
+    final readingField = language.readingField;
+    for (final field in [textField, ?readingField, 'chinese', 'category']) {
       _validateText(json[field]);
     }
     for (final field in [
@@ -135,7 +131,7 @@ class LearningItem {
     return LearningItem(
       id: (json['id'] as num).toInt(),
       thai: json[textField] as String,
-      romanization: json[readingField] as String,
+      romanization: readingField == null ? '' : json[readingField] as String,
       chinese: json['chinese'] as String,
       category: json['category'] as String,
       level: (json['level'] as num).toInt(),
@@ -160,9 +156,7 @@ class LearningItem {
   }
 
   String get categoryLabel => categoryLabels[category] ?? category;
-  String get levelLabel => language == StudyLanguage.japanese
-      ? (level == 1 ? 'N3' : 'N2')
-      : (level == 1 ? '入門' : '基礎');
+  String get levelLabel => language.levelLabel(level);
 
   static const categoryLabels = <String, String>{
     'greeting': '打招呼',
@@ -179,6 +173,17 @@ class LearningItem {
     'hotel': '住宿',
     'restaurant': '餐廳',
     'taxi': '搭計程車',
+    'daily': '日常生活',
+    'family': '家人與稱呼',
+    'home': '居家',
+    'health': '健康',
+    'work': '工作',
+    'study': '學習',
+    'nature': '自然與天氣',
+    'feelings': '心情與感受',
+    'leisure': '休閒',
+    'technology': '科技',
+    'adjectives': '常用形容詞',
   };
 
   static List<LearningItem> parseCurriculum(

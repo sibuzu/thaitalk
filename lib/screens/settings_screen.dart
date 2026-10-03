@@ -60,25 +60,34 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   children: [
                     Text('學習語言', style: Theme.of(context).textTheme.titleLarge),
                     const SizedBox(height: 12),
-                    Row(
-                      children: [
-                        for (final language in StudyLanguage.values) ...[
-                          if (language != StudyLanguage.values.first)
-                            const SizedBox(width: 10),
-                          _choice(
-                            key: 'settings-language-${language.name}',
-                            label: '${language.flag} ${language.displayName}',
-                            selected: _settings.language == language,
-                            enabled: !busy,
-                            onTap: () =>
-                                _change(() => _settings.setLanguage(language)),
-                          ),
+                    for (
+                      var row = 0;
+                      row < StudyLanguage.values.length;
+                      row += 2
+                    ) ...[
+                      if (row > 0) const SizedBox(height: 10),
+                      Row(
+                        children: [
+                          for (final language
+                              in StudyLanguage.values.skip(row).take(2)) ...[
+                            if (language != StudyLanguage.values[row])
+                              const SizedBox(width: 10),
+                            _choice(
+                              key: 'settings-language-${language.name}',
+                              label: '${language.flag} ${language.displayName}',
+                              selected: _settings.language == language,
+                              enabled: !busy,
+                              onTap: () => _change(
+                                () => _settings.setLanguage(language),
+                              ),
+                            ),
+                          ],
                         ],
-                      ],
-                    ),
+                      ),
+                    ],
                     const SizedBox(height: 10),
                     const Text(
-                      '兩種語言的教材與學習紀錄分開保存。',
+                      '各語言的教材與學習紀錄分開保存。',
                       style: TextStyle(fontSize: 12, color: muted),
                     ),
                   ],
@@ -119,7 +128,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     Text(
                       _settings.language == StudyLanguage.thai
                           ? '切換例句的自稱、禮貌用語與 Azure 聲音。'
-                          : '切換日語朗讀使用的男聲或女聲。',
+                          : '切換${_settings.language.chineseName}朗讀使用的男聲或女聲。',
                       style: TextStyle(fontSize: 12, color: muted),
                     ),
                     const SizedBox(height: 10),
@@ -127,11 +136,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       children: [
                         Expanded(
                           child: thai(
-                            _settings.language == StudyLanguage.japanese
-                                ? 'こんにちは'
-                                : _settings.gender == SpeakerGender.male
-                                ? 'สวัสดี ครับ'
-                                : 'สวัสดี ค่ะ',
+                            _settings.language.greeting(_settings.gender),
                             size: 24,
                           ),
                         ),

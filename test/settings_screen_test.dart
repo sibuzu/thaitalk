@@ -46,8 +46,12 @@ void main() {
     expect(find.text('สวัสดี ค่ะ'), findsOneWidget);
     expect(find.text('Local TTS'), findsNothing);
     expect(find.text('Azure TTS'), findsNothing);
+    await tester.scrollUntilVisible(find.text('已儲存設定。'), 100);
     expect(find.text('已儲存設定。'), findsOneWidget);
     expect(find.text('每輪題數'), findsOneWidget);
+    await tester.ensureVisible(
+      find.byKey(const ValueKey('settings-questions-20')),
+    );
     await tester.tap(find.byKey(const ValueKey('settings-questions-20')));
     await tester.pumpAndSettle();
     expect(settings.questionsPerRound, 20);

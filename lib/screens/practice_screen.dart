@@ -78,11 +78,9 @@ class _PracticeScreenState extends State<PracticeScreen>
 
   Future<void> _loadChoices() async {
     try {
-      final curriculum =
-          await (_items.first.language == StudyLanguage.japanese
-                  ? CurriculumRepository.japaneseInstance
-                  : CurriculumRepository.instance)
-              .load();
+      final curriculum = await CurriculumRepository.forLanguage(
+        _items.first.language,
+      ).load();
       if (!mounted) return;
       _pool = [
         ..._items,
@@ -812,8 +810,8 @@ class _PracticeScreenState extends State<PracticeScreen>
               padding: const EdgeInsets.only(bottom: 6),
               child: Text(
                 '${word['word'] ?? ''} · ${_errorLabel(word['errorType']?.toString())}',
-                style: const TextStyle(
-                  fontFamily: 'NotoSerifThai',
+                style: TextStyle(
+                  fontFamily: _item.language.fontFamily,
                   color: muted,
                 ),
               ),

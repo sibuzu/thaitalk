@@ -158,7 +158,7 @@ class _LibraryScreenState extends State<LibraryScreen>
           widget.savedOnly
               ? '把想記住的內容，練習到熟悉。'
               : widget.phrases
-              ? '每個片語約 3–5 音節，聽讀後試著錄音練習。'
+              ? '練習常用片語，聽讀後試著錄音跟讀。'
               : '選個主題，開始一輪 $selectedCount 題練習。',
           style: const TextStyle(color: muted, fontSize: 12),
         ),
@@ -169,9 +169,9 @@ class _LibraryScreenState extends State<LibraryScreen>
           onChanged: (_) => setState(() {}),
           decoration: InputDecoration(
             hintText:
-                widget.items.firstOrNull?.language == StudyLanguage.japanese
-                ? '搜尋日文、假名或中文…'
-                : '搜尋泰文、拼音或中文…',
+                (widget.items.firstOrNull?.language ??
+                        AppSettings.instance.language)
+                    .searchHint,
             isDense: true,
             contentPadding: const EdgeInsets.symmetric(
               horizontal: 12,
@@ -248,19 +248,17 @@ class _LibraryScreenState extends State<LibraryScreen>
                   DropdownMenuItem(
                     value: 1,
                     child: Text(
-                      widget.items.firstOrNull?.language ==
-                              StudyLanguage.japanese
-                          ? 'N3'
-                          : '入門 A1',
+                      (widget.items.firstOrNull?.language ??
+                              AppSettings.instance.language)
+                          .filterLevelLabel(1),
                     ),
                   ),
                   DropdownMenuItem(
                     value: 2,
                     child: Text(
-                      widget.items.firstOrNull?.language ==
-                              StudyLanguage.japanese
-                          ? 'N2'
-                          : '基礎 A2',
+                      (widget.items.firstOrNull?.language ??
+                              AppSettings.instance.language)
+                          .filterLevelLabel(2),
                     ),
                   ),
                 ],
@@ -331,9 +329,9 @@ class _LibraryScreenState extends State<LibraryScreen>
         ),
         if (!widget.savedOnly && items.isNotEmpty) ...[
           const SizedBox(height: 16),
-          const Text(
-            '進入練習後，可朗讀、評分與複製泰文。',
-            style: TextStyle(fontSize: 12, color: muted),
+          Text(
+            '進入練習後，可朗讀、評分與複製${(widget.items.firstOrNull?.language ?? AppSettings.instance.language).textLabel}。',
+            style: const TextStyle(fontSize: 12, color: muted),
           ),
         ],
         if (items.isEmpty) ...[
@@ -435,9 +433,7 @@ class _LibraryScreenState extends State<LibraryScreen>
         Row(
           children: [
             Text(
-              item.language == StudyLanguage.japanese
-                  ? item.levelLabel
-                  : (item.level == 1 ? '入門 A1' : '基礎 A2'),
+              item.language.filterLevelLabel(item.level),
               style: const TextStyle(fontSize: 10, color: muted),
             ),
             const Spacer(),

@@ -1,5 +1,5 @@
 name: thaitalk
-description: ThaiTalk — 每天一點泰語，自信開口說。
+description: ThaiTalk — 泰語、日語、韓語與越南語學習。
 publish_to: none
 version: 1.1.0+2
 environment:
@@ -26,9 +26,12 @@ flutter:
   assets:
     - assets/data/thai_practice_dataset.json
     - assets/data/japanese_practice_dataset.json
+    - assets/data/korean_practice_dataset.json
+    - assets/data/vietnamese_practice_dataset.json
     - assets/brand/app-icon.png
     - assets/fonts/OFL-NotoSansTC.txt
     - assets/fonts/OFL-NotoSerifThai.txt
+    - assets/fonts/OFL-NotoSansKR.txt
   fonts:
     - family: NotoSansTC
       fonts:
@@ -36,3 +39,6 @@ flutter:
     - family: NotoSerifThai
       fonts:
         - asset: assets/fonts/NotoSerifThai.ttf
+    - family: NotoSansKR
+      fonts:
+        - asset: assets/fonts/NotoSansKR.subset.ttf

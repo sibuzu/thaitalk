@@ -5,6 +5,7 @@ import 'package:http/testing.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:thaitalk/models/speaker_gender.dart';
+import 'package:thaitalk/models/study_language.dart';
 import 'package:thaitalk/services/app_settings.dart';
 import 'package:thaitalk/services/speech_cache.dart';
 import 'package:thaitalk/services/speech_service.dart';
@@ -110,6 +111,56 @@ void main() {
     preferences.dispose();
     messenger.setMockMethodCallHandler(channel, null);
   });
+
+  for (final language in [StudyLanguage.korean, StudyLanguage.vietnamese]) {
+    test(
+      '${language.name} local voices select the right language and gender',
+      () async {
+        voices.addAll([
+          for (final gender in SpeakerGender.values)
+            {
+              'name': '${language.name}-${gender.name}',
+              'locale': language.speechLocale.replaceAll('-', '_'),
+              'network_required': '0',
+              'gender': gender.name,
+            },
+          {
+            'name': '${language.name}-cloud',
+            'locale': language.speechLocale,
+            'network_required': '1',
+          },
+        ]);
+        await preferences.setLanguage(language);
+        for (final gender in SpeakerGender.values) {
+          await preferences.setGender(gender);
+          await service.speak(language.greeting(gender));
+        }
+        expect(
+          calls.where((c) => c.method == 'setLanguage').map((c) => c.arguments),
+          [language.speechLocale, language.speechLocale],
+        );
+        expect(
+          calls
+              .where((c) => c.method == 'setVoice')
+              .map((c) => c.arguments['name']),
+          ['${language.name}-male', '${language.name}-female'],
+        );
+        expect(cache.reads, 0);
+        expect(cache.writes, 0);
+        voices = [offline];
+        await expectLater(
+          service.speak(language.greeting(SpeakerGender.male)),
+          throwsA(
+            isA<SpeechException>().having(
+              (e) => e.message,
+              'correct installation guidance',
+              contains('安裝離線${language.chineseName}'),
+            ),
+          ),
+        );
+      },
+    );
+  }
 
   test(
     'normal and slow Thai use installed offline voice with no Azure key or HTTP',

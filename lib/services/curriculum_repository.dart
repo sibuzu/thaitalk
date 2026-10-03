@@ -37,10 +37,14 @@ class CurriculumRepository {
     this.downloadTimeout = const Duration(seconds: 5),
   });
 
-  static final instance = CurriculumRepository();
-  static final japaneseInstance = CurriculumRepository(
-    language: StudyLanguage.japanese,
-  );
+  static final _repositories = {
+    for (final language in StudyLanguage.values)
+      language: CurriculumRepository(language: language),
+  };
+  static CurriculumRepository forLanguage(StudyLanguage language) =>
+      _repositories[language]!;
+  static final instance = forLanguage(StudyLanguage.thai);
+  static final japaneseInstance = forLanguage(StudyLanguage.japanese);
   final StudyLanguage language;
   static const filename = 'thai_practice_dataset.json';
   String get activeFilename => language.datasetFilename;

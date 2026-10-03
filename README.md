@@ -1,16 +1,17 @@
 # ThaiTalk
 
-Android 泰語／日語學習 App，以 Flutter 製作。繁體中文介面，每種語言各有 500 個單字、200 個片語、100 個句子。可切換語言與男女聲，並用獨立按鈕播放 Local／Azure TTS；錄音發音評分使用 Azure。
+Android 泰語／日語／韓語／越南語學習 App，以 Flutter 製作。繁體中文介面，每種語言各有 500 個單字、200 個片語、100 個句子。可切換語言與男女聲，並用獨立按鈕播放 Local／Azure TTS；錄音發音評分使用 Azure。
 
 ## 安裝與使用
 
 安裝對應手機 CPU 的 `build/app/outputs/flutter-apk/*-release.apk` 後即可使用；**不需要自建後端，也不需要使用者輸入 API Key**。
 
-目前已建置包含 500 個單字、200 個片語、100 個句子的 Release APK；產物與 CPU 對照見下方建置章節。
+目前原始碼與內建教材已支援四種語言，各有 500 個單字、200 個片語、100 個句子。已於 2026-10-03 建置包含四語的三種架構 Release APK，並核對教材、字型與簽章；建置方式見下方。
 
-- 單字、片語、句子均有泰文、拼音與中文；原有 300 個單字另有例句。
-- 設定首項可切換 🇹🇭 ภาษาไทย／🇯🇵 日本語。日語教材以 N3–N2 程度的生活詞彙、短語及句子為主，顯示漢字、假名讀音及中文；純片假名不重複顯示假名，也不顯示羅馬拼音。
-- 泰語與日語的本機收藏、複習、分數和每日進度分開保存。日語模式目前只儲存在本機；泰語帳號同步維持原有功能。
+- 四種語言均有原文與繁體中文；泰語另有拼音，原有 300 個泰語單字另有例句。
+- 設定首項以兩欄顯示 🇹🇭 ภาษาไทย／🇯🇵 日本語／🇰🇷 한국어／🇻🇳 Tiếng Việt。日語教材以 N3–N2 程度的生活詞彙、短語及句子為主，顯示漢字、假名讀音及中文；純片假名不重複顯示假名，也不顯示羅馬拼音。
+- 韓語直接顯示韓文與中文；越南語保留完整字母與聲調符號，不額外重複拼音。兩者都有入門／基礎教材、主題分類及搜尋。
+- 四種語言的本機收藏、複習、分數和每日進度分開保存。日語、韓語與越南語目前只儲存在本機；泰語帳號同步維持原有功能。
 - 主題／程度篩選、搜尋、間隔複習、單字卡及四選一測驗。
 - 單字／片語／句子頁顯示篩選與練習入口。可在設定選擇每輪 10／20／30／50 題；開始時隨機抽選，不足時使用全部，單輪不重複。
 - 結果頁的「再練習一次」會從目前篩選範圍重新抽選，優先選沒有出現在上一輪的內容；題庫不足時才重複。
@@ -18,13 +19,13 @@ Android 泰語／日語學習 App，以 Flutter 製作。繁體中文介面，�
 - 有例句的單字卡提供例句按鈕；單字、片語及句子卡均可使用 Local TTS、Azure TTS 與錄音練習。例句顯示泰文、拼音與中文，可朗讀及複製。
 - 一鍵複製單字、片語或句子到剪貼簿。
 - 首頁右上角齒輪開啟設定頁：說話者「男／女」及每輪 10／20／30／50 題，選擇後自動保存，預設男聲與 10 題。TTS 直接由卡片上的 Local／Azure 播放按鈕選擇。
-- 例句及情境句依說話者切換自稱、禮貌用語與對應拼音；顯示、複製、朗讀及評分使用相同版本。字典單字保留原本詞義。
+- 泰語例句及情境句依說話者切換自稱、禮貌用語與對應拼音；顯示、複製、朗讀及評分使用相同版本。字典單字保留原本詞義。日語、韓語與越南語的男女設定只切換聲音，不自動改寫稱呼。
 - Local／Azure 播放按鈕使用正常速度，已移除慢速按鈕，涵蓋單字、句子及例句；錄音準確度／流暢度／完整度由 Azure 評分。
-- Local 只選擇已安裝的離線泰語語音，不需 Azure Key 或網路，也不讀寫音檔快取。
-- Azure 男聲使用 Niwat、女聲使用 Premwadee；依原始泰文、聲音與速度保存音檔快取（上限 64 MB）。相同內容優先播放快取，重新開啟 App 後仍可使用；男女聲及不同速度各自保存。
+- Local 只選擇所選語言已安裝的離線語音，不需 Azure Key 或網路，也不讀寫音檔快取。
+- Azure 聲音依語言切換：泰語 Niwat／Premwadee、日語 Keita／Nanami、韓語 InJoon／SunHi、越南語 NamMinh／HoaiMy（依序為男／女聲）。依語言、原文、聲音與速度保存音檔快取（上限 64 MB）。相同內容優先播放快取，重新開啟 App 後仍可使用；男女聲及不同速度各自保存。
 - 學習進度、每日目標、連續學習天數和 XP 自動保存在手機。
 
-使用 Local TTS 前請在 Android 系統「文字轉語音」設定安裝離線泰語語音資料；未安裝時 App 會顯示提示。本機聲音由手機語音引擎提供；有性別資料時優先選擇對應聲音，否則使用可用的離線泰語聲音。
+使用 Local TTS 前請在 Android 系統「文字轉語音」設定安裝所選語言的離線語音資料；未安裝時 App 會顯示提示。本機聲音由手機語音引擎提供；有性別資料時優先選擇對應聲音，否則使用可用的對應語言離線聲音。
 
 每次發音評分需要網路，App 透過 HTTPS 直接呼叫 Azure。錄音最長 30 秒，只在送出評分時傳送，不會保存在學習紀錄或資料庫中。沒有 Azure Key 的一般開發建置仍可使用本機朗讀及學習。
 
@@ -36,6 +37,10 @@ App 每次啟動先讀取手機保存的教材（初次安裝使用 APK 內建�
 - SHA-256：[thai_practice_dataset.json.sha256](https://raw.githubusercontent.com/sibuzu/thaitalk/main/thai_practice_dataset.json.sha256)
 - 日語教材：[japanese_practice_dataset.json](https://raw.githubusercontent.com/sibuzu/thaitalk/main/japanese_practice_dataset.json)
 - 日語 SHA-256：[japanese_practice_dataset.json.sha256](https://raw.githubusercontent.com/sibuzu/thaitalk/main/japanese_practice_dataset.json.sha256)
+- 韓語教材：[korean_practice_dataset.json](https://raw.githubusercontent.com/sibuzu/thaitalk/main/korean_practice_dataset.json)
+- 韓語 SHA-256：[korean_practice_dataset.json.sha256](https://raw.githubusercontent.com/sibuzu/thaitalk/main/korean_practice_dataset.json.sha256)
+- 越南語教材：[vietnamese_practice_dataset.json](https://raw.githubusercontent.com/sibuzu/thaitalk/main/vietnamese_practice_dataset.json)
+- 越南語 SHA-256：[vietnamese_practice_dataset.json.sha256](https://raw.githubusercontent.com/sibuzu/thaitalk/main/vietnamese_practice_dataset.json.sha256)
 
 只有 SHA-256 不同才下載 JSON；版本以檔案內容的 checksum 判定。校驗檔請求最多等待 3 秒，教材下載最多等待 5 秒、大小上限 5 MiB。下載後先驗證 SHA-256、JSON 欄位、唯一 ID、男女版本及顯示／語音文字一致性，再以暫存檔寫入與原子重新命名替換 Android 私有儲存中的教材。APK 內建資料本身不會被改寫。
 
@@ -51,7 +56,7 @@ python3 scripts/update_dataset.py --check
 
 一起提交根目錄 JSON、`assets/data/` 副本及 `.sha256` 檔，再 push 到 `main`。`apply_gender_variants.py` 與 `space-thai.mjs` 產生教材時也會更新 checksum。新版 App 不需要重新安裝即可取得之後的教材更新；**目前已安裝的舊 APK，仍需先安裝含此更新功能的新 APK 一次**。
 
-日語單字資料來源與修改聲明見 [Japanese curriculum attribution](docs/attribution/japanese-curriculum.md)；日語例句與短語為此專案編寫。N3／N2 是社群估計程度，並非 JLPT 官方字表。
+日語單字資料來源與修改聲明見 [Japanese curriculum attribution](docs/attribution/japanese-curriculum.md)；日語例句與短語為此專案編寫。韓語與越南語亦為專案自編生活教材，分級與用語說明見 [韓語／越南語教材說明](docs/attribution/korean-vietnamese-curriculum.md)。N3／N2 是社群估計程度，並非 JLPT 官方字表。
 
 ## 建置 Android APK（預設瘦身版）
 
@@ -83,8 +88,9 @@ python3 scripts/build_android.py \
 
 - 預設 Release，使用 Flutter 既有的 R8 程式與資源縮減。
 - 依 CPU 分開 APK，避免一支手機下載其他架構的引擎。
-- Noto Sans TC 從 11,941,968 bytes 裁切成 581,688 bytes，保留目前介面、教材、拉丁字母與標點需要的字形及字重。Noto Serif Thai 完整保留。
-- 原始中文字型保留於 `assets/fonts/NotoSansTC.ttf`，APK 只打包 `NotoSansTC.subset.ttf`；完整字型不會隨 App 打包。其他動態中文字由 Android 系統字型補足。
+- Noto Sans TC 從 11,941,968 bytes 裁切成 943,912 bytes，保留目前介面、教材、拉丁字母與標點需要的字形及字重。Noto Serif Thai 完整保留。
+- Noto Sans KR 從 10,414,588 bytes 裁切成 206,864 bytes，包含目前韓語教材與介面所需的韓文字元；APK 只打包 `NotoSansKR.subset.ttf`，完整來源與授權保留於 `assets/fonts/`。
+- 原始中文字型保留於 `assets/fonts/NotoSansTC.ttf`，APK 只打包 `NotoSansTC.subset.ttf`；完整字型不會隨 App 打包。其他動態中／韓文字由 Android 系統字型補足。
 - 品牌素材只打包使用中的 PNG，不包含產圖說明與工具腳本。
 
 新增介面或教材文字後可重新產生並檢查字型：
@@ -96,7 +102,7 @@ python3 -m venv /tmp/thaitalk-font-tools
 /tmp/thaitalk-font-tools/bin/python scripts/subset_fonts.py --check
 ```
 
-本次已建置三種 CPU 的 Release APK，並確認各 APK 內含 500 個單字、200 個片語、100 個句子；尚未在實機安裝驗證。
+2026-10-03 已建置四語版本的三種 CPU Release APK：ARM64 21.1 MB、ARM32 18.6 MB、x86-64 22.6 MB。各 APK 已核對四份教材（每種語言 500 個單字、200 個片語、100 個句子）、字型、CPU 架構與簽章；尚未在實機安裝驗證。
 
 ### 正式簽章（選用，自行安裝不需要）
 
@@ -136,7 +142,7 @@ Supabase 僅用於帳號及跨裝置學習進度同步。未設定時完全使�
 
 ## 驗證
 
-設定頁及獨立 TTS 按鈕修改已通過靜態分析、110 項 Flutter 測試與 8 項 Python 單元測試；Azure 線上實測 1 項略過。建置腳本測試使用模擬建置，不產生 APK。未重新建置 APK，尚未在 Android 實機驗證本機語音引擎。
+四語版本已通過靜態分析、131 項 Flutter 測試與 10 項 Python 單元測試；Azure 線上實測 1 項略過。建置腳本測試使用模擬建置，不產生 APK。已完成四語 Release APK 建置，尚未在 Android 實機驗證本機語音引擎。
 
 ```bash
 flutter analyze
@@ -146,19 +152,23 @@ python3 scripts/apply_gender_variants.py --check
 python3 scripts/update_dataset.py --check
 ```
 
-測試涵蓋設定保存與寫入失敗復原、男女用語、教材一致性、泰文間隔、隨機抽題與排序、切卡不重複計分、例句朗讀入口、學習紀錄、測驗、320px 手機版面、剪貼簿、直接 Azure 請求格式、錯誤處理、本機 TTS 離線語音篩選、不使用快取、Azure 音檔快取與男女聲隔離、缺少語音提示、切換來源及取消朗讀、建置編碼與暫存檔清理。
+新增測試涵蓋四語在 320px 手機與寬螢幕切換、韓／越教材各 800 筆、搜尋／複製／測驗選項、獨立教材下載與重啟、本機進度隔離，以及韓／越 Local 與 Azure 語系、男女聲、評分請求與快取隔離。
+
+亦修正泰語性別教材檢查：只要求有例句的單字提供例句審查覆蓋，新增無例句單字不再誤報；新增例句仍必須審查。
+
+既有測試涵蓋設定保存與寫入失敗復原、男女用語、教材一致性、泰文間隔、隨機抽題與排序、切卡不重複計分、例句朗讀入口、學習紀錄、測驗、320px 手機版面、剪貼簿、直接 Azure 請求格式、錯誤處理、本機 TTS 離線語音篩選、不使用快取、Azure 音檔快取與男女聲隔離、缺少語音提示、切換來源及取消朗讀、建置編碼與暫存檔清理。
 
 本環境沒有連接 Android 實機；麥克風、音訊路由仍需在手機驗收。
 
 ## 資料與圖示
 
-- `thai_practice_dataset.json` 與 `assets/data/` 的副本保持相同。
+- 根目錄四份 `*_practice_dataset.json` 與 `assets/data/` 的副本及對應 SHA-256 保持一致。
 - `thai`／`example_thai` 供分詞閱讀；`thai_native`／`example_thai_native` 保留原始泰文供語音使用。
 - `node scripts/space-thai.mjs` 可重建閱讀空白，使用 ICU 泰語斷詞與複合詞補充清單。
 - 男性版為教材基準，`female` 欄位保存經檢查的女性版；100 個情境句及 68 個需調整的單字例句可切換。中性例句與字典中的性別詞義保留不變。
 - `scripts/gender_variants.json` 保存男女對照，`python3 scripts/apply_gender_variants.py` 可同步兩份教材，`--check` 可檢查一致性；例句拼音依教材與 `scripts/example_romanization.py` 的明確詞彙對照產生，未知詞會停止產生以待補充。
 - [App icon](assets/brand/app-icon.png) 由 built-in Imagegen 產生；[完整 prompt](assets/brand/README.md) 已保留，圖示僅輸出 Android 尺寸。
-- Noto Sans TC／[Noto Serif Thai](https://github.com/google/fonts/tree/main/ofl/notoserifthai) 字型隨 App 打包，授權在 `assets/fonts/`。
+- Noto Sans TC／[Noto Sans KR](https://github.com/google/fonts/tree/main/ofl/notosanskr)／[Noto Serif Thai](https://github.com/google/fonts/tree/main/ofl/notoserifthai) 字型隨 App 打包，授權在 `assets/fonts/`。
 
 ### 實作參考
 
@@ -166,7 +176,7 @@ python3 scripts/update_dataset.py --check
 - [flutter_tts：Android 系統文字轉語音](https://pub.dev/packages/flutter_tts)
 - [Peace Corps 泰語課程](https://files.peacecorps.gov/multimedia/audio/languagelessons/thailand/TH_Thai_Language_Lessons.pdf)
 
-### 先前建置結果（本次未重新建置）
+### 先前建置與線上實測紀錄
 
 - Android 1.1.0（versionCode 2）測試 APK 已產生。
 - 靜態分析通過；46 項 Flutter 自動測試與 4 項建置腳本測試通過。

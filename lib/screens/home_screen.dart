@@ -1,7 +1,6 @@
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import '../models/learning_item.dart';
-import '../models/speaker_gender.dart';
 import '../models/study_language.dart';
 import '../services/app_settings.dart';
 import '../services/learning_store.dart';
@@ -200,7 +199,7 @@ class _HomeScreenState extends State<HomeScreen> {
         Padding(
           padding: EdgeInsets.fromLTRB(10, 12, 0, 42),
           child: Text(
-            '讓${widget.language == StudyLanguage.thai ? '泰語' : '日語'}，走進你的日常。',
+            '讓${widget.language.chineseName}，走進你的日常。',
             style: TextStyle(fontSize: 11, color: muted, letterSpacing: 1),
           ),
         ),
@@ -286,7 +285,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   const SizedBox(width: 6),
                   Text(
-                    '你的${widget.language == StudyLanguage.thai ? '泰語' : '日語'}旅程，由此開始',
+                    '你的${widget.language.chineseName}旅程，由此開始',
                     style: TextStyle(fontSize: 9, color: muted),
                   ),
                 ],
@@ -313,17 +312,18 @@ class _HomeScreenState extends State<HomeScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      widget.cloud.isSignedIn
+                      widget.language == StudyLanguage.thai &&
+                              widget.cloud.isSignedIn
                           ? '我的帳號'
-                          : '${widget.language == StudyLanguage.thai ? '泰語' : '日語'}探索者',
+                          : '${widget.language.chineseName}探索者',
                       style: const TextStyle(
                         fontSize: 12,
                         fontWeight: FontWeight.w600,
                       ),
                     ),
                     Text(
-                      widget.language == StudyLanguage.japanese
-                          ? '日語進度儲存在本機'
+                      widget.language != StudyLanguage.thai
+                          ? '${widget.language.chineseName}進度儲存在本機'
                           : widget.cloud.isSignedIn
                           ? '已登入 · 雲端同步'
                           : '入門學習者',
@@ -422,15 +422,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    widget.language == StudyLanguage.japanese
-                        ? 'こんにちは  你好！'
-                        : AppSettings.instance.gender == SpeakerGender.male
-                        ? 'สวัสดี ครับ  你好！'
-                        : 'สวัสดี ค่ะ  你好！',
+                    '${widget.language.greeting(AppSettings.instance.gender)}  你好！',
                     style: TextStyle(
-                      fontFamily: widget.language == StudyLanguage.japanese
-                          ? 'NotoSansTC'
-                          : 'NotoSerifThai',
+                      fontFamily: widget.language.fontFamily,
                       fontFamilyFallback: const ['NotoSansTC'],
                       fontSize: compact ? 26 : 30,
                       fontWeight: FontWeight.w700,
@@ -439,7 +433,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    '準備好開口說${widget.language == StudyLanguage.thai ? '泰語' : '日語'}了嗎？一起累積今天的小進步。',
+                    '準備好開口說${widget.language.chineseName}了嗎？一起累積今天的小進步。',
                     style: TextStyle(fontSize: 13, color: muted),
                   ),
                 ],
@@ -518,9 +512,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 top: -8,
                 bottom: -8,
                 width: 280,
-                child: _HeroArt(
-                  japanese: widget.language == StudyLanguage.japanese,
-                ),
+                child: _HeroArt(language: widget.language),
               ),
             Padding(
               padding: const EdgeInsets.all(28),
@@ -528,16 +520,14 @@ class _HomeScreenState extends State<HomeScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Tag(
-                    widget.language == StudyLanguage.thai
-                        ? 'YOUR DAILY DOSE OF THAI'
-                        : 'YOUR DAILY DOSE OF JAPANESE',
+                    'YOUR DAILY DOSE OF ${widget.language.name.toUpperCase()}',
                     background: Color(0xFFFFF7F0),
                     color: orange,
                     icon: Icons.wb_sunny_outlined,
                   ),
                   const SizedBox(height: 18),
                   Text(
-                    '每天一點${widget.language == StudyLanguage.thai ? '泰語' : '日語'}，\n每次開口更有自信。',
+                    '每天一點${widget.language.chineseName}，\n每次開口更有自信。',
                     style: TextStyle(
                       fontSize: art ? 29 : 26,
                       fontWeight: FontWeight.w700,
@@ -659,7 +649,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             _pathCard(
               '日常句子',
-              '把${widget.language == StudyLanguage.thai ? '泰語' : '日語'}帶進真實生活情境',
+              '把${widget.language.chineseName}帶進真實生活情境',
               '${_items.where((i) => i.isSentence).length} 個句子 · ${_items.where((i) => i.isSentence).map((i) => i.category).toSet().length} 個情境',
               Icons.forum_outlined,
               const Color(0xFFF7EFE2),
@@ -900,16 +890,12 @@ class _HomeScreenState extends State<HomeScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    '${widget.language == StudyLanguage.thai ? '泰語' : '日語'}小筆記',
+                    '${widget.language.chineseName}小筆記',
                     style: TextStyle(fontSize: 12, fontWeight: FontWeight.w700),
                   ),
                   const SizedBox(height: 7),
                   Text(
-                    widget.language == StudyLanguage.japanese
-                        ? '遇到漢字時先看上方假名，再聽發音跟讀；片假名詞彙直接練習朗讀。'
-                        : AppSettings.instance.gender == SpeakerGender.male
-                        ? '男性說話時，在句尾加上「ครับ khrap」，就能讓語氣更有禮貌。'
-                        : '女性陳述用「ค่ะ kha」，疑問通常用「คะ kha」。',
+                    widget.language.learningTip(AppSettings.instance.gender),
                     style: const TextStyle(
                       fontSize: 11,
                       color: Color(0xFF6D8067),
@@ -1008,8 +994,8 @@ class _HomeScreenState extends State<HomeScreen> {
 }
 
 class _HeroArt extends StatelessWidget {
-  const _HeroArt({required this.japanese});
-  final bool japanese;
+  const _HeroArt({required this.language});
+  final StudyLanguage language;
   @override
   Widget build(BuildContext context) => Stack(
     alignment: Alignment.center,
@@ -1039,7 +1025,11 @@ class _HeroArt extends StatelessWidget {
               borderRadius: BorderRadius.circular(22),
             ),
             child: Center(
-              child: thai(japanese ? 'あ' : 'ก', size: 98, color: Colors.white),
+              child: thai(
+                language.heroCharacter,
+                size: 98,
+                color: Colors.white,
+              ),
             ),
           ),
         ),
@@ -1066,10 +1056,15 @@ class _HeroArt extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                thai(japanese ? 'こんにちは' : 'สวัสดี', size: japanese ? 23 : 30),
+                thai(
+                  language == StudyLanguage.thai
+                      ? 'สวัสดี'
+                      : language.greeting(AppSettings.instance.gender),
+                  size: language == StudyLanguage.thai ? 30 : 23,
+                ),
                 const SizedBox(height: 2),
                 Text(
-                  japanese ? '你好' : 'sa-wat-di',
+                  language == StudyLanguage.thai ? 'sa-wat-di' : '你好',
                   style: TextStyle(fontSize: 11, color: muted),
                 ),
                 const SizedBox(height: 12),

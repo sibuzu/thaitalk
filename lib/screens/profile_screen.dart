@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/learning_item.dart';
+import '../models/study_language.dart';
+import '../services/app_settings.dart';
 import '../services/learning_store.dart';
 import '../services/cloud_sync.dart';
 import '../theme.dart';
@@ -137,7 +139,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SectionHeading(
-                '為每天，留一點${widget.showCloud ? '泰語' : '日語'}時間',
+                '為每天，留一點${widget.store.language.chineseName}時間',
                 subtitle: '依照自己的步調設定目標，完成一次練習就前進一步。',
               ),
               Wrap(
@@ -349,13 +351,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
         const SizedBox(height: 28),
         Center(
           child: Text(
-            widget.showCloud
-                ? 'ThaiTalk 1.1.0  ·  Made for your next สวัสดี'
-                : 'ThaiTalk 1.1.0  ·  Made for your next こんにちは',
+            'ThaiTalk 1.1.0  ·  Made for your next ${widget.store.language.greeting(AppSettings.instance.gender)}',
             style: TextStyle(
               color: muted,
               fontSize: 11,
-              fontFamilyFallback: ['NotoSerifThai'],
+              fontFamilyFallback: ['NotoSerifThai', 'NotoSansKR'],
             ),
           ),
         ),

@@ -100,6 +100,64 @@ void main() {
     expect(await localFile().exists(), isFalse);
   });
 
+  for (final language in [StudyLanguage.korean, StudyLanguage.vietnamese]) {
+    test(
+      '${language.name} updates and restarts without touching other languages',
+      () async {
+        final bytes = await File(language.datasetFilename).readAsBytes();
+        final changed = jsonDecode(utf8.decode(bytes)) as Map<String, dynamic>;
+        changed['vocabulary'][0]['chinese'] = '更新${language.chineseName}教材';
+        final incoming = encode(changed);
+        final repo = CurriculumRepository(
+          language: language,
+          directory: directory,
+          bundleLoader: () async => bytes,
+          clientFactory: () => MockClient((request) async {
+            requests.add(request.url);
+            expect(
+              request.url.path,
+              endsWith(
+                language.datasetFilename +
+                    (request.url.path.endsWith('.sha256') ? '.sha256' : ''),
+              ),
+            );
+            return request.url.path.endsWith('.sha256')
+                ? http.Response(
+                    '${checksum(incoming)}  ${language.datasetFilename}\n',
+                    200,
+                  )
+                : http.Response.bytes(incoming, 200);
+          }),
+        );
+        expect(
+          (await repo.loadAtStartup()).first.chinese,
+          '更新${language.chineseName}教材',
+        );
+        expect(requests, [repo.activeChecksumUrl, repo.activeDatasetUrl]);
+        expect(await directory.list().length, 1);
+        final restarted = CurriculumRepository(
+          language: language,
+          directory: directory,
+          bundleLoader: () async =>
+              throw StateError('Must load the installed update'),
+          clientFactory: () =>
+              MockClient((_) async => http.Response('offline', 503)),
+        );
+        expect(
+          (await restarted.loadAtStartup()).first.chinese,
+          '更新${language.chineseName}教材',
+        );
+        expect(
+          await File(
+            '${directory.path}/${language.datasetFilename}',
+          ).readAsBytes(),
+          incoming,
+        );
+        expect(await localFile().exists(), isFalse);
+      },
+    );
+  }
+
   test(
     'verified update replaces local JSON and all readers use new items',
     () async {

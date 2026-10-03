@@ -6,6 +6,8 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:thaitalk/models/study_language.dart';
+import 'package:thaitalk/models/speaker_gender.dart';
 import 'package:thaitalk/services/app_settings.dart';
 import 'package:thaitalk/services/speech_cache.dart';
 import 'package:thaitalk/services/speech_service.dart';
@@ -31,6 +33,64 @@ Map<String, dynamic> azureAssessment() => {
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
   setUp(() => SharedPreferences.setMockInitialValues({}));
+
+  for (final language in [StudyLanguage.korean, StudyLanguage.vietnamese]) {
+    test(
+      '${language.name} uses its locale and both Azure voices with separate caches',
+      () async {
+        final preferences = AppSettings();
+        await preferences.setLanguage(language);
+        final requests = <http.Request>[];
+        final speech = SpeechService(
+          preferences: preferences,
+          settings: SpeechSettings(apiKey: 'test-key'),
+          diskCache: SpeechCache(maxBytes: 0),
+          client: MockClient((request) async {
+            requests.add(request);
+            if (request.url.host.contains('.tts.')) {
+              return http.Response.bytes(
+                [0, 0, 1, 0],
+                200,
+                headers: {'content-type': 'audio/basic'},
+              );
+            }
+            return http.Response(
+              jsonEncode(azureAssessment()),
+              200,
+              headers: {'content-type': 'application/json; charset=utf-8'},
+            );
+          }),
+        );
+        addTearDown(() {
+          speech.dispose();
+          preferences.dispose();
+        });
+        final text = language.greeting(SpeakerGender.male);
+        await speech.loadSpeechAudio(text);
+        await speech.loadSpeechAudio(text);
+        await preferences.setGender(SpeakerGender.female);
+        await speech.loadSpeechAudio(text);
+        expect(requests, hasLength(2));
+        for (final gender in SpeakerGender.values) {
+          final body = utf8.decode(requests[gender.index].bodyBytes);
+          expect(body, contains(language.azureVoice(gender)));
+          expect(body, contains('xml:lang="${language.speechLocale}"'));
+          expect(body, contains(text));
+        }
+        await speech.assessAudio(pcmToWav(Uint8List(8000)), text);
+        expect(
+          requests.last.url.queryParameters['language'],
+          language.speechLocale,
+        );
+        final assessment = jsonDecode(
+          utf8.decode(
+            base64Decode(requests.last.headers['Pronunciation-Assessment']!),
+          ),
+        );
+        expect(assessment['ReferenceText'], text);
+      },
+    );
+  }
   SpeechService service(MockClient client, {SpeechSettings? settings}) {
     final value = SpeechService(
       client: client,

@@ -8,6 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 NAME = 'thai_practice_dataset.json'
 JAPANESE_NAME = 'japanese_practice_dataset.json'
+DATASET_NAMES = (NAME, JAPANESE_NAME, 'korean_practice_dataset.json', 'vietnamese_practice_dataset.json')
 
 
 def update(root=ROOT, check=False, name=NAME):
@@ -37,5 +38,5 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check', action='store_true')
     args = parser.parse_args()
-    for name in (NAME, JAPANESE_NAME):
+    for name in DATASET_NAMES:
         print(name, update(check=args.check, name=name))

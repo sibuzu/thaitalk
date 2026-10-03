@@ -15,20 +15,25 @@ Future<void> main() async {
   try {
     await SpeechSettings.instance.load();
     await AppSettings.instance.load();
-    final items = await CurriculumRepository.instance.loadAtStartup();
-    final japaneseItems = await CurriculumRepository.japaneseInstance
-        .loadAtStartup();
-    final store = await LearningStore.load();
-    final japaneseStore = await LearningStore.load(
-      language: StudyLanguage.japanese,
-    );
-    final cloud = await CloudSync.initialize(store);
+    final curricula = <StudyLanguage, List<LearningItem>>{};
+    final stores = <StudyLanguage, LearningStore>{};
+    await Future.wait([
+      for (final language in StudyLanguage.values)
+        CurriculumRepository.forLanguage(
+          language,
+        ).loadAtStartup().then((items) => curricula[language] = items),
+    ]);
+    // Initialize the shared device ID before opening the other language stores.
+    for (final language in StudyLanguage.values) {
+      stores[language] = await LearningStore.load(language: language);
+    }
+    final cloud = await CloudSync.initialize(stores[StudyLanguage.thai]!);
     runApp(
       ThaiTalkApp(
-        items: items,
-        japaneseItems: japaneseItems,
-        store: store,
-        japaneseStore: japaneseStore,
+        items: curricula[StudyLanguage.thai]!,
+        curricula: curricula,
+        store: stores[StudyLanguage.thai]!,
+        stores: stores,
         cloud: cloud,
       ),
     );
@@ -60,26 +65,27 @@ class ThaiTalkApp extends StatelessWidget {
   const ThaiTalkApp({
     super.key,
     required this.items,
-    this.japaneseItems,
+    this.curricula = const {},
     required this.store,
-    this.japaneseStore,
+    this.stores = const {},
     required this.cloud,
   });
   final List<LearningItem> items;
-  final List<LearningItem>? japaneseItems;
+  final Map<StudyLanguage, List<LearningItem>> curricula;
   final LearningStore store;
-  final LearningStore? japaneseStore;
+  final Map<StudyLanguage, LearningStore> stores;
   final CloudSync cloud;
   @override
   Widget build(BuildContext context) => ListenableBuilder(
     listenable: AppSettings.instance,
     builder: (context, _) {
-      final japanese =
-          AppSettings.instance.language == StudyLanguage.japanese &&
-          japaneseItems != null &&
-          japaneseStore != null;
+      final selected = AppSettings.instance.language;
+      final language =
+          curricula.containsKey(selected) && stores.containsKey(selected)
+          ? selected
+          : StudyLanguage.thai;
       return MaterialApp(
-        title: 'ThaiTalk · 每天一點泰語',
+        title: 'ThaiTalk · 每天一點${language.chineseName}',
         debugShowCheckedModeBanner: false,
         theme: appTheme(),
         locale: const Locale('zh', 'TW'),
@@ -87,14 +93,17 @@ class ThaiTalkApp extends StatelessWidget {
           Locale('zh', 'TW'),
           Locale('en'),
           Locale('th'),
+          Locale('ja'),
+          Locale('ko'),
+          Locale('vi'),
         ],
         localizationsDelegates: GlobalMaterialLocalizations.delegates,
         home: HomeScreen(
-          key: ValueKey(japanese ? 'japanese' : 'thai'),
-          items: japanese ? japaneseItems! : items,
-          store: japanese ? japaneseStore! : store,
+          key: ValueKey(language),
+          items: curricula[language] ?? items,
+          store: stores[language] ?? store,
           cloud: cloud,
-          language: japanese ? StudyLanguage.japanese : StudyLanguage.thai,
+          language: language,
         ),
       );
     },

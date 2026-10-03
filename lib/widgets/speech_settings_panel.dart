@@ -21,7 +21,7 @@ class SpeechSettingsPanel extends StatelessWidget {
               const SizedBox(width: 10),
               Expanded(
                 child: Text(
-                  '泰語朗讀與發音練習',
+                  '朗讀與發音練習',
                   style: Theme.of(context).textTheme.titleLarge,
                 ),
               ),
@@ -38,7 +38,7 @@ class SpeechSettingsPanel extends StatelessWidget {
           const SizedBox(height: 14),
           const Text(
             '卡片提供 Local TTS 與 Azure TTS 播放按鈕。本機朗讀不快取；Azure 朗讀會快取。'
-            'Azure 朗讀與錄音發音評分需要服務設定；本機朗讀需安裝離線泰語語音資料。',
+            'Azure 朗讀與錄音發音評分需要服務設定；本機朗讀需安裝對應語言的離線語音資料。',
             style: TextStyle(fontSize: 13, color: muted),
           ),
           if (configuration.error != null) ...[

@@ -385,14 +385,14 @@ class SpeechService {
     bool? male,
   }) async {
     _ensureActive();
-    if (male == null) await _preferences.load();
+    await _preferences.load();
     _ensureActive();
     final generation = _speechGeneration;
     final isMale = male ?? _preferences.gender == SpeakerGender.male;
     final language = _preferences.language;
-    final voice = language == StudyLanguage.japanese
-        ? (isMale ? 'ja-JP-KeitaNeural' : 'ja-JP-NanamiNeural')
-        : (isMale ? 'th-TH-NiwatNeural' : 'th-TH-PremwadeeNeural');
+    final voice = language.azureVoice(
+      isMale ? SpeakerGender.male : SpeakerGender.female,
+    );
     final ssml = buildSpeechSsml(text, voice: voice, slow: slow);
     // Version 1 preserves the WAV cache created by earlier app versions.
     final key = sha256
@@ -479,6 +479,7 @@ class SpeechService {
   /// Uploads only the current recording directly to the user's Azure resource.
   /// Recordings and assessment results never enter the synthesized audio cache.
   Future<Assessment> assessAudio(Uint8List wav, String reference) async {
+    await _preferences.load();
     final text = _validateText(reference);
     validateRecordingWav(wav);
     final credentials = await _credentials();
@@ -563,12 +564,14 @@ String buildSpeechSsml(
   bool slow = false,
 }) {
   final plainText = _validateText(text);
-  if (!const [
-    'th-TH-NiwatNeural',
-    'th-TH-PremwadeeNeural',
-    'ja-JP-KeitaNeural',
-    'ja-JP-NanamiNeural',
-  ].contains(voice)) {
+  final language = StudyLanguage.values
+      .where(
+        (language) => SpeakerGender.values.any(
+          (gender) => language.azureVoice(gender) == voice,
+        ),
+      )
+      .firstOrNull;
+  if (language == null) {
     throw SpeechException('請選擇支援的朗讀聲音。');
   }
   final escaped = plainText.replaceAllMapped(
@@ -581,7 +584,7 @@ String buildSpeechSsml(
       "'": '&apos;',
     }[match[0]]!,
   );
-  final locale = voice.startsWith('ja-') ? 'ja-JP' : 'th-TH';
+  final locale = language.speechLocale;
   return '<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="$locale">'
       '<voice name="$voice"><prosody rate="${slow ? '-25%' : '0%'}">'
       '$escaped</prosody></voice></speak>';

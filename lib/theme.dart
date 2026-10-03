@@ -15,7 +15,7 @@ const line = Color(0xFFE9ECE5);
 ThemeData appTheme() => ThemeData(
   useMaterial3: true,
   fontFamily: 'NotoSansTC',
-  fontFamilyFallback: const ['NotoSerifThai'],
+  fontFamilyFallback: const ['NotoSerifThai', 'NotoSansKR'],
   scaffoldBackgroundColor: canvas,
   colorScheme: ColorScheme.fromSeed(
     seedColor: orange,
@@ -93,13 +93,12 @@ Text thai(
   Color color = ink,
   FontWeight weight = FontWeight.w500,
   TextAlign? align,
+  StudyLanguage? language,
 }) => Text(
   text,
   textAlign: align,
   style: TextStyle(
-    fontFamily: AppSettings.instance.language == StudyLanguage.thai
-        ? 'NotoSerifThai'
-        : 'NotoSansTC',
+    fontFamily: (language ?? AppSettings.instance.language).fontFamily,
     fontSize: size,
     fontWeight: weight,
     color: color,
@@ -121,7 +120,7 @@ Widget learningText(LearningItem item, {double size = 30, TextAlign? align}) =>
             textAlign: align,
             style: const TextStyle(color: muted, fontSize: 13),
           ),
-        thai(item.thai, size: size, align: align),
+        thai(item.thai, size: size, align: align, language: item.language),
         if (item.language == StudyLanguage.thai)
           Text(
             item.romanization,
@@ -288,20 +287,13 @@ class CopyThaiButton extends StatelessWidget {
   final String text;
   @override
   Widget build(BuildContext context) => IconButton(
-    tooltip: AppSettings.instance.language == StudyLanguage.thai
-        ? '複製泰文'
-        : '複製日文',
+    tooltip: '複製${AppSettings.instance.language.textLabel}',
     icon: const Icon(Icons.content_copy_rounded, size: 18, color: muted),
     onPressed: () async {
       try {
         await Clipboard.setData(ClipboardData(text: text));
         if (context.mounted) {
-          showNotice(
-            context,
-            AppSettings.instance.language == StudyLanguage.thai
-                ? '已複製泰文'
-                : '已複製日文',
-          );
+          showNotice(context, '已複製${AppSettings.instance.language.textLabel}');
         }
       } catch (_) {
         if (context.mounted) showNotice(context, '無法存取剪貼簿，請再試一次。');

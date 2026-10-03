@@ -38,7 +38,10 @@ def rendered_curriculum():
         item.pop('female', None)
         item.pop('example_romanization', None)
     seen = set()
-    vocabulary_ids = {item['id'] for item in data['vocabulary']}
+    # Later vocabulary additions have no examples to adapt or review.
+    vocabulary_ids = {
+        item['id'] for item in data['vocabulary'] if item.get('example_thai')
+    }
     sentence_ids = {item['id'] for item in data['sentences']}
     for entry in manifest['entries']:
         item_id = entry['id']

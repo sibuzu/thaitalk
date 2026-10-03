@@ -4,12 +4,14 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from update_dataset import NAME, update
+from update_dataset import NAME, DATASET_NAMES, update
 
 
 class DatasetPublishTests(unittest.TestCase):
     def test_repository_dataset_and_checksum_match(self):
-        self.assertEqual(len(update(check=True)), 64)
+        for name in DATASET_NAMES:
+            with self.subTest(name=name):
+                self.assertEqual(len(update(check=True, name=name)), 64)
 
     def test_publishing_and_stale_checksum_detection(self):
         with tempfile.TemporaryDirectory() as folder:

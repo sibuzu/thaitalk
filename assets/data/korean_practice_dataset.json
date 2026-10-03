@@ -1,0 +1,5608 @@
+{
+  "vocabulary": [
+    {
+      "id": 1,
+      "korean": "안녕하세요",
+      "chinese": "你好",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2,
+      "korean": "감사합니다",
+      "chinese": "謝謝",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 3,
+      "korean": "죄송합니다",
+      "chinese": "對不起",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 4,
+      "korean": "괜찮아요",
+      "chinese": "沒關係",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 5,
+      "korean": "네",
+      "chinese": "是；好的",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 6,
+      "korean": "아니요",
+      "chinese": "不是；不",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 7,
+      "korean": "이름",
+      "chinese": "名字",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 8,
+      "korean": "나라",
+      "chinese": "國家",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 9,
+      "korean": "사람",
+      "chinese": "人",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 10,
+      "korean": "친구",
+      "chinese": "朋友",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 11,
+      "korean": "선생님",
+      "chinese": "老師",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 12,
+      "korean": "학생",
+      "chinese": "學生",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 13,
+      "korean": "한국어",
+      "chinese": "韓語",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 14,
+      "korean": "베트남어",
+      "chinese": "越南語",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 15,
+      "korean": "중국어",
+      "chinese": "中文",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 16,
+      "korean": "영어",
+      "chinese": "英語",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 17,
+      "korean": "일본어",
+      "chinese": "日語",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 18,
+      "korean": "태국어",
+      "chinese": "泰語",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 19,
+      "korean": "대만",
+      "chinese": "臺灣",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 20,
+      "korean": "한국",
+      "chinese": "韓國",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 21,
+      "korean": "베트남",
+      "chinese": "越南",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 22,
+      "korean": "일본",
+      "chinese": "日本",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 23,
+      "korean": "태국",
+      "chinese": "泰國",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 24,
+      "korean": "외국인",
+      "chinese": "外國人",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 25,
+      "korean": "인사",
+      "chinese": "問候",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 26,
+      "korean": "가족",
+      "chinese": "家人；家庭",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 27,
+      "korean": "부모님",
+      "chinese": "父母",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 28,
+      "korean": "아버지",
+      "chinese": "父親",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 29,
+      "korean": "어머니",
+      "chinese": "母親",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 30,
+      "korean": "아들",
+      "chinese": "兒子",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 31,
+      "korean": "딸",
+      "chinese": "女兒",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 32,
+      "korean": "남편",
+      "chinese": "丈夫",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 33,
+      "korean": "아내",
+      "chinese": "妻子",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 34,
+      "korean": "할아버지",
+      "chinese": "祖父；外祖父",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 35,
+      "korean": "할머니",
+      "chinese": "祖母；外祖母",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 36,
+      "korean": "아이",
+      "chinese": "小孩",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 37,
+      "korean": "아기",
+      "chinese": "嬰兒",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 38,
+      "korean": "형제",
+      "chinese": "兄弟",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 39,
+      "korean": "자매",
+      "chinese": "姊妹",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 40,
+      "korean": "남동생",
+      "chinese": "弟弟",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 41,
+      "korean": "여동생",
+      "chinese": "妹妹",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 42,
+      "korean": "친척",
+      "chinese": "親戚",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 43,
+      "korean": "부부",
+      "chinese": "夫妻",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 44,
+      "korean": "이웃",
+      "chinese": "鄰居",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 45,
+      "korean": "동료",
+      "chinese": "同事",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 46,
+      "korean": "남자",
+      "chinese": "男人",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 47,
+      "korean": "여자",
+      "chinese": "女人",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 48,
+      "korean": "어른",
+      "chinese": "大人",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 49,
+      "korean": "생일",
+      "chinese": "生日",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 50,
+      "korean": "결혼",
+      "chinese": "結婚",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 51,
+      "korean": "밥",
+      "chinese": "飯",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 52,
+      "korean": "빵",
+      "chinese": "麵包",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 53,
+      "korean": "국수",
+      "chinese": "麵條",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 54,
+      "korean": "죽",
+      "chinese": "粥",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 55,
+      "korean": "고기",
+      "chinese": "肉",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 56,
+      "korean": "소고기",
+      "chinese": "牛肉",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 57,
+      "korean": "돼지고기",
+      "chinese": "豬肉",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 58,
+      "korean": "닭고기",
+      "chinese": "雞肉",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 59,
+      "korean": "생선",
+      "chinese": "魚",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 60,
+      "korean": "새우",
+      "chinese": "蝦",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 61,
+      "korean": "달걀",
+      "chinese": "雞蛋",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 62,
+      "korean": "두부",
+      "chinese": "豆腐",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 63,
+      "korean": "채소",
+      "chinese": "蔬菜",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 64,
+      "korean": "과일",
+      "chinese": "水果",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 65,
+      "korean": "사과",
+      "chinese": "蘋果",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 66,
+      "korean": "바나나",
+      "chinese": "香蕉",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 67,
+      "korean": "오렌지",
+      "chinese": "柳橙",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 68,
+      "korean": "망고",
+      "chinese": "芒果",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 69,
+      "korean": "수박",
+      "chinese": "西瓜",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 70,
+      "korean": "포도",
+      "chinese": "葡萄",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 71,
+      "korean": "딸기",
+      "chinese": "草莓",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 72,
+      "korean": "레몬",
+      "chinese": "檸檬",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 73,
+      "korean": "파인애플",
+      "chinese": "鳳梨",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 74,
+      "korean": "복숭아",
+      "chinese": "桃子",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 75,
+      "korean": "배",
+      "chinese": "梨子",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 76,
+      "korean": "물",
+      "chinese": "水",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 77,
+      "korean": "차",
+      "chinese": "茶",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 78,
+      "korean": "커피",
+      "chinese": "咖啡",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 79,
+      "korean": "우유",
+      "chinese": "牛奶",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 80,
+      "korean": "주스",
+      "chinese": "果汁",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 81,
+      "korean": "맥주",
+      "chinese": "啤酒",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 82,
+      "korean": "와인",
+      "chinese": "葡萄酒",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 83,
+      "korean": "얼음",
+      "chinese": "冰塊",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 84,
+      "korean": "설탕",
+      "chinese": "糖",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 85,
+      "korean": "소금",
+      "chinese": "鹽",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 86,
+      "korean": "후추",
+      "chinese": "胡椒",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 87,
+      "korean": "간장",
+      "chinese": "醬油",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 88,
+      "korean": "식초",
+      "chinese": "醋",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 89,
+      "korean": "기름",
+      "chinese": "食用油",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 90,
+      "korean": "버터",
+      "chinese": "奶油",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 91,
+      "korean": "치즈",
+      "chinese": "起司",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 92,
+      "korean": "요구르트",
+      "chinese": "優格",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 93,
+      "korean": "아이스크림",
+      "chinese": "冰淇淋",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 94,
+      "korean": "케이크",
+      "chinese": "蛋糕",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 95,
+      "korean": "초콜릿",
+      "chinese": "巧克力",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 96,
+      "korean": "감자",
+      "chinese": "馬鈴薯",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 97,
+      "korean": "양파",
+      "chinese": "洋蔥",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 98,
+      "korean": "마늘",
+      "chinese": "大蒜",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 99,
+      "korean": "당근",
+      "chinese": "胡蘿蔔",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 100,
+      "korean": "버섯",
+      "chinese": "蘑菇",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 101,
+      "korean": "영",
+      "chinese": "零",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 102,
+      "korean": "일",
+      "chinese": "一",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 103,
+      "korean": "이",
+      "chinese": "二",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 104,
+      "korean": "삼",
+      "chinese": "三",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 105,
+      "korean": "사",
+      "chinese": "四",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 106,
+      "korean": "오",
+      "chinese": "五",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 107,
+      "korean": "육",
+      "chinese": "六",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 108,
+      "korean": "칠",
+      "chinese": "七",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 109,
+      "korean": "팔",
+      "chinese": "八",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 110,
+      "korean": "구",
+      "chinese": "九",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 111,
+      "korean": "십",
+      "chinese": "十",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 112,
+      "korean": "십일",
+      "chinese": "十一",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 113,
+      "korean": "십이",
+      "chinese": "十二",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 114,
+      "korean": "이십",
+      "chinese": "二十",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 115,
+      "korean": "삼십",
+      "chinese": "三十",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 116,
+      "korean": "사십",
+      "chinese": "四十",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 117,
+      "korean": "오십",
+      "chinese": "五十",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 118,
+      "korean": "백",
+      "chinese": "一百",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 119,
+      "korean": "천",
+      "chinese": "一千",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 120,
+      "korean": "만",
+      "chinese": "一萬",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 121,
+      "korean": "반",
+      "chinese": "一半",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 122,
+      "korean": "전부",
+      "chinese": "全部",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 123,
+      "korean": "조금",
+      "chinese": "一點；少量",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 124,
+      "korean": "여러",
+      "chinese": "幾個；若干",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 125,
+      "korean": "몇",
+      "chinese": "幾；多少",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 126,
+      "korean": "오늘",
+      "chinese": "今天",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 127,
+      "korean": "내일",
+      "chinese": "明天",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 128,
+      "korean": "어제",
+      "chinese": "昨天",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 129,
+      "korean": "지금",
+      "chinese": "現在",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 130,
+      "korean": "아침",
+      "chinese": "早上",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 131,
+      "korean": "점심",
+      "chinese": "中午",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 132,
+      "korean": "저녁",
+      "chinese": "晚上",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 133,
+      "korean": "밤",
+      "chinese": "夜晚",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 134,
+      "korean": "새벽",
+      "chinese": "凌晨",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 135,
+      "korean": "정오",
+      "chinese": "正午",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 136,
+      "korean": "오후",
+      "chinese": "下午",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 137,
+      "korean": "시간",
+      "chinese": "時間",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 138,
+      "korean": "분",
+      "chinese": "分鐘",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 139,
+      "korean": "초",
+      "chinese": "秒",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 140,
+      "korean": "주",
+      "chinese": "星期；週",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 141,
+      "korean": "달",
+      "chinese": "月份",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 142,
+      "korean": "올해",
+      "chinese": "今年",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 143,
+      "korean": "월요일",
+      "chinese": "星期一",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 144,
+      "korean": "화요일",
+      "chinese": "星期二",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 145,
+      "korean": "수요일",
+      "chinese": "星期三",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 146,
+      "korean": "목요일",
+      "chinese": "星期四",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 147,
+      "korean": "금요일",
+      "chinese": "星期五",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 148,
+      "korean": "토요일",
+      "chinese": "星期六",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 149,
+      "korean": "일요일",
+      "chinese": "星期日",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 150,
+      "korean": "주말",
+      "chinese": "週末",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 151,
+      "korean": "가게",
+      "chinese": "商店",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 152,
+      "korean": "시장",
+      "chinese": "市場",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 153,
+      "korean": "슈퍼마켓",
+      "chinese": "超市",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 154,
+      "korean": "백화점",
+      "chinese": "百貨公司",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 155,
+      "korean": "가격",
+      "chinese": "價格",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 156,
+      "korean": "돈",
+      "chinese": "錢",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 157,
+      "korean": "현금",
+      "chinese": "現金",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 158,
+      "korean": "신용카드",
+      "chinese": "信用卡",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 159,
+      "korean": "영수증",
+      "chinese": "收據；帳單",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 160,
+      "korean": "거스름돈",
+      "chinese": "找零",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 161,
+      "korean": "할인",
+      "chinese": "折扣",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 162,
+      "korean": "봉투",
+      "chinese": "袋子",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 163,
+      "korean": "선물",
+      "chinese": "禮物",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 164,
+      "korean": "크기",
+      "chinese": "尺寸",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 165,
+      "korean": "색깔",
+      "chinese": "顏色",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 166,
+      "korean": "옷",
+      "chinese": "衣服",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 167,
+      "korean": "바지",
+      "chinese": "長褲",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 168,
+      "korean": "치마",
+      "chinese": "裙子",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 169,
+      "korean": "셔츠",
+      "chinese": "襯衫",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 170,
+      "korean": "신발",
+      "chinese": "鞋子",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 171,
+      "korean": "양말",
+      "chinese": "襪子",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 172,
+      "korean": "모자",
+      "chinese": "帽子",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 173,
+      "korean": "가방",
+      "chinese": "包包",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 174,
+      "korean": "지갑",
+      "chinese": "錢包",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 175,
+      "korean": "우산",
+      "chinese": "雨傘",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 176,
+      "korean": "버스",
+      "chinese": "公車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 177,
+      "korean": "기차",
+      "chinese": "火車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 178,
+      "korean": "지하철",
+      "chinese": "地鐵",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 179,
+      "korean": "택시",
+      "chinese": "計程車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 180,
+      "korean": "자동차",
+      "chinese": "汽車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 181,
+      "korean": "오토바이",
+      "chinese": "機車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 182,
+      "korean": "자전거",
+      "chinese": "腳踏車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 183,
+      "korean": "비행기",
+      "chinese": "飛機",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 184,
+      "korean": "여객선",
+      "chinese": "客輪",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 185,
+      "korean": "역",
+      "chinese": "車站",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 186,
+      "korean": "정류장",
+      "chinese": "公車站",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 187,
+      "korean": "공항",
+      "chinese": "機場",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 188,
+      "korean": "항구",
+      "chinese": "港口",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 189,
+      "korean": "표",
+      "chinese": "票",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 190,
+      "korean": "노선",
+      "chinese": "路線",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 191,
+      "korean": "지도",
+      "chinese": "地圖",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 192,
+      "korean": "길",
+      "chinese": "道路；路",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 193,
+      "korean": "거리",
+      "chinese": "距離",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 194,
+      "korean": "교차로",
+      "chinese": "十字路口",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 195,
+      "korean": "신호등",
+      "chinese": "交通號誌",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 196,
+      "korean": "횡단보도",
+      "chinese": "行人穿越道",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 197,
+      "korean": "주차장",
+      "chinese": "停車場",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 198,
+      "korean": "운전기사",
+      "chinese": "司機",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 199,
+      "korean": "출구",
+      "chinese": "出口",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 200,
+      "korean": "입구",
+      "chinese": "入口",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 201,
+      "korean": "여행",
+      "chinese": "旅行",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 202,
+      "korean": "관광",
+      "chinese": "觀光",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 203,
+      "korean": "여권",
+      "chinese": "護照",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 204,
+      "korean": "비자",
+      "chinese": "簽證",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 205,
+      "korean": "짐",
+      "chinese": "行李",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 206,
+      "korean": "여행 가방",
+      "chinese": "行李箱",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 207,
+      "korean": "사진",
+      "chinese": "照片",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 208,
+      "korean": "카메라",
+      "chinese": "相機",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 209,
+      "korean": "해변",
+      "chinese": "海灘",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 210,
+      "korean": "산",
+      "chinese": "山",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 211,
+      "korean": "강",
+      "chinese": "河流",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 212,
+      "korean": "호수",
+      "chinese": "湖泊",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 213,
+      "korean": "섬",
+      "chinese": "島嶼",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 214,
+      "korean": "공원",
+      "chinese": "公園",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 215,
+      "korean": "박물관",
+      "chinese": "博物館",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 216,
+      "korean": "미술관",
+      "chinese": "美術館",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 217,
+      "korean": "절",
+      "chinese": "寺廟",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 218,
+      "korean": "교회",
+      "chinese": "教堂",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 219,
+      "korean": "광장",
+      "chinese": "廣場",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 220,
+      "korean": "도시",
+      "chinese": "城市",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 221,
+      "korean": "마을",
+      "chinese": "村莊",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 222,
+      "korean": "중심",
+      "chinese": "中心",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 223,
+      "korean": "안내소",
+      "chinese": "服務資訊處",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 224,
+      "korean": "기념품",
+      "chinese": "紀念品",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 225,
+      "korean": "풍경",
+      "chinese": "風景",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 226,
+      "korean": "호텔",
+      "chinese": "飯店",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 227,
+      "korean": "방",
+      "chinese": "房間",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 228,
+      "korean": "예약",
+      "chinese": "預約；訂位",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 229,
+      "korean": "열쇠",
+      "chinese": "鑰匙",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 230,
+      "korean": "침대",
+      "chinese": "床",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 231,
+      "korean": "베개",
+      "chinese": "枕頭",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 232,
+      "korean": "이불",
+      "chinese": "棉被",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 233,
+      "korean": "수건",
+      "chinese": "浴巾",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 234,
+      "korean": "욕실",
+      "chinese": "浴室",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 235,
+      "korean": "화장실",
+      "chinese": "洗手間",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 236,
+      "korean": "샤워기",
+      "chinese": "蓮蓬頭",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 237,
+      "korean": "비누",
+      "chinese": "肥皂",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 238,
+      "korean": "샴푸",
+      "chinese": "洗髮精",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 239,
+      "korean": "칫솔",
+      "chinese": "牙刷",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 240,
+      "korean": "치약",
+      "chinese": "牙膏",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 241,
+      "korean": "에어컨",
+      "chinese": "冷氣",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 242,
+      "korean": "선풍기",
+      "chinese": "電風扇",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 243,
+      "korean": "엘리베이터",
+      "chinese": "電梯",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 244,
+      "korean": "계단",
+      "chinese": "樓梯",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 245,
+      "korean": "층",
+      "chinese": "樓層",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 246,
+      "korean": "로비",
+      "chinese": "大廳",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 247,
+      "korean": "프런트",
+      "chinese": "接待櫃檯",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 248,
+      "korean": "조식",
+      "chinese": "早餐",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 249,
+      "korean": "세탁",
+      "chinese": "洗衣",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 250,
+      "korean": "숙박비",
+      "chinese": "住宿費",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 251,
+      "korean": "식당",
+      "chinese": "餐廳",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 252,
+      "korean": "메뉴",
+      "chinese": "菜單",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 253,
+      "korean": "주문",
+      "chinese": "點餐",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 254,
+      "korean": "음식",
+      "chinese": "食物",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 255,
+      "korean": "음료",
+      "chinese": "飲料",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 256,
+      "korean": "식사",
+      "chinese": "餐點；用餐",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 257,
+      "korean": "점원",
+      "chinese": "店員",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 258,
+      "korean": "손님",
+      "chinese": "客人",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 259,
+      "korean": "요리사",
+      "chinese": "廚師",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 260,
+      "korean": "접시",
+      "chinese": "盤子",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 261,
+      "korean": "그릇",
+      "chinese": "碗",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 262,
+      "korean": "컵",
+      "chinese": "杯子",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 263,
+      "korean": "숟가락",
+      "chinese": "湯匙",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 264,
+      "korean": "젓가락",
+      "chinese": "筷子",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 265,
+      "korean": "포크",
+      "chinese": "叉子",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 266,
+      "korean": "칼",
+      "chinese": "刀子",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 267,
+      "korean": "냅킨",
+      "chinese": "餐巾",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 268,
+      "korean": "식탁",
+      "chinese": "餐桌",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 269,
+      "korean": "의자",
+      "chinese": "椅子",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 270,
+      "korean": "계산",
+      "chinese": "結帳",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 271,
+      "korean": "포장",
+      "chinese": "外帶打包",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 272,
+      "korean": "배달",
+      "chinese": "外送；配送",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 273,
+      "korean": "맛",
+      "chinese": "味道",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 274,
+      "korean": "소스",
+      "chinese": "醬汁",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 275,
+      "korean": "후식",
+      "chinese": "甜點",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 276,
+      "korean": "병원",
+      "chinese": "醫院",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 277,
+      "korean": "약국",
+      "chinese": "藥局",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 278,
+      "korean": "의사",
+      "chinese": "醫生",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 279,
+      "korean": "간호사",
+      "chinese": "護理師",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 280,
+      "korean": "약",
+      "chinese": "藥",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 281,
+      "korean": "감기",
+      "chinese": "感冒",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 282,
+      "korean": "기침",
+      "chinese": "咳嗽",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 283,
+      "korean": "열",
+      "chinese": "發燒",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 284,
+      "korean": "두통",
+      "chinese": "頭痛",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 285,
+      "korean": "복통",
+      "chinese": "肚子痛",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 286,
+      "korean": "알레르기",
+      "chinese": "過敏",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 287,
+      "korean": "상처",
+      "chinese": "傷口",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 288,
+      "korean": "피",
+      "chinese": "血",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 289,
+      "korean": "머리",
+      "chinese": "頭",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 290,
+      "korean": "얼굴",
+      "chinese": "臉",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 291,
+      "korean": "눈",
+      "chinese": "眼睛",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 292,
+      "korean": "코",
+      "chinese": "鼻子",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 293,
+      "korean": "입",
+      "chinese": "嘴巴",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 294,
+      "korean": "귀",
+      "chinese": "耳朵",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 295,
+      "korean": "이빨",
+      "chinese": "牙齒",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 296,
+      "korean": "손",
+      "chinese": "手",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 297,
+      "korean": "발",
+      "chinese": "腳",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 298,
+      "korean": "다리",
+      "chinese": "腿",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 299,
+      "korean": "어깨",
+      "chinese": "肩膀",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 300,
+      "korean": "등",
+      "chinese": "背部",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 301,
+      "korean": "집",
+      "chinese": "家；房子",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 302,
+      "korean": "아파트",
+      "chinese": "公寓",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 303,
+      "korean": "거실",
+      "chinese": "客廳",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 304,
+      "korean": "침실",
+      "chinese": "臥室",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 305,
+      "korean": "부엌",
+      "chinese": "廚房",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 306,
+      "korean": "문",
+      "chinese": "門",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 307,
+      "korean": "창문",
+      "chinese": "窗戶",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 308,
+      "korean": "벽",
+      "chinese": "牆壁",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 309,
+      "korean": "바닥",
+      "chinese": "地板",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 310,
+      "korean": "천장",
+      "chinese": "天花板",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 311,
+      "korean": "지붕",
+      "chinese": "屋頂",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 312,
+      "korean": "정원",
+      "chinese": "庭院",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 313,
+      "korean": "책상",
+      "chinese": "書桌",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 314,
+      "korean": "소파",
+      "chinese": "沙發",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 315,
+      "korean": "옷장",
+      "chinese": "衣櫃",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 316,
+      "korean": "거울",
+      "chinese": "鏡子",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 317,
+      "korean": "시계",
+      "chinese": "時鐘；手錶",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 318,
+      "korean": "전등",
+      "chinese": "電燈",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 319,
+      "korean": "냉장고",
+      "chinese": "冰箱",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 320,
+      "korean": "세탁기",
+      "chinese": "洗衣機",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 321,
+      "korean": "전자레인지",
+      "chinese": "微波爐",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 322,
+      "korean": "쓰레기",
+      "chinese": "垃圾",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 323,
+      "korean": "쓰레기통",
+      "chinese": "垃圾桶",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 324,
+      "korean": "청소",
+      "chinese": "打掃",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 325,
+      "korean": "전기",
+      "chinese": "電力",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 326,
+      "korean": "회사",
+      "chinese": "公司",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 327,
+      "korean": "사무실",
+      "chinese": "辦公室",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 328,
+      "korean": "직장",
+      "chinese": "工作場所",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 329,
+      "korean": "직업",
+      "chinese": "職業",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 330,
+      "korean": "업무",
+      "chinese": "工作；業務",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 331,
+      "korean": "직원",
+      "chinese": "員工",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 332,
+      "korean": "사장",
+      "chinese": "老闆；主管",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 333,
+      "korean": "회의",
+      "chinese": "會議",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 334,
+      "korean": "계획",
+      "chinese": "計畫",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 335,
+      "korean": "약속",
+      "chinese": "約定；約會",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 336,
+      "korean": "일정",
+      "chinese": "行程；日程",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 337,
+      "korean": "서류",
+      "chinese": "文件",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 338,
+      "korean": "보고서",
+      "chinese": "報告",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 339,
+      "korean": "계약",
+      "chinese": "合約",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 340,
+      "korean": "월급",
+      "chinese": "月薪",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 341,
+      "korean": "휴가",
+      "chinese": "休假",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 342,
+      "korean": "휴일",
+      "chinese": "假日",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 343,
+      "korean": "면접",
+      "chinese": "面試",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 344,
+      "korean": "경험",
+      "chinese": "經驗",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 345,
+      "korean": "책임",
+      "chinese": "責任",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 346,
+      "korean": "문제",
+      "chinese": "問題",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 347,
+      "korean": "해결",
+      "chinese": "解決",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 348,
+      "korean": "목표",
+      "chinese": "目標",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 349,
+      "korean": "결과",
+      "chinese": "結果",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 350,
+      "korean": "성공",
+      "chinese": "成功",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 351,
+      "korean": "학교",
+      "chinese": "學校",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 352,
+      "korean": "대학교",
+      "chinese": "大學",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 353,
+      "korean": "교실",
+      "chinese": "教室",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 354,
+      "korean": "도서관",
+      "chinese": "圖書館",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 355,
+      "korean": "책",
+      "chinese": "書",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 356,
+      "korean": "공책",
+      "chinese": "筆記本",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 357,
+      "korean": "종이",
+      "chinese": "紙",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 358,
+      "korean": "연필",
+      "chinese": "鉛筆",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 359,
+      "korean": "볼펜",
+      "chinese": "原子筆",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 360,
+      "korean": "지우개",
+      "chinese": "橡皮擦",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 361,
+      "korean": "사전",
+      "chinese": "字典",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 362,
+      "korean": "수업",
+      "chinese": "課堂",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 363,
+      "korean": "시험",
+      "chinese": "考試",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 364,
+      "korean": "숙제",
+      "chinese": "作業",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 365,
+      "korean": "질문",
+      "chinese": "提問；問題",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 366,
+      "korean": "대답",
+      "chinese": "回答",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 367,
+      "korean": "문장",
+      "chinese": "句子",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 368,
+      "korean": "단어",
+      "chinese": "單字",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 369,
+      "korean": "문법",
+      "chinese": "文法",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 370,
+      "korean": "발음",
+      "chinese": "發音",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 371,
+      "korean": "뜻",
+      "chinese": "意思",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 372,
+      "korean": "연습",
+      "chinese": "練習",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 373,
+      "korean": "복습",
+      "chinese": "複習",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 374,
+      "korean": "공부",
+      "chinese": "學習",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 375,
+      "korean": "성적",
+      "chinese": "成績",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 376,
+      "korean": "날씨",
+      "chinese": "天氣",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 377,
+      "korean": "하늘",
+      "chinese": "天空",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 378,
+      "korean": "태양",
+      "chinese": "太陽",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 379,
+      "korean": "달빛",
+      "chinese": "月光",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 380,
+      "korean": "별",
+      "chinese": "星星",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 381,
+      "korean": "구름",
+      "chinese": "雲",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 382,
+      "korean": "비",
+      "chinese": "雨",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 383,
+      "korean": "바람",
+      "chinese": "風",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 384,
+      "korean": "안개",
+      "chinese": "霧",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 385,
+      "korean": "눈송이",
+      "chinese": "雪花",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 386,
+      "korean": "봄",
+      "chinese": "春天",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 387,
+      "korean": "여름",
+      "chinese": "夏天",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 388,
+      "korean": "가을",
+      "chinese": "秋天",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 389,
+      "korean": "겨울",
+      "chinese": "冬天",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 390,
+      "korean": "나무",
+      "chinese": "樹木",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 391,
+      "korean": "꽃",
+      "chinese": "花",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 392,
+      "korean": "풀",
+      "chinese": "草",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 393,
+      "korean": "숲",
+      "chinese": "森林",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 394,
+      "korean": "바다",
+      "chinese": "海",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 395,
+      "korean": "모래",
+      "chinese": "沙子",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 396,
+      "korean": "돌",
+      "chinese": "石頭",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 397,
+      "korean": "동물",
+      "chinese": "動物",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 398,
+      "korean": "고양이",
+      "chinese": "貓",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 399,
+      "korean": "개",
+      "chinese": "狗",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 400,
+      "korean": "새",
+      "chinese": "鳥",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 401,
+      "korean": "가다",
+      "chinese": "去",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 402,
+      "korean": "오다",
+      "chinese": "來",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 403,
+      "korean": "먹다",
+      "chinese": "吃",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 404,
+      "korean": "마시다",
+      "chinese": "喝",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 405,
+      "korean": "보다",
+      "chinese": "看",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 406,
+      "korean": "듣다",
+      "chinese": "聽",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 407,
+      "korean": "말하다",
+      "chinese": "說",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 408,
+      "korean": "읽다",
+      "chinese": "讀",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 409,
+      "korean": "쓰다",
+      "chinese": "寫",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 410,
+      "korean": "배우다",
+      "chinese": "學",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 411,
+      "korean": "가르치다",
+      "chinese": "教",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 412,
+      "korean": "자다",
+      "chinese": "睡覺",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 413,
+      "korean": "일어나다",
+      "chinese": "起床",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 414,
+      "korean": "앉다",
+      "chinese": "坐",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 415,
+      "korean": "서다",
+      "chinese": "站",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 416,
+      "korean": "걷다",
+      "chinese": "走路",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 417,
+      "korean": "뛰다",
+      "chinese": "跑",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 418,
+      "korean": "사다",
+      "chinese": "買",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 419,
+      "korean": "팔다",
+      "chinese": "賣",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 420,
+      "korean": "주다",
+      "chinese": "給",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 421,
+      "korean": "받다",
+      "chinese": "收到",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 422,
+      "korean": "열다",
+      "chinese": "打開",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 423,
+      "korean": "닫다",
+      "chinese": "關閉",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 424,
+      "korean": "기다리다",
+      "chinese": "等待",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 425,
+      "korean": "찾다",
+      "chinese": "尋找",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 426,
+      "korean": "만나다",
+      "chinese": "見面",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 427,
+      "korean": "만들다",
+      "chinese": "製作",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 428,
+      "korean": "사용하다",
+      "chinese": "使用",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 429,
+      "korean": "도와주다",
+      "chinese": "幫忙",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 430,
+      "korean": "시작하다",
+      "chinese": "開始",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 431,
+      "korean": "끝나다",
+      "chinese": "結束",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 432,
+      "korean": "쉬다",
+      "chinese": "休息",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 433,
+      "korean": "일하다",
+      "chinese": "工作",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 434,
+      "korean": "운동하다",
+      "chinese": "運動",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 435,
+      "korean": "요리하다",
+      "chinese": "煮飯",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 436,
+      "korean": "씻다",
+      "chinese": "清洗",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 437,
+      "korean": "입다",
+      "chinese": "穿衣服",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 438,
+      "korean": "벗다",
+      "chinese": "脫下",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 439,
+      "korean": "타다",
+      "chinese": "搭乘；上車",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 440,
+      "korean": "내리다",
+      "chinese": "下車",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 441,
+      "korean": "빌리다",
+      "chinese": "借入",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 442,
+      "korean": "돌려주다",
+      "chinese": "歸還",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 443,
+      "korean": "보내다",
+      "chinese": "寄送",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 444,
+      "korean": "전화하다",
+      "chinese": "打電話",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 445,
+      "korean": "기억하다",
+      "chinese": "記得",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 446,
+      "korean": "잊다",
+      "chinese": "忘記",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 447,
+      "korean": "생각하다",
+      "chinese": "思考",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 448,
+      "korean": "알다",
+      "chinese": "知道",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 449,
+      "korean": "이해하다",
+      "chinese": "理解",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 450,
+      "korean": "선택하다",
+      "chinese": "選擇",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 451,
+      "korean": "크다",
+      "chinese": "大",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 452,
+      "korean": "작다",
+      "chinese": "小",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 453,
+      "korean": "많다",
+      "chinese": "多",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 454,
+      "korean": "적다",
+      "chinese": "少",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 455,
+      "korean": "좋다",
+      "chinese": "好",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 456,
+      "korean": "나쁘다",
+      "chinese": "不好；壞",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 457,
+      "korean": "새롭다",
+      "chinese": "新的",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 458,
+      "korean": "오래되다",
+      "chinese": "舊的；久的",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 459,
+      "korean": "빠르다",
+      "chinese": "快",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 460,
+      "korean": "느리다",
+      "chinese": "慢",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 461,
+      "korean": "쉽다",
+      "chinese": "簡單",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 462,
+      "korean": "어렵다",
+      "chinese": "困難",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 463,
+      "korean": "비싸다",
+      "chinese": "貴",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 464,
+      "korean": "싸다",
+      "chinese": "便宜",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 465,
+      "korean": "덥다",
+      "chinese": "熱",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 466,
+      "korean": "춥다",
+      "chinese": "冷",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 467,
+      "korean": "따뜻하다",
+      "chinese": "溫暖",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 468,
+      "korean": "시원하다",
+      "chinese": "涼爽",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 469,
+      "korean": "맛있다",
+      "chinese": "好吃",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 470,
+      "korean": "맵다",
+      "chinese": "辣",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 471,
+      "korean": "달다",
+      "chinese": "甜",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 472,
+      "korean": "짜다",
+      "chinese": "鹹",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 473,
+      "korean": "시다",
+      "chinese": "酸",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 474,
+      "korean": "씁쓸하다",
+      "chinese": "苦澀的",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 475,
+      "korean": "깨끗하다",
+      "chinese": "乾淨",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 476,
+      "korean": "음악",
+      "chinese": "音樂",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 477,
+      "korean": "노래",
+      "chinese": "歌曲",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 478,
+      "korean": "영화",
+      "chinese": "電影",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 479,
+      "korean": "드라마",
+      "chinese": "電視劇",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 480,
+      "korean": "공연",
+      "chinese": "表演",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 481,
+      "korean": "춤",
+      "chinese": "舞蹈",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 482,
+      "korean": "그림",
+      "chinese": "圖畫",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 483,
+      "korean": "취미",
+      "chinese": "興趣",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 484,
+      "korean": "독서",
+      "chinese": "閱讀",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 485,
+      "korean": "수영",
+      "chinese": "游泳",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 486,
+      "korean": "축구",
+      "chinese": "足球",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 487,
+      "korean": "농구",
+      "chinese": "籃球",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 488,
+      "korean": "야구",
+      "chinese": "棒球",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 489,
+      "korean": "테니스",
+      "chinese": "網球",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 490,
+      "korean": "등산",
+      "chinese": "登山",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 491,
+      "korean": "산책",
+      "chinese": "散步",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 492,
+      "korean": "낚시",
+      "chinese": "釣魚",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 493,
+      "korean": "캠핑",
+      "chinese": "露營",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 494,
+      "korean": "게임",
+      "chinese": "遊戲",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 495,
+      "korean": "인터넷",
+      "chinese": "網際網路",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 496,
+      "korean": "휴대폰",
+      "chinese": "手機",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 497,
+      "korean": "컴퓨터",
+      "chinese": "電腦",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 498,
+      "korean": "충전기",
+      "chinese": "充電器",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 499,
+      "korean": "비밀번호",
+      "chinese": "密碼",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 500,
+      "korean": "메시지",
+      "chinese": "訊息",
+      "category": "leisure",
+      "level": 2
+    }
+  ],
+  "sentences": [
+    {
+      "id": 1001,
+      "korean": "저는 대만에서 왔어요.",
+      "chinese": "我來自臺灣。",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1002,
+      "korean": "제 이름은 민수예요.",
+      "chinese": "我叫民秀。",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1003,
+      "korean": "저는 한국어를 배우고 있어요.",
+      "chinese": "我正在學韓語。",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1004,
+      "korean": "중국어를 할 수 있어요?",
+      "chinese": "你會說中文嗎？",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1005,
+      "korean": "조금만 더 천천히 말해 주세요.",
+      "chinese": "請再說慢一點。",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1006,
+      "korean": "오늘 만나서 정말 반가웠어요.",
+      "chinese": "今天很高興見到你。",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1007,
+      "korean": "다음에 같이 식사해요.",
+      "chinese": "下次一起吃飯吧。",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1008,
+      "korean": "저는 이곳에 처음 왔어요.",
+      "chinese": "我第一次來這裡。",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1009,
+      "korean": "성함이 어떻게 되세요?",
+      "chinese": "請問你叫什麼名字？",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1010,
+      "korean": "도와주셔서 정말 감사합니다.",
+      "chinese": "真的很謝謝你的幫忙。",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1011,
+      "korean": "두 명이 앉을 자리가 있어요?",
+      "chinese": "有兩個人的座位嗎？",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1012,
+      "korean": "메뉴 좀 보여 주세요.",
+      "chinese": "請給我看一下菜單。",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1013,
+      "korean": "여기에서 가장 인기 있는 음식은 뭐예요?",
+      "chinese": "這裡最受歡迎的菜是什麼？",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1014,
+      "korean": "저는 매운 음식을 잘 못 먹어요.",
+      "chinese": "我不太能吃辣。",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1015,
+      "korean": "이 음식에 땅콩이 들어 있어요?",
+      "chinese": "這道菜有花生嗎？",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1016,
+      "korean": "고기를 빼고 만들어 주실 수 있어요?",
+      "chinese": "這道菜可以不加肉嗎？",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1017,
+      "korean": "물 한 잔 더 주세요.",
+      "chinese": "請再給我一杯水。",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1018,
+      "korean": "주문한 음식이 아직 안 나왔어요.",
+      "chinese": "我點的餐還沒送來。",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1019,
+      "korean": "남은 음식을 포장해 주세요.",
+      "chinese": "請把剩下的食物打包。",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1020,
+      "korean": "계산은 따로 해 주세요.",
+      "chinese": "請幫我們分開結帳。",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1021,
+      "korean": "이 신발은 다른 색도 있어요?",
+      "chinese": "這雙鞋有其他顏色嗎？",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1022,
+      "korean": "이것보다 조금 더 큰 사이즈가 있어요?",
+      "chinese": "有比這個大一點的尺寸嗎？",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1023,
+      "korean": "이 옷을 입어 봐도 돼요?",
+      "chinese": "我可以試穿這件衣服嗎？",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1024,
+      "korean": "두 개 사면 할인해 주실 수 있어요?",
+      "chinese": "買兩個可以打折嗎？",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1025,
+      "korean": "신용카드로 결제할 수 있어요?",
+      "chinese": "可以用信用卡付款嗎？",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1026,
+      "korean": "현금이 부족해서 돈을 찾아야 해요.",
+      "chinese": "我的現金不夠，需要再領錢。",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1027,
+      "korean": "선물할 거라서 포장해 주세요.",
+      "chinese": "這是要送人的，請幫我包裝。",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1028,
+      "korean": "어제 산 물건을 교환하고 싶어요.",
+      "chinese": "我想換昨天買的東西。",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1029,
+      "korean": "영수증을 잃어버렸는데 환불할 수 있어요?",
+      "chinese": "我把收據弄丟了，還可以退款嗎？",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1030,
+      "korean": "이 가게는 몇 시에 문을 닫아요?",
+      "chinese": "這家店幾點關門？",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1031,
+      "korean": "가장 가까운 지하철역이 어디예요?",
+      "chinese": "最近的地鐵站在哪裡？",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1032,
+      "korean": "이 버스는 공항에 가요?",
+      "chinese": "這班公車有到機場嗎？",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1033,
+      "korean": "시내까지 얼마나 걸려요?",
+      "chinese": "到市中心要多久？",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1034,
+      "korean": "다음 역에서 갈아타야 해요?",
+      "chinese": "我需要在下一站轉車嗎？",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1035,
+      "korean": "내릴 때 알려 주실 수 있어요?",
+      "chinese": "到站時可以提醒我下車嗎？",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1036,
+      "korean": "여기서 호텔까지 걸어갈 수 있어요?",
+      "chinese": "從這裡可以走路到飯店嗎？",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1037,
+      "korean": "이 주소로 가 주세요.",
+      "chinese": "請載我到這個地址。",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1038,
+      "korean": "미터기를 켜 주세요.",
+      "chinese": "請開計程車的計費表。",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1039,
+      "korean": "다음 교차로에서 오른쪽으로 가 주세요.",
+      "chinese": "請在下個十字路口右轉。",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1040,
+      "korean": "안전한 곳에 세워 주세요.",
+      "chinese": "請在安全的地方停車。",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1041,
+      "korean": "제 비행기는 어느 터미널에서 출발해요?",
+      "chinese": "我的班機從哪個航廈出發？",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1042,
+      "korean": "체크인 카운터는 어디에 있어요?",
+      "chinese": "報到櫃檯在哪裡？",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1043,
+      "korean": "창가 자리에 앉고 싶어요.",
+      "chinese": "我想坐靠窗的座位。",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1044,
+      "korean": "이 가방을 기내에 가져가도 돼요?",
+      "chinese": "這個包包可以帶上飛機嗎？",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1045,
+      "korean": "탑승은 몇 시에 시작해요?",
+      "chinese": "幾點開始登機？",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1046,
+      "korean": "비행기가 한 시간 지연됐어요.",
+      "chinese": "班機延誤了一小時。",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1047,
+      "korean": "환승 시간이 충분한지 확인해 주세요.",
+      "chinese": "請確認我的轉機時間是否足夠。",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1048,
+      "korean": "제 여행 가방이 나오지 않았어요.",
+      "chinese": "我的行李箱還沒出來。",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1049,
+      "korean": "신고할 물건은 없어요.",
+      "chinese": "我沒有需要申報的物品。",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1050,
+      "korean": "입국 신고서를 어디에서 받을 수 있어요?",
+      "chinese": "哪裡可以取得入境申報表？",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1051,
+      "korean": "제 이름으로 방을 예약했어요.",
+      "chinese": "我用自己的名字訂了房間。",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1052,
+      "korean": "오늘부터 이틀 동안 묵을 거예요.",
+      "chinese": "我從今天開始要住兩晚。",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1053,
+      "korean": "조식은 몇 시부터 먹을 수 있어요?",
+      "chinese": "早餐從幾點開始供應？",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1054,
+      "korean": "방에서 와이파이에 연결할 수 없어요.",
+      "chinese": "我在房間裡無法連上 Wi-Fi。",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1055,
+      "korean": "욕실에 뜨거운 물이 안 나와요.",
+      "chinese": "浴室沒有熱水。",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1056,
+      "korean": "깨끗한 수건을 두 장 더 주세요.",
+      "chinese": "請再給我兩條乾淨的浴巾。",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1057,
+      "korean": "옆방이 너무 시끄러워서 잠을 잘 수 없어요.",
+      "chinese": "隔壁房間太吵，我無法睡覺。",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1058,
+      "korean": "방을 바꿀 수 있을까요?",
+      "chinese": "可以換房間嗎？",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1059,
+      "korean": "체크아웃 후에 짐을 맡길 수 있어요?",
+      "chinese": "退房後可以寄放行李嗎？",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1060,
+      "korean": "내일 아침 여섯 시에 택시를 불러 주세요.",
+      "chinese": "請幫我叫明天早上六點的計程車。",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1061,
+      "korean": "이 박물관은 월요일에도 문을 열어요?",
+      "chinese": "這間博物館星期一也有開嗎？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1062,
+      "korean": "입장권은 어디에서 사면 돼요?",
+      "chinese": "入場券在哪裡買？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1063,
+      "korean": "학생 할인이 있는지 알고 싶어요.",
+      "chinese": "我想知道有沒有學生折扣。",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1064,
+      "korean": "여기에서 사진을 찍어도 괜찮아요?",
+      "chinese": "這裡可以拍照嗎？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1065,
+      "korean": "저희 사진을 한 장 찍어 주실 수 있어요?",
+      "chinese": "可以幫我們拍一張照片嗎？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1066,
+      "korean": "근처에 가 볼 만한 곳을 추천해 주세요.",
+      "chinese": "請推薦附近值得去的地方。",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1067,
+      "korean": "내일 비가 오면 실내에서 구경할 거예요.",
+      "chinese": "如果明天下雨，我會改去室內參觀。",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1068,
+      "korean": "해변까지 가는 길을 알려 주세요.",
+      "chinese": "請告訴我去海灘的路。",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1069,
+      "korean": "해가 지기 전에 돌아오고 싶어요.",
+      "chinese": "我想在日落前回來。",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1070,
+      "korean": "이번 여행에서 좋은 추억을 많이 만들었어요.",
+      "chinese": "這次旅行留下了很多美好的回憶。",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1071,
+      "korean": "몸이 너무 안 좋아서 병원에 가야 해요.",
+      "chinese": "我很不舒服，需要去醫院。",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1072,
+      "korean": "어젯밤부터 계속 배가 아파요.",
+      "chinese": "我從昨晚開始一直肚子痛。",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1073,
+      "korean": "저는 이 약에 알레르기가 있어요.",
+      "chinese": "我對這種藥過敏。",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1074,
+      "korean": "이 약은 하루에 몇 번 먹어야 해요?",
+      "chinese": "這種藥一天要吃幾次？",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1075,
+      "korean": "구급차를 빨리 불러 주세요.",
+      "chinese": "請趕快叫救護車。",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1076,
+      "korean": "제 지갑과 여권을 잃어버렸어요.",
+      "chinese": "我把錢包和護照弄丟了。",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1077,
+      "korean": "가장 가까운 경찰서가 어디에 있어요?",
+      "chinese": "最近的警察局在哪裡？",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1078,
+      "korean": "가족에게 전화할 수 있게 도와주세요.",
+      "chinese": "請幫我打電話給家人。",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1079,
+      "korean": "휴대폰 배터리가 없어서 연락할 수 없어요.",
+      "chinese": "手機沒電了，我無法聯絡他人。",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1080,
+      "korean": "여행자 보험 회사에 연락해야 해요.",
+      "chinese": "我需要聯絡旅遊保險公司。",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1081,
+      "korean": "오늘 회의는 오후 두 시에 시작해요.",
+      "chinese": "今天的會議下午兩點開始。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1082,
+      "korean": "길이 막혀서 십 분 정도 늦을 것 같아요.",
+      "chinese": "因為塞車，我可能會遲到十分鐘左右。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1083,
+      "korean": "회의 전에 자료를 보내 주실 수 있어요?",
+      "chinese": "可以在開會前把資料寄給我嗎？",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1084,
+      "korean": "이 부분을 다시 설명해 주세요.",
+      "chinese": "請再解釋一次這個部分。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1085,
+      "korean": "잘못된 내용이 있는지 확인해 주세요.",
+      "chinese": "請確認內容有沒有錯誤。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1086,
+      "korean": "이번 주 안에 일을 끝내야 해요.",
+      "chinese": "我必須在這個星期內完成工作。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1087,
+      "korean": "내일은 일이 있어서 만날 수 없어요.",
+      "chinese": "我明天有事，沒辦法見面。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1088,
+      "korean": "시간이 괜찮으면 같이 점심 먹어요.",
+      "chinese": "如果有空，一起吃午餐吧。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1089,
+      "korean": "다음 주에 하루 휴가를 내고 싶어요.",
+      "chinese": "我想在下個星期請一天假。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1090,
+      "korean": "문제가 생기면 바로 연락해 주세요.",
+      "chinese": "如果有問題，請立刻聯絡我。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1091,
+      "korean": "저는 매일 새로운 단어를 열 개씩 외워요.",
+      "chinese": "我每天背十個新單字。",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 1092,
+      "korean": "이 문장을 자연스럽게 읽는 방법을 알려 주세요.",
+      "chinese": "請教我怎麼自然地讀這個句子。",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 1093,
+      "korean": "발음이 틀리면 고쳐 주세요.",
+      "chinese": "如果我發音錯了，請幫我糾正。",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 1094,
+      "korean": "어제 배운 내용을 다시 복습하고 있어요.",
+      "chinese": "我正在複習昨天學的內容。",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 1095,
+      "korean": "뜻은 알지만 말로 표현하기 어려워요.",
+      "chinese": "我知道意思，但很難說出口。",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 1096,
+      "korean": "모르는 단어는 사전에서 찾아봐요.",
+      "chinese": "不認識的單字，我會查字典。",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 1097,
+      "korean": "녹음한 목소리를 듣고 다시 연습해요.",
+      "chinese": "我聽自己的錄音後再練習。",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 1098,
+      "korean": "오늘은 도서관에서 두 시간 동안 공부했어요.",
+      "chinese": "今天我在圖書館讀了兩個小時的書。",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 1099,
+      "korean": "조금씩 연습하면 더 잘할 수 있을 거예요.",
+      "chinese": "只要一點一點練習，就能做得更好。",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 1100,
+      "korean": "다음 여행에서는 현지 사람들과 이야기하고 싶어요.",
+      "chinese": "下次旅行時，我想和當地人聊天。",
+      "category": "study",
+      "level": 2
+    }
+  ],
+  "phrases": [
+    {
+      "id": 2001,
+      "korean": "좋은 아침이에요",
+      "chinese": "早安",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2002,
+      "korean": "안녕히 주무세요",
+      "chinese": "晚安",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2003,
+      "korean": "다음에 봐요",
+      "chinese": "下次見",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2004,
+      "korean": "또 만나요",
+      "chinese": "再見；下次再見",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2005,
+      "korean": "만나서 반가워요",
+      "chinese": "很高興認識你",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2006,
+      "korean": "잘 지내요?",
+      "chinese": "你好嗎？",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2007,
+      "korean": "잘 지내요",
+      "chinese": "我很好",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2008,
+      "korean": "오랜만이에요",
+      "chinese": "好久不見",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2009,
+      "korean": "먼저 가세요",
+      "chinese": "請先走",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2010,
+      "korean": "잠시만요",
+      "chinese": "請稍等",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2011,
+      "korean": "실례합니다",
+      "chinese": "不好意思，打擾一下",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2012,
+      "korean": "정말 고마워요",
+      "chinese": "真的很謝謝你",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2013,
+      "korean": "천만에요",
+      "chinese": "不客氣",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2014,
+      "korean": "미안해요",
+      "chinese": "抱歉",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2015,
+      "korean": "걱정하지 마세요",
+      "chinese": "別擔心",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2016,
+      "korean": "축하해요",
+      "chinese": "恭喜",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2017,
+      "korean": "생일 축하해요",
+      "chinese": "生日快樂",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2018,
+      "korean": "새해 복 많이 받으세요",
+      "chinese": "新年快樂",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2019,
+      "korean": "잘 부탁드려요",
+      "chinese": "請多多關照",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2020,
+      "korean": "조심히 가세요",
+      "chinese": "路上小心",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2021,
+      "korean": "따뜻한 물",
+      "chinese": "溫水",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2022,
+      "korean": "차가운 물",
+      "chinese": "冰涼的水",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2023,
+      "korean": "설탕 없이",
+      "chinese": "不加糖",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2024,
+      "korean": "얼음 없이",
+      "chinese": "不加冰塊",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2025,
+      "korean": "우유 없이",
+      "chinese": "不加牛奶",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2026,
+      "korean": "조금 맵게",
+      "chinese": "微辣",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2027,
+      "korean": "맵지 않게",
+      "chinese": "不要辣",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2028,
+      "korean": "덜 짜게",
+      "chinese": "少鹽一點",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2029,
+      "korean": "채식 메뉴",
+      "chinese": "素食餐點",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2030,
+      "korean": "구운 생선",
+      "chinese": "烤魚",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2031,
+      "korean": "볶음밥",
+      "chinese": "炒飯",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2032,
+      "korean": "삶은 달걀",
+      "chinese": "水煮蛋",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2033,
+      "korean": "신선한 과일",
+      "chinese": "新鮮水果",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2034,
+      "korean": "뜨거운 커피",
+      "chinese": "熱咖啡",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2035,
+      "korean": "아이스커피",
+      "chinese": "冰咖啡",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2036,
+      "korean": "커피 한 잔",
+      "chinese": "一杯咖啡",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2037,
+      "korean": "물 한 병",
+      "chinese": "一瓶水",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2038,
+      "korean": "빵 한 개",
+      "chinese": "一個麵包",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2039,
+      "korean": "여기서 먹을게요",
+      "chinese": "我要內用",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2040,
+      "korean": "포장해 주세요",
+      "chinese": "請幫我外帶",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2041,
+      "korean": "얼마예요?",
+      "chinese": "多少錢？",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2042,
+      "korean": "너무 비싸요",
+      "chinese": "太貴了",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2043,
+      "korean": "좀 깎아 주세요",
+      "chinese": "請便宜一點",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2044,
+      "korean": "이거 주세요",
+      "chinese": "請給我這個",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2045,
+      "korean": "저거 주세요",
+      "chinese": "請給我那個",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2046,
+      "korean": "구경만 할게요",
+      "chinese": "我只是看看",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2047,
+      "korean": "다른 색",
+      "chinese": "其他顏色",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2048,
+      "korean": "큰 사이즈",
+      "chinese": "大尺寸",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2049,
+      "korean": "작은 사이즈",
+      "chinese": "小尺寸",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2050,
+      "korean": "입어 봐도 돼요?",
+      "chinese": "可以試穿嗎？",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2051,
+      "korean": "카드로 할게요",
+      "chinese": "我要刷卡",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2052,
+      "korean": "현금으로 할게요",
+      "chinese": "我要付現金",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2053,
+      "korean": "영수증 주세요",
+      "chinese": "請給我收據",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2054,
+      "korean": "봉투 주세요",
+      "chinese": "請給我袋子",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2055,
+      "korean": "봉투는 필요 없어요",
+      "chinese": "不需要袋子",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2056,
+      "korean": "선물용이에요",
+      "chinese": "這是要送人的",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2057,
+      "korean": "교환하고 싶어요",
+      "chinese": "我想換貨",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2058,
+      "korean": "환불해 주세요",
+      "chinese": "請退款",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2059,
+      "korean": "할인 중",
+      "chinese": "正在特價",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2060,
+      "korean": "품절이에요",
+      "chinese": "已經售完了",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2061,
+      "korean": "오늘 아침",
+      "chinese": "今天早上",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2062,
+      "korean": "오늘 저녁",
+      "chinese": "今天晚上",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2063,
+      "korean": "내일 오후",
+      "chinese": "明天下午",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2064,
+      "korean": "어제 밤",
+      "chinese": "昨天晚上",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2065,
+      "korean": "이번 주",
+      "chinese": "這個星期",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2066,
+      "korean": "다음 주",
+      "chinese": "下個星期",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2067,
+      "korean": "지난주",
+      "chinese": "上個星期",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2068,
+      "korean": "이번 달",
+      "chinese": "這個月",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2069,
+      "korean": "다음 달",
+      "chinese": "下個月",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2070,
+      "korean": "작년",
+      "chinese": "去年",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2071,
+      "korean": "내년",
+      "chinese": "明年",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2072,
+      "korean": "매일 아침",
+      "chinese": "每天早上",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2073,
+      "korean": "주말마다",
+      "chinese": "每個週末",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2074,
+      "korean": "한 시간",
+      "chinese": "一小時",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2075,
+      "korean": "삼십 분",
+      "chinese": "三十分鐘",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2076,
+      "korean": "잠깐 후에",
+      "chinese": "過一會兒",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2077,
+      "korean": "지금 바로",
+      "chinese": "現在立刻",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2078,
+      "korean": "시간이 있어요",
+      "chinese": "有時間",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2079,
+      "korean": "시간이 없어요",
+      "chinese": "沒有時間",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2080,
+      "korean": "몇 시예요?",
+      "chinese": "現在幾點？",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2081,
+      "korean": "왼쪽으로",
+      "chinese": "往左",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2082,
+      "korean": "오른쪽으로",
+      "chinese": "往右",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2083,
+      "korean": "똑바로 가세요",
+      "chinese": "請直走",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2084,
+      "korean": "여기서 내려요",
+      "chinese": "在這裡下車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2085,
+      "korean": "다음 역",
+      "chinese": "下一站",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2086,
+      "korean": "버스 정류장",
+      "chinese": "公車停靠站",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2087,
+      "korean": "지하철역",
+      "chinese": "地鐵站",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2088,
+      "korean": "왕복 표",
+      "chinese": "來回票",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2089,
+      "korean": "편도 표",
+      "chinese": "單程票",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2090,
+      "korean": "마지막 기차",
+      "chinese": "末班火車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2091,
+      "korean": "첫 버스",
+      "chinese": "首班公車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2092,
+      "korean": "택시 승강장",
+      "chinese": "計程車乘車處",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2093,
+      "korean": "안전벨트",
+      "chinese": "安全帶",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2094,
+      "korean": "출퇴근 시간",
+      "chinese": "上下班時間",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2095,
+      "korean": "길이 막혀요",
+      "chinese": "塞車了",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2096,
+      "korean": "걸어서 가요",
+      "chinese": "走路過去",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2097,
+      "korean": "갈아타야 해요",
+      "chinese": "必須轉車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2098,
+      "korean": "이쪽이에요",
+      "chinese": "是這邊",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2099,
+      "korean": "저쪽이에요",
+      "chinese": "是那邊",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2100,
+      "korean": "천천히 운전해 주세요",
+      "chinese": "請開慢一點",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2101,
+      "korean": "사진 찍어 주세요",
+      "chinese": "請幫我拍照",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2102,
+      "korean": "사진 찍어도 돼요?",
+      "chinese": "可以拍照嗎？",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2103,
+      "korean": "입장료",
+      "chinese": "入場費",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2104,
+      "korean": "무료 입장",
+      "chinese": "免費入場",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2105,
+      "korean": "영업시간",
+      "chinese": "營業時間",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2106,
+      "korean": "문 닫는 시간",
+      "chinese": "關門時間",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2107,
+      "korean": "여행 안내서",
+      "chinese": "旅遊指南",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2108,
+      "korean": "현지 음식",
+      "chinese": "當地美食",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2109,
+      "korean": "유명한 장소",
+      "chinese": "著名景點",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2110,
+      "korean": "가까운 곳",
+      "chinese": "附近的地方",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2111,
+      "korean": "멀리 있어요",
+      "chinese": "距離很遠",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2112,
+      "korean": "길을 잃었어요",
+      "chinese": "我迷路了",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2113,
+      "korean": "지도를 보여 주세요",
+      "chinese": "請給我看地圖",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2114,
+      "korean": "도와주세요",
+      "chinese": "請幫幫我",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2115,
+      "korean": "여권 검사",
+      "chinese": "護照查驗",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2116,
+      "korean": "탑승권",
+      "chinese": "登機證",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2117,
+      "korean": "수하물 찾는 곳",
+      "chinese": "行李提領處",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2118,
+      "korean": "환전소",
+      "chinese": "換匯處",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2119,
+      "korean": "여행자 보험",
+      "chinese": "旅遊保險",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2120,
+      "korean": "즐거운 여행",
+      "chinese": "愉快的旅行",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2121,
+      "korean": "예약했어요",
+      "chinese": "我已訂房",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2122,
+      "korean": "빈방 있어요?",
+      "chinese": "有空房嗎？",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2123,
+      "korean": "하룻밤",
+      "chinese": "一晚",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2124,
+      "korean": "이틀 밤",
+      "chinese": "兩晚",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2125,
+      "korean": "일인실",
+      "chinese": "單人房",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2126,
+      "korean": "이인실",
+      "chinese": "雙人房",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2127,
+      "korean": "금연실",
+      "chinese": "禁菸房",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2128,
+      "korean": "조식 포함",
+      "chinese": "含早餐",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2129,
+      "korean": "방 열쇠",
+      "chinese": "房間鑰匙",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2130,
+      "korean": "체크인할게요",
+      "chinese": "我要辦理入住",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2131,
+      "korean": "체크아웃할게요",
+      "chinese": "我要辦理退房",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2132,
+      "korean": "수건 더 주세요",
+      "chinese": "請多給我浴巾",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2133,
+      "korean": "방 청소",
+      "chinese": "房間清潔",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2134,
+      "korean": "뜨거운 물",
+      "chinese": "熱水",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2135,
+      "korean": "찬물이 안 나와요",
+      "chinese": "沒有冷水",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2136,
+      "korean": "에어컨이 안 돼요",
+      "chinese": "冷氣壞了",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2137,
+      "korean": "와이파이 비밀번호",
+      "chinese": "Wi-Fi 密碼",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2138,
+      "korean": "짐 보관",
+      "chinese": "行李寄放",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2139,
+      "korean": "늦은 체크아웃",
+      "chinese": "延後退房",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2140,
+      "korean": "조용한 방",
+      "chinese": "安靜的房間",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2141,
+      "korean": "몸이 안 좋아요",
+      "chinese": "我身體不舒服",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2142,
+      "korean": "머리가 아파요",
+      "chinese": "我頭痛",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2143,
+      "korean": "배가 아파요",
+      "chinese": "我肚子痛",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2144,
+      "korean": "목이 아파요",
+      "chinese": "我喉嚨痛",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2145,
+      "korean": "열이 나요",
+      "chinese": "我發燒了",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2146,
+      "korean": "기침이 나요",
+      "chinese": "我咳嗽",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2147,
+      "korean": "감기에 걸렸어요",
+      "chinese": "我感冒了",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2148,
+      "korean": "알레르기가 있어요",
+      "chinese": "我有過敏",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2149,
+      "korean": "약이 필요해요",
+      "chinese": "我需要藥",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2150,
+      "korean": "병원에 가요",
+      "chinese": "去醫院",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2151,
+      "korean": "응급실",
+      "chinese": "急診室",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2152,
+      "korean": "구급차",
+      "chinese": "救護車",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2153,
+      "korean": "경찰서",
+      "chinese": "警察局",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2154,
+      "korean": "위험해요",
+      "chinese": "很危險",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2155,
+      "korean": "조심하세요",
+      "chinese": "請小心",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2156,
+      "korean": "만지지 마세요",
+      "chinese": "請勿觸摸",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2157,
+      "korean": "식사 후에",
+      "chinese": "飯後",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2158,
+      "korean": "하루 두 번",
+      "chinese": "一天兩次",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2159,
+      "korean": "푹 쉬세요",
+      "chinese": "請好好休息",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2160,
+      "korean": "빨리 나으세요",
+      "chinese": "祝早日康復",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2161,
+      "korean": "회의 중",
+      "chinese": "正在開會",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2162,
+      "korean": "일하는 중",
+      "chinese": "正在工作",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2163,
+      "korean": "잠깐 쉬어요",
+      "chinese": "休息一下",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2164,
+      "korean": "내일 만나요",
+      "chinese": "明天見",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2165,
+      "korean": "약속 시간",
+      "chinese": "約定時間",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2166,
+      "korean": "늦어서 죄송해요",
+      "chinese": "抱歉遲到了",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2167,
+      "korean": "준비됐어요",
+      "chinese": "準備好了",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2168,
+      "korean": "아직 안 됐어요",
+      "chinese": "還沒好",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2169,
+      "korean": "다시 확인해 주세요",
+      "chinese": "請再確認一下",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2170,
+      "korean": "이메일 보내 주세요",
+      "chinese": "請寄電子郵件給我",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2171,
+      "korean": "연락해 주세요",
+      "chinese": "請聯絡我",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2172,
+      "korean": "전화번호",
+      "chinese": "電話號碼",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2173,
+      "korean": "휴대폰 충전",
+      "chinese": "手機充電",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2174,
+      "korean": "인터넷 연결",
+      "chinese": "網路連線",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2175,
+      "korean": "파일 저장",
+      "chinese": "儲存檔案",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2176,
+      "korean": "비밀번호 변경",
+      "chinese": "更改密碼",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2177,
+      "korean": "좋은 생각이에요",
+      "chinese": "這個主意很好",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2178,
+      "korean": "동의해요",
+      "chinese": "我同意",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2179,
+      "korean": "잘 모르겠어요",
+      "chinese": "我不太清楚",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2180,
+      "korean": "수고하셨어요",
+      "chinese": "辛苦了",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2181,
+      "korean": "다시 말해 주세요",
+      "chinese": "請再說一次",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2182,
+      "korean": "천천히 말해 주세요",
+      "chinese": "請說慢一點",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2183,
+      "korean": "한 번 더",
+      "chinese": "再一次",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2184,
+      "korean": "무슨 뜻이에요?",
+      "chinese": "是什麼意思？",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2185,
+      "korean": "어떻게 읽어요?",
+      "chinese": "怎麼讀？",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2186,
+      "korean": "이해했어요",
+      "chinese": "我理解了",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2187,
+      "korean": "이해 못 했어요",
+      "chinese": "我沒聽懂",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2188,
+      "korean": "질문이 있어요",
+      "chinese": "我有問題",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2189,
+      "korean": "적어 주세요",
+      "chinese": "請寫下來",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2190,
+      "korean": "책을 펴세요",
+      "chinese": "請翻開書",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2191,
+      "korean": "책을 덮으세요",
+      "chinese": "請把書闔上",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2192,
+      "korean": "잘 들으세요",
+      "chinese": "請仔細聽",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2193,
+      "korean": "같이 읽어요",
+      "chinese": "一起讀",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2194,
+      "korean": "소리 내어 읽어요",
+      "chinese": "大聲讀出來",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2195,
+      "korean": "매일 연습해요",
+      "chinese": "每天練習",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2196,
+      "korean": "숙제를 해요",
+      "chinese": "做作業",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2197,
+      "korean": "시험 준비",
+      "chinese": "準備考試",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2198,
+      "korean": "단어를 외워요",
+      "chinese": "背單字",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2199,
+      "korean": "틀렸어요",
+      "chinese": "錯了",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2200,
+      "korean": "맞았어요",
+      "chinese": "答對了",
+      "category": "study",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,5608 @@
+{
+  "vocabulary": [
+    {
+      "id": 1,
+      "vietnamese": "xin chào",
+      "chinese": "你好",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2,
+      "vietnamese": "cảm ơn",
+      "chinese": "謝謝",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 3,
+      "vietnamese": "xin lỗi",
+      "chinese": "對不起",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 4,
+      "vietnamese": "không sao",
+      "chinese": "沒關係",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 5,
+      "vietnamese": "vâng",
+      "chinese": "是；好的",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 6,
+      "vietnamese": "không",
+      "chinese": "不是；不",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 7,
+      "vietnamese": "tên",
+      "chinese": "名字",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 8,
+      "vietnamese": "đất nước",
+      "chinese": "國家",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 9,
+      "vietnamese": "người",
+      "chinese": "人",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 10,
+      "vietnamese": "bạn bè",
+      "chinese": "朋友",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 11,
+      "vietnamese": "giáo viên",
+      "chinese": "老師",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 12,
+      "vietnamese": "học sinh",
+      "chinese": "學生",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 13,
+      "vietnamese": "tiếng Hàn",
+      "chinese": "韓語",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 14,
+      "vietnamese": "tiếng Việt",
+      "chinese": "越南語",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 15,
+      "vietnamese": "tiếng Trung",
+      "chinese": "中文",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 16,
+      "vietnamese": "tiếng Anh",
+      "chinese": "英語",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 17,
+      "vietnamese": "tiếng Nhật",
+      "chinese": "日語",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 18,
+      "vietnamese": "tiếng Thái",
+      "chinese": "泰語",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 19,
+      "vietnamese": "Đài Loan",
+      "chinese": "臺灣",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 20,
+      "vietnamese": "Hàn Quốc",
+      "chinese": "韓國",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 21,
+      "vietnamese": "Việt Nam",
+      "chinese": "越南",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 22,
+      "vietnamese": "Nhật Bản",
+      "chinese": "日本",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 23,
+      "vietnamese": "Thái Lan",
+      "chinese": "泰國",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 24,
+      "vietnamese": "người nước ngoài",
+      "chinese": "外國人",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 25,
+      "vietnamese": "lời chào",
+      "chinese": "問候",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 26,
+      "vietnamese": "gia đình",
+      "chinese": "家人；家庭",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 27,
+      "vietnamese": "bố mẹ",
+      "chinese": "父母",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 28,
+      "vietnamese": "bố",
+      "chinese": "父親",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 29,
+      "vietnamese": "mẹ",
+      "chinese": "母親",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 30,
+      "vietnamese": "con trai",
+      "chinese": "兒子",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 31,
+      "vietnamese": "con gái",
+      "chinese": "女兒",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 32,
+      "vietnamese": "chồng",
+      "chinese": "丈夫",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 33,
+      "vietnamese": "vợ",
+      "chinese": "妻子",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 34,
+      "vietnamese": "ông",
+      "chinese": "祖父；外祖父",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 35,
+      "vietnamese": "bà",
+      "chinese": "祖母；外祖母",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 36,
+      "vietnamese": "trẻ em",
+      "chinese": "小孩",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 37,
+      "vietnamese": "em bé",
+      "chinese": "嬰兒",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 38,
+      "vietnamese": "anh em trai",
+      "chinese": "兄弟",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 39,
+      "vietnamese": "chị em gái",
+      "chinese": "姊妹",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 40,
+      "vietnamese": "em trai",
+      "chinese": "弟弟",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 41,
+      "vietnamese": "em gái",
+      "chinese": "妹妹",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 42,
+      "vietnamese": "họ hàng",
+      "chinese": "親戚",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 43,
+      "vietnamese": "vợ chồng",
+      "chinese": "夫妻",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 44,
+      "vietnamese": "hàng xóm",
+      "chinese": "鄰居",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 45,
+      "vietnamese": "đồng nghiệp",
+      "chinese": "同事",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 46,
+      "vietnamese": "đàn ông",
+      "chinese": "男人",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 47,
+      "vietnamese": "phụ nữ",
+      "chinese": "女人",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 48,
+      "vietnamese": "người lớn",
+      "chinese": "大人",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 49,
+      "vietnamese": "sinh nhật",
+      "chinese": "生日",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 50,
+      "vietnamese": "kết hôn",
+      "chinese": "結婚",
+      "category": "family",
+      "level": 1
+    },
+    {
+      "id": 51,
+      "vietnamese": "cơm",
+      "chinese": "飯",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 52,
+      "vietnamese": "bánh mì",
+      "chinese": "麵包",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 53,
+      "vietnamese": "mì",
+      "chinese": "麵條",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 54,
+      "vietnamese": "cháo",
+      "chinese": "粥",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 55,
+      "vietnamese": "thịt",
+      "chinese": "肉",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 56,
+      "vietnamese": "thịt bò",
+      "chinese": "牛肉",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 57,
+      "vietnamese": "thịt lợn",
+      "chinese": "豬肉",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 58,
+      "vietnamese": "thịt gà",
+      "chinese": "雞肉",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 59,
+      "vietnamese": "cá",
+      "chinese": "魚",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 60,
+      "vietnamese": "tôm",
+      "chinese": "蝦",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 61,
+      "vietnamese": "trứng",
+      "chinese": "雞蛋",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 62,
+      "vietnamese": "đậu phụ",
+      "chinese": "豆腐",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 63,
+      "vietnamese": "rau",
+      "chinese": "蔬菜",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 64,
+      "vietnamese": "trái cây",
+      "chinese": "水果",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 65,
+      "vietnamese": "táo",
+      "chinese": "蘋果",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 66,
+      "vietnamese": "chuối",
+      "chinese": "香蕉",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 67,
+      "vietnamese": "cam",
+      "chinese": "柳橙",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 68,
+      "vietnamese": "xoài",
+      "chinese": "芒果",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 69,
+      "vietnamese": "dưa hấu",
+      "chinese": "西瓜",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 70,
+      "vietnamese": "nho",
+      "chinese": "葡萄",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 71,
+      "vietnamese": "dâu tây",
+      "chinese": "草莓",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 72,
+      "vietnamese": "chanh vàng",
+      "chinese": "檸檬",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 73,
+      "vietnamese": "dứa",
+      "chinese": "鳳梨",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 74,
+      "vietnamese": "đào",
+      "chinese": "桃子",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 75,
+      "vietnamese": "lê",
+      "chinese": "梨子",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 76,
+      "vietnamese": "nước",
+      "chinese": "水",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 77,
+      "vietnamese": "trà",
+      "chinese": "茶",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 78,
+      "vietnamese": "cà phê",
+      "chinese": "咖啡",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 79,
+      "vietnamese": "sữa",
+      "chinese": "牛奶",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 80,
+      "vietnamese": "nước ép",
+      "chinese": "果汁",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 81,
+      "vietnamese": "bia",
+      "chinese": "啤酒",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 82,
+      "vietnamese": "rượu vang",
+      "chinese": "葡萄酒",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 83,
+      "vietnamese": "đá viên",
+      "chinese": "冰塊",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 84,
+      "vietnamese": "đường",
+      "chinese": "糖",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 85,
+      "vietnamese": "muối",
+      "chinese": "鹽",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 86,
+      "vietnamese": "hạt tiêu",
+      "chinese": "胡椒",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 87,
+      "vietnamese": "nước tương",
+      "chinese": "醬油",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 88,
+      "vietnamese": "giấm",
+      "chinese": "醋",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 89,
+      "vietnamese": "dầu ăn",
+      "chinese": "食用油",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 90,
+      "vietnamese": "bơ sữa",
+      "chinese": "奶油",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 91,
+      "vietnamese": "phô mai",
+      "chinese": "起司",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 92,
+      "vietnamese": "sữa chua",
+      "chinese": "優格",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 93,
+      "vietnamese": "kem",
+      "chinese": "冰淇淋",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 94,
+      "vietnamese": "bánh kem",
+      "chinese": "蛋糕",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 95,
+      "vietnamese": "sô cô la",
+      "chinese": "巧克力",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 96,
+      "vietnamese": "khoai tây",
+      "chinese": "馬鈴薯",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 97,
+      "vietnamese": "hành tây",
+      "chinese": "洋蔥",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 98,
+      "vietnamese": "tỏi",
+      "chinese": "大蒜",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 99,
+      "vietnamese": "cà rốt",
+      "chinese": "胡蘿蔔",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 100,
+      "vietnamese": "nấm",
+      "chinese": "蘑菇",
+      "category": "food",
+      "level": 2
+    },
+    {
+      "id": 101,
+      "vietnamese": "số không",
+      "chinese": "零",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 102,
+      "vietnamese": "một",
+      "chinese": "一",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 103,
+      "vietnamese": "hai",
+      "chinese": "二",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 104,
+      "vietnamese": "ba",
+      "chinese": "三",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 105,
+      "vietnamese": "bốn",
+      "chinese": "四",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 106,
+      "vietnamese": "năm",
+      "chinese": "五",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 107,
+      "vietnamese": "sáu",
+      "chinese": "六",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 108,
+      "vietnamese": "bảy",
+      "chinese": "七",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 109,
+      "vietnamese": "tám",
+      "chinese": "八",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 110,
+      "vietnamese": "chín",
+      "chinese": "九",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 111,
+      "vietnamese": "mười",
+      "chinese": "十",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 112,
+      "vietnamese": "mười một",
+      "chinese": "十一",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 113,
+      "vietnamese": "mười hai",
+      "chinese": "十二",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 114,
+      "vietnamese": "hai mươi",
+      "chinese": "二十",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 115,
+      "vietnamese": "ba mươi",
+      "chinese": "三十",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 116,
+      "vietnamese": "bốn mươi",
+      "chinese": "四十",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 117,
+      "vietnamese": "năm mươi",
+      "chinese": "五十",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 118,
+      "vietnamese": "một trăm",
+      "chinese": "一百",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 119,
+      "vietnamese": "một nghìn",
+      "chinese": "一千",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 120,
+      "vietnamese": "mười nghìn",
+      "chinese": "一萬",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 121,
+      "vietnamese": "một nửa",
+      "chinese": "一半",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 122,
+      "vietnamese": "tất cả",
+      "chinese": "全部",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 123,
+      "vietnamese": "một ít",
+      "chinese": "一點；少量",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 124,
+      "vietnamese": "vài",
+      "chinese": "幾個；若干",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 125,
+      "vietnamese": "mấy",
+      "chinese": "幾；多少",
+      "category": "numbers",
+      "level": 1
+    },
+    {
+      "id": 126,
+      "vietnamese": "hôm nay",
+      "chinese": "今天",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 127,
+      "vietnamese": "ngày mai",
+      "chinese": "明天",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 128,
+      "vietnamese": "hôm qua",
+      "chinese": "昨天",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 129,
+      "vietnamese": "bây giờ",
+      "chinese": "現在",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 130,
+      "vietnamese": "buổi sáng",
+      "chinese": "早上",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 131,
+      "vietnamese": "buổi trưa",
+      "chinese": "中午",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 132,
+      "vietnamese": "buổi tối",
+      "chinese": "晚上",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 133,
+      "vietnamese": "đêm",
+      "chinese": "夜晚",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 134,
+      "vietnamese": "rạng sáng",
+      "chinese": "凌晨",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 135,
+      "vietnamese": "giữa trưa",
+      "chinese": "正午",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 136,
+      "vietnamese": "buổi chiều",
+      "chinese": "下午",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 137,
+      "vietnamese": "thời gian",
+      "chinese": "時間",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 138,
+      "vietnamese": "phút",
+      "chinese": "分鐘",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 139,
+      "vietnamese": "giây",
+      "chinese": "秒",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 140,
+      "vietnamese": "tuần",
+      "chinese": "星期；週",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 141,
+      "vietnamese": "tháng",
+      "chinese": "月份",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 142,
+      "vietnamese": "năm nay",
+      "chinese": "今年",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 143,
+      "vietnamese": "thứ hai",
+      "chinese": "星期一",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 144,
+      "vietnamese": "thứ ba",
+      "chinese": "星期二",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 145,
+      "vietnamese": "thứ tư",
+      "chinese": "星期三",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 146,
+      "vietnamese": "thứ năm",
+      "chinese": "星期四",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 147,
+      "vietnamese": "thứ sáu",
+      "chinese": "星期五",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 148,
+      "vietnamese": "thứ bảy",
+      "chinese": "星期六",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 149,
+      "vietnamese": "chủ nhật",
+      "chinese": "星期日",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 150,
+      "vietnamese": "cuối tuần",
+      "chinese": "週末",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 151,
+      "vietnamese": "cửa hàng",
+      "chinese": "商店",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 152,
+      "vietnamese": "chợ",
+      "chinese": "市場",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 153,
+      "vietnamese": "siêu thị",
+      "chinese": "超市",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 154,
+      "vietnamese": "cửa hàng bách hóa",
+      "chinese": "百貨公司",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 155,
+      "vietnamese": "giá",
+      "chinese": "價格",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 156,
+      "vietnamese": "tiền",
+      "chinese": "錢",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 157,
+      "vietnamese": "tiền mặt",
+      "chinese": "現金",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 158,
+      "vietnamese": "thẻ tín dụng",
+      "chinese": "信用卡",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 159,
+      "vietnamese": "hóa đơn",
+      "chinese": "收據；帳單",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 160,
+      "vietnamese": "tiền thừa",
+      "chinese": "找零",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 161,
+      "vietnamese": "giảm giá",
+      "chinese": "折扣",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 162,
+      "vietnamese": "túi đựng",
+      "chinese": "袋子",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 163,
+      "vietnamese": "quà tặng",
+      "chinese": "禮物",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 164,
+      "vietnamese": "kích cỡ",
+      "chinese": "尺寸",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 165,
+      "vietnamese": "màu sắc",
+      "chinese": "顏色",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 166,
+      "vietnamese": "quần áo",
+      "chinese": "衣服",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 167,
+      "vietnamese": "quần dài",
+      "chinese": "長褲",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 168,
+      "vietnamese": "váy",
+      "chinese": "裙子",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 169,
+      "vietnamese": "áo sơ mi",
+      "chinese": "襯衫",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 170,
+      "vietnamese": "giày",
+      "chinese": "鞋子",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 171,
+      "vietnamese": "tất",
+      "chinese": "襪子",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 172,
+      "vietnamese": "mũ",
+      "chinese": "帽子",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 173,
+      "vietnamese": "túi xách",
+      "chinese": "包包",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 174,
+      "vietnamese": "ví",
+      "chinese": "錢包",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 175,
+      "vietnamese": "ô",
+      "chinese": "雨傘",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 176,
+      "vietnamese": "xe buýt",
+      "chinese": "公車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 177,
+      "vietnamese": "tàu hỏa",
+      "chinese": "火車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 178,
+      "vietnamese": "tàu điện ngầm",
+      "chinese": "地鐵",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 179,
+      "vietnamese": "taxi",
+      "chinese": "計程車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 180,
+      "vietnamese": "ô tô",
+      "chinese": "汽車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 181,
+      "vietnamese": "xe máy",
+      "chinese": "機車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 182,
+      "vietnamese": "xe đạp",
+      "chinese": "腳踏車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 183,
+      "vietnamese": "máy bay",
+      "chinese": "飛機",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 184,
+      "vietnamese": "tàu khách",
+      "chinese": "客輪",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 185,
+      "vietnamese": "nhà ga",
+      "chinese": "車站",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 186,
+      "vietnamese": "trạm xe buýt",
+      "chinese": "公車站",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 187,
+      "vietnamese": "sân bay",
+      "chinese": "機場",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 188,
+      "vietnamese": "cảng",
+      "chinese": "港口",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 189,
+      "vietnamese": "vé",
+      "chinese": "票",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 190,
+      "vietnamese": "tuyến đường",
+      "chinese": "路線",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 191,
+      "vietnamese": "bản đồ",
+      "chinese": "地圖",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 192,
+      "vietnamese": "đường đi",
+      "chinese": "道路；路",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 193,
+      "vietnamese": "khoảng cách",
+      "chinese": "距離",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 194,
+      "vietnamese": "ngã tư",
+      "chinese": "十字路口",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 195,
+      "vietnamese": "đèn giao thông",
+      "chinese": "交通號誌",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 196,
+      "vietnamese": "vạch qua đường",
+      "chinese": "行人穿越道",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 197,
+      "vietnamese": "bãi đỗ xe",
+      "chinese": "停車場",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 198,
+      "vietnamese": "tài xế",
+      "chinese": "司機",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 199,
+      "vietnamese": "lối ra",
+      "chinese": "出口",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 200,
+      "vietnamese": "lối vào",
+      "chinese": "入口",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 201,
+      "vietnamese": "du lịch",
+      "chinese": "旅行",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 202,
+      "vietnamese": "tham quan",
+      "chinese": "觀光",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 203,
+      "vietnamese": "hộ chiếu",
+      "chinese": "護照",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 204,
+      "vietnamese": "thị thực",
+      "chinese": "簽證",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 205,
+      "vietnamese": "hành lý",
+      "chinese": "行李",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 206,
+      "vietnamese": "va li",
+      "chinese": "行李箱",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 207,
+      "vietnamese": "ảnh",
+      "chinese": "照片",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 208,
+      "vietnamese": "máy ảnh",
+      "chinese": "相機",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 209,
+      "vietnamese": "bãi biển",
+      "chinese": "海灘",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 210,
+      "vietnamese": "núi",
+      "chinese": "山",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 211,
+      "vietnamese": "sông",
+      "chinese": "河流",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 212,
+      "vietnamese": "hồ",
+      "chinese": "湖泊",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 213,
+      "vietnamese": "đảo",
+      "chinese": "島嶼",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 214,
+      "vietnamese": "công viên",
+      "chinese": "公園",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 215,
+      "vietnamese": "bảo tàng",
+      "chinese": "博物館",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 216,
+      "vietnamese": "bảo tàng mỹ thuật",
+      "chinese": "美術館",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 217,
+      "vietnamese": "chùa",
+      "chinese": "寺廟",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 218,
+      "vietnamese": "nhà thờ",
+      "chinese": "教堂",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 219,
+      "vietnamese": "quảng trường",
+      "chinese": "廣場",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 220,
+      "vietnamese": "thành phố",
+      "chinese": "城市",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 221,
+      "vietnamese": "làng",
+      "chinese": "村莊",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 222,
+      "vietnamese": "trung tâm",
+      "chinese": "中心",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 223,
+      "vietnamese": "quầy thông tin",
+      "chinese": "服務資訊處",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 224,
+      "vietnamese": "quà lưu niệm",
+      "chinese": "紀念品",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 225,
+      "vietnamese": "phong cảnh",
+      "chinese": "風景",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 226,
+      "vietnamese": "khách sạn",
+      "chinese": "飯店",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 227,
+      "vietnamese": "phòng",
+      "chinese": "房間",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 228,
+      "vietnamese": "đặt chỗ",
+      "chinese": "預約；訂位",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 229,
+      "vietnamese": "chìa khóa",
+      "chinese": "鑰匙",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 230,
+      "vietnamese": "giường",
+      "chinese": "床",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 231,
+      "vietnamese": "gối",
+      "chinese": "枕頭",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 232,
+      "vietnamese": "chăn",
+      "chinese": "棉被",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 233,
+      "vietnamese": "khăn tắm",
+      "chinese": "浴巾",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 234,
+      "vietnamese": "phòng tắm",
+      "chinese": "浴室",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 235,
+      "vietnamese": "nhà vệ sinh",
+      "chinese": "洗手間",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 236,
+      "vietnamese": "vòi sen",
+      "chinese": "蓮蓬頭",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 237,
+      "vietnamese": "xà phòng",
+      "chinese": "肥皂",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 238,
+      "vietnamese": "dầu gội",
+      "chinese": "洗髮精",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 239,
+      "vietnamese": "bàn chải đánh răng",
+      "chinese": "牙刷",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 240,
+      "vietnamese": "kem đánh răng",
+      "chinese": "牙膏",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 241,
+      "vietnamese": "máy điều hòa",
+      "chinese": "冷氣",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 242,
+      "vietnamese": "quạt",
+      "chinese": "電風扇",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 243,
+      "vietnamese": "thang máy",
+      "chinese": "電梯",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 244,
+      "vietnamese": "cầu thang",
+      "chinese": "樓梯",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 245,
+      "vietnamese": "tầng",
+      "chinese": "樓層",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 246,
+      "vietnamese": "sảnh",
+      "chinese": "大廳",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 247,
+      "vietnamese": "quầy lễ tân",
+      "chinese": "接待櫃檯",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 248,
+      "vietnamese": "bữa sáng",
+      "chinese": "早餐",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 249,
+      "vietnamese": "giặt giũ",
+      "chinese": "洗衣",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 250,
+      "vietnamese": "tiền phòng",
+      "chinese": "住宿費",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 251,
+      "vietnamese": "nhà hàng",
+      "chinese": "餐廳",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 252,
+      "vietnamese": "thực đơn",
+      "chinese": "菜單",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 253,
+      "vietnamese": "gọi món",
+      "chinese": "點餐",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 254,
+      "vietnamese": "đồ ăn",
+      "chinese": "食物",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 255,
+      "vietnamese": "đồ uống",
+      "chinese": "飲料",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 256,
+      "vietnamese": "bữa ăn",
+      "chinese": "餐點；用餐",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 257,
+      "vietnamese": "nhân viên cửa hàng",
+      "chinese": "店員",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 258,
+      "vietnamese": "khách",
+      "chinese": "客人",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 259,
+      "vietnamese": "đầu bếp",
+      "chinese": "廚師",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 260,
+      "vietnamese": "đĩa",
+      "chinese": "盤子",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 261,
+      "vietnamese": "bát",
+      "chinese": "碗",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 262,
+      "vietnamese": "cốc",
+      "chinese": "杯子",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 263,
+      "vietnamese": "thìa",
+      "chinese": "湯匙",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 264,
+      "vietnamese": "đũa",
+      "chinese": "筷子",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 265,
+      "vietnamese": "nĩa",
+      "chinese": "叉子",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 266,
+      "vietnamese": "dao",
+      "chinese": "刀子",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 267,
+      "vietnamese": "khăn ăn",
+      "chinese": "餐巾",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 268,
+      "vietnamese": "bàn ăn",
+      "chinese": "餐桌",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 269,
+      "vietnamese": "ghế",
+      "chinese": "椅子",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 270,
+      "vietnamese": "thanh toán",
+      "chinese": "結帳",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 271,
+      "vietnamese": "gói mang đi",
+      "chinese": "外帶打包",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 272,
+      "vietnamese": "giao hàng",
+      "chinese": "外送；配送",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 273,
+      "vietnamese": "hương vị",
+      "chinese": "味道",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 274,
+      "vietnamese": "nước xốt",
+      "chinese": "醬汁",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 275,
+      "vietnamese": "món tráng miệng",
+      "chinese": "甜點",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 276,
+      "vietnamese": "bệnh viện",
+      "chinese": "醫院",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 277,
+      "vietnamese": "hiệu thuốc",
+      "chinese": "藥局",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 278,
+      "vietnamese": "bác sĩ",
+      "chinese": "醫生",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 279,
+      "vietnamese": "y tá",
+      "chinese": "護理師",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 280,
+      "vietnamese": "thuốc",
+      "chinese": "藥",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 281,
+      "vietnamese": "cảm lạnh",
+      "chinese": "感冒",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 282,
+      "vietnamese": "ho",
+      "chinese": "咳嗽",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 283,
+      "vietnamese": "sốt",
+      "chinese": "發燒",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 284,
+      "vietnamese": "đau đầu",
+      "chinese": "頭痛",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 285,
+      "vietnamese": "đau bụng",
+      "chinese": "肚子痛",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 286,
+      "vietnamese": "dị ứng",
+      "chinese": "過敏",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 287,
+      "vietnamese": "vết thương",
+      "chinese": "傷口",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 288,
+      "vietnamese": "máu",
+      "chinese": "血",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 289,
+      "vietnamese": "đầu",
+      "chinese": "頭",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 290,
+      "vietnamese": "mặt",
+      "chinese": "臉",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 291,
+      "vietnamese": "mắt",
+      "chinese": "眼睛",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 292,
+      "vietnamese": "mũi",
+      "chinese": "鼻子",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 293,
+      "vietnamese": "miệng",
+      "chinese": "嘴巴",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 294,
+      "vietnamese": "tai",
+      "chinese": "耳朵",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 295,
+      "vietnamese": "răng",
+      "chinese": "牙齒",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 296,
+      "vietnamese": "tay",
+      "chinese": "手",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 297,
+      "vietnamese": "bàn chân",
+      "chinese": "腳",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 298,
+      "vietnamese": "chân",
+      "chinese": "腿",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 299,
+      "vietnamese": "vai",
+      "chinese": "肩膀",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 300,
+      "vietnamese": "lưng",
+      "chinese": "背部",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 301,
+      "vietnamese": "nhà",
+      "chinese": "家；房子",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 302,
+      "vietnamese": "căn hộ",
+      "chinese": "公寓",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 303,
+      "vietnamese": "phòng khách",
+      "chinese": "客廳",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 304,
+      "vietnamese": "phòng ngủ",
+      "chinese": "臥室",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 305,
+      "vietnamese": "nhà bếp",
+      "chinese": "廚房",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 306,
+      "vietnamese": "cửa",
+      "chinese": "門",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 307,
+      "vietnamese": "cửa sổ",
+      "chinese": "窗戶",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 308,
+      "vietnamese": "tường",
+      "chinese": "牆壁",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 309,
+      "vietnamese": "sàn nhà",
+      "chinese": "地板",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 310,
+      "vietnamese": "trần nhà",
+      "chinese": "天花板",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 311,
+      "vietnamese": "mái nhà",
+      "chinese": "屋頂",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 312,
+      "vietnamese": "vườn",
+      "chinese": "庭院",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 313,
+      "vietnamese": "bàn làm việc",
+      "chinese": "書桌",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 314,
+      "vietnamese": "ghế sofa",
+      "chinese": "沙發",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 315,
+      "vietnamese": "tủ quần áo",
+      "chinese": "衣櫃",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 316,
+      "vietnamese": "gương",
+      "chinese": "鏡子",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 317,
+      "vietnamese": "đồng hồ",
+      "chinese": "時鐘；手錶",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 318,
+      "vietnamese": "đèn điện",
+      "chinese": "電燈",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 319,
+      "vietnamese": "tủ lạnh",
+      "chinese": "冰箱",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 320,
+      "vietnamese": "máy giặt",
+      "chinese": "洗衣機",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 321,
+      "vietnamese": "lò vi sóng",
+      "chinese": "微波爐",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 322,
+      "vietnamese": "rác",
+      "chinese": "垃圾",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 323,
+      "vietnamese": "thùng rác",
+      "chinese": "垃圾桶",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 324,
+      "vietnamese": "dọn dẹp",
+      "chinese": "打掃",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 325,
+      "vietnamese": "điện",
+      "chinese": "電力",
+      "category": "home",
+      "level": 1
+    },
+    {
+      "id": 326,
+      "vietnamese": "công ty",
+      "chinese": "公司",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 327,
+      "vietnamese": "văn phòng",
+      "chinese": "辦公室",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 328,
+      "vietnamese": "nơi làm việc",
+      "chinese": "工作場所",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 329,
+      "vietnamese": "nghề nghiệp",
+      "chinese": "職業",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 330,
+      "vietnamese": "công việc",
+      "chinese": "工作；業務",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 331,
+      "vietnamese": "nhân viên",
+      "chinese": "員工",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 332,
+      "vietnamese": "giám đốc",
+      "chinese": "老闆；主管",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 333,
+      "vietnamese": "cuộc họp",
+      "chinese": "會議",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 334,
+      "vietnamese": "kế hoạch",
+      "chinese": "計畫",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 335,
+      "vietnamese": "cuộc hẹn",
+      "chinese": "約定；約會",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 336,
+      "vietnamese": "lịch trình",
+      "chinese": "行程；日程",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 337,
+      "vietnamese": "giấy tờ",
+      "chinese": "文件",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 338,
+      "vietnamese": "báo cáo",
+      "chinese": "報告",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 339,
+      "vietnamese": "hợp đồng",
+      "chinese": "合約",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 340,
+      "vietnamese": "lương tháng",
+      "chinese": "月薪",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 341,
+      "vietnamese": "kỳ nghỉ",
+      "chinese": "休假",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 342,
+      "vietnamese": "ngày nghỉ",
+      "chinese": "假日",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 343,
+      "vietnamese": "phỏng vấn",
+      "chinese": "面試",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 344,
+      "vietnamese": "kinh nghiệm",
+      "chinese": "經驗",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 345,
+      "vietnamese": "trách nhiệm",
+      "chinese": "責任",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 346,
+      "vietnamese": "vấn đề",
+      "chinese": "問題",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 347,
+      "vietnamese": "giải quyết",
+      "chinese": "解決",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 348,
+      "vietnamese": "mục tiêu",
+      "chinese": "目標",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 349,
+      "vietnamese": "kết quả",
+      "chinese": "結果",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 350,
+      "vietnamese": "thành công",
+      "chinese": "成功",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 351,
+      "vietnamese": "trường học",
+      "chinese": "學校",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 352,
+      "vietnamese": "trường đại học",
+      "chinese": "大學",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 353,
+      "vietnamese": "lớp học",
+      "chinese": "教室",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 354,
+      "vietnamese": "thư viện",
+      "chinese": "圖書館",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 355,
+      "vietnamese": "sách",
+      "chinese": "書",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 356,
+      "vietnamese": "vở",
+      "chinese": "筆記本",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 357,
+      "vietnamese": "giấy",
+      "chinese": "紙",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 358,
+      "vietnamese": "bút chì",
+      "chinese": "鉛筆",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 359,
+      "vietnamese": "bút bi",
+      "chinese": "原子筆",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 360,
+      "vietnamese": "tẩy",
+      "chinese": "橡皮擦",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 361,
+      "vietnamese": "từ điển",
+      "chinese": "字典",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 362,
+      "vietnamese": "tiết học",
+      "chinese": "課堂",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 363,
+      "vietnamese": "kỳ thi",
+      "chinese": "考試",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 364,
+      "vietnamese": "bài tập về nhà",
+      "chinese": "作業",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 365,
+      "vietnamese": "câu hỏi",
+      "chinese": "提問；問題",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 366,
+      "vietnamese": "câu trả lời",
+      "chinese": "回答",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 367,
+      "vietnamese": "câu văn",
+      "chinese": "句子",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 368,
+      "vietnamese": "từ vựng",
+      "chinese": "單字",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 369,
+      "vietnamese": "ngữ pháp",
+      "chinese": "文法",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 370,
+      "vietnamese": "phát âm",
+      "chinese": "發音",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 371,
+      "vietnamese": "ý nghĩa",
+      "chinese": "意思",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 372,
+      "vietnamese": "luyện tập",
+      "chinese": "練習",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 373,
+      "vietnamese": "ôn tập",
+      "chinese": "複習",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 374,
+      "vietnamese": "học tập",
+      "chinese": "學習",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 375,
+      "vietnamese": "điểm số",
+      "chinese": "成績",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 376,
+      "vietnamese": "thời tiết",
+      "chinese": "天氣",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 377,
+      "vietnamese": "bầu trời",
+      "chinese": "天空",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 378,
+      "vietnamese": "mặt trời",
+      "chinese": "太陽",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 379,
+      "vietnamese": "ánh trăng",
+      "chinese": "月光",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 380,
+      "vietnamese": "ngôi sao",
+      "chinese": "星星",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 381,
+      "vietnamese": "mây",
+      "chinese": "雲",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 382,
+      "vietnamese": "mưa",
+      "chinese": "雨",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 383,
+      "vietnamese": "gió",
+      "chinese": "風",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 384,
+      "vietnamese": "sương mù",
+      "chinese": "霧",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 385,
+      "vietnamese": "bông tuyết",
+      "chinese": "雪花",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 386,
+      "vietnamese": "mùa xuân",
+      "chinese": "春天",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 387,
+      "vietnamese": "mùa hè",
+      "chinese": "夏天",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 388,
+      "vietnamese": "mùa thu",
+      "chinese": "秋天",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 389,
+      "vietnamese": "mùa đông",
+      "chinese": "冬天",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 390,
+      "vietnamese": "cây",
+      "chinese": "樹木",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 391,
+      "vietnamese": "hoa",
+      "chinese": "花",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 392,
+      "vietnamese": "cỏ",
+      "chinese": "草",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 393,
+      "vietnamese": "rừng",
+      "chinese": "森林",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 394,
+      "vietnamese": "biển",
+      "chinese": "海",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 395,
+      "vietnamese": "cát",
+      "chinese": "沙子",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 396,
+      "vietnamese": "đá",
+      "chinese": "石頭",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 397,
+      "vietnamese": "động vật",
+      "chinese": "動物",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 398,
+      "vietnamese": "mèo",
+      "chinese": "貓",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 399,
+      "vietnamese": "chó",
+      "chinese": "狗",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 400,
+      "vietnamese": "chim",
+      "chinese": "鳥",
+      "category": "nature",
+      "level": 1
+    },
+    {
+      "id": 401,
+      "vietnamese": "đi",
+      "chinese": "去",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 402,
+      "vietnamese": "đến",
+      "chinese": "來",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 403,
+      "vietnamese": "ăn",
+      "chinese": "吃",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 404,
+      "vietnamese": "uống",
+      "chinese": "喝",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 405,
+      "vietnamese": "xem",
+      "chinese": "看",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 406,
+      "vietnamese": "nghe",
+      "chinese": "聽",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 407,
+      "vietnamese": "nói",
+      "chinese": "說",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 408,
+      "vietnamese": "đọc",
+      "chinese": "讀",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 409,
+      "vietnamese": "viết",
+      "chinese": "寫",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 410,
+      "vietnamese": "học",
+      "chinese": "學",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 411,
+      "vietnamese": "dạy",
+      "chinese": "教",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 412,
+      "vietnamese": "ngủ",
+      "chinese": "睡覺",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 413,
+      "vietnamese": "thức dậy",
+      "chinese": "起床",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 414,
+      "vietnamese": "ngồi",
+      "chinese": "坐",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 415,
+      "vietnamese": "đứng",
+      "chinese": "站",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 416,
+      "vietnamese": "đi bộ",
+      "chinese": "走路",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 417,
+      "vietnamese": "chạy",
+      "chinese": "跑",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 418,
+      "vietnamese": "mua",
+      "chinese": "買",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 419,
+      "vietnamese": "bán",
+      "chinese": "賣",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 420,
+      "vietnamese": "cho",
+      "chinese": "給",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 421,
+      "vietnamese": "nhận",
+      "chinese": "收到",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 422,
+      "vietnamese": "mở",
+      "chinese": "打開",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 423,
+      "vietnamese": "đóng",
+      "chinese": "關閉",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 424,
+      "vietnamese": "đợi",
+      "chinese": "等待",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 425,
+      "vietnamese": "tìm",
+      "chinese": "尋找",
+      "category": "verbs",
+      "level": 1
+    },
+    {
+      "id": 426,
+      "vietnamese": "gặp",
+      "chinese": "見面",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 427,
+      "vietnamese": "làm ra",
+      "chinese": "製作",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 428,
+      "vietnamese": "sử dụng",
+      "chinese": "使用",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 429,
+      "vietnamese": "giúp đỡ",
+      "chinese": "幫忙",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 430,
+      "vietnamese": "bắt đầu",
+      "chinese": "開始",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 431,
+      "vietnamese": "kết thúc",
+      "chinese": "結束",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 432,
+      "vietnamese": "nghỉ ngơi",
+      "chinese": "休息",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 433,
+      "vietnamese": "làm việc",
+      "chinese": "工作",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 434,
+      "vietnamese": "tập thể dục",
+      "chinese": "運動",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 435,
+      "vietnamese": "nấu ăn",
+      "chinese": "煮飯",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 436,
+      "vietnamese": "rửa",
+      "chinese": "清洗",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 437,
+      "vietnamese": "mặc",
+      "chinese": "穿衣服",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 438,
+      "vietnamese": "cởi",
+      "chinese": "脫下",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 439,
+      "vietnamese": "lên xe",
+      "chinese": "搭乘；上車",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 440,
+      "vietnamese": "xuống xe",
+      "chinese": "下車",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 441,
+      "vietnamese": "mượn",
+      "chinese": "借入",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 442,
+      "vietnamese": "trả lại",
+      "chinese": "歸還",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 443,
+      "vietnamese": "gửi",
+      "chinese": "寄送",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 444,
+      "vietnamese": "gọi điện",
+      "chinese": "打電話",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 445,
+      "vietnamese": "nhớ",
+      "chinese": "記得",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 446,
+      "vietnamese": "quên",
+      "chinese": "忘記",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 447,
+      "vietnamese": "suy nghĩ",
+      "chinese": "思考",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 448,
+      "vietnamese": "biết",
+      "chinese": "知道",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 449,
+      "vietnamese": "hiểu",
+      "chinese": "理解",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 450,
+      "vietnamese": "lựa chọn",
+      "chinese": "選擇",
+      "category": "verbs",
+      "level": 2
+    },
+    {
+      "id": 451,
+      "vietnamese": "to",
+      "chinese": "大",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 452,
+      "vietnamese": "nhỏ",
+      "chinese": "小",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 453,
+      "vietnamese": "nhiều",
+      "chinese": "多",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 454,
+      "vietnamese": "ít",
+      "chinese": "少",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 455,
+      "vietnamese": "tốt",
+      "chinese": "好",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 456,
+      "vietnamese": "xấu",
+      "chinese": "不好；壞",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 457,
+      "vietnamese": "mới",
+      "chinese": "新的",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 458,
+      "vietnamese": "cũ",
+      "chinese": "舊的；久的",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 459,
+      "vietnamese": "nhanh",
+      "chinese": "快",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 460,
+      "vietnamese": "chậm",
+      "chinese": "慢",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 461,
+      "vietnamese": "dễ",
+      "chinese": "簡單",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 462,
+      "vietnamese": "khó",
+      "chinese": "困難",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 463,
+      "vietnamese": "đắt",
+      "chinese": "貴",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 464,
+      "vietnamese": "rẻ",
+      "chinese": "便宜",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 465,
+      "vietnamese": "nóng",
+      "chinese": "熱",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 466,
+      "vietnamese": "lạnh",
+      "chinese": "冷",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 467,
+      "vietnamese": "ấm",
+      "chinese": "溫暖",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 468,
+      "vietnamese": "mát",
+      "chinese": "涼爽",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 469,
+      "vietnamese": "ngon",
+      "chinese": "好吃",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 470,
+      "vietnamese": "cay",
+      "chinese": "辣",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 471,
+      "vietnamese": "ngọt",
+      "chinese": "甜",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 472,
+      "vietnamese": "mặn",
+      "chinese": "鹹",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 473,
+      "vietnamese": "chua",
+      "chinese": "酸",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 474,
+      "vietnamese": "đắng",
+      "chinese": "苦澀的",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 475,
+      "vietnamese": "sạch",
+      "chinese": "乾淨",
+      "category": "adjectives",
+      "level": 1
+    },
+    {
+      "id": 476,
+      "vietnamese": "âm nhạc",
+      "chinese": "音樂",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 477,
+      "vietnamese": "bài hát",
+      "chinese": "歌曲",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 478,
+      "vietnamese": "phim",
+      "chinese": "電影",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 479,
+      "vietnamese": "phim truyền hình",
+      "chinese": "電視劇",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 480,
+      "vietnamese": "buổi biểu diễn",
+      "chinese": "表演",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 481,
+      "vietnamese": "điệu nhảy",
+      "chinese": "舞蹈",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 482,
+      "vietnamese": "tranh",
+      "chinese": "圖畫",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 483,
+      "vietnamese": "sở thích",
+      "chinese": "興趣",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 484,
+      "vietnamese": "đọc sách",
+      "chinese": "閱讀",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 485,
+      "vietnamese": "bơi lội",
+      "chinese": "游泳",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 486,
+      "vietnamese": "bóng đá",
+      "chinese": "足球",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 487,
+      "vietnamese": "bóng rổ",
+      "chinese": "籃球",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 488,
+      "vietnamese": "bóng chày",
+      "chinese": "棒球",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 489,
+      "vietnamese": "quần vợt",
+      "chinese": "網球",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 490,
+      "vietnamese": "leo núi",
+      "chinese": "登山",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 491,
+      "vietnamese": "đi dạo",
+      "chinese": "散步",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 492,
+      "vietnamese": "câu cá",
+      "chinese": "釣魚",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 493,
+      "vietnamese": "cắm trại",
+      "chinese": "露營",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 494,
+      "vietnamese": "trò chơi",
+      "chinese": "遊戲",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 495,
+      "vietnamese": "mạng internet",
+      "chinese": "網際網路",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 496,
+      "vietnamese": "điện thoại di động",
+      "chinese": "手機",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 497,
+      "vietnamese": "máy tính",
+      "chinese": "電腦",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 498,
+      "vietnamese": "bộ sạc",
+      "chinese": "充電器",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 499,
+      "vietnamese": "mật khẩu",
+      "chinese": "密碼",
+      "category": "leisure",
+      "level": 2
+    },
+    {
+      "id": 500,
+      "vietnamese": "tin nhắn",
+      "chinese": "訊息",
+      "category": "leisure",
+      "level": 2
+    }
+  ],
+  "sentences": [
+    {
+      "id": 1001,
+      "vietnamese": "Tôi đến từ Đài Loan.",
+      "chinese": "我來自臺灣。",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1002,
+      "vietnamese": "Tên tôi là Minh.",
+      "chinese": "我叫明。",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1003,
+      "vietnamese": "Tôi đang học tiếng Việt.",
+      "chinese": "我正在學越南語。",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1004,
+      "vietnamese": "Bạn có nói được tiếng Trung không?",
+      "chinese": "你會說中文嗎？",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1005,
+      "vietnamese": "Bạn nói chậm hơn một chút được không?",
+      "chinese": "請再說慢一點。",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1006,
+      "vietnamese": "Hôm nay tôi rất vui được gặp bạn.",
+      "chinese": "今天很高興見到你。",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1007,
+      "vietnamese": "Lần sau chúng ta cùng ăn cơm nhé.",
+      "chinese": "下次一起吃飯吧。",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1008,
+      "vietnamese": "Đây là lần đầu tôi đến đây.",
+      "chinese": "我第一次來這裡。",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1009,
+      "vietnamese": "Bạn tên là gì?",
+      "chinese": "請問你叫什麼名字？",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1010,
+      "vietnamese": "Cảm ơn bạn rất nhiều vì đã giúp tôi.",
+      "chinese": "真的很謝謝你的幫忙。",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 1011,
+      "vietnamese": "Có bàn cho hai người không?",
+      "chinese": "有兩個人的座位嗎？",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1012,
+      "vietnamese": "Cho tôi xem thực đơn được không?",
+      "chinese": "請給我看一下菜單。",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1013,
+      "vietnamese": "Món nào nổi tiếng nhất ở đây?",
+      "chinese": "這裡最受歡迎的菜是什麼？",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1014,
+      "vietnamese": "Tôi không ăn cay được.",
+      "chinese": "我不太能吃辣。",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1015,
+      "vietnamese": "Món này có đậu phộng không?",
+      "chinese": "這道菜有花生嗎？",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1016,
+      "vietnamese": "Có thể làm món này không cho thịt không?",
+      "chinese": "這道菜可以不加肉嗎？",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1017,
+      "vietnamese": "Cho tôi thêm một cốc nước.",
+      "chinese": "請再給我一杯水。",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1018,
+      "vietnamese": "Món tôi gọi vẫn chưa được mang ra.",
+      "chinese": "我點的餐還沒送來。",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1019,
+      "vietnamese": "Gói phần thức ăn còn lại giúp tôi.",
+      "chinese": "請把剩下的食物打包。",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1020,
+      "vietnamese": "Cho chúng tôi thanh toán riêng.",
+      "chinese": "請幫我們分開結帳。",
+      "category": "restaurant",
+      "level": 1
+    },
+    {
+      "id": 1021,
+      "vietnamese": "Đôi giày này có màu khác không?",
+      "chinese": "這雙鞋有其他顏色嗎？",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1022,
+      "vietnamese": "Có cỡ nào lớn hơn cái này một chút không?",
+      "chinese": "有比這個大一點的尺寸嗎？",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1023,
+      "vietnamese": "Tôi có thể thử bộ quần áo này không?",
+      "chinese": "我可以試穿這件衣服嗎？",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1024,
+      "vietnamese": "Nếu mua hai cái thì có được giảm giá không?",
+      "chinese": "買兩個可以打折嗎？",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1025,
+      "vietnamese": "Tôi có thể thanh toán bằng thẻ tín dụng không?",
+      "chinese": "可以用信用卡付款嗎？",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1026,
+      "vietnamese": "Tôi không đủ tiền mặt nên phải rút thêm tiền.",
+      "chinese": "我的現金不夠，需要再領錢。",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1027,
+      "vietnamese": "Tôi mua để làm quà, xin gói lại giúp tôi.",
+      "chinese": "這是要送人的，請幫我包裝。",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1028,
+      "vietnamese": "Tôi muốn đổi món đồ đã mua hôm qua.",
+      "chinese": "我想換昨天買的東西。",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1029,
+      "vietnamese": "Tôi mất hóa đơn rồi, có thể hoàn tiền không?",
+      "chinese": "我把收據弄丟了，還可以退款嗎？",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1030,
+      "vietnamese": "Cửa hàng này đóng cửa lúc mấy giờ?",
+      "chinese": "這家店幾點關門？",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 1031,
+      "vietnamese": "Ga tàu điện ngầm gần nhất ở đâu?",
+      "chinese": "最近的地鐵站在哪裡？",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1032,
+      "vietnamese": "Xe buýt này có đi sân bay không?",
+      "chinese": "這班公車有到機場嗎？",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1033,
+      "vietnamese": "Đến trung tâm thành phố mất bao lâu?",
+      "chinese": "到市中心要多久？",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1034,
+      "vietnamese": "Tôi có phải chuyển tàu ở ga tiếp theo không?",
+      "chinese": "我需要在下一站轉車嗎？",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1035,
+      "vietnamese": "Khi nào đến nơi, bạn báo cho tôi được không?",
+      "chinese": "到站時可以提醒我下車嗎？",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1036,
+      "vietnamese": "Từ đây có thể đi bộ đến khách sạn không?",
+      "chinese": "從這裡可以走路到飯店嗎？",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1037,
+      "vietnamese": "Làm ơn đưa tôi đến địa chỉ này.",
+      "chinese": "請載我到這個地址。",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1038,
+      "vietnamese": "Xin bật đồng hồ tính tiền.",
+      "chinese": "請開計程車的計費表。",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1039,
+      "vietnamese": "Xin rẽ phải ở ngã tư tiếp theo.",
+      "chinese": "請在下個十字路口右轉。",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1040,
+      "vietnamese": "Xin dừng xe ở chỗ an toàn.",
+      "chinese": "請在安全的地方停車。",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 1041,
+      "vietnamese": "Chuyến bay của tôi khởi hành ở nhà ga nào?",
+      "chinese": "我的班機從哪個航廈出發？",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1042,
+      "vietnamese": "Quầy làm thủ tục ở đâu?",
+      "chinese": "報到櫃檯在哪裡？",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1043,
+      "vietnamese": "Tôi muốn ngồi cạnh cửa sổ.",
+      "chinese": "我想坐靠窗的座位。",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1044,
+      "vietnamese": "Tôi có được mang túi này lên máy bay không?",
+      "chinese": "這個包包可以帶上飛機嗎？",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1045,
+      "vietnamese": "Mấy giờ bắt đầu lên máy bay?",
+      "chinese": "幾點開始登機？",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1046,
+      "vietnamese": "Máy bay bị hoãn một tiếng.",
+      "chinese": "班機延誤了一小時。",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1047,
+      "vietnamese": "Xin kiểm tra xem tôi có đủ thời gian nối chuyến không.",
+      "chinese": "請確認我的轉機時間是否足夠。",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1048,
+      "vietnamese": "Va li của tôi vẫn chưa ra.",
+      "chinese": "我的行李箱還沒出來。",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1049,
+      "vietnamese": "Tôi không có hàng hóa cần khai báo.",
+      "chinese": "我沒有需要申報的物品。",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1050,
+      "vietnamese": "Tôi có thể lấy tờ khai nhập cảnh ở đâu?",
+      "chinese": "哪裡可以取得入境申報表？",
+      "category": "airport",
+      "level": 2
+    },
+    {
+      "id": 1051,
+      "vietnamese": "Tôi đã đặt phòng dưới tên mình.",
+      "chinese": "我用自己的名字訂了房間。",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1052,
+      "vietnamese": "Tôi sẽ ở hai đêm kể từ hôm nay.",
+      "chinese": "我從今天開始要住兩晚。",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1053,
+      "vietnamese": "Bữa sáng bắt đầu từ mấy giờ?",
+      "chinese": "早餐從幾點開始供應？",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1054,
+      "vietnamese": "Tôi không kết nối được Wi-Fi trong phòng.",
+      "chinese": "我在房間裡無法連上 Wi-Fi。",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1055,
+      "vietnamese": "Phòng tắm không có nước nóng.",
+      "chinese": "浴室沒有熱水。",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1056,
+      "vietnamese": "Cho tôi thêm hai chiếc khăn tắm sạch.",
+      "chinese": "請再給我兩條乾淨的浴巾。",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1057,
+      "vietnamese": "Phòng bên cạnh quá ồn nên tôi không ngủ được.",
+      "chinese": "隔壁房間太吵，我無法睡覺。",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1058,
+      "vietnamese": "Tôi có thể đổi phòng không?",
+      "chinese": "可以換房間嗎？",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1059,
+      "vietnamese": "Sau khi trả phòng, tôi có thể gửi hành lý không?",
+      "chinese": "退房後可以寄放行李嗎？",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1060,
+      "vietnamese": "Xin gọi taxi cho tôi lúc sáu giờ sáng mai.",
+      "chinese": "請幫我叫明天早上六點的計程車。",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 1061,
+      "vietnamese": "Bảo tàng này có mở cửa vào thứ hai không?",
+      "chinese": "這間博物館星期一也有開嗎？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1062,
+      "vietnamese": "Tôi có thể mua vé vào cửa ở đâu?",
+      "chinese": "入場券在哪裡買？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1063,
+      "vietnamese": "Tôi muốn biết có giảm giá cho học sinh không.",
+      "chinese": "我想知道有沒有學生折扣。",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1064,
+      "vietnamese": "Tôi có thể chụp ảnh ở đây không?",
+      "chinese": "這裡可以拍照嗎？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1065,
+      "vietnamese": "Bạn chụp giúp chúng tôi một tấm ảnh được không?",
+      "chinese": "可以幫我們拍一張照片嗎？",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1066,
+      "vietnamese": "Bạn giới thiệu cho tôi chỗ đáng tham quan gần đây nhé.",
+      "chinese": "請推薦附近值得去的地方。",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1067,
+      "vietnamese": "Nếu mai trời mưa, tôi sẽ tham quan ở trong nhà.",
+      "chinese": "如果明天下雨，我會改去室內參觀。",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1068,
+      "vietnamese": "Xin chỉ đường đến bãi biển.",
+      "chinese": "請告訴我去海灘的路。",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1069,
+      "vietnamese": "Tôi muốn quay về trước khi mặt trời lặn.",
+      "chinese": "我想在日落前回來。",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1070,
+      "vietnamese": "Tôi đã có nhiều kỷ niệm đẹp trong chuyến đi này.",
+      "chinese": "這次旅行留下了很多美好的回憶。",
+      "category": "travel",
+      "level": 2
+    },
+    {
+      "id": 1071,
+      "vietnamese": "Tôi rất mệt nên cần đến bệnh viện.",
+      "chinese": "我很不舒服，需要去醫院。",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1072,
+      "vietnamese": "Tôi đau bụng liên tục từ tối qua.",
+      "chinese": "我從昨晚開始一直肚子痛。",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1073,
+      "vietnamese": "Tôi bị dị ứng với thuốc này.",
+      "chinese": "我對這種藥過敏。",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1074,
+      "vietnamese": "Tôi phải uống thuốc này mấy lần một ngày?",
+      "chinese": "這種藥一天要吃幾次？",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1075,
+      "vietnamese": "Xin gọi xe cứu thương ngay.",
+      "chinese": "請趕快叫救護車。",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1076,
+      "vietnamese": "Tôi bị mất ví và hộ chiếu.",
+      "chinese": "我把錢包和護照弄丟了。",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1077,
+      "vietnamese": "Đồn cảnh sát gần nhất ở đâu?",
+      "chinese": "最近的警察局在哪裡？",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1078,
+      "vietnamese": "Xin giúp tôi gọi điện cho gia đình.",
+      "chinese": "請幫我打電話給家人。",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1079,
+      "vietnamese": "Điện thoại hết pin nên tôi không liên lạc được.",
+      "chinese": "手機沒電了，我無法聯絡他人。",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1080,
+      "vietnamese": "Tôi cần liên lạc với công ty bảo hiểm du lịch.",
+      "chinese": "我需要聯絡旅遊保險公司。",
+      "category": "emergency",
+      "level": 2
+    },
+    {
+      "id": 1081,
+      "vietnamese": "Cuộc họp hôm nay bắt đầu lúc hai giờ chiều.",
+      "chinese": "今天的會議下午兩點開始。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1082,
+      "vietnamese": "Tắc đường nên tôi có lẽ sẽ đến muộn khoảng mười phút.",
+      "chinese": "因為塞車，我可能會遲到十分鐘左右。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1083,
+      "vietnamese": "Bạn có thể gửi tài liệu trước cuộc họp không?",
+      "chinese": "可以在開會前把資料寄給我嗎？",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1084,
+      "vietnamese": "Xin giải thích lại phần này.",
+      "chinese": "請再解釋一次這個部分。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1085,
+      "vietnamese": "Xin kiểm tra xem có nội dung nào sai không.",
+      "chinese": "請確認內容有沒有錯誤。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1086,
+      "vietnamese": "Tôi phải hoàn thành công việc trong tuần này.",
+      "chinese": "我必須在這個星期內完成工作。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1087,
+      "vietnamese": "Ngày mai tôi có việc nên không thể gặp bạn.",
+      "chinese": "我明天有事，沒辦法見面。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1088,
+      "vietnamese": "Nếu có thời gian thì cùng ăn trưa nhé.",
+      "chinese": "如果有空，一起吃午餐吧。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1089,
+      "vietnamese": "Tôi muốn xin nghỉ một ngày vào tuần sau.",
+      "chinese": "我想在下個星期請一天假。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1090,
+      "vietnamese": "Nếu có vấn đề thì liên lạc với tôi ngay nhé.",
+      "chinese": "如果有問題，請立刻聯絡我。",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 1091,
+      "vietnamese": "Mỗi ngày tôi học thuộc mười từ mới.",
+      "chinese": "我每天背十個新單字。",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 1092,
+      "vietnamese": "Xin chỉ cho tôi cách đọc câu này tự nhiên.",
+      "chinese": "請教我怎麼自然地讀這個句子。",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 1093,
+      "vietnamese": "Nếu tôi phát âm sai thì sửa giúp tôi nhé.",
+      "chinese": "如果我發音錯了，請幫我糾正。",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 1094,
+      "vietnamese": "Tôi đang ôn lại những gì đã học hôm qua.",
+      "chinese": "我正在複習昨天學的內容。",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 1095,
+      "vietnamese": "Tôi hiểu nghĩa nhưng khó diễn đạt bằng lời.",
+      "chinese": "我知道意思，但很難說出口。",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 1096,
+      "vietnamese": "Tôi tra từ điển những từ chưa biết.",
+      "chinese": "不認識的單字，我會查字典。",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 1097,
+      "vietnamese": "Tôi nghe lại giọng mình đã ghi âm rồi luyện tập tiếp.",
+      "chinese": "我聽自己的錄音後再練習。",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 1098,
+      "vietnamese": "Hôm nay tôi đã học hai tiếng ở thư viện.",
+      "chinese": "今天我在圖書館讀了兩個小時的書。",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 1099,
+      "vietnamese": "Nếu luyện tập từng chút một thì sẽ làm tốt hơn.",
+      "chinese": "只要一點一點練習，就能做得更好。",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 1100,
+      "vietnamese": "Trong chuyến đi sau, tôi muốn nói chuyện với người địa phương.",
+      "chinese": "下次旅行時，我想和當地人聊天。",
+      "category": "study",
+      "level": 2
+    }
+  ],
+  "phrases": [
+    {
+      "id": 2001,
+      "vietnamese": "Chào buổi sáng",
+      "chinese": "早安",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2002,
+      "vietnamese": "Chúc ngủ ngon",
+      "chinese": "晚安",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2003,
+      "vietnamese": "Hẹn gặp lại",
+      "chinese": "下次見",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2004,
+      "vietnamese": "Hẹn gặp lần sau",
+      "chinese": "再見；下次再見",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2005,
+      "vietnamese": "Rất vui được gặp bạn",
+      "chinese": "很高興認識你",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2006,
+      "vietnamese": "Bạn khỏe không?",
+      "chinese": "你好嗎？",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2007,
+      "vietnamese": "Tôi vẫn khỏe",
+      "chinese": "我很好",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2008,
+      "vietnamese": "Lâu rồi không gặp",
+      "chinese": "好久不見",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2009,
+      "vietnamese": "Bạn đi trước đi",
+      "chinese": "請先走",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2010,
+      "vietnamese": "Chờ một chút",
+      "chinese": "請稍等",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2011,
+      "vietnamese": "Xin phép làm phiền",
+      "chinese": "不好意思，打擾一下",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2012,
+      "vietnamese": "Cảm ơn rất nhiều",
+      "chinese": "真的很謝謝你",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2013,
+      "vietnamese": "Không có gì",
+      "chinese": "不客氣",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2014,
+      "vietnamese": "Tôi xin lỗi",
+      "chinese": "抱歉",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2015,
+      "vietnamese": "Đừng lo lắng",
+      "chinese": "別擔心",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2016,
+      "vietnamese": "Chúc mừng",
+      "chinese": "恭喜",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2017,
+      "vietnamese": "Chúc mừng sinh nhật",
+      "chinese": "生日快樂",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2018,
+      "vietnamese": "Chúc mừng năm mới",
+      "chinese": "新年快樂",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2019,
+      "vietnamese": "Mong bạn giúp đỡ",
+      "chinese": "請多多關照",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2020,
+      "vietnamese": "Đi đường cẩn thận",
+      "chinese": "路上小心",
+      "category": "greeting",
+      "level": 1
+    },
+    {
+      "id": 2021,
+      "vietnamese": "nước ấm",
+      "chinese": "溫水",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2022,
+      "vietnamese": "nước lạnh",
+      "chinese": "冰涼的水",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2023,
+      "vietnamese": "không đường",
+      "chinese": "不加糖",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2024,
+      "vietnamese": "không đá",
+      "chinese": "不加冰塊",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2025,
+      "vietnamese": "không sữa",
+      "chinese": "不加牛奶",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2026,
+      "vietnamese": "hơi cay",
+      "chinese": "微辣",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2027,
+      "vietnamese": "không cay",
+      "chinese": "不要辣",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2028,
+      "vietnamese": "ít muối hơn",
+      "chinese": "少鹽一點",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2029,
+      "vietnamese": "món chay",
+      "chinese": "素食餐點",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2030,
+      "vietnamese": "cá nướng",
+      "chinese": "烤魚",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2031,
+      "vietnamese": "cơm rang",
+      "chinese": "炒飯",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2032,
+      "vietnamese": "trứng luộc",
+      "chinese": "水煮蛋",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2033,
+      "vietnamese": "trái cây tươi",
+      "chinese": "新鮮水果",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2034,
+      "vietnamese": "cà phê nóng",
+      "chinese": "熱咖啡",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2035,
+      "vietnamese": "cà phê đá",
+      "chinese": "冰咖啡",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2036,
+      "vietnamese": "một cốc cà phê",
+      "chinese": "一杯咖啡",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2037,
+      "vietnamese": "một chai nước",
+      "chinese": "一瓶水",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2038,
+      "vietnamese": "một cái bánh mì",
+      "chinese": "一個麵包",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2039,
+      "vietnamese": "Ăn tại đây",
+      "chinese": "我要內用",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2040,
+      "vietnamese": "Gói mang về giúp tôi",
+      "chinese": "請幫我外帶",
+      "category": "food",
+      "level": 1
+    },
+    {
+      "id": 2041,
+      "vietnamese": "Bao nhiêu tiền?",
+      "chinese": "多少錢？",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2042,
+      "vietnamese": "Đắt quá",
+      "chinese": "太貴了",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2043,
+      "vietnamese": "Bớt giá một chút",
+      "chinese": "請便宜一點",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2044,
+      "vietnamese": "Cho tôi cái này",
+      "chinese": "請給我這個",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2045,
+      "vietnamese": "Cho tôi cái kia",
+      "chinese": "請給我那個",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2046,
+      "vietnamese": "Tôi chỉ xem thôi",
+      "chinese": "我只是看看",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2047,
+      "vietnamese": "màu khác",
+      "chinese": "其他顏色",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2048,
+      "vietnamese": "cỡ lớn",
+      "chinese": "大尺寸",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2049,
+      "vietnamese": "cỡ nhỏ",
+      "chinese": "小尺寸",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2050,
+      "vietnamese": "Tôi thử được không?",
+      "chinese": "可以試穿嗎？",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2051,
+      "vietnamese": "Tôi trả bằng thẻ",
+      "chinese": "我要刷卡",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2052,
+      "vietnamese": "Tôi trả tiền mặt",
+      "chinese": "我要付現金",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2053,
+      "vietnamese": "Cho tôi hóa đơn",
+      "chinese": "請給我收據",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2054,
+      "vietnamese": "Cho tôi túi đựng",
+      "chinese": "請給我袋子",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2055,
+      "vietnamese": "Không cần túi",
+      "chinese": "不需要袋子",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2056,
+      "vietnamese": "Để làm quà",
+      "chinese": "這是要送人的",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2057,
+      "vietnamese": "Tôi muốn đổi hàng",
+      "chinese": "我想換貨",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2058,
+      "vietnamese": "Cho tôi hoàn tiền",
+      "chinese": "請退款",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2059,
+      "vietnamese": "đang giảm giá",
+      "chinese": "正在特價",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2060,
+      "vietnamese": "Hết hàng rồi",
+      "chinese": "已經售完了",
+      "category": "shopping",
+      "level": 1
+    },
+    {
+      "id": 2061,
+      "vietnamese": "sáng nay",
+      "chinese": "今天早上",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2062,
+      "vietnamese": "tối nay",
+      "chinese": "今天晚上",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2063,
+      "vietnamese": "chiều mai",
+      "chinese": "明天下午",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2064,
+      "vietnamese": "đêm qua",
+      "chinese": "昨天晚上",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2065,
+      "vietnamese": "tuần này",
+      "chinese": "這個星期",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2066,
+      "vietnamese": "tuần sau",
+      "chinese": "下個星期",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2067,
+      "vietnamese": "tuần trước",
+      "chinese": "上個星期",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2068,
+      "vietnamese": "tháng này",
+      "chinese": "這個月",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2069,
+      "vietnamese": "tháng sau",
+      "chinese": "下個月",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2070,
+      "vietnamese": "năm ngoái",
+      "chinese": "去年",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2071,
+      "vietnamese": "năm sau",
+      "chinese": "明年",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2072,
+      "vietnamese": "mỗi sáng",
+      "chinese": "每天早上",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2073,
+      "vietnamese": "mỗi cuối tuần",
+      "chinese": "每個週末",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2074,
+      "vietnamese": "một giờ",
+      "chinese": "一小時",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2075,
+      "vietnamese": "ba mươi phút",
+      "chinese": "三十分鐘",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2076,
+      "vietnamese": "một lát nữa",
+      "chinese": "過一會兒",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2077,
+      "vietnamese": "ngay bây giờ",
+      "chinese": "現在立刻",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2078,
+      "vietnamese": "Có thời gian",
+      "chinese": "有時間",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2079,
+      "vietnamese": "Không có thời gian",
+      "chinese": "沒有時間",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2080,
+      "vietnamese": "Mấy giờ rồi?",
+      "chinese": "現在幾點？",
+      "category": "time",
+      "level": 1
+    },
+    {
+      "id": 2081,
+      "vietnamese": "sang trái",
+      "chinese": "往左",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2082,
+      "vietnamese": "sang phải",
+      "chinese": "往右",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2083,
+      "vietnamese": "Đi thẳng",
+      "chinese": "請直走",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2084,
+      "vietnamese": "Xuống ở đây",
+      "chinese": "在這裡下車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2085,
+      "vietnamese": "ga tiếp theo",
+      "chinese": "下一站",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2086,
+      "vietnamese": "điểm dừng xe buýt",
+      "chinese": "公車停靠站",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2087,
+      "vietnamese": "ga tàu điện ngầm",
+      "chinese": "地鐵站",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2088,
+      "vietnamese": "vé khứ hồi",
+      "chinese": "來回票",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2089,
+      "vietnamese": "vé một chiều",
+      "chinese": "單程票",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2090,
+      "vietnamese": "chuyến tàu cuối",
+      "chinese": "末班火車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2091,
+      "vietnamese": "chuyến xe buýt đầu tiên",
+      "chinese": "首班公車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2092,
+      "vietnamese": "điểm đón taxi",
+      "chinese": "計程車乘車處",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2093,
+      "vietnamese": "dây an toàn",
+      "chinese": "安全帶",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2094,
+      "vietnamese": "giờ đi làm và tan làm",
+      "chinese": "上下班時間",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2095,
+      "vietnamese": "Tắc đường rồi",
+      "chinese": "塞車了",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2096,
+      "vietnamese": "Đi bộ đến đó",
+      "chinese": "走路過去",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2097,
+      "vietnamese": "Phải chuyển xe",
+      "chinese": "必須轉車",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2098,
+      "vietnamese": "Phía này",
+      "chinese": "是這邊",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2099,
+      "vietnamese": "Phía kia",
+      "chinese": "是那邊",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2100,
+      "vietnamese": "Lái xe chậm thôi",
+      "chinese": "請開慢一點",
+      "category": "transport",
+      "level": 1
+    },
+    {
+      "id": 2101,
+      "vietnamese": "Chụp ảnh giúp tôi",
+      "chinese": "請幫我拍照",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2102,
+      "vietnamese": "Được chụp ảnh không?",
+      "chinese": "可以拍照嗎？",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2103,
+      "vietnamese": "phí vào cửa",
+      "chinese": "入場費",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2104,
+      "vietnamese": "vào cửa miễn phí",
+      "chinese": "免費入場",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2105,
+      "vietnamese": "giờ mở cửa",
+      "chinese": "營業時間",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2106,
+      "vietnamese": "giờ đóng cửa",
+      "chinese": "關門時間",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2107,
+      "vietnamese": "sách hướng dẫn du lịch",
+      "chinese": "旅遊指南",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2108,
+      "vietnamese": "món ăn địa phương",
+      "chinese": "當地美食",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2109,
+      "vietnamese": "địa điểm nổi tiếng",
+      "chinese": "著名景點",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2110,
+      "vietnamese": "chỗ gần đây",
+      "chinese": "附近的地方",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2111,
+      "vietnamese": "Ở xa",
+      "chinese": "距離很遠",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2112,
+      "vietnamese": "Tôi bị lạc đường",
+      "chinese": "我迷路了",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2113,
+      "vietnamese": "Cho tôi xem bản đồ",
+      "chinese": "請給我看地圖",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2114,
+      "vietnamese": "Giúp tôi với",
+      "chinese": "請幫幫我",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2115,
+      "vietnamese": "kiểm tra hộ chiếu",
+      "chinese": "護照查驗",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2116,
+      "vietnamese": "thẻ lên máy bay",
+      "chinese": "登機證",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2117,
+      "vietnamese": "nơi nhận hành lý",
+      "chinese": "行李提領處",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2118,
+      "vietnamese": "quầy đổi tiền",
+      "chinese": "換匯處",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2119,
+      "vietnamese": "bảo hiểm du lịch",
+      "chinese": "旅遊保險",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2120,
+      "vietnamese": "chuyến đi vui vẻ",
+      "chinese": "愉快的旅行",
+      "category": "travel",
+      "level": 1
+    },
+    {
+      "id": 2121,
+      "vietnamese": "Tôi đã đặt phòng",
+      "chinese": "我已訂房",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2122,
+      "vietnamese": "Còn phòng trống không?",
+      "chinese": "有空房嗎？",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2123,
+      "vietnamese": "một đêm",
+      "chinese": "一晚",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2124,
+      "vietnamese": "hai đêm",
+      "chinese": "兩晚",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2125,
+      "vietnamese": "phòng đơn",
+      "chinese": "單人房",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2126,
+      "vietnamese": "phòng đôi",
+      "chinese": "雙人房",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2127,
+      "vietnamese": "phòng không hút thuốc",
+      "chinese": "禁菸房",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2128,
+      "vietnamese": "bao gồm bữa sáng",
+      "chinese": "含早餐",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2129,
+      "vietnamese": "chìa khóa phòng",
+      "chinese": "房間鑰匙",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2130,
+      "vietnamese": "Tôi muốn nhận phòng",
+      "chinese": "我要辦理入住",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2131,
+      "vietnamese": "Tôi muốn trả phòng",
+      "chinese": "我要辦理退房",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2132,
+      "vietnamese": "Cho tôi thêm khăn tắm",
+      "chinese": "請多給我浴巾",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2133,
+      "vietnamese": "dọn phòng",
+      "chinese": "房間清潔",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2134,
+      "vietnamese": "nước nóng",
+      "chinese": "熱水",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2135,
+      "vietnamese": "Không có nước lạnh",
+      "chinese": "沒有冷水",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2136,
+      "vietnamese": "Máy điều hòa không chạy",
+      "chinese": "冷氣壞了",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2137,
+      "vietnamese": "mật khẩu Wi-Fi",
+      "chinese": "Wi-Fi 密碼",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2138,
+      "vietnamese": "giữ hành lý",
+      "chinese": "行李寄放",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2139,
+      "vietnamese": "trả phòng muộn",
+      "chinese": "延後退房",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2140,
+      "vietnamese": "phòng yên tĩnh",
+      "chinese": "安靜的房間",
+      "category": "hotel",
+      "level": 1
+    },
+    {
+      "id": 2141,
+      "vietnamese": "Tôi thấy không khỏe",
+      "chinese": "我身體不舒服",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2142,
+      "vietnamese": "Tôi bị đau đầu",
+      "chinese": "我頭痛",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2143,
+      "vietnamese": "Tôi bị đau bụng",
+      "chinese": "我肚子痛",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2144,
+      "vietnamese": "Tôi bị đau họng",
+      "chinese": "我喉嚨痛",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2145,
+      "vietnamese": "Tôi bị sốt",
+      "chinese": "我發燒了",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2146,
+      "vietnamese": "Tôi bị ho",
+      "chinese": "我咳嗽",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2147,
+      "vietnamese": "Tôi bị cảm lạnh",
+      "chinese": "我感冒了",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2148,
+      "vietnamese": "Tôi bị dị ứng",
+      "chinese": "我有過敏",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2149,
+      "vietnamese": "Tôi cần thuốc",
+      "chinese": "我需要藥",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2150,
+      "vietnamese": "Đi bệnh viện",
+      "chinese": "去醫院",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2151,
+      "vietnamese": "phòng cấp cứu",
+      "chinese": "急診室",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2152,
+      "vietnamese": "xe cứu thương",
+      "chinese": "救護車",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2153,
+      "vietnamese": "đồn cảnh sát",
+      "chinese": "警察局",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2154,
+      "vietnamese": "Nguy hiểm",
+      "chinese": "很危險",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2155,
+      "vietnamese": "Cẩn thận",
+      "chinese": "請小心",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2156,
+      "vietnamese": "Đừng chạm vào",
+      "chinese": "請勿觸摸",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2157,
+      "vietnamese": "sau bữa ăn",
+      "chinese": "飯後",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2158,
+      "vietnamese": "hai lần một ngày",
+      "chinese": "一天兩次",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2159,
+      "vietnamese": "Nghỉ ngơi cho khỏe",
+      "chinese": "請好好休息",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2160,
+      "vietnamese": "Chúc mau khỏe",
+      "chinese": "祝早日康復",
+      "category": "health",
+      "level": 1
+    },
+    {
+      "id": 2161,
+      "vietnamese": "đang họp",
+      "chinese": "正在開會",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2162,
+      "vietnamese": "đang làm việc",
+      "chinese": "正在工作",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2163,
+      "vietnamese": "Nghỉ một chút",
+      "chinese": "休息一下",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2164,
+      "vietnamese": "Hẹn gặp ngày mai",
+      "chinese": "明天見",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2165,
+      "vietnamese": "giờ hẹn",
+      "chinese": "約定時間",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2166,
+      "vietnamese": "Xin lỗi vì đến muộn",
+      "chinese": "抱歉遲到了",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2167,
+      "vietnamese": "Sẵn sàng rồi",
+      "chinese": "準備好了",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2168,
+      "vietnamese": "Vẫn chưa xong",
+      "chinese": "還沒好",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2169,
+      "vietnamese": "Kiểm tra lại giúp tôi",
+      "chinese": "請再確認一下",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2170,
+      "vietnamese": "Gửi email cho tôi",
+      "chinese": "請寄電子郵件給我",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2171,
+      "vietnamese": "Liên lạc với tôi",
+      "chinese": "請聯絡我",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2172,
+      "vietnamese": "số điện thoại",
+      "chinese": "電話號碼",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2173,
+      "vietnamese": "sạc điện thoại",
+      "chinese": "手機充電",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2174,
+      "vietnamese": "kết nối internet",
+      "chinese": "網路連線",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2175,
+      "vietnamese": "lưu tệp",
+      "chinese": "儲存檔案",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2176,
+      "vietnamese": "đổi mật khẩu",
+      "chinese": "更改密碼",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2177,
+      "vietnamese": "Ý hay đấy",
+      "chinese": "這個主意很好",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2178,
+      "vietnamese": "Tôi đồng ý",
+      "chinese": "我同意",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2179,
+      "vietnamese": "Tôi không rõ",
+      "chinese": "我不太清楚",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2180,
+      "vietnamese": "Cảm ơn công sức của bạn",
+      "chinese": "辛苦了",
+      "category": "work",
+      "level": 2
+    },
+    {
+      "id": 2181,
+      "vietnamese": "Nói lại giúp tôi",
+      "chinese": "請再說一次",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2182,
+      "vietnamese": "Nói chậm thôi",
+      "chinese": "請說慢一點",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2183,
+      "vietnamese": "thêm một lần nữa",
+      "chinese": "再一次",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2184,
+      "vietnamese": "Nghĩa là gì?",
+      "chinese": "是什麼意思？",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2185,
+      "vietnamese": "Đọc thế nào?",
+      "chinese": "怎麼讀？",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2186,
+      "vietnamese": "Tôi hiểu rồi",
+      "chinese": "我理解了",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2187,
+      "vietnamese": "Tôi chưa hiểu",
+      "chinese": "我沒聽懂",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2188,
+      "vietnamese": "Tôi có câu hỏi",
+      "chinese": "我有問題",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2189,
+      "vietnamese": "Viết ra giúp tôi",
+      "chinese": "請寫下來",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2190,
+      "vietnamese": "Mở sách ra",
+      "chinese": "請翻開書",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2191,
+      "vietnamese": "Đóng sách lại",
+      "chinese": "請把書闔上",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2192,
+      "vietnamese": "Hãy nghe kỹ",
+      "chinese": "請仔細聽",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2193,
+      "vietnamese": "Cùng đọc nào",
+      "chinese": "一起讀",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2194,
+      "vietnamese": "Đọc thành tiếng",
+      "chinese": "大聲讀出來",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2195,
+      "vietnamese": "Luyện tập mỗi ngày",
+      "chinese": "每天練習",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2196,
+      "vietnamese": "Làm bài tập về nhà",
+      "chinese": "做作業",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2197,
+      "vietnamese": "chuẩn bị thi",
+      "chinese": "準備考試",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2198,
+      "vietnamese": "Học thuộc từ vựng",
+      "chinese": "背單字",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2199,
+      "vietnamese": "Sai rồi",
+      "chinese": "錯了",
+      "category": "study",
+      "level": 2
+    },
+    {
+      "id": 2200,
+      "vietnamese": "Đúng rồi",
+      "chinese": "答對了",
+      "category": "study",
+      "level": 2
+    }
+  ]
+}
